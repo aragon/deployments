@@ -1,0 +1,25 @@
+{
+  "name": "deployments",
+  "description": "Aragon deployments",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aragon/deployments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aragon/deployments/issues"
+  },
+  "homepage": "https://github.com/aragon/deployments#readme",
+  "author": "Aragon Institution MTU <contact@aragon.one>",
+  "dependencies": {
+    "@aragon/apm": "^1.1.6",
+    "columnify": "^1.5.4",
+    "web3": "^1.0.0-beta.33",
+    "yargs": "^11.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
