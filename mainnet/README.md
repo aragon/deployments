@@ -55,7 +55,7 @@ Updated the **Survey app**.
     - Command: `apm publish 0x0000000000000000000000000000000000000000 --network mainnet --apm.ens-registry "0x314159265dd8dbb310642f98f50c066173c1259b" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --files build --only-content --build-script build:mainnet-infura`
 - `survey.aragonpm.eth`: Patch upgrade to `1.0.13` ([transaction](https://etherscan.io/tx/0x5ff2b3f1585acd767c36b224123ae94ffb9cf4c6dfe7c7103a3c2e098995ae33))
     - Command: `apm publish 0x0000000000000000000000000000000000000000 --network mainnet --apm.ens-registry "0x314159265dd8dbb310642f98f50c066173c1259b" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --files app/dist --only-content --no-build`
-    - Redeployed three times (`1.0.11` and `1.0.12` had the wrong content URIs)
+    - Redeployed three times (`1.0.11` had the wrong content URI and `1.0.12` had the wrong app name)
 
 
 May 31, 2018 ~15:00 - ~19:30 UTC
