@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+
+# misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ignore lock files
+package-lock.json
+yarn.lock
