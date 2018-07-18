@@ -10,3 +10,5 @@
 ## Helpers
 
 See the [apm-query](./apm-query.js) tool for getting all the versions of a specific repo in a networks' [Aragon Package Manager](https://hack.aragon.org/docs/package-management.html).
+
+For obtaining backups of IPFS data, use `ipfs get -a -C -o <dir> <content hash>` (this [archives and compresses the backup](https://ipfs.io/docs/commands/#ipfs-get)).

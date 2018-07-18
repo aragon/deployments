@@ -45,7 +45,7 @@ Updated the **Survey app**.
 
 ### Git Repositories
 
-- [`aragon@0.5.2`](https://github.com/aragon/aragon/tree/0.5.2) ([commit: `49e380f`](https://github.com/aragon/aragon/tree/49e380f5d5440091616cca2d68f1f1ed899062ec))
+- [`aragon@0.5.2`](https://github.com/aragon/aragon/releases/tag/0.5.2) ([commit: `49e380f`](https://github.com/aragon/aragon/tree/49e380f5d5440091616cca2d68f1f1ed899062ec))
 - [`aragon-apps@0.5.2`](https://github.com/aragon/aragon-apps/releases/tag/0.5.2) ([commit: `d4a22a3`](https://github.com/aragon/aragon-apps/tree/d4a22a3d18a8364d5824f6e0288840810e6d6485))
     - [Survey app](https://github.com/aragon/aragon-apps/tree/d4a22a3d18a8364d5824f6e0288840810e6d6485/apps/survey)
 
@@ -65,7 +65,7 @@ Release of [**Aragon Core 0.5.1**](https://github.com/aragon/aragon/releases/tag
 
 ### Git Repositories
 
-- [`aragon@0.5.1`](https://github.com/aragon/aragon/tree/0.5.1) ([commit: `ed89be8`](https://github.com/aragon/aragon/tree/ed89be8be7405b30a443c703cfb637934bcfa2ab))
+- [`aragon@0.5.1`](https://github.com/aragon/aragon/releases/tag/0.5.1) ([commit: `ed89be8`](https://github.com/aragon/aragon/tree/ed89be8be7405b30a443c703cfb637934bcfa2ab))
 - [`aragon-apps@0.5.1`](https://github.com/aragon/aragon-apps/releases/tag/0.5.1) ([commit: `87796b9`](https://github.com/aragon/aragon-apps/tree/87796b97d08d184d5cfc2a8dff6860f8ec1f3776))
     - [Survey app](https://github.com/aragon/aragon-apps/tree/87796b97d08d184d5cfc2a8dff6860f8ec1f3776/apps/survey)
 
@@ -144,7 +144,7 @@ Full contract deployment for the **Aragon Package Manager** at `aragonpm.eth`.
 
 ### Git Repositories
 
-- [`aragonOS@3.1.7`](https://github.com/aragon/aragonOS/tree/v3.1.7) ([commit: `851e46b`](https://github.com/aragon/aragonOS/tree/851e46bc329bec59082fb6a8178f6404ece98122))
+- [`aragonOS@3.1.7`](https://github.com/aragon/aragonOS/releases/tag/v3.1.7) ([commit: `851e46b`](https://github.com/aragon/aragonOS/tree/851e46bc329bec59082fb6a8178f6404ece98122))
     - :rotating_light: This version has since been found to contain a bug in `Kernel.sol` (see the [patch notes for the next version](https://github.com/aragon/aragonOS/releases/tag/v3.1.8))
 
 ### Contract Deployments
