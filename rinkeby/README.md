@@ -61,7 +61,7 @@ Release of [**Aragon Core 0.5.2**](https://github.com/aragon/aragon/releases/tag
 
 ### Git Repositories
 
-- [`aragon@0.5.2`](https://github.com/aragon/aragon/tree/0.5.2) ([commit: `49e380f`](https://github.com/aragon/aragon/tree/49e380f5d5440091616cca2d68f1f1ed899062ec))
+- [`aragon@0.5.2`](https://github.com/aragon/aragon/releases/tag/0.5.2) ([commit: `49e380f`](https://github.com/aragon/aragon/tree/49e380f5d5440091616cca2d68f1f1ed899062ec))
 
 ### `aragonpm.eth` Repo Updates
 
@@ -76,7 +76,7 @@ Release of [**Aragon Core 0.5.1**](https://github.com/aragon/aragon/releases/tag
 
 ### Git Repositories
 
-- [`aragon@0.5.1`](https://github.com/aragon/aragon/tree/0.5.1) ([commit: `ed89be8`](https://github.com/aragon/aragon/tree/ed89be8be7405b30a443c703cfb637934bcfa2ab))
+- [`aragon@0.5.1`](https://github.com/aragon/aragon/releases/tag/0.5.1) ([commit: `ed89be8`](https://github.com/aragon/aragon/tree/ed89be8be7405b30a443c703cfb637934bcfa2ab))
 
 ### `aragonpm.eth` Repo Updates
 
@@ -126,7 +126,7 @@ Full redeployment of **Aragon Core 0.5.0 and all apps** due to IPFS data loss.
 ### Git Repositories
 
 - [`aragon@0.5.0`](https://github.com/aragon/aragon/releases/tag/0.5.0) ([commit: `ce8ce74`](https://github.com/aragon/aragon/tree/ce8ce74ca482f4d76b8d7fe689e3015bf03451ba))
-- [`aragon-apps@0.5.0`](https://github.com/aragon/aragon-apps/tree/0.5.0) ([commit: `f972ccf`](https://github.com/aragon/aragon-apps/tree/f972ccfe46d6c8b847bb9de4277e678517470d20))
+- [`aragon-apps@0.5.0`](https://github.com/aragon/aragon-apps/releases/tag/0.5.0) ([commit: `f972ccf`](https://github.com/aragon/aragon-apps/tree/f972ccfe46d6c8b847bb9de4277e678517470d20))
 
 ### `aragonpm.eth` Repo Updates
 
@@ -179,7 +179,7 @@ Release of [**Aragon Core 0.5.0**](https://github.com/aragon/aragon/releases/tag
 ### Git Repositories
 
 - [`aragon@0.5.0`](https://github.com/aragon/aragon/releases/tag/0.5.0) ([commit: `ce8ce74`](https://github.com/aragon/aragon/tree/ce8ce74ca482f4d76b8d7fe689e3015bf03451ba))
-- [`aragon-apps@0.5.0`](https://github.com/aragon/aragon-apps/tree/0.5.0) ([commit: `f972ccf`](https://github.com/aragon/aragon-apps/tree/f972ccfe46d6c8b847bb9de4277e678517470d20))
+- [`aragon-apps@0.5.0`](https://github.com/aragon/aragon-apps/releases/tag/0.5.0) ([commit: `f972ccf`](https://github.com/aragon/aragon-apps/tree/f972ccfe46d6c8b847bb9de4277e678517470d20))
 
 ### `aragonpm.eth` Repo Updates
 
@@ -207,7 +207,7 @@ An instance of **ENS** was deployed to [`0xfbae32d1cde62858bc45f51efc8cc4fa14154
 
 ### Git Repositories
 
-- [`aragonOS@v3.1.1`](https://github.com/aragon/aragonOS/tree/v3.1.1) ([commit: `4783065`](https://github.com/aragon/aragonOS/tree/4783065ecde8c648c712ce8dc0b36a0e409fdf42))
+- [`aragonOS@v3.1.1`](https://github.com/aragon/aragonOS/releases/tag/v3.1.1) ([commit: `4783065`](https://github.com/aragon/aragonOS/tree/4783065ecde8c648c712ce8dc0b36a0e409fdf42))
 - `aragon-apps@unversioned` ([commit: `e09aba2`](https://github.com/aragon/aragon-apps/tree/e09aba213ba8e98d6e07c3788cc47de06a890576))
 - [`aragon-id@v1.2.2`](https://github.com/aragon/aragon-id/releases/tag/v1.2.2) ([commit: `1ed8e8b`](https://github.com/aragon/aragon-id/tree/1ed8e8b370f98c0c3573f5a73d05fb384590db7a))
 
