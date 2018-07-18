@@ -64,6 +64,7 @@ Updated the **Survey app**.
     - `aragon.aragonpm.eth`: Granted `CREATE_VERSION_ROLE` ([transaction](https://etherscan.io/tx/0xadbc8207626f1faf560fc8edef4f72008bbfb9a0a47b4d696ff166ad446718c4))
     - `survey.aragonpm.eth`: Granted `CREATE_VERSION_ROLE` ([transaction](https://etherscan.io/tx/0x757e5b40b671abbe7e361477083c656cdf7e44ccfeddafe9d59c6728cc77b9d7))
 
+
 June 19, 2018 11:40 - 12:00 UTC
 -------------------------------
 
