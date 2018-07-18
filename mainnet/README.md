@@ -31,6 +31,15 @@ Contracts
     - `ENSSubdomainRegistar.sol` | [Current base address](https://etherscan.io/address/0x6702f32e9abd64961fbbf123aed450ac0da65853)
     - `APMRegistryFactory.sol` | [Current address](https://etherscan.io/address/0x66926276f7ba5d9d17015c822e0e8ad3773f20f4)
 
+Permissions
+-----------
+
+- [`@izqui`](https://github.com/izqui) (`0x4cB3FD420555A09bA98845f0B816e45cFb230983`):
+    - Root access to the **official APM** at `aragonpm.eth`
+    - Root access to the **official Survey DAO** at `0xf65deded34a639a2166896a5571969f98f6bac8e`
+- [`@sohkai`](https://github.com/sohkai) (`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`):
+    - Versioning access to `aragon.aragonpm.eth` and `survey.aragonpm.eth`
+
 ---------
 
 :floppy_disk: Deployment history

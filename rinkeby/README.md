@@ -49,6 +49,23 @@ Contracts
 - [**Aragon ID**](https://github.com/aragon/aragon-id) | [`v1.2.2`](https://github.com/aragon/aragon-id/releases/tag/v1.2.2) ([commit](https://github.com/aragon/aragon-id/tree/1ed8e8b370f98c0c3573f5a73d05fb384590db7a))
     - `FIFSBurnableRegistrar.sol` | [Current address](https://rinkeby.etherscan.io/address/0x3a06a6544e48708142508d9042f94ddda769d04f)
 
+Permissions
+-----------
+
+- [`@izqui`](https://github.com/izqui) (`0x4cB3FD420555A09bA98845f0B816e45cFb230983`):
+    - Root access to the **official APM** at `aragonpm.eth`
+- [`@sohkai`](https://github.com/sohkai) (`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`):
+    - Publishing access to `aragonpm.eth`
+    - Versioning access to all repos of `aragonpm.eth`
+- [`@bpierre`](https://github.com/bpierre) (`0x1f1380c997a0d0f1801636fc3bc488cfad843bb5`):
+    - Publishing access to `aragonpm.eth`
+    - Versioning access to all repos of `aragonpm.eth`
+- [`@bingen`](https://github.com/bingen) (`0x590e1aC49666ec8024dC0C6620Eed6916a18F27e`):
+    - Publishing access to `aragonpm.eth`
+    - Versioning access to all repos of `aragonpm.eth`
+- `anyone`:
+    - Publishing access to `open.aragonpm.eth`
+
 ---------
 
 :floppy_disk: Deployment history
