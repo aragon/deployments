@@ -36,6 +36,35 @@ Contracts
 :floppy_disk: Deployment history
 ================================
 
+July 17, 2018 ~20:00 - 23:30 UTC
+--------------------------------
+
+Release of [**Aragon Core 0.5.3**](https://github.com/aragon/aragon/releases/tag/0.5.3).
+
+Updated the **Survey app**.
+
+### Git Repositories
+
+- [`aragon@0.5.3`](https://github.com/aragon/aragon/releases/tag/0.5.3) ([commit: `bf6e184`](https://github.com/aragon/aragon/tree/bf6e1844bf985182ae9c184dbe18129bc06dfcbf))
+- [`aragon-apps@0.5.3`](https://github.com/aragon/aragon-apps/releases/tag/0.5.3) ([commit: `ccd979f`](https://github.com/aragon/aragon-apps/tree/ccd979f463488f5f9775ef183fc1150883c6afec))
+    - [Survey app](https://github.com/aragon/aragon-apps/tree/ccd979f463488f5f9775ef183fc1150883c6afec/apps/survey)
+
+### `aragonpm.eth` Repo Updates
+
+- `aragon.aragonpm.eth`: Patch upgrade to `1.0.7` ([transaction](https://etherscan.io/tx/0x75268a53e4b5017370f5b7a916c48eda0cb706a00076ede10ca0d671dc03c0cb))
+    - Command: `apm publish 0x0000000000000000000000000000000000000000 --network mainnet --apm.ens-registry "0x314159265dd8dbb310642f98f50c066173c1259b" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --files build --only-content --build-script build:mainnet-infura`
+- `survey.aragonpm.eth`: Patch upgrade to `1.0.17` ([transaction](https://etherscan.io/tx/0x18be5223db4eca7223b9b28bd6b3bf0cbb3604ac5099b93743d036bfa06d3689))
+    - Command: `apm publish 0x0000000000000000000000000000000000000000 --network mainnet --apm.ens-registry "0x314159265dd8dbb310642f98f50c066173c1259b" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --files app/dist --only-content --no-build`
+    - Redeployed four times (`1.0.14` through to `1.0.16` had missing or wrong `artifact.json` and `manifest.json` files)
+        - Had to compile, build artifacts, and then manually move the files into `app/dist`
+
+### Permissions Updates
+
+- [`sohkai`](https://github.com/sohkai) (`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`):
+    - `aragon.aragonpm.eth`: Granted `CREATE_VERSION_ROLE` ([transaction](https://etherscan.io/tx/0xadbc8207626f1faf560fc8edef4f72008bbfb9a0a47b4d696ff166ad446718c4))
+    - `survey.aragonpm.eth`: Granted `CREATE_VERSION_ROLE` ([transaction](https://etherscan.io/tx/0x757e5b40b671abbe7e361477083c656cdf7e44ccfeddafe9d59c6728cc77b9d7))
+
+
 June 19, 2018 11:40 - 12:00 UTC
 -------------------------------
 

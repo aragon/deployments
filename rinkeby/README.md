@@ -54,6 +54,32 @@ Contracts
 :floppy_disk: Deployment history
 ================================
 
+July 17, 2018 ~20:00 - ~22:00 UTC
+---------------------------------
+
+Release of [**Aragon Core 0.5.3**](https://github.com/aragon/aragon/releases/tag/0.5.3).
+
+Updated the **Vault app**.
+
+> :rotating_light: This is a non-reproducible deployment of the **Vault app**, associated with no commit hash, as multiple local changes had to be made for `aragon-cli` to deploy it.
+
+### Git Repositories
+
+- [`aragon@0.5.3`](https://github.com/aragon/aragon/releases/tag/0.5.3) ([commit: `bf6e184`](https://github.com/aragon/aragon/tree/bf6e1844bf985182ae9c184dbe18129bc06dfcbf))
+- [`aragon-apps@0.5.3`](https://github.com/aragon/aragon-apps/releases/tag/0.5.3) ([commit: `ccd979f`](https://github.com/aragon/aragon-apps/tree/ccd979f463488f5f9775ef183fc1150883c6afec))
+    - [Survey app](https://github.com/aragon/aragon-apps/tree/ccd979f463488f5f9775ef183fc1150883c6afec/apps/survey)
+
+### `aragonpm.eth` Repo Updates
+
+- `aragon.aragonpm.eth`: Patch upgrade to `1.0.28` ([transaction](https://rinkeby.etherscan.io/tx/0x800a552524d60302503670d4055abb8677145f91345fc1be4e6f641b38ab059c))
+    - Command: `apm publish 0x0000000000000000000000000000000000000000 --network rinkeby --apm.ens-registry "0xfbae32d1cde62858bc45f51efc8cc4fa1415447e" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --files build --only-content`
+- `vault.aragonpm.eth`: Patch upgrade to `1.0.5` ([transaction](https://rinkeby.etherscan.io/tx/0xb5c7e24c7111948a353d31017f7e4903913a4bba7f7ce4588828f30f44a71db8))
+    - Command: `apm publish 0x0000000000000000000000000000000000000000 --network rinkeby --apm.ens-registry "0xfbae32d1cde62858bc45f51efc8cc4fa1415447e" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --only-content --no-build`
+        - Built artifact with: `npm run compile && apm publish 0x0000000000000000000000000000000000000000 --network rinkeby --apm.ens-registry "0xfbae32d1cde62858bc45f51efc8cc4fa1415447e" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --no-build --only-artifacts`
+        - :rotating_light: Local changes were made to build the artifact; notably pinning the `@aragon/os` dependency to `3.1.1`.
+    - Redeployed twice (`1.0.4` was missing the `artifact.json`)
+
+
 June 19, 2018 11:36 UTC
 -----------------------
 
