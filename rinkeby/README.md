@@ -84,7 +84,7 @@ Updated the **Vault app**.
 
 - [`aragon@0.5.3`](https://github.com/aragon/aragon/releases/tag/0.5.3) ([commit: `bf6e184`](https://github.com/aragon/aragon/tree/bf6e1844bf985182ae9c184dbe18129bc06dfcbf))
 - [`aragon-apps@0.5.3`](https://github.com/aragon/aragon-apps/releases/tag/0.5.3) ([commit: `ccd979f`](https://github.com/aragon/aragon-apps/tree/ccd979f463488f5f9775ef183fc1150883c6afec))
-    - [Survey app](https://github.com/aragon/aragon-apps/tree/ccd979f463488f5f9775ef183fc1150883c6afec/apps/survey)
+    - [Vault app](https://github.com/aragon/aragon-apps/tree/ccd979f463488f5f9775ef183fc1150883c6afec/apps/vault)
 
 ### `aragonpm.eth` Repo Updates
 
