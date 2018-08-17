@@ -8,7 +8,7 @@
 
 ### Apps
 
-- [**Aragon Core / "Wrapper"**](https://github.com/aragon/aragon) | [`0.5.2`](https://github.com/aragon/aragon/tree/0.5.2) ([commit](https://github.com/aragon/aragon/tree/49e380f5d5440091616cca2d68f1f1ed899062ec)) | [`aragon.aragonpm.eth`](https://etherscan.io/address/0x8b0cd3e13d339084da7256266aafb51343517b34) | No contract | [IPFS backups](./aragon.aragonpm.eth)
+- [**Aragon Core / "Wrapper"**](https://github.com/aragon/aragon) | [`0.5.3`](https://github.com/aragon/aragon/tree/0.5.3) ([commit](https://github.com/aragon/aragon/tree/76e173be015f150a516802de61585d31ab786d4f)) | [`aragon.aragonpm.eth`](https://etherscan.io/address/0x8b0cd3e13d339084da7256266aafb51343517b34) | No contract | [IPFS backups](./aragon.aragonpm.eth)
 - [**Survey**](https://github.com/aragon/aragon-apps/tree/master/apps/survey) | [`0.5.2`](https://github.com/aragon/aragon-apps/releases/tag/0.5.2) ([commit](https://github.com/aragon/aragon-apps/tree/d4a22a3d18a8364d5824f6e0288840810e6d6485)) | [`survey.aragonpm.eth`](https://etherscan.io/address/0x285bcf9ad541dcf847dce561d5d1ad5ef9d77d41) | [Current address](https://etherscan.io/address/0x3c7f5e7946c09c38f53d608adfd2ed5d6b137ade) | [IPFS backups](./survey.aragonpm.eth)
 
 ### Kits
