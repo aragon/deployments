@@ -10,10 +10,10 @@ Using our own **ENS** deployment at [`0xfbae32d1cde62858bc45f51efc8cc4fa1415447e
 
 ### Apps
 
-- [**Aragon Core / "Wrapper"**](https://github.com/aragon/aragon) | [`0.5.2`](https://github.com/aragon/aragon/tree/0.5.2) ([commit](https://github.com/aragon/aragon/tree/49e380f5d5440091616cca2d68f1f1ed899062ec)) | [`aragon.aragonpm.eth`](https://rinkeby.etherscan.io/address/0xac34cd3285ba99aa1696c3f7715fc391d101db87) | No contract | [IPFS backups](./aragon.aragonpm.eth)
+- [**Aragon Core / "Wrapper"**](https://github.com/aragon/aragon) | [`0.5.3`](https://github.com/aragon/aragon/tree/0.5.3) ([commit](https://github.com/aragon/aragon/tree/76e173be015f150a516802de61585d31ab786d4f)) | [`aragon.aragonpm.eth`](https://rinkeby.etherscan.io/address/0xac34cd3285ba99aa1696c3f7715fc391d101db87) | No contract | [IPFS backups](./aragon.aragonpm.eth)
 - [**Finance**](https://github.com/aragon/aragon-apps/tree/master/apps/finance) | [`0.5.0`](https://github.com/aragon/aragon-apps/tree/0.5.0/apps/finance) ([commit](https://github.com/aragon/aragon-apps/tree/f972ccfe46d6c8b847bb9de4277e678517470d20/apps/finance)) | [`finance.aragonpm.eth`](https://rinkeby.etherscan.io/address/0xfb3586e19ae2fe7270a3342a3ec53d92522b945a) | [Current address](https://rinkeby.etherscan.io/address/0x85a9128ffd5ef571c92a27907a7f1c8788679b39) | [IPFS backups](./finance.aragonpm.eth)
 - [**Token Manager**](https://github.com/aragon/aragon-apps/tree/master/apps/token-manager) | [`0.5.0`](https://github.com/aragon/aragon-apps/tree/0.5.0/apps/token-manager) ([commit](https://github.com/aragon/aragon-apps/tree/f972ccfe46d6c8b847bb9de4277e678517470d20/apps/token-manager)) | [`token-manager.aragonpm.eth`](https://rinkeby.etherscan.io/address/0xe7f65daff918a16a6fe344c46fcefdb82f110a05) | [Current address](https://rinkeby.etherscan.io/tx/0x4bf8887d8a7e0a043bf6e28003a783c669bf3a63d7e92e11bd2c2e79e2c1446f) | [IPFS backups](./token-manager.aragonpm.eth)
-- [**Vault**](https://github.com/aragon/aragon-apps/tree/master/apps/vault) | [`0.5.0`](https://github.com/aragon/aragon-apps/tree/0.5.0/apps/vault) ([commit](https://github.com/aragon/aragon-apps/tree/f972ccfe46d6c8b847bb9de4277e678517470d20/apps/vault)) | [`vault.aragonpm.eth`](https://rinkeby.etherscan.io/address/0x95078d8b58f77bfc99ce0a43aa55ed1ee43bd9d7) | [Current address](https://rinkeby.etherscan.io/tx/0x8427788319c4a2e42c4c9a0e016841fdce284e9adcf51af5ae8d8011c752b62d) | [IPFS backups](./vault.aragonpm.eth)
+- [**Vault**](https://github.com/aragon/aragon-apps/tree/master/apps/vault) | [`0.5.3`](https://github.com/aragon/aragon-apps/tree/0.5.3/apps/vault) ([commit](https://github.com/aragon/aragon-apps/tree/ccd979f463488f5f9775ef183fc1150883c6afec/apps/vault)) | [`vault.aragonpm.eth`](https://rinkeby.etherscan.io/address/0x95078d8b58f77bfc99ce0a43aa55ed1ee43bd9d7) | [Current address](https://rinkeby.etherscan.io/tx/0x8427788319c4a2e42c4c9a0e016841fdce284e9adcf51af5ae8d8011c752b62d) | [IPFS backups](./vault.aragonpm.eth)
 - [**Voting**](https://github.com/aragon/aragon-apps/tree/master/apps/voting) | [`0.5.0`](https://github.com/aragon/aragon-apps/tree/0.5.0/apps/voting) ([commit](https://github.com/aragon/aragon-apps/tree/f972ccfe46d6c8b847bb9de4277e678517470d20/apps/voting)) | [`voting.aragonpm.eth`](https://rinkeby.etherscan.io/address/0x5f8c8a2d73594dc0aab6b04f7edc9a1b4faf6598) | [Current address](https://rinkeby.etherscan.io/address/0x29d87425793ed582b0fa5e668dc5d0a2e8638961) | [IPFS backups](./voting.aragonpm.eth)
 - [**Survey**](https://github.com/aragon/aragon-apps/tree/master/apps/survey) (**not recommended for use**) | `unversioned` ([commit](https://github.com/aragon/aragon-apps/tree/96d03d44737a21c6708318b65fad0ede1505491e/apps/survey)) | [`survey.aragonpm.eth`](https://rinkeby.etherscan.io/address/0x8d8b8329a2974a74c4d4cdef4f4e3aa04132161b) | [Current address](https://rinkeby.etherscan.io/address/0x0e4850e3c6fadeffbaa89dd15da05fc2edad2584) | [IPFS backups](./survey.aragonpm.eth)
 
@@ -70,6 +70,21 @@ Permissions
 
 :floppy_disk: Deployment history
 ================================
+
+August 16, 2018 22:58 UTC
+---------------------------------
+
+Emergency release of [**Aragon Core 0.5.3**](https://github.com/aragon/aragon/releases/tag/0.5.3) + [aragon/aragon#323](https://github.com/aragon/aragon/pull/323) changing default IPFS gateway from `gateway.ipfs.io` to `ipfs.infura.io`
+
+### Git Repositories
+
+- [`aragon`](https://github.com/aragon/aragon) ([commit: `76e173b`](https://github.com/aragon/aragon/tree/76e173be015f150a516802de61585d31ab786d4f))
+
+### `aragonpm.eth` Repo Updates
+
+- `aragon.aragonpm.eth`: Patch upgrade to `1.0.29` ([transaction](https://rinkeby.etherscan.io/tx/0x8968ab59f4af8a1fbdfa2b1c5cdb54cd5a74a521b8b5d09023550d52057ee5af))
+    - Command: `apm publish 0x0000000000000000000000000000000000000000 --network rinkeby --apm.ens-registry "0xfbae32d1cde62858bc45f51efc8cc4fa1415447e" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --files build --only-content`
+
 
 July 17, 2018 ~20:00 - ~22:00 UTC
 ---------------------------------
