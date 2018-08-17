@@ -71,6 +71,21 @@ Permissions
 :floppy_disk: Deployment history
 ================================
 
+August 16, 2018 22:58 UTC
+---------------------------------
+
+Emergency release of [**Aragon Core 0.5.3**](https://github.com/aragon/aragon/releases/tag/0.5.3) + [aragon/aragon#323](https://github.com/aragon/aragon/pull/323) changing default IPFS gateway from `gateway.ipfs.io` to `ipfs.infura.io`
+
+### Git Repositories
+
+- [`aragon`](https://github.com/aragon/aragon) ([commit: `76e173b`](https://github.com/aragon/aragon/tree/76e173be015f150a516802de61585d31ab786d4f))
+
+### `aragonpm.eth` Repo Updates
+
+- `aragon.aragonpm.eth`: Patch upgrade to `1.0.29` ([transaction](https://rinkeby.etherscan.io/tx/0x8968ab59f4af8a1fbdfa2b1c5cdb54cd5a74a521b8b5d09023550d52057ee5af))
+    - Command: `apm publish 0x0000000000000000000000000000000000000000 --network rinkeby --apm.ens-registry "0xfbae32d1cde62858bc45f51efc8cc4fa1415447e" --no-ipfs-check --apm.ipfs.rpc "http://ipfs.aragon.network:5001" --files build --only-content`
+
+
 July 17, 2018 ~20:00 - ~22:00 UTC
 ---------------------------------
 
