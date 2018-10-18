@@ -72,9 +72,9 @@ Permissions
 ================================
 
 October 18, 2018 10:00 UTC
----------------------------------
+--------------------------
 
-Last release of the Aragon Core 0.5 family with the deprecation notice. However, aragon/aragon has been deployed with the latest frontend (with 0.6 features).
+[**Aragon Core 0.5.4**](https://github.com/aragon/aragon/releases/tag/0.5.4) will be the last release of the Aragon Core 0.5 family and includes a deprecation notice for 0.5 organizations on Rinkeby (see [blog post](https://blog.aragonfor 0.5 organizations on Rinkeby .org/deprecation-notice-on-v0-5-rinkeby-daos/)). `aragon/aragon` has been deployed with the latest frontend (including a pre-release of 0.6 features).
 
 ### Git Repositories
 
