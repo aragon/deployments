@@ -1,6 +1,8 @@
 # decompressed files
 decompressed
 
+environments/local
+
 # dependencies
 /node_modules
 

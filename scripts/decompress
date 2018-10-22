@@ -7,7 +7,7 @@ const mkdirp = promisify(require('mkdirp'))
 const find = promisify(require('recursive-readdir'))
 const decompress = promisify(require('targz').decompress)
 
-const FIND_PATH = './deprecated'
+const FIND_PATH = '.'
 const DESTINATION = './decompressed'
 const EXTENSION = '.tar.gz'
 
@@ -24,7 +24,8 @@ const findAndDecompressFiles = async (strict = false) => {
     files
       .map((src) => ({
         src,
-        dest: path.join(DESTINATION, `${src.split('/')[1]}-${path.basename(src, EXTENSION)}`)
+        // Destination file name: DESTINATION/[environment]_[repo@version]
+        dest: path.join(DESTINATION, `${src.split('/')[1]}_${path.basename(src, EXTENSION)}`)
       }))
       .map(async (options) => {
         try {
