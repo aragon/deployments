@@ -26,7 +26,9 @@
   "devDependencies": {
     "husky": "^1.1.2"
   },
-  "hooks": {
-    "pre-commit": "echo \"Ensuring files can be decompressed\" && npm run decompress:strict"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run decompress:strict"
+    }
   }
 }
