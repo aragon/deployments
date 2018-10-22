@@ -16,10 +16,20 @@
   "dependencies": {
     "@aragon/apm": "^1.1.6",
     "columnify": "^1.5.4",
+    "recursive-readdir": "^2.2.2",
+    "targz": "^1.0.1",
     "web3": "^1.0.0-beta.33",
     "yargs": "^11.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "decompress": "scripts/decompress",
+    "decompress:strict": "STRICT=true npm run decompress"
+  },
+  "devDependencies": {
+    "husky": "^1.1.2",
+    "mkdirp": "^0.5.1"
+  },
+  "hooks": {
+    "pre-commit": "echo \"Ensuring files can be decompressed\" && npm run decompress:strict"
   }
 }
