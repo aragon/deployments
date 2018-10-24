@@ -59,13 +59,13 @@ const getTransactionTimestamp = async (txHash, { node }) => {
 }
 
 const saveDeploymentEntry = (environmentName, repoName, version, entry) => {
-  const filename = path.join('environments', environmentName, 'deploys.yaml')
+  const filename = path.join('environments', environmentName, 'deploys.yml')
 
   let file
   try {
     file = fs.readFileSync(filename)
   } catch (e) {
-    console.log(`deploys.yaml doesn't exist for environment ${environmentName}. Creating a new file.`)
+    console.log(`deploys.yml doesn't exist for environment ${environmentName}. Creating a new file.`)
   }
 
   let deploys = file ? yaml.safeLoad(file) : {}
