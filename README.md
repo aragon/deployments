@@ -2,6 +2,10 @@
 
 :package: Real-world deployments of Aragon code to Ethereum networks.
 
+## Environments
+
+- [Staging (rinkeby)](./environments/staging)
+
 ## Scripts
 
 ### `scripts/decompress`
