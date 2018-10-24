@@ -16,7 +16,7 @@ module.exports = {
     node: 'https://rinkeby.infura.io',
   },
   'staging': {
-    ens: '',
+    ens: '0xfe03625ea880a8cba336f9b5ad6e15b0a3b5a939',
     node: 'https://rinkeby.infura.io',
   },
 }

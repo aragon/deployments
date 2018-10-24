@@ -1,18 +1,21 @@
 #!/usr/bin/env node
 
+const fs = require('fs')
 const path = require('path')
 const Web3 = require('web3')
 const APM = require('@aragon/apm')
 const execa = require('execa')
+const yaml = require('js-yaml')
 const { promisify } = require('util')
 const mkdirp = promisify(require('mkdirp'))
+const dotprop = require('dot-prop')
 
 const defaultAPM = require('./helpers/default-apm')
 const ENVIRONMENTS = require('./helpers/environments')
 
 const NEW_VERSION_LOG_ABI = [{ type: 'uint256', name: 'versionId' }, { type: 'uint16[3]', name: 'semanticVersion'}]
 
-const getSavePath = (env, repo, version) =>
+const getArchiveSavePath = (env, repo, version) =>
  `environments/${env}/${repo}/${repo}@${version}`
 
 const ipfsGetCommand = (hash, output) =>
@@ -29,6 +32,7 @@ const getPublishedVersion = async (txHash, repoName, { node, ens }) => {
   const apm = APM(web3, { ensRegistryAddress: ens })
 
   const receipt = await web3.eth.getTransactionReceipt(txHash)
+
   const repoAddress = await apm.ensResolve(repoName)
 
   // Only supports one log per transaction
@@ -41,12 +45,54 @@ const getPublishedVersion = async (txHash, repoName, { node, ens }) => {
   return apm.getVersion(repoName, semanticVersion, 2000)
 }
 
+const getTransactionTimestamp = async (txHash, { node }) => {
+  const web3 = new Web3(node)
+  const { blockNumber } = await web3.eth.getTransaction(txHash)
+
+  if (!blockNumber) {
+    throw new Error(`Transaction ${txHash} hasn't been included in a block yet`)
+  }
+
+  const { timestamp } = await web3.eth.getBlock(blockNumber)
+
+  return timestamp
+}
+
+const saveDeploymentEntry = (environmentName, repoName, version, entry) => {
+  const filename = path.join('environments', environmentName, 'deploys.yaml')
+
+  let file
+  try {
+    file = fs.readFileSync(filename)
+  } catch (e) {
+    console.log(`deploys.yaml doesn't exist for environment ${environmentName}. Creating a new file.`)
+  }
+
+  let deploys = file ? yaml.safeLoad(file) : {}
+
+  const sanitizedKey = key => key.split('.').join('\\.')
+  const key = `${sanitizedKey(repoName)}.${sanitizedKey(version)}`
+
+  if (dotprop.get(deploys, key)) {
+    console.log(`Overwritting existent deployment entry for ${repoName}@${version}`)
+  }
+
+  deploys = dotprop.set(deploys, key, entry)
+
+  const outputFile = yaml.safeDump(deploys, { noRefs: true })
+
+  fs.writeFileSync(filename, outputFile)
+}
+
 const run = async (environmentName, repoName, txHash, commitHash) => {
   repoName = defaultAPM(repoName)
 
   const environment = ENVIRONMENTS[environmentName]
 
   console.log(`Fetching info for '${repoName}' on ${environmentName}...`)
+  const timestamp = await getTransactionTimestamp(txHash, environment)
+  const date = new Date(timestamp * 1000)
+
   const { version, content, contractAddress } = await getPublishedVersion(txHash, repoName, environment)
   console.log(`Creating deployment record for ${repoName}@${version} on ${environmentName}`)
 
@@ -54,10 +100,20 @@ const run = async (environmentName, repoName, txHash, commitHash) => {
     throw new Error(`Provider ${content.provider} is not supported. Only IPFS provider is valid.`)
   }
 
-  const output = getSavePath(environmentName, repoName, version)
+  const output = getArchiveSavePath(environmentName, repoName, version)
   await mkdirp(path.dirname(output))
 
-  getAndSaveIPFSFile(content.location, output)
+  await getAndSaveIPFSFile(content.location, output)
+
+  const deploymentEntry = {
+    date,
+    txHash,
+    ipfsHash: content.location,
+    contractAddress,
+    commitHash,
+  }
+
+  saveDeploymentEntry(environmentName, repoName, version, deploymentEntry)
 }
 
 const argv = require('yargs')
