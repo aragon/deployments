@@ -1,0 +1,5 @@
+node_modules
+decompressed
+.env
+environments
+deprecated

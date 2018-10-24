@@ -14,3 +14,5 @@ yarn-error.log*
 # ignore lock files
 package-lock.json
 yarn.lock
+
+.env

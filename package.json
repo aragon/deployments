@@ -16,7 +16,12 @@
   "dependencies": {
     "@aragon/apm": "^2.0.2",
     "dot-prop": "^4.2.0",
+    "dotenv": "^6.1.0",
     "execa": "^1.0.0",
+    "express": "^4.16.4",
+    "forever": "^0.15.3",
+    "github-webhook-handler": "^0.7.1",
+    "ipfs-api": "^25.0.0",
     "js-yaml": "^3.12.0",
     "mkdirp": "^0.5.1",
     "recursive-readdir": "^2.2.2",
@@ -25,8 +30,12 @@
     "yargs": "^11.1.0"
   },
   "scripts": {
+    "start": "forever server/index.js",
     "decompress": "scripts/decompress",
-    "decompress:strict": "STRICT=true npm run decompress"
+    "decompress:strict": "STRICT=true npm run decompress",
+    "pin": "scripts/pin",
+    "docker:build": "docker build --no-cache -t aragon/deployments .",
+    "docker:start": "docker run -p 2345:8080 -ti aragon/deployments"
   },
   "devDependencies": {
     "husky": "^1.1.2"
