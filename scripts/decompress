@@ -7,7 +7,7 @@ const mkdirp = promisify(require('mkdirp'))
 const find = promisify(require('recursive-readdir'))
 const decompress = promisify(require('targz').decompress)
 
-const FIND_PATH = './environments'
+const FIND_PATH = '.'
 const DESTINATION = './decompressed'
 const EXTENSION = '.tar.gz'
 

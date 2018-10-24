@@ -36,3 +36,5 @@ Saving archive to environments/staging/token-manager.aragonpm.eth/token-manager.
 
 Deployment history for v0.5 releases can be found [here](https://github.com/aragon/deployments/tree/v0.5). v0.5 has now been [deprecated](https://blog.aragon.org/deprecation-notice-on-v0-5-rinkeby-daos/).
 
+They will be maintained in the master branch of this repo in the [deprecated directory](./deprecated) until after March 29th, 2019 when Aragon v0.5 support will be discontinued.
+
