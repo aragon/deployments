@@ -15,8 +15,10 @@ const ENVIRONMENTS = require('./helpers/environments')
 
 const NEW_VERSION_LOG_ABI = [{ type: 'uint256', name: 'versionId' }, { type: 'uint16[3]', name: 'semanticVersion'}]
 
+const ENVIRONMENTS_PATH = path.resolve(__dirname, '../environments')
+
 const getArchiveSavePath = (env, repo, version) =>
- `environments/${env}/${repo}/${repo}@${version}`
+  path.join(ENVIRONMENTS_PATH, env, repo, `${repo}@${version}`)
 
 const ipfsGetCommand = (hash, output) =>
   `get -a -C -o ${output} ${hash}`
@@ -27,10 +29,7 @@ const getAndSaveIPFSFile = async (hash, output) => {
   console.log(stdout)
 }
 
-const getPublishedVersion = async (txHash, repoName, { node, ens }) => {
-  const web3 = new Web3(node)
-  const apm = APM(web3, { ensRegistryAddress: ens })
-
+const getPublishedVersion = async (web3, apm, txHash, repoName) => {
   const receipt = await web3.eth.getTransactionReceipt(txHash)
 
   const repoAddress = await apm.ensResolve(repoName)
@@ -40,14 +39,23 @@ const getPublishedVersion = async (txHash, repoName, { node, ens }) => {
     ({ address }) => address.toLowerCase() === repoAddress.toLowerCase()
   )
 
+  if (!log) {
+    throw new Error(`Couldn't find a publish log for ${repoName} in transaction ${txHash}`)
+  }
+
   const { semanticVersion } = web3.eth.abi.decodeLog(NEW_VERSION_LOG_ABI, log.data, log.topics)
 
-  return apm.getVersion(repoName, semanticVersion, 2000)
+  return apm.getVersion(repoName, semanticVersion, 30000)
 }
 
-const getTransactionTimestamp = async (txHash, { node }) => {
-  const web3 = new Web3(node)
-  const { blockNumber } = await web3.eth.getTransaction(txHash)
+const getTransactionTimestamp = async (web3, txHash) => {
+  const transaction = await web3.eth.getTransaction(txHash)
+
+  if (!transaction) {
+    throw new Error(`Couldn't find transaction ${txHash} in connected node`)
+  }
+
+  const { blockNumber } = transaction
 
   if (!blockNumber) {
     throw new Error(`Transaction ${txHash} hasn't been included in a block yet`)
@@ -59,7 +67,7 @@ const getTransactionTimestamp = async (txHash, { node }) => {
 }
 
 const saveDeploymentEntry = (environmentName, repoName, version, entry) => {
-  const filename = path.join('environments', environmentName, 'deploys.yml')
+  const filename = path.join(ENVIRONMENTS_PATH, environmentName, 'deploys.yml')
 
   let file
   try {
@@ -87,13 +95,16 @@ const saveDeploymentEntry = (environmentName, repoName, version, entry) => {
 const run = async (environmentName, repoName, txHash, commitHash) => {
   repoName = defaultAPM(repoName)
 
-  const environment = ENVIRONMENTS[environmentName]
+  const { node, ens } = ENVIRONMENTS[environmentName]
+
+  const web3 = new Web3(node)
+  const apm = APM(web3, { ensRegistryAddress: ens })
 
   console.log(`Fetching info for '${repoName}' on ${environmentName}...`)
-  const timestamp = await getTransactionTimestamp(txHash, environment)
+  const timestamp = await getTransactionTimestamp(web3, txHash)
   const date = new Date(timestamp * 1000)
 
-  const { version, content, contractAddress } = await getPublishedVersion(txHash, repoName, environment)
+  const { version, content, contractAddress } = await getPublishedVersion(web3, apm, txHash, repoName)
   console.log(`Creating deployment record for ${repoName}@${version} on ${environmentName}`)
 
   if (content.provider !== 'ipfs') {
@@ -114,6 +125,7 @@ const run = async (environmentName, repoName, txHash, commitHash) => {
   }
 
   saveDeploymentEntry(environmentName, repoName, version, deploymentEntry)
+  process.exit(0)
 }
 
 const argv = require('yargs')

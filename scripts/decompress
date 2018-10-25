@@ -7,8 +7,8 @@ const mkdirp = promisify(require('mkdirp'))
 const find = promisify(require('recursive-readdir'))
 const decompress = promisify(require('targz').decompress)
 
-const FIND_PATH = '.'
-const DESTINATION = './decompressed'
+const FIND_PATH = path.resolve(__dirname, '..')
+const DESTINATION = path.resolve(__dirname, '../decompressed')
 const EXTENSION = '.tar.gz'
 
 const findAndDecompressFiles = async (strict = false) => {
@@ -18,17 +18,17 @@ const findAndDecompressFiles = async (strict = false) => {
 
   const files = await find(FIND_PATH, ['node_modules', '.git', exclude])
 
-  await mkdirp(DESTINATION)
-
   await Promise.all(
     files
-      .map((src) => ({
-        src,
-        // Destination file name: DESTINATION/[environment]_[repo@version]
-        dest: path.join(DESTINATION, `${src.split('/')[1]}_${path.basename(src, EXTENSION)}`)
-      }))
+      .map((src) => {
+        // Destination file name: DESTINATION/[deprecated or environments]/[environment]/[repo]/[repo@version]
+        const pathComponents = src.split('/')
+        const dest = path.join(DESTINATION, ...pathComponents.slice(-4))
+        return { src, dest }
+      })
       .map(async (options) => {
         try {
+          await mkdirp(options.dest)
           await decompress(options)
           console.log('extracted', options.dest)
         } catch (e) {
