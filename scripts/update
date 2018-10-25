@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ -z "$DOCKER_BUILD" ]; then
+    echo "Not running inside Docker, skipping updating repo"
+else
+    echo "Updating repo"
+    git fetch origin-https
+    git reset --hard origin-https/master
+fi
+
+npm run decompress:strict
+npm run pin
