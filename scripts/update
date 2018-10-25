@@ -5,7 +5,7 @@ if [ -z "$DOCKER_BUILD" ]; then
 else
     echo "Updating repo"
     git fetch origin-https
-    git reset --hard origin-https/new # todo: set to master
+    git reset --hard origin-https/master
 fi
 
 npm run decompress:strict
