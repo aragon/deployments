@@ -1,0 +1,88 @@
+- address: '0x4cB3FD420555A09bA98845f0B816e45cFb230983'
+  owner: '@izqui'
+  organization: Aragon One
+  permissions:
+    - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+  manager:
+    - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051'
+  owner: '@sohkai'
+  organization: Aragon One
+  permissions:
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0x1f1380c997a0d0f1801636fc3bc488cfad843bb5'
+  owner: '@bpierre'
+  organization: Aragon One
+  permissions:
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0x590e1aC49666ec8024dC0C6620Eed6916a18F27e'
+  owner: '@bingen'
+  organization: Aragon One
+  permissions:
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
