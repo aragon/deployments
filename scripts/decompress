@@ -1,0 +1,44 @@
+#!/usr/bin/env node
+
+const path = require('path')
+const { promisify } = require('util')
+
+const mkdirp = promisify(require('mkdirp'))
+const find = promisify(require('recursive-readdir'))
+const decompress = promisify(require('targz').decompress)
+
+const FIND_PATH = path.resolve(__dirname, '..')
+const DESTINATION = path.resolve(__dirname, '../decompressed')
+const EXTENSION = '.tar.gz'
+
+const findAndDecompressFiles = async (strict = false) => {
+  // exclude files that aren't tar.gz or a directory (to continue traversing)
+  const exclude = (file, stats) =>
+    !stats.isDirectory() && !file.endsWith(EXTENSION)
+
+  const files = await find(FIND_PATH, ['node_modules', '.git', exclude])
+
+  await Promise.all(
+    files
+      .map((src) => {
+        // Destination file name: DESTINATION/[deprecated or environments]/[environment]/[repo]/[repo@version]
+        const pathComponents = src.split('/')
+        const dest = path.join(DESTINATION, ...pathComponents.slice(-4))
+        return { src, dest }
+      })
+      .map(async (options) => {
+        try {
+          await mkdirp(options.dest)
+          await decompress(options)
+          console.log('extracted', options.dest)
+        } catch (e) {
+          console.log('failed to extract', options.src, e)
+          if (strict) {
+            process.exit(1)
+          }
+        }
+      })
+  )
+}
+
+findAndDecompressFiles(process.env.STRICT)

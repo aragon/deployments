@@ -1,0 +1,145 @@
+#!/usr/bin/env node
+
+const fs = require('fs')
+const path = require('path')
+const Web3 = require('web3')
+const APM = require('@aragon/apm')
+const execa = require('execa')
+const yaml = require('js-yaml')
+const { promisify } = require('util')
+const mkdirp = promisify(require('mkdirp'))
+const dotprop = require('dot-prop')
+
+const defaultAPM = require('./helpers/default-apm')
+const ENVIRONMENTS = require('./helpers/environments')
+
+const NEW_VERSION_LOG_ABI = [{ type: 'uint256', name: 'versionId' }, { type: 'uint16[3]', name: 'semanticVersion'}]
+
+const ENVIRONMENTS_PATH = path.resolve(__dirname, '../environments')
+
+const getArchiveSavePath = (env, repo, version) =>
+  path.join(ENVIRONMENTS_PATH, env, repo, `${repo}@${version}`)
+
+const ipfsGetCommand = (hash, output) =>
+  `get -a -C -o ${output} ${hash}`
+
+const getAndSaveIPFSFile = async (hash, output) => {
+  const { stdout } = await execa('ipfs', ipfsGetCommand(hash, output).split(' '))
+
+  console.log(stdout)
+}
+
+const getPublishedVersion = async (web3, apm, txHash, repoName) => {
+  const receipt = await web3.eth.getTransactionReceipt(txHash)
+
+  const repoAddress = await apm.ensResolve(repoName)
+
+  // Only supports one log per transaction
+  const log = receipt.logs.find(
+    ({ address }) => address.toLowerCase() === repoAddress.toLowerCase()
+  )
+
+  if (!log) {
+    throw new Error(`Couldn't find a publish log for ${repoName} in transaction ${txHash}`)
+  }
+
+  const { semanticVersion } = web3.eth.abi.decodeLog(NEW_VERSION_LOG_ABI, log.data, log.topics)
+
+  return apm.getVersion(repoName, semanticVersion, 30000)
+}
+
+const getTransactionTimestamp = async (web3, txHash) => {
+  const transaction = await web3.eth.getTransaction(txHash)
+
+  if (!transaction) {
+    throw new Error(`Couldn't find transaction ${txHash} in connected node`)
+  }
+
+  const { blockNumber } = transaction
+
+  if (!blockNumber) {
+    throw new Error(`Transaction ${txHash} hasn't been included in a block yet`)
+  }
+
+  const { timestamp } = await web3.eth.getBlock(blockNumber)
+
+  return timestamp
+}
+
+const saveDeploymentEntry = (environmentName, repoName, version, entry) => {
+  const filename = path.join(ENVIRONMENTS_PATH, environmentName, 'deploys.yml')
+
+  let file
+  try {
+    file = fs.readFileSync(filename)
+  } catch (e) {
+    console.log(`deploys.yml doesn't exist for environment ${environmentName}. Creating a new file.`)
+  }
+
+  let deploys = file ? yaml.safeLoad(file) : {}
+
+  const sanitizedKey = key => key.split('.').join('\\.')
+  const key = `${sanitizedKey(repoName)}.${sanitizedKey(version)}`
+
+  if (dotprop.get(deploys, key)) {
+    console.log(`Overwritting existent deployment entry for ${repoName}@${version}`)
+  }
+
+  deploys = dotprop.set(deploys, key, entry)
+
+  const outputFile = yaml.safeDump(deploys, { noRefs: true })
+
+  fs.writeFileSync(filename, outputFile)
+}
+
+const run = async (environmentName, repoName, txHash, commitHash) => {
+  repoName = defaultAPM(repoName)
+
+  const { node, ens } = ENVIRONMENTS[environmentName]
+
+  const web3 = new Web3(node)
+  const apm = APM(web3, { ensRegistryAddress: ens })
+
+  console.log(`Fetching info for '${repoName}' on ${environmentName}...`)
+  const timestamp = await getTransactionTimestamp(web3, txHash)
+  const date = new Date(timestamp * 1000)
+
+  const { version, content, contractAddress } = await getPublishedVersion(web3, apm, txHash, repoName)
+  console.log(`Creating deployment record for ${repoName}@${version} on ${environmentName}`)
+
+  if (content.provider !== 'ipfs') {
+    throw new Error(`Provider ${content.provider} is not supported. Only IPFS provider is valid.`)
+  }
+
+  const output = getArchiveSavePath(environmentName, repoName, version)
+  await mkdirp(path.dirname(output))
+
+  await getAndSaveIPFSFile(content.location, output)
+
+  const deploymentEntry = {
+    date,
+    txHash,
+    ipfsHash: content.location,
+    contractAddress,
+    commitHash,
+  }
+
+  saveDeploymentEntry(environmentName, repoName, version, deploymentEntry)
+  process.exit(0)
+}
+
+const argv = require('yargs')
+  .usage('Usage: $0 <repo ENS name> <publish tx hash> <commit hash> [options]')
+  .option('environment', {
+    alias: 'e',
+    choices: Object.keys(ENVIRONMENTS),
+    default: 'local',
+    describe: 'env to use',
+    type: 'string',
+  })
+  .demandCommand(1, "You must provide the repo's ENS name.")
+  .demandCommand(2, "You must provide the hash for the publish transaction")
+  .demandCommand(3, "You must provide the commit hash of the repo")
+  .argv
+
+run(argv.environment, ...argv._)
