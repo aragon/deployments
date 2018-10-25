@@ -7,6 +7,12 @@ finance.aragonpm.eth:
       ipfsHash: QmPPnRGrwsQ16VPKLohCQwxYR9YrjWTxg1nMVeYFS8CjGj
       contractAddress: '0x4B71a68da142Cf3A78d35ADfAB94742cb9Df3210'
       commitHash: ede0a45a55e8bb33ba84ac11c6989385416d8049
+    1.0.1:
+      date: 2018-10-25T21:07:33.000Z
+      txHash: '0x267a7d77a9b7219d105b89797204e45dad14befe6b4333c21b3007b396d2773a'
+      ipfsHash: QmcmSeb9mST7u5ZGvCzKcmdp6x7Lq3L87994o4gvdBoz91
+      contractAddress: '0x4B71a68da142Cf3A78d35ADfAB94742cb9Df3210'
+      commitHash: 909d908160669215a3290be6258485add467f58d
 token-manager.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
   versions:
@@ -16,6 +22,12 @@ token-manager.aragonpm.eth:
       ipfsHash: QmcnUABvuBZ8QcGmcnqBqeYup3UPgCQSYKsKqTuQjXfnBz
       contractAddress: '0xf4d37273476eeB3CC3306a5A44A519123E8cce15'
       commitHash: ede0a45a55e8bb33ba84ac11c6989385416d8049
+    1.0.1:
+      date: 2018-10-25T21:10:33.000Z
+      txHash: '0x9c61e198a826492cd7f0548a3025411641ca538203f5cf32c70f14360c2f4ed0'
+      ipfsHash: QmcyC7QBxUrzqxfT3Hq49z6Bza4FxRHE9XErbxLvNgabCi
+      contractAddress: '0xf4d37273476eeB3CC3306a5A44A519123E8cce15'
+      commitHash: 909d908160669215a3290be6258485add467f58d
 voting.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/voting'
   versions:
@@ -25,6 +37,12 @@ voting.aragonpm.eth:
       ipfsHash: QmagejQE6EkWfMBUNLHWx5dJNp7KVJyNKuqWzmcdPjFp8U
       contractAddress: '0x7FB5C052A391953De579b0ed7dC87aD59a9A5473'
       commitHash: ede0a45a55e8bb33ba84ac11c6989385416d8049
+    1.0.1:
+      date: 2018-10-25T21:01:48.000Z
+      txHash: '0x7706ccbdf49a756b4dc7e5a38925aca42eaea220b59ac4aa65759cefa2e86e8a'
+      ipfsHash: QmcDbJ6UvcPTzJAwryxrqXe9s3kCEPqn2KCD67NUs6B7Tf
+      contractAddress: '0x7FB5C052A391953De579b0ed7dC87aD59a9A5473'
+      commitHash: 909d908160669215a3290be6258485add467f58d
 vault.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
   versions:
@@ -52,3 +70,11 @@ multisig-kit.aragonpm.eth:
       ipfsHash: QmWxxRhum1QH3esZ5yTCFkzm3xL3jWrraiP4vmBwfhEzUG
       contractAddress: '0x38585503b766eDe90453Fa8F284AD0da0Da31044'
       commitHash: cb2e0bf6ffa0a4500af61af18d3366e9e0f21bb6
+aragon.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2018-10-25T21:14:03.000Z
+      txHash: '0x2589647ddd609129cddea7f560de2556d5f1f40dd3860d5e1fbf6534e815dae7'
+      ipfsHash: QmXx8XJkJnv2MYGsej3JtdqT95foVFwEWuNn6JxLmsuHGF
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: b03e1c744ae02e02c07c9cc6b1cb1831021f2c6a
