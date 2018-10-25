@@ -1,19 +1,22 @@
 # Staging
 
+- [Permissions](./permissions.yml)
+- [APM publish history](./deploys.yml)
+
 ## Artifacts
 
 - ENS: `0xfe03625ea880a8cba336f9b5ad6e15b0a3b5a939`
 - DAOFactory: `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
 - APM: `0x4994a4b1215bf73f0e69ce69c2e6b43c496ad4bf`
 
-## Status
+## Deployment
 
 - Version: 4.0.0-rc.1
 - Start date: Oct 24th 2018, 10.54am CEST
 - Finish date: Oct 24th 2018, 11.51am CEST
-- Deployer: `0x4cB3FD420555A09bA98845f0B816e45cFb230983`
-- aragonOS commit hash: `a4ad648182dae0583622f260a23393326c77fc91`
-- aragon-id commit hash: `dc560a90d27e2cbabdfdde9b9d8dd7aa6b9d0b8b`
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+- aragonOS commit hash: [`a4ad648182dae0583622f260a23393326c77fc91`](https://github.com/aragon/aragonOS/tree/a4ad648182dae0583622f260a23393326c77fc91)
+- aragon-id commit hash: [`dc560a90d27e2cbabdfdde9b9d8dd7aa6b9d0b8b`](https://github.com/aragon/aragon-id/tree/dc560a90d27e2cbabdfdde9b9d8dd7aa6b9d0b8b)
 
 ### aragonOS
 

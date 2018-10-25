@@ -79,7 +79,7 @@ const saveDeploymentEntry = (environmentName, repoName, version, entry) => {
   let deploys = file ? yaml.safeLoad(file) : {}
 
   const sanitizedKey = key => key.split('.').join('\\.')
-  const key = `${sanitizedKey(repoName)}.${sanitizedKey(version)}`
+  const key = `${sanitizedKey(repoName)}.versions.${sanitizedKey(version)}`
 
   if (dotprop.get(deploys, key)) {
     console.log(`Overwritting existent deployment entry for ${repoName}@${version}`)
