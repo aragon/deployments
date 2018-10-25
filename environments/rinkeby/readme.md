@@ -141,4 +141,29 @@ Deploying APM...
 Address: 0xda897630fa0f1902f99623bc00e18acd12657d4f
 Transaction hash: 0x9e9184fc3a5257e5450e32f29192f79a78056271e65c19b2e0a15fb1adfaef33
 =========
-``
+```
+
+### Aragon ID
+
+
+```
+ENS=0x98df287b6c145399aaa709692c8d308357bc085d npx truffle exec --network rinkeby scripts/deploy-beta-aragonid.js
+```
+
+Output:
+```
+Deploying AragonID with ENS: 0x98df287b6c145399aaa709692c8d308357bc085d and owner: undefined
+=========
+# FIFSResolvingRegistrar:
+Address: 0x3665e7bfd4d3254ae7796779800f5b603c43c60d
+Transaction hash: 0x425bbff845d9379b35b4c59a62b0e34d1a6a1ebdc06e65522acd6e0016c00d6b
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2018-10-25T19:03:35.101Z
+=========
+assigning ENS name to AragonID
+Transferring name ownership from deployer to AragonID
+===========
+Deployed AragonID: 0x3665e7bfd4d3254ae7796779800f5b603c43c60d
+```
+
+
