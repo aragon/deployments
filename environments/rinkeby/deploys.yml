@@ -1,4 +1,5 @@
 voting.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/voting'
   versions:
     1.0.0:
       date: 2018-10-26T16:29:21.000Z
@@ -7,6 +8,7 @@ voting.aragonpm.eth:
       contractAddress: '0x8C06aEBF29F20A2e09b32F5d44cEa49Db3EC2eE0'
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
 token-manager.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
   versions:
     1.0.0:
       date: 2018-10-26T16:34:06.000Z
@@ -15,6 +17,7 @@ token-manager.aragonpm.eth:
       contractAddress: '0x3Ec5e6239A90332A13155F5d7382E0DB70C36A8a'
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
 finance.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
   versions:
     1.0.0:
       date: 2018-10-26T16:38:06.000Z
@@ -23,6 +26,7 @@ finance.aragonpm.eth:
       contractAddress: '0x084Db627c7c7714Dc7BeFA8521cb93696DE84fF3'
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
 vault.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
   versions:
     1.0.0:
       date: 2018-10-26T16:39:36.000Z
@@ -31,6 +35,7 @@ vault.aragonpm.eth:
       contractAddress: '0x9153d1D442D79E09717462c2A04F92ac6cFFa462'
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
 democracy-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
   versions:
     1.0.0:
       date: 2018-10-26T16:59:06.000Z
@@ -39,6 +44,7 @@ democracy-kit.aragonpm.eth:
       contractAddress: '0x89D31C0AFD8367960fc0c9d11225630d4944550E'
       commitHash: 36c1db1e63b3c1c8aa3a2790a0b876559d8605de
 multisig-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/multisig'
   versions:
     1.0.0:
       date: 2018-10-26T17:06:06.000Z
@@ -47,6 +53,7 @@ multisig-kit.aragonpm.eth:
       contractAddress: '0x01F2e9CDAac527Ffef1B9869d4C0B33357c0A2Bc'
       commitHash: 36c1db1e63b3c1c8aa3a2790a0b876559d8605de
 aragon.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon/tree/[ref]'
   versions:
     1.0.0:
       date: 2018-10-26T17:33:36.000Z

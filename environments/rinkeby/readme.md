@@ -11,12 +11,12 @@
 
 ## Deployment
 
-- Version: 4.0.0
+- Version: Aragon Core 0.6
 - Start date: Oct 25th 2018, 5.42pm CEST
 - Finish date: Oct 25th 2018, 7.40pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
-- aragonOS commit hash: [`TODO`](https://github.com/aragon/aragonOS/tree/TODO)
-- aragon-id commit hash: [`TODO`](https://github.com/aragon/aragon-id/tree/TODO)
+- aragonOS commit hash: [`b5c0a98be5e404bb252e88efc65123c2db650839`](https://github.com/aragon/aragonOS/tree/b5c0a98be5e404bb252e88efc65123c2db650839)
+- aragon-id commit hash: [`e33d18d6a78dbcb97bef02b4df52a7dff60b3ef2`](https://github.com/aragon/aragon-id/tree/e33d18d6a78dbcb97bef02b4df52a7dff60b3ef2)
 
 ### ENS
 
@@ -173,17 +173,42 @@ Command:
 ```
 rm -rf build
 rm -rf app/build
-aragon apm publish 1.0.0 --environment rinkeby --files app/build --use-frame
+aragon apm publish 1.0.0 --environment rinkeby --files app/build
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.0.0`
+- `token-manager.aragonpm.eth`: `1.0.0`
+- `vault.aragonpm.eth`: `1.0.0`
+- `voting.aragonpm.eth`: `1.0.0`
 
 ### DAO kits
 
 Deployed: `democracy-kit`, `multisig-kit`
 Command:
 ```
-DAO_FACTORY=0x2298d27a9b847c681d2b2c2828ab9d79013f5f1d npm run publish:rinkeby -- --use-frame
+DAO_FACTORY=0x2298d27a9b847c681d2b2c2828ab9d79013f5f1d npm run publish:rinkeby
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `democracy-kit.aragonpm.eth`: `1.0.0`
+- `multisig-kit.aragonpm.eth`: `1.0.0`
+
+### Aragon Core
+
+Command:
+```
+npm run publish:rinkeby:major
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.0.0`
