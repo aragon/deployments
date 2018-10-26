@@ -62,7 +62,7 @@ democracy-kit.aragonpm.eth:
       contractAddress: '0x7501fF13969d4084223eDb26CC04FE385e6F860a'
       commitHash: cb2e0bf6ffa0a4500af61af18d3366e9e0f21bb6
 multisig-kit.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/multisig'
   versions:
     1.0.0:
       date: 2018-10-24T09:50:37.000Z
@@ -71,6 +71,7 @@ multisig-kit.aragonpm.eth:
       contractAddress: '0x38585503b766eDe90453Fa8F284AD0da0Da31044'
       commitHash: cb2e0bf6ffa0a4500af61af18d3366e9e0f21bb6
 aragon.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon/tree/[ref]'
   versions:
     1.0.1:
       date: 2018-10-26T13:53:51.000Z
