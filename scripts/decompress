@@ -22,7 +22,7 @@ const findAndDecompressFiles = async (strict = false) => {
     files
       .map((src) => {
         // Destination file name: DESTINATION/[deprecated or environments]/[environment]/[repo]/[repo@version]
-        const pathComponents = src.split('/')
+        const pathComponents = src.replace(EXTENSION, '').split('/')
         const dest = path.join(DESTINATION, ...pathComponents.slice(-4))
         return { src, dest }
       })

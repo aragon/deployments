@@ -42,7 +42,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run decompress:strict"
+      "pre-push": "npm run decompress:strict"
     }
   }
 }
