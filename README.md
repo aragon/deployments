@@ -4,6 +4,7 @@
 
 ## Environments
 
+- [Rinkeby (testnet)](./environments/rinkeby)
 - [Staging (rinkeby)](./environments/staging)
 
 ## Scripts
