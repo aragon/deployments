@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm -rf decompressed
+
 if [ -z "$DOCKER_BUILD" ]; then
     echo "Not running inside Docker, skipping updating repo"
 else
