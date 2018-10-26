@@ -13,8 +13,8 @@
 
 - Version: 4.0.0
 - Start date: Oct 25th 2018, 5.42pm CEST
-- Finish date: TODO
-- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+- Finish date: Oct 25th 2018, 7.40pm CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 - aragonOS commit hash: [`TODO`](https://github.com/aragon/aragonOS/tree/TODO)
 - aragon-id commit hash: [`TODO`](https://github.com/aragon/aragon-id/tree/TODO)
 
@@ -166,4 +166,24 @@ Transferring name ownership from deployer to AragonID
 Deployed AragonID: 0x3665e7bfd4d3254ae7796779800f5b603c43c60d
 ```
 
+### Aragon Apps
 
+Deployed: `finance`, `vault`, `voting`, `token-manager`
+Command:
+```
+rm -rf build
+rm -rf app/build
+aragon apm publish 1.0.0 --environment rinkeby --files app/build --use-frame
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+### DAO kits
+
+Deployed: `democracy-kit`, `multisig-kit`
+Command:
+```
+DAO_FACTORY=0x2298d27a9b847c681d2b2c2828ab9d79013f5f1d npm run publish:rinkeby -- --use-frame
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
