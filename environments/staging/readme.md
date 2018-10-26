@@ -9,9 +9,50 @@
 - DAOFactory: `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
 - APM: `0x4994a4b1215bf73f0e69ce69c2e6b43c496ad4bf`
 
-## Deployment
+## Deployments
 
-- Version: 4.0.0-rc.1
+- Version: Aragon Core 0.6-rc.2
+- Start date: Oct 25th 2018, 11.36pm CEST
+- Finish date: Oct 26th 2018, 6.21pm CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### APM
+
+`@izqui` created `aragon.aragonpm.eth` and granted `@bingen`, `@bpierre`, and `@sohkai` permission to create versions.
+
+### Aragon Core
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.0.1`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.0.1`
+- `token-manager.aragonpm.eth`: `1.0.2`
+- `voting.aragonpm.eth`: `1.0.2`
+
+-----------
+
+- Version: Aragon Core 0.6-rc.1
 - Start date: Oct 24th 2018, 10.54am CEST
 - Finish date: Oct 24th 2018, 11.51am CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
@@ -144,6 +185,7 @@ Deployed AragonID: 0xa2e76aa249e3f52ea94c175662adadf27185484a
 ### Aragon Apps
 
 Deployed: `finance`, `vault`, `voting`, `token-manager`
+
 Command:
 ```
 aragon apm publish 1.0.0 --environment staging --files app/build
@@ -151,12 +193,25 @@ aragon apm publish 1.0.0 --environment staging --files app/build
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
+Final versions:
+
+- `finance.aragonpm.eth`: `1.0.0`
+- `token-manager.aragonpm.eth`: `1.0.0`
+- `vault.aragonpm.eth`: `1.0.0`
+- `voting.aragonpm.eth`: `1.0.0`
+
 ### DAO kits
 
 Deployed: `democracy-kit`, `multisig-kit`
+
 Command:
 ```
 DAO_FACTORY=0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6 npm run publish:staging
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `democracy-kit.aragonpm.eth`: `1.0.0`
+- `multisig-kit.aragonpm.eth`: `1.0.0`
