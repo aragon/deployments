@@ -206,5 +206,15 @@ Final versions:
 - `democracy-kit.aragonpm.eth`: `1.0.0`
 - `multisig-kit.aragonpm.eth`: `1.0.0`
 
+### Aragon Core
 
+Command:
+```
+npm run publish:mainnet:major
+```
 
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.0.0`
