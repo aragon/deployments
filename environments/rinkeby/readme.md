@@ -1,4 +1,4 @@
-# Staging
+# Rinkeby
 
 - [Permissions](./permissions.yml)
 - [APM publish history](./deploys.yml)
@@ -13,7 +13,7 @@
 
 - Version: Aragon Core 0.6 RC 2
 - Start date: Oct 25th 2018, 5.42pm CEST
-- Finish date: Oct 25th 2018, 7.40pm CEST
+- Finish date: Oct 26th 2018, 7.40pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 - aragonOS commit hash: [`b5c0a98be5e404bb252e88efc65123c2db650839`](https://github.com/aragon/aragonOS/tree/b5c0a98be5e404bb252e88efc65123c2db650839)
 - aragon-id commit hash: [`e33d18d6a78dbcb97bef02b4df52a7dff60b3ef2`](https://github.com/aragon/aragon-id/tree/e33d18d6a78dbcb97bef02b4df52a7dff60b3ef2)
