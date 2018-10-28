@@ -22,14 +22,15 @@
 
 #### Old `*.aragonpm.eth` cleanup
 
-As an APM registry was [previously deployed](https://github.com/aragon/deployments/blob/v0.5/mainnet/README.md#may-21-2018-1300---1335-utc) to `aragonpm.eth`, subdomains for packages in this registry needed to be cleaned up in order for the new registry to work properly.
+As an APM registry was [previously deployed](https://github.com/aragon/deployments/blob/v0.5/mainnet/README.md#may-21-2018-1300---1335-utc) to `aragonpm.eth`, it was required to clean up any subdomains claimed by the packages in this registry in order for the new registry to work properly.
 
-The cleanup was done using the `ENSSubdomainRegistrar`'s `deleteName` function. This permission (`DELETE_NAME_ROLE`) is not created by the `APMRegistryFactory` so it needed to be created:
+The cleanup was done using the `ENSSubdomainRegistrar`'s `deleteName` function. A permission (`DELETE_NAME_ROLE`) for the action was not created by the old `APMRegistryFactory`, so it needed to be created:
 
 - Old APM owner granted deployer the `CREATE_PERMISSIONS_ROLE` in APM's ACL: [transaction](https://etherscan.io/tx/0x715a7fb1b4819e9327142726db7deeca01e6ceb99fdc80a8a741e8ee7a9607ce)
 - The deployer account created and granted itself the `DELETE_NAME_ROLE` permission in `ENSSubdomainRegistrar`: [transaction](https://etherscan.io/tx/0xbec7effc2dca511a076b18b8e84b11b7b1a1a1651f5dd0635e0d3df1c79d2e89)
 
 With the permission granted, the deployer account deleted following names:
+
 - `aragon.aragonpm.eth`: [transaction](https://etherscan.io/tx/0xacbacb600cdd7f1d381a1f112cbe1ec76407cc5aefa0bf1d2ff6554748054e6b)
 - `survey.aragonpm.eth`: [transaction](https://etherscan.io/tx/0x40bf4be7f7331e790adfafc3e00703ebed108d7bb78267f31780af1b38889a80)
 - `survey-kit.aragonpm.eth`: [transaction](https://etherscan.io/tx/0xa7da3dbce305e47a022d27c04503d4888ec171ef76552e545fcf58d974099ca9)
@@ -39,9 +40,9 @@ With the permission granted, the deployer account deleted following names:
 
 #### `aragonpm.eth` migration
 
-The `ENSSubdomainRegistrar` app of the old APM is the owner of the `aragonpm.eth` name. Ownership of the name needs to be transferred to the `APMRegistryFactory` that will deploy the need APM.
+The `ENSSubdomainRegistrar` app of the old APM was the owner of the `aragonpm.eth` name. Ownership of the name needed to be transferred to the new `APMRegistryFactory` that will deploy the new APM.
 
-`ENSSubdomainRegistrar` doesn't provide a way to claim ownership of the root name, but ownership of the name can be claimed by the ENS Deed holder of the name. The [Aragon Association multisig](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c) as the deed holder, performed the following actions:
+`ENSSubdomainRegistrar` doesn't provide a way to claim ownership of the root name, but ownership of the name can be claimed by the ENS Deed holder of the name. The [Aragon Association multisig](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c), as the deed holder, performed the following actions:
 
 - Transfer the deed to itself, which sets the multisig as the owner of `aragonpm.eth`. [Submission transaction](0x84cd4fe72d95d80773942131958eebe5564ef98dc8e2081e4184761807b67b3e) and [confirmation transaction](https://etherscan.io/tx/0xa09381e5ed148300bf5bc89f6bdcec867269234da47b0fac0f09bde5bf644eb6).
 - Transfer ownership of `aragonpm.eth` to the deployer account. [Submission transaction](0x38aa550f8e03613405c6ec902de6db135464919ca65f3c835fde9725fb824edb) and [confirmation transaction](https://etherscan.io/tx/0x8139c959a1188b37bf222d010919678d220c2db7d22c8f6ae5e98524289cea69).
