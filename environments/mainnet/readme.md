@@ -51,7 +51,7 @@ The `ENSSubdomainRegistrar` app of the old APM was the owner of the `aragonpm.et
 
 The [Aragon Association multisig](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c) as the owner of `aragonid.eth`, performed:
 
-- Transfer ownership of `aragonid.eth` to the deployer account. [Submission transaction](0xc78b3997a64f73309660313ccb74d872f201017a16560a3e16ee6ba0481e1aed) and [confirmation transaction]().
+- Transfer ownership of `aragonid.eth` to the deployer account. [Submission transaction](0xc78b3997a64f73309660313ccb74d872f201017a16560a3e16ee6ba0481e1aed) and [confirmation transaction](https://etherscan.io/tx/0x8f00cb36d72e07c3de5a884598e7c8a5ade3f5b5702d9d94ad30288b69a5a2a4).
 
 ### aragonOS
 
