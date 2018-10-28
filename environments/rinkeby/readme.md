@@ -178,10 +178,13 @@ aragon apm publish 1.0.0 --environment rinkeby --files app/build
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
+- `token-manager.aragonpm.eth` had to be republished twice as `1.0.0` had an incorrect artifact.
+
+
 Final versions:
 
 - `finance.aragonpm.eth`: `1.0.0`
-- `token-manager.aragonpm.eth`: `1.0.0`
+- `token-manager.aragonpm.eth`: `1.0.2`
 - `vault.aragonpm.eth`: `1.0.0`
 - `voting.aragonpm.eth`: `1.0.0`
 

@@ -34,6 +34,12 @@ token-manager.aragonpm.eth:
       ipfsHash: QmTwm6Jvg6GsFshtp69fq8Nz887cu1oPvW3K7iPgNjNW7V
       contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
+    1.0.1:
+      date: 2018-10-28T13:19:34.000Z
+      txHash: '0x702224e323128d9f23d8fafae201d29e050856b3392b206e8403a7f161dbd493'
+      ipfsHash: Qmeh6QKsecvaUfvVyMLiWoP5Mw1yAjzDU8NeUptGrBpJ9e
+      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
+      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
 democracy-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
   versions:
