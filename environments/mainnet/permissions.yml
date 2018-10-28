@@ -1,0 +1,41 @@
+- address: '0xE04cAbcB24e11620Dd62bB99c396E76cEB578914'
+  owner: Aragon One cold wallet
+  organization: Aragon One
+  permissions:
+    - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+  manager:
+    - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
