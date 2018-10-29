@@ -44,14 +44,14 @@ The `ENSSubdomainRegistrar` app of the old APM was the owner of the `aragonpm.et
 
 `ENSSubdomainRegistrar` doesn't provide a way to claim ownership of the root name, but ownership of the name can be claimed by the ENS Deed holder of the name. The [Aragon Association multisig](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c), as the deed holder, performed the following actions:
 
-- Transfer the deed to itself, which sets the multisig as the owner of `aragonpm.eth`. [Submission transaction](0x84cd4fe72d95d80773942131958eebe5564ef98dc8e2081e4184761807b67b3e) and [confirmation transaction](https://etherscan.io/tx/0xa09381e5ed148300bf5bc89f6bdcec867269234da47b0fac0f09bde5bf644eb6).
-- Transfer ownership of `aragonpm.eth` to the deployer account. [Submission transaction](0x38aa550f8e03613405c6ec902de6db135464919ca65f3c835fde9725fb824edb) and [confirmation transaction](https://etherscan.io/tx/0x8139c959a1188b37bf222d010919678d220c2db7d22c8f6ae5e98524289cea69).
+- Transfer the deed to itself, which sets the multisig as the owner of `aragonpm.eth`. [Submission transaction](https://etherscan.io/tx/0x84cd4fe72d95d80773942131958eebe5564ef98dc8e2081e4184761807b67b3e) and [confirmation transaction](https://etherscan.io/tx/0xa09381e5ed148300bf5bc89f6bdcec867269234da47b0fac0f09bde5bf644eb6).
+- Transfer ownership of `aragonpm.eth` to the deployer account. [Submission transaction](https://etherscan.io/tx/0x38aa550f8e03613405c6ec902de6db135464919ca65f3c835fde9725fb824edb) and [confirmation transaction](https://etherscan.io/tx/0x8139c959a1188b37bf222d010919678d220c2db7d22c8f6ae5e98524289cea69).
 
 #### `aragonid.eth`
 
 The [Aragon Association multisig](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c) as the owner of `aragonid.eth`, performed:
 
-- Transfer ownership of `aragonid.eth` to the deployer account. [Submission transaction](0xc78b3997a64f73309660313ccb74d872f201017a16560a3e16ee6ba0481e1aed) and [confirmation transaction](https://etherscan.io/tx/0x8f00cb36d72e07c3de5a884598e7c8a5ade3f5b5702d9d94ad30288b69a5a2a4).
+- Transfer ownership of `aragonid.eth` to the deployer account. [Submission transaction](https://etherscan.io/tx/0xc78b3997a64f73309660313ccb74d872f201017a16560a3e16ee6ba0481e1aed) and [confirmation transaction](https://etherscan.io/tx/0x8f00cb36d72e07c3de5a884598e7c8a5ade3f5b5702d9d94ad30288b69a5a2a4).
 
 ### aragonOS
 
