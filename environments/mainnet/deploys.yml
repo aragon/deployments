@@ -25,6 +25,12 @@ vault.aragonpm.eth:
       ipfsHash: QmaSKh2HmGhtuGUBZ7CgroWSDUYaQh3a1s2UsWkM13XHMF
       contractAddress: '0xD7FC611Be047A6F65Aea7cC146bDAb9451763d99'
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
+    2.0.0:
+      date: 2018-10-29T22:23:06.000Z
+      txHash: '0x773afb7108183fa4fd4f6db38a5bc07f65b3d2ae4890d5d36e51fdf718380ce8'
+      ipfsHash: QmWQwpwsr4xRkCiVmEV6jjpakBG3MJZsmKFT6DDwaY4JN1
+      contractAddress: '0xf4CF4DdcFAb03D724F75C877343ee836c37cF454'
+      commitHash: 335ad37c45c5cb462c9a64b88055d4f6769b6142
 token-manager.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
   versions:

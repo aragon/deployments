@@ -9,7 +9,29 @@
 - DAOFactory: `0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559`
 - APM: `0x346854c542d437565339E60dE8CB3EfE1cAB30dC`
 
-## Deployment
+## Deployments
+
+- Version: Aragon Core 0.6
+- Start date: Oct 29th 2018, 11.36pm CEST
+- Finish date: TODO
+- Deployer: [@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Apps
+
+Deployed: `vault`
+
+Command:
+```
+aragon apm publish major --environment mainnet --files assets
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `vault.aragonpm.eth`: `2.0.0`
+
+-----------
 
 - Version: Aragon Core 0.6 RC 2
 - Start date: Oct 27th 2018, 12.14pm CEST
