@@ -11,19 +11,46 @@
 
 ## Deployments
 
-- Version: Aragon Core 0.6
-- Start date: Oct 29th 2018, 11.36pm CEST
-- Finish date: TODO
-- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+-----------
 
-### Aragon Apps
+- Version: Aragon Core 0.6-rc.4
+- Start date: Oct 30th 2018, 1.50pm CEST
+- Finish date: Oct 30th 2018, 2.05pm CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
-Deployed: `vault`
+### Aragon Core
 
 Command:
 ```
-aragon apm publish major --environment staging --files assets
+npm run publish:staging:patch
 ```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.0.3`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager` (`vault` was redeployed earlier with a fixed icon)
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `vault.aragonpm.eth`: `2.0.0`
+- `finance.aragonpm.eth`: `1.0.3`
+- `token-manager.aragonpm.eth`: `1.0.4`
+- `voting.aragonpm.eth`: `1.0.4`
+
+-----------
+
 - Version: Aragon Core 0.6-rc.3
 - Start date: Oct 30th 2018, 7.25am CEST
 - Finish date: Oct 30th 2018, 7.30am CEST
@@ -53,12 +80,31 @@ aragon apm publish patch --environment staging --files app/build
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
-Final versions:
-
-- `vault.aragonpm.eth`: `2.0.0`
 - `finance.aragonpm.eth`: `1.0.2`
 - `token-manager.aragonpm.eth`: `1.0.3`
 - `voting.aragonpm.eth`: `1.0.2`
+
+-----------
+
+- Version: Aragon Core 0.6
+- Start date: Oct 29th 2018, 11.36pm CEST
+- Finish date: Oct 29th 2018, 11.36pm CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+### Aragon Apps
+
+Deployed: `vault`
+
+Command:
+```
+aragon apm publish major --environment staging --files assets
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `vault.aragonpm.eth`: `2.0.0`
 
 -----------
 
