@@ -11,6 +11,43 @@
 
 ## Deployments
 
+- Version: Aragon Core 0.6-rc.3
+- Start date: Oct 30th 2018, 7.25am CEST
+- Finish date: Oct 30th 2018, 7.30am CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Core
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.0.2`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager` (`vault` was redeployed earlier with a fixed icon)
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.0.2`
+- `token-manager.aragonpm.eth`: `1.0.3`
+- `voting.aragonpm.eth`: `1.0.2`
+
+-----------
+
 - Version: Aragon Core 0.6-rc.2
 - Start date: Oct 25th 2018, 11.36pm CEST
 - Finish date: Oct 26th 2018, 6.21pm CEST
