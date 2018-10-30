@@ -11,6 +11,19 @@
 
 ## Deployments
 
+- Version: Aragon Core 0.6
+- Start date: Oct 29th 2018, 11.36pm CEST
+- Finish date: TODO
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+### Aragon Apps
+
+Deployed: `vault`
+
+Command:
+```
+aragon apm publish major --environment staging --files assets
+```
 - Version: Aragon Core 0.6-rc.3
 - Start date: Oct 30th 2018, 7.25am CEST
 - Finish date: Oct 30th 2018, 7.30am CEST
@@ -42,6 +55,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
+- `vault.aragonpm.eth`: `2.0.0`
 - `finance.aragonpm.eth`: `1.0.2`
 - `token-manager.aragonpm.eth`: `1.0.3`
 - `voting.aragonpm.eth`: `1.0.2`
