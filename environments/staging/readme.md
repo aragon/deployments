@@ -15,7 +15,7 @@
 
 - Version: Aragon Core 0.6-rc.4
 - Start date: Oct 30th 2018, 1.50pm CEST
-- Finish date: Oct 30th 2018, 2.05pm CEST
+- Finish date: Oct 30th 2018, 2.20pm CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
 ### Aragon Core
@@ -33,21 +33,26 @@ Final versions:
 
 ### Aragon Apps
 
-Deployed: `finance`, `voting`, `token-manager` (`vault` was redeployed earlier with a fixed icon)
+Deployed: `finance`, `voting`, `token-manager`
 
 Command:
 ```
 aragon apm publish patch --environment staging --files app/build
 ```
 
+(Vault):
+```
+aragon apm publish major --environment staging --files assets
+```
+
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `vault.aragonpm.eth`: `2.0.0`
 - `finance.aragonpm.eth`: `1.0.3`
 - `token-manager.aragonpm.eth`: `1.0.4`
 - `voting.aragonpm.eth`: `1.0.4`
+- `vault.aragonpm.eth`: `2.0.1`
 
 -----------
 
@@ -71,7 +76,7 @@ Final versions:
 
 ### Aragon Apps
 
-Deployed: `finance`, `voting`, `token-manager` (`vault` was redeployed earlier with a fixed icon)
+Deployed: `finance`, `voting`, `token-manager`
 
 Command:
 ```

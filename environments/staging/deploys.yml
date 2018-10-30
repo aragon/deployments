@@ -94,6 +94,12 @@ vault.aragonpm.eth:
       ipfsHash: QmQ5qgH37hVXH8z3an3xtu182scs8EFhTMeTba44DVwMn7
       contractAddress: '0x88fd3D1780C38232Ab0D4704462699e4c299Ece6'
       commitHash: 335ad37c45c5cb462c9a64b88055d4f6769b6142
+    2.0.1:
+      date: 2018-10-30T13:23:27.000Z
+      txHash: '0xb45f9adba7a71b99c385b4d567e4aefe4a213bc2f0af29708b1061cc760d9873'
+      ipfsHash: QmdA8nXrug3N3guA4Y637cjJXyWjP4FXRJnSHwiR9Vqdpd
+      contractAddress: '0x88fd3D1780C38232Ab0D4704462699e4c299Ece6'
+      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
 democracy-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
   versions:
