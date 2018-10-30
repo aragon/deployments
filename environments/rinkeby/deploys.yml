@@ -13,6 +13,12 @@ voting.aragonpm.eth:
       ipfsHash: QmT27VvGNiNeWj4tsZ5omDCc6KxaHU3N9uebFCsoxSAEpL
       contractAddress: '0x8C06aEBF29F20A2e09b32F5d44cEa49Db3EC2eE0'
       commitHash: 005323c982c50ac08ff7f0fc2aa86357cf4b1e0a
+    1.1.1:
+      date: 2018-10-30T09:59:53.000Z
+      txHash: '0xbd90f5973e859597af9f2eb3c31300069901efa1e875798130c3a0fd3d327a1d'
+      ipfsHash: QmYmQVKj44FNjaY2qT4iWMWGSpKmnoseUw7idJkh9mtjei
+      contractAddress: '0x8C06aEBF29F20A2e09b32F5d44cEa49Db3EC2eE0'
+      commitHash: 9bc4caba3a10497eb2e416460e9f209a5a59e7a3
 token-manager.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
   versions:
@@ -40,6 +46,12 @@ token-manager.aragonpm.eth:
       ipfsHash: Qmeyyyym7UqAfT5qgqpQ897rpkbrvY3KojYbJ76WL2cRrB
       contractAddress: '0x3Ec5e6239A90332A13155F5d7382E0DB70C36A8a'
       commitHash: 005323c982c50ac08ff7f0fc2aa86357cf4b1e0a
+    1.1.1:
+      date: 2018-10-30T09:58:23.000Z
+      txHash: '0x86bef7af2c78f630b92241a9c211a25f6b1697d7314055719fbcdd9d0403627b'
+      ipfsHash: QmcZdCEyMswaCsTr8G9XHEHRFkWKBxknSvRP6c3iJA4Ld2
+      contractAddress: '0x3Ec5e6239A90332A13155F5d7382E0DB70C36A8a'
+      commitHash: 9bc4caba3a10497eb2e416460e9f209a5a59e7a3
 finance.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
   versions:
