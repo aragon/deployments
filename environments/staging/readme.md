@@ -15,7 +15,7 @@
 
 - Version: Aragon Core 0.6.0-hotfix
 - Start date: Nov 5th 2018, 5.00pm CEST
-- Finish date: Nov 5th 2018, 5.30pm CEST
+- Finish date: Nov 5th 2018, 10.50pm CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
 ### Aragon Core
@@ -29,7 +29,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon.aragonpm.eth`: `1.0.4`
+- `aragon.aragonpm.eth`: `1.0.5`
 
 ### Aragon Apps
 
