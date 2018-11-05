@@ -11,6 +11,45 @@
 
 ## Deployments
 
+-----------
+
+- Version: Aragon Core 0.6.0-hotfix
+- Start date: Nov 5th 2018, 9.05pm CET
+- Finish date: Nov 5th 2018, 9.35pm CEST
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Core
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.3`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.1.2`
+- `token-manager.aragonpm.eth`: `1.1.3`
+- `voting.aragonpm.eth`: `1.1.3`
+
+-----------
+
 - Version: Aragon Core 0.6
 - Start date: Oct 29th 2018, 11.36pm CEST
 - Finish date: TODO

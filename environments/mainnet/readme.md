@@ -11,9 +11,48 @@
 
 ## Deployments
 
+-----------
+
+- Version: Aragon Core 0.6.0-hotfix
+- Start date: Nov 5th 2018, 9.05pm CET
+- Finish date: Nov 5th 2018, 9.35pm CET
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Core
+
+Command:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.5`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.1.2`
+- `token-manager.aragonpm.eth`: `1.0.3`
+- `voting.aragonpm.eth`: `1.0.2`
+
+-----------
+
 - Version: Aragon Core 0.6
-- Start date: Oct 29th 2018, 11.36pm CEST
-- Finish date: TODO
+- Start date: Oct 29th 2018, 11.36pm CET
+- Finish date: Oct 30th 2018, 3.46pm CET
 - Deployer: [@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Apps
