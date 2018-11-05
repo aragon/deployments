@@ -13,6 +13,43 @@
 
 -----------
 
+- Version: Aragon Core 0.6.0-hotfix
+- Start date: Nov 5th 2018, 5.00pm CEST
+- Finish date: Nov 5th 2018, 5.30pm CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Core
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.0.4`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.0.4`
+- `token-manager.aragonpm.eth`: `1.0.5`
+- `voting.aragonpm.eth`: `1.0.5`
+
+-----------
+
 - Version: Aragon Core 0.6-rc.4
 - Start date: Oct 30th 2018, 1.50pm CEST
 - Finish date: Oct 30th 2018, 2.20pm CEST
