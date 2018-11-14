@@ -13,6 +13,45 @@
 
 -----------
 
+- Version: Aragon Core 0.6.1 (AGP-1 support)
+- Start date: Nov 14th 2018, 10.08am CET
+- Finish date: TODO
+- Deployer: [@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### AGP1 kit
+
+AGP1 kit hasn't been published to APM, as it is a one time use kit only.
+
+Output:
+```
+> @aragon/kits-agp1@1.0.0 deploy:mainnet /Users/jorge/provident/dao-kits/kits/agp1
+> ENS=0x314159265dd8dbb310642f98f50c066173c1259b DAO_FACTORY=0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559 MINIME_TOKEN=0x960b236A07cf122663c4303350609A66A7B288C0 truffle exec --network mainnet scripts/deploy_agp1.js
+
+Using network 'mainnet'.
+
+AGP1Kit with ENS 0x314159265dd8dbb310642f98f50c066173c1259b, owner 0xcafE1A77e84698c83CA8931F54A755176eF75f2C
+Using ENS 0x314159265dd8dbb310642f98f50c066173c1259b
+Using DAOFactory: 0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559
+Using MiniMeToken: 0x960b236A07cf122663c4303350609A66A7B288C0
+APM 0x346854c542d437565339e60de8cb3efe1cab30dc
+Kit address: 0xef9d312e1e1a662182b1aeb429d4132bdede12b9
+=========
+# AGP1Kit:
+Address: 0xef9d312e1e1a662182b1aeb429d4132bdede12b9
+Transaction hash: 0x9aea0c9686ed7ecdd79e50fc4a13b8015e786de575ac85fd50516a2227f8e31a
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2018-11-14T08:37:28.931Z
+=========
+
+AGP1 DAO address:  0x2de83b50af29678774d5abc4a7cb2a588762f28c
+Finance:  0xd9705f391395a8c12b553f9b36bd3fef65be10ff
+Vault:  0xaacccafcd439bc9843568c11c6d37ee0f66c9e69
+Voting:  0x277bfcf7c2e162cb1ac3e9ae228a3132a75f83d4
+Meta Track Voting:  0xcfee4d3078f74197ce77120dbfe6d35f443cab1c
+```
+
+-----------
+
 - Version: Aragon Core 0.6.0-hotfix
 - Start date: Nov 5th 2018, 9.05pm CET
 - Finish date: Nov 5th 2018, 9.35pm CET
