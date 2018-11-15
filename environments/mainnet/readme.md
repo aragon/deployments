@@ -29,7 +29,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon.aragonpm.eth`: `1.1.6`
+- `aragon.aragonpm.eth`: `1.1.7`
 
 ### Aragon Apps
 
