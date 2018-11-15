@@ -15,12 +15,42 @@
 
 - Version: Aragon Core 0.6.1 (AGP-1 support)
 - Start date: Nov 14th 2018, 10.08am CET
-- Finish date: TODO
+- Finish date: Nov 14th 2018, 1.24am CET
 - Deployer: [@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
-### AGP1 kit
+### Aragon Core
 
-AGP1 kit hasn't been published to APM, as it is a one time use kit only.
+Command:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.6`
+
+### Aragon Apps
+
+Deployed: `voting`
+
+Command:
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting.aragonpm.eth`: `1.0.3`
+
+-----------
+
+### AGP-1 kit
+
+AGP-1 kit hasn't been published to APM, as it is a one time use kit only.
 
 Output:
 ```

@@ -13,6 +13,69 @@
 
 -----------
 
+- Version: Aragon Core 0.6.1 (AGP-1 support)
+- Start date: Nov 12th 2018, 4.55pm CET
+- Finish date: Nov 14th 2018, 1.24am CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff) + [@bingen](https://github.com/bingen)
+
+### Aragon Core
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.4`
+
+### Aragon Apps
+
+Deployed: `voting`
+
+Command:
+```
+aragon apm publish patch --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting.aragonpm.eth`: `1.1.4`
+
+### AGP-1 Kit
+
+AGP-1 kit hasn't been published to APM, as it is a one time use kit only.
+
+```
+AGP1Kit with ENS 0x98Df287B6C145399Aaa709692c8D308357bC085D, owner 0x590e1ac49666ec8024dc0c6620eed6916a18f27e
+Using ENS 0x98Df287B6C145399Aaa709692c8D308357bC085D
+Using DAOFactory: 0x2298d27a9b847c681d2b2c2828ab9d79013f5f1d
+Using MiniMeToken: 0xad0f1afea49a46a8409bf4863070631fec2cedc6
+APM 0xda897630fa0f1902f99623bc00e18acd12657d4f
+0x8870044ea0ba46dda0b1ce165936cf9a31240ad2
+Kit address: 0x9276b52565888d541b03fcc74ae686c15a5e21a7
+=========
+# AGP1Kit:
+Address: 0x9276b52565888d541b03fcc74ae686c15a5e21a7
+Transaction hash: 0xcde6a97c80b69eded849e8ac9c2e432ffa86f1675a8aad83dd519a4b17b7673c
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2018-11-10T22:58:13.955Z
+=========
+Gas used: 4882338
+AGP1 DAO address:  0x383037ad4e2341835bfe719e4bddc5936c271409
+Finance:  0x11de0e9390598cfe7d1600dadff9abd9647c8a6e
+Vault:  0x3f49a91cc34a6b765cffa2fc898f961cfd4f759b
+Voting:  0x93b1900fa5b4ea74263e6ac0682f0e50c90ac98f
+Meta Track Voting:  0x469741ced03d2bb94bc6e744cb56a72e767054b3
+
+```
+
+-----------
+
 - Version: Aragon Core 0.6.0-hotfix
 - Start date: Nov 5th 2018, 9.05pm CET
 - Finish date: Nov 5th 2018, 9.35pm CEST
