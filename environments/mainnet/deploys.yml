@@ -19,6 +19,12 @@ voting.aragonpm.eth:
       ipfsHash: QmXkC9JfpR2xUEUYrGdcepjaBGPopd2cNJg2UKDpi8Hmye
       contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
       commitHash: b9ee11b10f59957575cfb9de173107b0bd6c8bb2
+    1.0.3:
+      date: 2018-11-14T23:16:18.000Z
+      txHash: '0x557ba2f6dc97bb3f0fd826c967e03570cc0aea583c2d0588febdf8537f25e015'
+      ipfsHash: QmctB78EiDW5LtSNA2FY8VUDwDWijv54UFDWKBs4a5nvyj
+      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
+      commitHash: abc49e75e596e35db28f25c9a2779771ec399a72
 finance.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
   versions:
@@ -157,3 +163,15 @@ aragon.aragonpm.eth:
       ipfsHash: QmfWLYTDn2X3p2zEtbGKjW8UJ6NpfuAwkhL7u1Zyrte2Pq
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: f896c00d40c02542ffe1418064dc868022ebbc36
+    1.1.6:
+      date: 2018-11-15T00:01:59.000Z
+      txHash: '0x1fb412ff15f9cecda6b25f7054ce9e3ece97c0e22630df2951ed3080d7afd889'
+      ipfsHash: QmZtjkEN1prsLHC3sHXPaVqGXtspbbbdxgBAhLp54rSPND
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: 19e6696dd7afb094c68e548962c4d04f54d2f775
+    1.1.7:
+      date: 2018-11-15T00:23:14.000Z
+      txHash: '0xd3d795b4fd96c6b5652fc87db2fabc35bee304dfee6e8fa2ae1aa0723daae0f4'
+      ipfsHash: QmSY6GTVw2Qp12TgDSDXLM67zg72FEgjjdbUZwt4963fdj
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: 03492875714a97b9b419e5f3767a698494261bca
