@@ -15,7 +15,7 @@
 
 - Version: Aragon Core 0.6.1 (AGP-1 support)
 - Start date: Nov 12th 2018, 4.55pm CET
-- Finish date: Nov 14th 2018, 1.24am CET
+- Finish date: Nov 15th 2018, 1.24am CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff) + [@bingen](https://github.com/bingen)
 
 ### Aragon Core
