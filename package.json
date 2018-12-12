@@ -12,7 +12,7 @@
     "url": "https://github.com/aragon/deployments/issues"
   },
   "homepage": "https://github.com/aragon/deployments#readme",
-  "author": "Aragon Institution MTU <contact@aragon.one>",
+  "author": "Aragon Association <legal@aragon.org>",
   "dependencies": {
     "@aragon/apm": "^2.0.2",
     "dot-prop": "^4.2.0",
