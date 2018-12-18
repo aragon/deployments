@@ -13,12 +13,12 @@
 
 -----------
 
-- Version: Aragon Core 0.6.2-rc1
+- Version: Aragon client 0.6.2-rc1
 - Start date: Dec 18th, 10:00pm CEST
 - Finish date: Dec 18th 2018, 10.30pm CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
-### Aragon Core
+### Aragon Client
 
 Command:
 ```
@@ -55,12 +55,12 @@ Final versions:
 
 -----------
 
-- Version: Aragon Core 0.6.0-hotfix
+- Version: Aragon client 0.6.0-hotfix
 - Start date: Nov 5th 2018, 5.00pm CEST
 - Finish date: Nov 5th 2018, 10.50pm CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
-### Aragon Core
+### Aragon Client
 
 Command:
 ```
@@ -92,12 +92,12 @@ Final versions:
 
 -----------
 
-- Version: Aragon Core 0.6-rc.4
+- Version: Aragon client 0.6-rc.4
 - Start date: Oct 30th 2018, 1.50pm CEST
 - Finish date: Oct 30th 2018, 2.20pm CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
-### Aragon Core
+### Aragon Client
 
 Command:
 ```
@@ -135,12 +135,12 @@ Final versions:
 
 -----------
 
-- Version: Aragon Core 0.6-rc.3
+- Version: Aragon client 0.6-rc.3
 - Start date: Oct 30th 2018, 7.25am CEST
 - Finish date: Oct 30th 2018, 7.30am CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
-### Aragon Core
+### Aragon Client
 
 Command:
 ```
@@ -170,7 +170,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 -----------
 
-- Version: Aragon Core 0.6
+- Version: Aragon client 0.6
 - Start date: Oct 29th 2018, 11.36pm CEST
 - Finish date: Oct 29th 2018, 11.36pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
@@ -192,7 +192,7 @@ Final versions:
 
 -----------
 
-- Version: Aragon Core 0.6-rc.2
+- Version: Aragon client 0.6-rc.2
 - Start date: Oct 25th 2018, 11.36pm CEST
 - Finish date: Oct 26th 2018, 6.21pm CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
@@ -201,7 +201,7 @@ Final versions:
 
 `@izqui` created `aragon.aragonpm.eth` and granted `@bingen`, `@bpierre`, and `@sohkai` permission to create versions.
 
-### Aragon Core
+### Aragon Client
 
 Command:
 ```
@@ -233,7 +233,7 @@ Final versions:
 
 -----------
 
-- Version: Aragon Core 0.6-rc.1
+- Version: Aragon client 0.6-rc.1
 - Start date: Oct 24th 2018, 10.54am CEST
 - Finish date: Oct 24th 2018, 11.51am CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
