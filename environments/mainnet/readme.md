@@ -13,12 +13,12 @@
 
 -----------
 
-- Version: Aragon Core 0.6.1 (AGP-1 support)
+- Version: Aragon client 0.6.1 (AGP-1 support)
 - Start date: Nov 14th 2018, 10.08am CET
 - Finish date: Nov 15th 2018, 1.24am CET
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
-### Aragon Core
+### Aragon Client
 
 Command:
 ```
@@ -82,12 +82,12 @@ Meta Track Voting:  0xcfee4d3078f74197ce77120dbfe6d35f443cab1c
 
 -----------
 
-- Version: Aragon Core 0.6.0-hotfix
+- Version: Aragon client 0.6.0-hotfix
 - Start date: Nov 5th 2018, 9.05pm CET
 - Finish date: Nov 5th 2018, 9.35pm CET
 - Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
-### Aragon Core
+### Aragon Client
 
 Command:
 ```
@@ -119,7 +119,7 @@ Final versions:
 
 -----------
 
-- Version: Aragon Core 0.6
+- Version: Aragon client 0.6
 - Start date: Oct 29th 2018, 11.36pm CET
 - Finish date: Oct 30th 2018, 3.46pm CET
 - Deployer: [@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
@@ -141,7 +141,7 @@ Final versions:
 
 -----------
 
-- Version: Aragon Core 0.6 RC 2
+- Version: Aragon client 0.6 RC 2
 - Start date: Oct 27th 2018, 12.14pm CEST
 - Finish date: Oct 27th 2018, 3.44pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
@@ -339,7 +339,7 @@ Final versions:
 - `democracy-kit.aragonpm.eth`: `1.0.0`
 - `multisig-kit.aragonpm.eth`: `1.0.0`
 
-### Aragon Core
+### Aragon Client
 
 Command:
 ```
