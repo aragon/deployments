@@ -13,8 +13,30 @@
 
 -----------
 
+- Version: Aragon client 0.6.2-rc2
+- Start date: Dec 21th, 8.30am CEST
+- Finish date: Dec 18th 2018, 8.35pm CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Apps
+
+Deployed: `finance`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.0.6`
+
+-----------
+
 - Version: Aragon client 0.6.2-rc1
-- Start date: Dec 18th, 10:00pm CEST
+- Start date: Dec 18th, 10.00pm CEST
 - Finish date: Dec 18th 2018, 10.30pm CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
@@ -42,7 +64,7 @@ aragon apm publish patch --environment staging --files app/build
 
 **Note**: the `artifact.json` for `voting` was regenerated using:
 ```
-aragon apm publish patch --environment staging --only-artifacts --build false
+aragon apm publish patch --environment staging --only-artifacts --no-build
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
