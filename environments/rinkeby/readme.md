@@ -14,8 +14,8 @@
 -----------
 
 - Version: Aragon client 0.6.2
-- Start date: Dec 21st, 8.10am CEST
-- Finish date: Dec 21st, 9.06am CEST
+- Start date: Dec 21st, 8.10am CET
+- Finish date: Dec 21st, 9.06am CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
