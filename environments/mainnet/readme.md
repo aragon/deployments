@@ -13,6 +13,48 @@
 
 -----------
 
+- Version: Aragon client 0.6.2
+- Start date: Dec 21st, 9.11am CET
+- Finish date: Dec 21st, 9.39am CET
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:minor
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.2.0`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+**Note**: the `artifact.json` for `voting` was regenerated using:
+```
+aragon apm publish patch --environment mainnet --only-artifacts --no-build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.1.3`
+- `token-manager.aragonpm.eth`: `1.0.4`
+- `voting.aragonpm.eth`: `1.0.4`
+
+-----------
+
 - Version: Aragon client 0.6.1 (AGP-1 support)
 - Start date: Nov 14th 2018, 10.08am CET
 - Finish date: Nov 15th 2018, 1.24am CET
