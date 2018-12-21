@@ -22,7 +22,7 @@
 
 Command:
 ```
-npm run publish:rinkeby:patch
+npm run publish:rinkeby:minor
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
