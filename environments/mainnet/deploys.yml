@@ -199,3 +199,11 @@ aragon.aragonpm.eth:
       ipfsHash: QmNaUAFJrJnSqzyTEYKXuEo3uXgGEBUfYLzunJx41KMm9P
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 59808f4c79bc6da4f6ce0bca5954aa2c82984edd
+bare-kit.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-01-07T14:33:24.000Z
+      txHash: '0xe8b6559d901508d1dcd321427b0d89601d9725643395eeda84cd952cc05306a7'
+      ipfsHash: QmeRj9vsDYAkdH2DH9DFMRkgWYucrP1h98t52ZZGH2hu56
+      contractAddress: '0xCd9D2a2c74E49CfAFB024006Be614B04c82D5273'
+      commitHash: 09943aca3b58c941f7e03e35d9dd8e96e194a481
