@@ -11,6 +11,142 @@
 
 ## Deployments
 
+Version: Aragon client 0.6.3-responsive-pre-release-3
+- Start date: Jan 25th 2019, 19:00pm CEST
+- Finish date: Jan 25th 2019, 19:30pm CEST
+- Deployer: ([@AquiGorka](https://github.com/AquiGorka)) [`0x7c0be2cc18934e2d72e136b4bf350949adeaf423`](https://rinkeby.etherscan.io/address/0x7c0be2cc18934e2d72e136b4bf350949adeaf423)
+
+ Staging deployment of fixes for in-progress work on responsive UI and notifications panel.
+
+ ### Aragon Client
+
+ Command:
+```
+npm run publish:staging:patch
+```
+
+ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+ Final versions:
+
+ - `aragon.aragonpm.eth`: `1.0.11`
+
+ ### Aragon Apps
+
+ Deployed: `finance`, `voting`, `token-manager`
+
+ Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+ Final versions:
+
+- `finance.aragonpm.eth`: `1.0.10`
+- `token-manager.aragonpm.eth`: `1.0.10`
+- `voting.aragonpm.eth`: `1.0.11`
+
+-----------
+Version: Aragon client 0.6.3-responsive-pre-release-2
+- Start date: Jan 25th 2019, 10:52pm CEST
+- Finish date: Jan 25th 2019, 10:59pm CEST
+- Deployer: ([@AquiGorka](https://github.com/AquiGorka)) [`0x7c0be2cc18934e2d72e136b4bf350949adeaf423`](https://rinkeby.etherscan.io/address/0x7c0be2cc18934e2d72e136b4bf350949adeaf423)
+
+ Staging deployment of fixes for in-progress work on responsive UI and notifications panel.
+
+ ### Aragon Client
+
+ Command:
+```
+npm run publish:staging:patch
+```
+
+ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+ Final versions:
+
+ - `aragon.aragonpm.eth`: `1.0.10`
+
+-----------
+
+Version: Aragon client 0.6.3-responsive-pre-release-1
+- Start date: Jan 24th 2019, 12:40pm CEST
+- Finish date: Jan 24th 2019, 13:20pm CEST
+- Deployer: ([@AquiGorka](https://github.com/AquiGorka)) [`0x7c0be2cc18934e2d72e136b4bf350949adeaf423`](https://rinkeby.etherscan.io/address/0x7c0be2cc18934e2d72e136b4bf350949adeaf423)
+
+ Staging deployment of fixes for in-progress work on responsive UI and notifications panel.
+
+ ### Aragon Client
+
+ Command:
+```
+npm run publish:staging:patch
+```
+
+ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+ Final versions:
+
+ - `aragon.aragonpm.eth`: `1.0.9`
+
+ ### Aragon Apps
+
+ Deployed: `finance`, `voting`, `token-manager`
+
+ Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+ Final versions:
+
+- `finance.aragonpm.eth`: `1.0.9`
+- `token-manager.aragonpm.eth`: `1.0.9`
+- `voting.aragonpm.eth`: `1.0.10`
+
+-----------
+
+Version: Aragon client 0.6.3-responsive-pre-release
+- Start date: Jan 22th 2019, 17:45pm CEST
+- Finish date: Jan 2th 2019, 18:45pm CEST
+- Deployer: ([@AquiGorka](https://github.com/AquiGorka)) [`0x7c0be2cc18934e2d72e136b4bf350949adeaf423`](https://rinkeby.etherscan.io/address/0x7c0be2cc18934e2d72e136b4bf350949adeaf423)
+
+ Staging deployment of in-progress work on responsive UI and notifications panel.
+
+ ### Aragon Client
+
+ Command:
+```
+npm run publish:staging:patch
+```
+
+ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+ Final versions:
+
+ - `aragon.aragonpm.eth`: `1.0.8`
+
+ ### Aragon Apps
+
+ Deployed: `finance`, `voting`, `token-manager`
+
+ Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+ Final versions:
+
+- `finance.aragonpm.eth`: `1.0.8`
+- `token-manager.aragonpm.eth`: `1.0.8`
+- `voting.aragonpm.eth`: `1.0.9`
+
 -----------
 
 - Version: Aragon client 0.6.2-rc2
