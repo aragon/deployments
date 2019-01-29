@@ -13,6 +13,50 @@
 
 -----------
 
+- Version: Aragon client 0.6.3
+- Start date: Jan 29th, 4.50am CET
+- Finish date: Jan 29th, 5.00am CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+Deployment done with `@aragon/cli@5.2.3`.
+
+### Aragon Client
+
+Commands:
+```
+aragon apm publish minor --only-content --files build/ --environment rinkeby --build-script build:rinkeby --use-frame
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.3.0`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment rinkeby --files app/build --use-frame
+```
+
+**Note**: the `artifact.json` for `finance` was regenerated using:
+```
+aragon apm publish patch --environment rinkeby --only-artifacts --no-build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.1.4`
+- `token-manager.aragonpm.eth`: `1.0.5`
+- `voting.aragonpm.eth`: `1.0.5`
+
+-----------
+
 - Version: Aragon client 0.6.2
 - Start date: Dec 21st, 9.11am CET
 - Finish date: Dec 21st, 9.39am CET
