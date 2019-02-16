@@ -46,7 +46,7 @@ Deployment done with `@aragon/cli@5.2.3`.
 
 Commands:
 ```
-aragon apm publish minor --only-content --files build/ --environment mainnet --build-script build:mainnetmajor
+aragon apm publish minor --only-content --files build/ --environment mainnet --build-script build:mainnet
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
