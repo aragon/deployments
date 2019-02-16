@@ -11,6 +11,30 @@
 
 ## Deployments
 
+-----------
+
+- Version: Aragon Agent beta
+- Start date: Feb 15th, 5.26pm CET
+- Finish date: Feb 15th, 5.26pm CET
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish patch --environment staging --use-frame
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `1.0.0`
+
+-----------
+
 Version: Aragon client 0.6.3-responsive-pre-release-3
 - Start date: Jan 25th 2019, 19:00pm CEST
 - Finish date: Jan 25th 2019, 19:30pm CEST
