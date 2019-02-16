@@ -13,6 +13,28 @@
 
 -----------
 
+- Version: Survey resurrect
+- Start date: Feb 16th, 9.56pm CET
+- Finish date: Feb 16th, 9.56pm CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Apps
+
+Deployed: `survey`
+
+Command:
+```
+aragon apm publish major --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `survey.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon Agent beta
 - Start date: Feb 15th, 8.12pm CET
 - Finish date: Feb 15th, 8.12pm CET
@@ -24,7 +46,7 @@ Deployed: `agent`
 
 Command:
 ```
-aragon apm publish patch --environment rinkeby --use-frame
+aragon apm publish major --environment rinkeby
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -46,9 +68,9 @@ Deployment done with `@aragon/cli@5.2.3`.
 
 Commands:
 ```
-aragon apm publish minor --only-content --files build/ --environment rinkeby --build-script build:rinkeby --use-frame
+aragon apm publish minor --only-content --files build/ --environment rinkeby --build-script build:rinkeby
 
-aragon apm publish patch --only-content --files build/ --environment rinkeby --build-script build:rinkeby --use-frame
+aragon apm publish patch --only-content --files build/ --environment rinkeby --build-script build:rinkeby
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -63,7 +85,7 @@ Deployed: `finance`, `voting`, `token-manager`
 
 Command:
 ```
-aragon apm publish patch --environment rinkeby --files app/build --use-frame
+aragon apm publish patch --environment rinkeby --files app/build
 ```
 
 **Note**: the `artifact.json` for `finance` was regenerated using:

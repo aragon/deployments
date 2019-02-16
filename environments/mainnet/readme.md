@@ -24,7 +24,7 @@ Deployed: `agent`
 
 Command:
 ```
-aragon apm publish patch --environment mainnet --use-frame
+aragon apm publish major --environment mainnet
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -46,7 +46,7 @@ Deployment done with `@aragon/cli@5.2.3`.
 
 Commands:
 ```
-aragon apm publish minor --only-content --files build/ --environment mainnet --build-script build:mainnet --use-frame
+aragon apm publish minor --only-content --files build/ --environment mainnet --build-script build:mainnetmajor
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -61,7 +61,7 @@ Deployed: `finance`, `voting`, `token-manager`
 
 Command:
 ```
-aragon apm publish patch --environment mainnet --files app/build --use-frame
+aragon apm publish patch --environment mainnet --files app/build
 ```
 
 **Note**: the `artifact.json` for `finance` was regenerated using:
