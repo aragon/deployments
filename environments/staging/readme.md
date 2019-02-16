@@ -13,6 +13,28 @@
 
 -----------
 
+- Version: Survey resurrect
+- Start date: Feb 16th, 9.53pm CET
+- Finish date: Feb 16th, 9.55pm CET
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+### Aragon Apps
+
+Deployed: `survey`
+
+Command:
+```
+aragon apm publish major --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `survey.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon Agent beta
 - Start date: Feb 15th, 5.26pm CET
 - Finish date: Feb 15th, 5.26pm CET
@@ -24,7 +46,7 @@ Deployed: `agent`
 
 Command:
 ```
-aragon apm publish patch --environment staging --use-frame
+aragon apm publish major --environment staging
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
