@@ -13,6 +13,28 @@
 
 -----------
 
+- Version: Aragon Agent beta
+- Start date: Feb 15th, 8.12pm CET
+- Finish date: Feb 15th, 8.12pm CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish patch --environment rinkeby --use-frame
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon client 0.6.3
 - Start date: Jan 29th, 2.50am CET
 - Finish date: Jan 29th, 4.00am CET
