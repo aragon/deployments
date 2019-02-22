@@ -13,6 +13,28 @@
 
 -----------
 
+- Version: Aragon Agent beta v2
+- Start date: Feb 22nd, 6.19pm CET
+- Finish date: Feb 22nd, 6.20pm CET
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish major --environment mainnet
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `2.0.0`
+
+-----------
+
 - Version: Aragon Agent beta
 - Start date: Feb 15th, 8.17pm CET
 - Finish date: Feb 15th, 8.18pm CET

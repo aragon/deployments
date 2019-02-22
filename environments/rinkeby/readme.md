@@ -13,6 +13,28 @@
 
 -----------
 
+- Version: Aragon Agent beta v2
+- Start date: Feb 22nd, 6.17pm CET
+- Finish date: Feb 22nd, 6.18pm CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish major --environment rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `2.0.0`
+
+-----------
+
 - Version: Survey resurrect
 - Start date: Feb 16th, 9.56pm CET
 - Finish date: Feb 16th, 9.56pm CET
