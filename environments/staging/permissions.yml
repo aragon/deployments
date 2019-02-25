@@ -20,6 +20,10 @@
       - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
@@ -38,6 +42,10 @@
     - multisig-kit.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 
 - address: '0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051'
@@ -58,6 +66,10 @@
       - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
 
 - address: '0x1f1380c997a0d0f1801636fc3bc488cfad843bb5'
   owner: '@bpierre'
@@ -77,6 +89,10 @@
       - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
 
 - address: '0x590e1aC49666ec8024dC0C6620Eed6916a18F27e'
   owner: '@bingen'
@@ -95,4 +111,46 @@
     - multisig-kit.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0x7c0be2cc18934e2d72e136b4bf350949adeaf423'
+  owner: '@aquigorka'
+  organization: Aragon One
+  permissions:
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2'
+  owner: '@2color'
+  organization: Aragon One
+  permissions:
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
