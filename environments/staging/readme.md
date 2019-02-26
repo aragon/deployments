@@ -15,7 +15,7 @@
 
 - Version: Aragon client 0.6.4
 - Start date: Jan 26th 2019, 11:45pm CEST
-- Finish date: Jan 26th 2019, 12:30pm CEST
+- Finish date: Jan 26th 2019, 15:50pm CEST
 - Deployer: ([@2color](https://github.com/2color)) [`0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2`](https://rinkeby.etherscan.io/address/0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2)
 
 
@@ -30,7 +30,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon.aragonpm.eth`: `1.0.15`
+- `aragon.aragonpm.eth`: `1.0.16`
 
 ### Aragon Apps
 
