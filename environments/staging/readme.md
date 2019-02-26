@@ -15,7 +15,7 @@
 
 - Version: Aragon client 0.6.4
 - Start date: Jan 26th 2019, 11:45pm CEST
-- Finish date: Jan 26th 2019, 15:50pm CEST
+- Finish date: Jan 26th 2019, 17:10pm CEST
 - Deployer: ([@2color](https://github.com/2color)) [`0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2`](https://rinkeby.etherscan.io/address/0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2)
 
 
@@ -45,9 +45,9 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `finance.aragonpm.eth`: `1.0.13`
-- `token-manager.aragonpm.eth`: `1.0.12`
-- `voting.aragonpm.eth`: `1.0.13`
+- `finance.aragonpm.eth`: `1.0.14`
+- `token-manager.aragonpm.eth`: `1.0.13`
+- `voting.aragonpm.eth`: `1.0.14`
 
 -----------
 
