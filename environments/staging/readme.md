@@ -13,23 +13,61 @@
 
 -----------
 
-- Version: Aragon Agent beta v2
-- Start date: Feb 22nd, 6.03pm CET
-- Finish date: Feb 22nd, 6.03pm CET
-- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+Version: Aragon client 0.6.4
+- Start date: Jan 26th 2019, 11:45pm CEST
+- Finish date: Jan 26th 2019, 12:30pm CEST
+- Deployer: ([@2color](https://github.com/2color)) [`0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2`](https://rinkeby.etherscan.io/address/0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2)
 
-### Aragon Apps
 
-Deployed: `agent`
+### Aragon Client
 
-Command:
+ Command:
 ```
-aragon apm publish major --environment staging
+npm run publish:staging:patch
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
+
+ - `aragon.aragonpm.eth`: `1.0.15`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.0.13`
+- `token-manager.aragonpm.eth`: `1.0.12`
+- `voting.aragonpm.eth`: `1.0.13`
+
+-----------
+
+- version: aragon agent beta v2
+- start date: feb 22nd, 6.03pm cet
+- finish date: feb 22nd, 6.03pm cet
+- deployer: ([@izqui](https://github.com/izqui)) [`0x4cb3fd420555a09ba98845f0b816e45cfb230983`](https://rinkeby.etherscan.io/address/0x4cb3fd420555a09ba98845f0b816e45cfb230983)
+
+### aragon apps
+
+deployed: `agent`
+
+command:
+```
+aragon apm publish major --environment staging
+```
+
+details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+final versions:
 
 - `agent.aragonpm.eth`: `2.0.0`
 
