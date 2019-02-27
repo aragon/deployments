@@ -13,6 +13,43 @@
 
 -----------
 
+- Version: Aragon client 0.6.4
+- Start date: Feb 27th, 4.55pm CET
+- Finish date: Feb 27th, 5.15pm CET
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+Deployment done with `@aragon/cli@5.4.0-beta.2`.
+
+### Aragon Client
+
+Commands:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.3.1`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.1.5`
+- `token-manager.aragonpm.eth`: `1.0.6`
+- `voting.aragonpm.eth`: `1.0.6`
+
+-----------
+
 - Version: Aragon Agent beta v2
 - Start date: Feb 22nd, 6.19pm CET
 - Finish date: Feb 22nd, 6.20pm CET
