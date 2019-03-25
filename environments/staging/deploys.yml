@@ -79,6 +79,12 @@ finance.aragonpm.eth:
       ipfsHash: QmVTxDHSW72L1XS8Hkpve3fwFUL4Xv951Y4cwwCgRUda5E
       contractAddress: '0x4B71a68da142Cf3A78d35ADfAB94742cb9Df3210'
       commitHash: d906926b3adcad2c3ccd4c896b7dbbaaad510aaf
+    1.1.0:
+      date: 2019-03-25T16:57:15.000Z
+      txHash: '0x1919ac436f0c1d55c26c3d08ff234a0e12dc148a8f02216cb11e220f3b37b60a'
+      ipfsHash: Qmb3v8eLs6k5M358c4fWwtMmxu9tEhVJuEqZ4UmZJd2KU9
+      contractAddress: '0x4B71a68da142Cf3A78d35ADfAB94742cb9Df3210'
+      commitHash: 2de20abe1a17bbf18b6fc34ecc1fe5c5e24cd4cd
 token-manager.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
   versions:
