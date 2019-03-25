@@ -14,8 +14,8 @@
 -----------
 
 - Version: Aragon client 0.7.0-rc1
-- Start date: Mar 25 2019 5:00 CEST
-- Finish date: Mar 25 2019 5:00 CEST
+- Start date: Mar 25 2019 5:00 PM CEST
+- Finish date: Mar 25 2019 6:00 PM CEST
 - Deployer: ([@2color](https://github.com/2color)) [`0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2`](https://rinkeby.etherscan.io/address/0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2)
 
 
