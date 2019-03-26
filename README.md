@@ -7,7 +7,7 @@
 | Environment | Ethereum Network | Info | URL |
 |-------------------|------------------|---------------------------------------------|-------------------------------------|
 | Mainnet | Mainnet | [Mainnet](./environments/mainnet) | https://mainnet.aragon.org |
-| Rinkeby (testnet) | Rinkeby | [Rinkeby (testnet)](./environments/rinkeby) | https://aragon.rinkeby.aragonpm.com |
+| Rinkeby (testnet) | Rinkeby | [Rinkeby (testnet)](./environments/rinkeby) | https://rinkeby.aragon.org |
 | Staging (testnet) | Rinkeby | [Staging (rinkeby)](./environments/staging) | https://aragon.staging.aragonpm.com |
 
 ## Scripts
