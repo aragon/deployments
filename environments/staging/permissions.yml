@@ -95,7 +95,35 @@
       - 'CREATE_VERSION_ROLE'
 
 - address: '0x590e1aC49666ec8024dC0C6620Eed6916a18F27e'
+  owner: '@bingen (revoked)'
+  organization: Aragon One
+  permissions: []
+
+- address: '0xD4D121b2ba5dC9eC6e028F9cdDCA1a33c73604D4'
   owner: '@bingen'
+  organization: Aragon One
+  permissions:
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0xd5931f0a36FE76845a5330f6D0cd7a378401e34d'
+  owner: '@facuspagnuolo'
   organization: Aragon One
   permissions:
     - finance.aragonpm.eth:
