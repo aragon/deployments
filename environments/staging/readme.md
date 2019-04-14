@@ -13,6 +13,28 @@
 
 -----------
 
+- Version: Aragon client 0.7.0-rc.4-hotfix
+- Start date: Apr 14 2019 1:00 PM CEST
+- Finish date: Apr 14 2019 1:05 PM CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Apps
+
+Deployed: `finance`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.1.4`
+
+-----------
+
 - Version: Aragon client 0.7.0-rc.4
 - Start date: Apr 13 2019 2:30 PM CEST
 - Finish date: Apr 13 2019 3:05 PM CEST
