@@ -13,6 +13,34 @@
 
 -----------
 
+- Version: PPF
+- Start date: Apr 15 2019 8:45 PM CEST
+- Finish date: Apr 15 2019 8:45 PM CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+### PPF
+
+Command:
+```
+OPERATOR=0x6eC28F4e814f88DA2d981E6E787B786162006D39 OPERATOR_OWNER=0x4cB3FD420555A09bA98845f0B816e45cFb230983 npx truffle exec --network rinkeby scripts/deploy-ppf.js
+```
+
+Output
+```
+=========
+# PPFFactory:
+Address: 0x122e5d0a7d2f44e370dab64684adb218314a2d1d
+Transaction hash: 0x8dd71ebb3ec0856ac9f8b2eda3133d21cdfe08135ce61fe49d69358bb86ef466
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-15T17:39:27.680Z
+=========
+Using factory 0x122e5d0a7d2f44e370dab64684adb218314a2d1d
+Deploying with operator 0x6eC28F4e814f88DA2d981E6E787B786162006D39 and operatorOwner 0x4cB3FD420555A09bA98845f0B816e45cFb230983
+PPF instance: 0xe2479f674af8713b0a2030902b628bbed49e907a
+```
+
+-----------
+
 - Version: Aragon client 0.7.0-rc.4-hotfix
 - Start date: Apr 14 2019 1:00 PM CEST
 - Finish date: Apr 14 2019 1:05 PM CEST
