@@ -14,9 +14,10 @@
 -----------
 
 - Version: PPF
-- Start date: Apr 15 2019 8:45 PM CEST
-- Finish date: Apr 15 2019 8:45 PM CEST
+- Start date: Apr 16 2019 4:15 PM CEST
+- Finish date: Apr 16 2019 8:15 PM CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+- ppf commit hash: [`0cec7305cdaef5df13021a9d67a66a4bc7a4ff2c`](https://github.com/aragon/ppf/tree/0cec7305cdaef5df13021a9d67a66a4bc7a4ff2c)
 
 ### PPF
 
@@ -29,14 +30,14 @@ Output
 ```
 =========
 # PPFFactory:
-Address: 0x122e5d0a7d2f44e370dab64684adb218314a2d1d
-Transaction hash: 0x8dd71ebb3ec0856ac9f8b2eda3133d21cdfe08135ce61fe49d69358bb86ef466
+Address: 0xb2bc2aa7d65b9acc99922e57ef8dfdec7066b689
+Transaction hash: 0x7d39a2a0fd5d4774a6c566209472e0b0bbef61e46c5c6f09899f3ce84120a70e
 Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
-Compiled at: 2019-04-15T17:39:27.680Z
+Compiled at: 2019-04-16T14:11:57.573Z
 =========
-Using factory 0x122e5d0a7d2f44e370dab64684adb218314a2d1d
+Using factory 0xb2bc2aa7d65b9acc99922e57ef8dfdec7066b689
 Deploying with operator 0x6eC28F4e814f88DA2d981E6E787B786162006D39 and operatorOwner 0x4cB3FD420555A09bA98845f0B816e45cFb230983
-PPF instance: 0xe2479f674af8713b0a2030902b628bbed49e907a
+PPF instance: 0x6b91cc4e3b2bb8730fb08cb9093dfed41b7c886f
 ```
 
 -----------

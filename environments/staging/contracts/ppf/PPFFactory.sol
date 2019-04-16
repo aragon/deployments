@@ -78,6 +78,72 @@ library ECRecovery {
   }
 }
 
+// File: @aragon/os/contracts/common/Uint256Helpers.sol
+
+pragma solidity ^0.4.24;
+
+
+library Uint256Helpers {
+    uint256 private constant MAX_UINT64 = uint64(-1);
+
+    string private constant ERROR_NUMBER_TOO_BIG = "UINT64_NUMBER_TOO_BIG";
+
+    function toUint64(uint256 a) internal pure returns (uint64) {
+        require(a <= MAX_UINT64, ERROR_NUMBER_TOO_BIG);
+        return uint64(a);
+    }
+}
+
+// File: @aragon/os/contracts/common/TimeHelpers.sol
+
+/*
+ * SPDX-License-Identitifer:    MIT
+ */
+
+pragma solidity ^0.4.24;
+
+
+
+contract TimeHelpers {
+    using Uint256Helpers for uint256;
+
+    /**
+    * @dev Returns the current block number.
+    *      Using a function rather than `block.number` allows us to easily mock the block number in
+    *      tests.
+    */
+    function getBlockNumber() internal view returns (uint256) {
+        return block.number;
+    }
+
+    /**
+    * @dev Returns the current block number, converted to uint64.
+    *      Using a function rather than `block.number` allows us to easily mock the block number in
+    *      tests.
+    */
+    function getBlockNumber64() internal view returns (uint64) {
+        return getBlockNumber().toUint64();
+    }
+
+    /**
+    * @dev Returns the current timestamp.
+    *      Using a function rather than `block.timestamp` allows us to easily mock it in
+    *      tests.
+    */
+    function getTimestamp() internal view returns (uint256) {
+        return block.timestamp; // solium-disable-line security/no-block-members
+    }
+
+    /**
+    * @dev Returns the current timestamp, converted to uint64.
+    *      Using a function rather than `block.timestamp` allows us to easily mock it in
+    *      tests.
+    */
+    function getTimestamp64() internal view returns (uint64) {
+        return getTimestamp().toUint64();
+    }
+}
+
 // File: contracts/PPF.sol
 
 pragma solidity 0.4.24;
@@ -85,20 +151,35 @@ pragma solidity 0.4.24;
 
 
 
-contract PPF is IFeed {
+
+contract PPF is IFeed, TimeHelpers {
     using ECRecovery for bytes32;
+
+    uint256 constant public ONE = 10 ** 18; // 10^18 is considered 1 in the price feed to allow for decimal calculations
+    bytes32 constant public PPF_v1_ID = 0x33a8ba7202230fa1cee2aac7bac322939edc7ba0a48b0989335a5f87a5770369; // keccak256("PPF-v1");
+
+    string private constant ERROR_BAD_SIGNATURE = "PPF_BAD_SIGNATURE";
+    string private constant ERROR_BAD_RATE_TIMESTAMP = "PPF_BAD_RATE_TIMESTAMP";
+    string private constant ERROR_INVALID_RATE_VALUE = "PPF_INVALID_RATE_VALUE";
+    string private constant ERROR_EQUAL_BASE_QUOTE_ADDRESSES = "PPF_EQUAL_BASE_QUOTE_ADDRESSES";
+    string private constant ERROR_BASE_ADDRESSES_LENGTH_ZERO = "PPF_BASE_ADDRESSES_LEN_ZERO";
+    string private constant ERROR_QUOTE_ADDRESSES_LENGTH_MISMATCH = "PPF_QUOTE_ADDRESSES_LEN_MISMATCH";
+    string private constant ERROR_RATE_VALUES_LENGTH_MISMATCH = "PPF_RATE_VALUES_LEN_MISMATCH";
+    string private constant ERROR_RATE_TIMESTAMPS_LENGTH_MISMATCH = "PPF_RATE_TIMESTAMPS_LEN_MISMATCH";
+    string private constant ERROR_SIGNATURES_LENGTH_MISMATCH = "PPF_SIGNATURES_LEN_MISMATCH";
+    string private constant ERROR_CAN_NOT_SET_OPERATOR = "PPF_CAN_NOT_SET_OPERATOR";
+    string private constant ERROR_CAN_NOT_SET_OPERATOR_OWNER = "PPF_CAN_NOT_SET_OPERATOR_OWNER";
+    string private constant ERROR_OPERATOR_ADDRESS_ZERO = "PPF_OPERATOR_ADDRESS_ZERO";
+    string private constant ERROR_OPERATOR_OWNER_ADDRESS_ZERO = "PPF_OPERATOR_OWNER_ADDRESS_ZERO";
 
     struct Price {
         uint128 xrt;
         uint64 when;
     }
 
-    mapping (bytes32 => Price) private feed;
+    mapping (bytes32 => Price) internal feed;
     address public operator;
     address public operatorOwner;
-
-    uint256 constant public ONE = 10 ** 18; // 10^18 is considered 1 in the price feed to allow for decimal calculations
-    bytes32 constant public PPF_v1_ID = 0x33a8ba7202230fa1cee2aac7bac322939edc7ba0a48b0989335a5f87a5770369; // keccak256("PPF-v1");
 
     event SetRate(address indexed base, address indexed quote, uint256 xrt, uint64 when);
     event SetOperator(address indexed operator);
@@ -126,12 +207,12 @@ contract PPF is IFeed {
         bytes32 pair = pairId(base, quote);
 
         // Ensure it is more recent than the current value (implicit check for > 0) and not a future date
-        require(when > feed[pair].when && when <= block.timestamp);
-        require(xrt > 0); // Make sure xrt is not 0, as the math would break (Dividing by 0 sucks big time)
-        require(base != quote); // Assumption that currency units are fungible and xrt should always be 1
+        require(when > feed[pair].when && when <= getTimestamp(), ERROR_BAD_RATE_TIMESTAMP);
+        require(xrt > 0, ERROR_INVALID_RATE_VALUE); // Make sure xrt is not 0, as the math would break (Dividing by 0 sucks big time)
+        require(base != quote, ERROR_EQUAL_BASE_QUOTE_ADDRESSES); // Assumption that currency units are fungible and xrt should always be 1
 
         bytes32 h = setHash(base, quote, xrt, when);
-        require(h.personalRecover(sig) == operator); // Make sure the update was signed by the operator
+        require(h.personalRecover(sig) == operator, ERROR_BAD_SIGNATURE); // Make sure the update was signed by the operator
 
         feed[pair] = Price(pairXRT(base, quote, xrt), when);
 
@@ -148,12 +229,12 @@ contract PPF is IFeed {
     * @param sigs Bytes array with the ordered concatenated signatures for the updates
     */
     function updateMany(address[] bases, address[] quotes, uint128[] xrts, uint64[] whens, bytes sigs) public {
-        require(bases.length != 0);
-        require(bases.length == quotes.length);
-        require(bases.length == xrts.length);
-        require(bases.length == whens.length);
-        require(bases.length == sigs.length / 65);
-        require(sigs.length % 65 == 0);
+        require(bases.length != 0, ERROR_BASE_ADDRESSES_LENGTH_ZERO);
+        require(bases.length == quotes.length, ERROR_QUOTE_ADDRESSES_LENGTH_MISMATCH);
+        require(bases.length == xrts.length, ERROR_RATE_VALUES_LENGTH_MISMATCH);
+        require(bases.length == whens.length, ERROR_RATE_TIMESTAMPS_LENGTH_MISMATCH);
+        require(bases.length == sigs.length / 65, ERROR_SIGNATURES_LENGTH_MISMATCH);
+        require(sigs.length % 65 == 0, ERROR_SIGNATURES_LENGTH_MISMATCH);
 
         for (uint256 i = 0; i < bases.length; i++) {
             // Extract the signature for the update from the concatenated sigs
@@ -177,6 +258,10 @@ contract PPF is IFeed {
     * @return XRT for base:quote and the timestamp when it was updated
     */
     function get(address base, address quote) public view returns (uint128, uint64) {
+        if (base == quote) {
+            return (uint128(ONE), getTimestamp64());
+        }
+
         Price storage price = feed[pairId(base, quote)];
 
         // if never set, return 0.
@@ -194,7 +279,7 @@ contract PPF is IFeed {
     function setOperator(address _operator) external {
         // Allow the current operator to change the operator to avoid having to hassle the
         // operatorOwner in cases where a node just wants to rotate its public key
-        require(msg.sender == operator || msg.sender == operatorOwner);
+        require(msg.sender == operator || msg.sender == operatorOwner, ERROR_CAN_NOT_SET_OPERATOR);
         _setOperator(_operator);
     }
 
@@ -203,18 +288,18 @@ contract PPF is IFeed {
     * @param _operatorOwner Address of an account that can change the operator
     */
     function setOperatorOwner(address _operatorOwner) external {
-        require(msg.sender == operatorOwner);
+        require(msg.sender == operatorOwner, ERROR_CAN_NOT_SET_OPERATOR_OWNER);
         _setOperatorOwner(_operatorOwner);
     }
 
     function _setOperator(address _operator) internal {
-        require(_operator != address(0));
+        require(_operator != address(0), ERROR_OPERATOR_ADDRESS_ZERO);
         operator = _operator;
         emit SetOperator(_operator);
     }
 
     function _setOperatorOwner(address _operatorOwner) internal {
-        require(_operatorOwner != address(0));
+        require(_operatorOwner != address(0), ERROR_OPERATOR_OWNER_ADDRESS_ZERO);
         operatorOwner = _operatorOwner;
         emit SetOperatorOwner(_operatorOwner);
     }
@@ -222,7 +307,7 @@ contract PPF is IFeed {
     /**
     * @dev pairId returns a unique id for each pair, regardless of the order of base and quote
     */
-    function pairId(address base, address quote) private pure returns (bytes32) {
+    function pairId(address base, address quote) internal pure returns (bytes32) {
         bool pairOrdered = isPairOrdered(base, quote);
         address orderedBase = pairOrdered ? base : quote;
         address orderedQuote = pairOrdered ? quote : base;
@@ -233,13 +318,13 @@ contract PPF is IFeed {
     /**
     * @dev Compute xrt depending on base and quote order.
     */
-    function pairXRT(address base, address quote, uint128 xrt) private pure returns (uint128) {
+    function pairXRT(address base, address quote, uint128 xrt) internal pure returns (uint128) {
         bool pairOrdered = isPairOrdered(base, quote);
 
         return pairOrdered ? xrt : uint128((ONE**2 / uint256(xrt))); // If pair is not ordered, return the inverse
     }
 
-    function setHash(address base, address quote, uint128 xrt, uint64 when) private pure returns (bytes32) {
+    function setHash(address base, address quote, uint128 xrt, uint64 when) internal pure returns (bytes32) {
         return keccak256(abi.encodePacked(PPF_v1_ID, base, quote, xrt, when));
     }
 
