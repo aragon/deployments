@@ -15,7 +15,7 @@
 
 - Version: Aragon client 0.7.0-rc.5
 - Start date: Apr 16 2019 4:45 PM CEST
-- Finish date: Apr 16 2019 4:45 PM CEST
+- Finish date: Apr 16 2019 6:10 PM CEST
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
 ### Aragon Client
@@ -29,7 +29,25 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon.aragonpm.eth`: `1.1.5`
+- `aragon.aragonpm.eth`: `1.1.6`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `1.1.6`
+- `token-manager.aragonpm.eth`: `1.1.4`
+- `voting.aragonpm.eth`: `1.1.4`
+- `vault.aragonpm.eth`: `2.0.2`
 
 -----------
 
