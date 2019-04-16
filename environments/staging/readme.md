@@ -6,10 +6,63 @@
 ## Artifacts
 
 - ENS: `0xfe03625ea880a8cba336f9b5ad6e15b0a3b5a939`
-- DAOFactory: `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
 - APM: `0x4994a4b1215bf73f0e69ce69c2e6b43c496ad4bf`
+- DAOFactory (Aragon 0.6): `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
+- DAOFactory (Aragon 0.7): `0xbca2c99aa7018edcde60e6c5744f68003112535d`
 
 ## Deployments
+
+-----------
+
+- Version: Aragon client 0.7-rc.6 (contracts upgrade)
+- Start date: Apr 16th 2019, 4.38pm CEST
+- Finish date: TBD
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+- aragonOS commit hash: [`1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2`](https://github.com/aragon/aragonOS/tree/1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2)
+
+### aragonOS
+
+Commands:
+```
+npx truffle compile --all
+KERNEL_BASE=0x448fc28726cd78ce6dd63779fcf0029313376ea8 ACL_BASE=0xd95677b5b3bc3c89c4c2c3ab702b0aa5d5cb28af npx truffle exec --network rinkeby scripts/deploy-daofactory.js
+```
+
+Output:
+```
+Skipping deploying new Kernel base, using provided address: 0x448fc28726cd78ce6dd63779fcf0029313376ea8
+Skipping deploying new ACL base, using provided address: 0xd95677b5b3bc3c89c4c2c3ab702b0aa5d5cb28af
+=========
+# EVMScriptRegistryFactory:
+Address: 0x67c9083dcdbb86dfd7dff5b904fd5d91466a43bd
+Transaction hash: 0xcf57fcb60de2208cb7bf305511bcc3e9596aeb26b3b3404ae9f19f830c2b586b
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-16T14:30:07.191Z
+=========
+=========
+# DAOFactory:
+Address: 0xbca2c99aa7018edcde60e6c5744f68003112535d
+Transaction hash: 0x3b485db04a01d3b596401b50c302f00d9471552963168c21fbddb160783a41b3
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-16T14:30:07.190Z
+=========
+```
+
+### DAO kits
+
+Deployed: `democracy-kit`, `multisig-kit`
+
+Command:
+```
+DAO_FACTORY=0xbca2c99aa7018edcde60e6c5744f68003112535d npm run publish:staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `democracy-kit.aragonpm.eth`: `2.0.0`
+- `multisig-kit.aragonpm.eth`: `2.0.0`
 
 -----------
 
