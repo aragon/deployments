@@ -16,7 +16,7 @@
 
 - Version: Aragon client 0.7-rc.6 (contracts upgrade)
 - Start date: Apr 16th 2019, 4.38pm CEST
-- Finish date: TBD
+- Finish date: Apr 16th 2019, 11.49pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
 - aragonOS commit hash: [`1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2`](https://github.com/aragon/aragonOS/tree/1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2)
 
@@ -52,6 +52,9 @@ Compiled at: 2019-04-16T14:30:07.190Z
 
 Deployed: `finance`, `voting`, `token-manager`, `agent`, `vault`, `survey`
 
+- Vault deployed twice to publish only the `public` directory
+- Finance redeployed with an [unreleased CLI version with a fix](https://github.com/aragon/aragon-cli/pull/436)
+
 Command (`finance`, `voting`, `token-manager`, `survey`):
 ```
 aragon apm publish major --environment staging --files app/build
@@ -71,7 +74,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `finance.aragonpm.eth`: `2.0.0`
+- `finance.aragonpm.eth`: `2.0.1`
 - `token-manager.aragonpm.eth`: `2.0.0`
 - `voting.aragonpm.eth`: `2.0.0`
 - `vault.aragonpm.eth`: `3.0.1`
