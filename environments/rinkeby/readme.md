@@ -6,10 +6,63 @@
 ## Artifacts
 
 - ENS: `0x98df287b6c145399aaa709692c8d308357bc085d`
-- DAOFactory: `0x2298d27a9b847c681d2b2c2828ab9d79013f5f1d`
 - APM: `0xda897630fa0f1902f99623bc00e18acd12657d4f`
+- DAOFactory (Aragon 0.6): `0x2298d27a9b847c681d2b2c2828ab9d79013f5f1d`
+- DAOFactory (Aragon 0.7): `0xfdef49fbfe37704af55636bdd4b6bc8cd19143f6`
 
 ## Deployments
+
+-----------
+
+- Version: Aragon client 0.7
+- Start date: Apr 17th 2019, 12.15am CEST
+- Finish date: TBD
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- aragonOS commit hash: [`1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2`](https://github.com/aragon/aragonOS/tree/1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2)
+
+### aragonOS
+
+Commands:
+```
+npx truffle compile --all
+KERNEL_BASE=0x3e79ec0f5e60d305fe8d774c2484da701e778c3d ACL_BASE=0x3ae935e863984ecffc980bf67bd73f56a41b94ea npx truffle exec --network rinkeby scripts/deploy-daofactory.js
+```
+
+Output:
+```
+Skipping deploying new Kernel base, using provided address: 0x3e79ec0f5e60d305fe8d774c2484da701e778c3d
+Skipping deploying new ACL base, using provided address: 0x3ae935e863984ecffc980bf67bd73f56a41b94ea
+=========
+# EVMScriptRegistryFactory:
+Address: 0x26bfb2ed92473c60ee163217ee5a95d7e7c6a77f
+Transaction hash: 0x77e66888c58cd9698e14d1e6ef887316731daf9c8de7ac80cfce19ea7a983800
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-16T22:14:05.558Z
+=========
+=========
+# DAOFactory:
+Address: 0xfdef49fbfe37704af55636bdd4b6bc8cd19143f6
+Transaction hash: 0x90cf7ce7579e591167e328842088c481cf951651fb2bea13beb0a00acd3caf83
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-16T22:14:05.555Z
+=========
+```
+
+### DAO kits
+
+Deployed: `democracy-kit`, `multisig-kit`
+
+Command:
+```
+DAO_FACTORY=0xfdef49fbfe37704af55636bdd4b6bc8cd19143f6 npm run publish:rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `democracy-kit.aragonpm.eth`: `2.0.0`
+- `multisig-kit.aragonpm.eth`: `2.0.0`
 
 -----------
 
