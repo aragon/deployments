@@ -48,6 +48,36 @@ Compiled at: 2019-04-16T22:14:05.555Z
 =========
 ```
 
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`, `agent`, `vault`, `survey`
+
+Command (`finance`, `voting`, `token-manager`, `survey`):
+```
+aragon apm publish major --environment rinkeby --files app/build
+```
+
+Command (`vault`):
+```
+aragon apm publish major --environment rinkeby --files public
+```
+
+Command (`agent`):
+```
+aragon apm publish major --environment rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.0`
+- `token-manager.aragonpm.eth`: `2.0.0`
+- `voting.aragonpm.eth`: `2.0.0`
+- `vault.aragonpm.eth`: `3.0.0`
+- `survey.aragonpm.eth`: `2.0.0`
+- `agent.aragonpm.eth`: `3.0.0`
+
 ### DAO kits
 
 Deployed: `democracy-kit`, `multisig-kit`
