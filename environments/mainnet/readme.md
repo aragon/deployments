@@ -6,10 +6,109 @@
 ## Artifacts
 
 - Official ENS: `0x314159265dd8dbb310642f98f50c066173c1259b`
-- DAOFactory: `0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559`
 - APM: `0x346854c542d437565339E60dE8CB3EfE1cAB30dC`
+- DAOFactory (Aragon 0.6): `0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559`
+- DAOFactory (Aragon 0.7): `0xc29f0599df12eb4cbe1a34354c4bac6d944071d1`
 
 ## Deployments
+
+-----------
+
+- Version: Aragon client 0.7
+- Start date: Apr 17th 2019, 1.20am CEST
+- Finish date: Apr 17th 2019, 7.56pm CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+- aragonOS commit hash: [`1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2`](https://github.com/aragon/aragonOS/tree/1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2)
+
+
+### aragonOS
+
+Commands:
+```
+npx truffle compile --all
+KERNEL_BASE=0x4a6ce97a84178a84c1cee46a763db619d0e6e413 ACL_BASE=0x81f7564e413586f1f99fde55740ac52b43ca99c9 npx truffle exec --network mainnet scripts/deploy-daofactory.js
+```
+
+Output:
+```
+Skipping deploying new Kernel base, using provided address: 0x4a6ce97a84178a84c1cee46a763db619d0e6e413
+Skipping deploying new ACL base, using provided address: 0x81f7564e413586f1f99fde55740ac52b43ca99c9
+=========
+# EVMScriptRegistryFactory:
+Address: 0x1630b381219984eb3a1206261b4add2ccef4de5c
+Transaction hash: 0x4bfeb91270abe2973d6d6b803a5e3e9d90d79163e1303e6e81ae2bca1bc28c85
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-16T23:15:43.766Z
+=========
+=========
+# DAOFactory:
+Address: 0xc29f0599df12eb4cbe1a34354c4bac6d944071d1
+Transaction hash: 0x58841196fd15f6feb38fc64a468693eb065d0d16db9cb958975bcd09650a81ac
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-16T23:15:43.764Z
+=========
+```
+
+### Aragon Client
+
+Commands:
+```
+aragon apm publish major --only-content --files build/ --environment mainnet --build-script build:mainnet
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `2.0.0`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`, `agent`, `vault`, `survey`
+
+- Finance was redeployed with a patch release
+
+Command (`finance`, `voting`, `token-manager`, `survey`):
+```
+aragon apm publish major --environment mainnet --files app/build
+```
+
+Command (`vault`):
+```
+aragon apm publish major --environment mainnet --files public
+```
+
+Command (`agent`):
+```
+aragon apm publish major --environment mainnet
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.1`
+- `token-manager.aragonpm.eth`: `2.0.0`
+- `voting.aragonpm.eth`: `2.0.0`
+- `vault.aragonpm.eth`: `3.0.0`
+- `survey.aragonpm.eth`: `1.0.0`
+- `agent.aragonpm.eth`: `3.0.0`
+
+### DAO kits
+
+Deployed: `democracy-kit`, `multisig-kit`
+
+Command:
+```
+DAO_FACTORY=0xc29f0599df12eb4cbe1a34354c4bac6d944071d1 MINIME_TOKEN_FACTORY=0x909d05f384d0663ed4be59863815ab43b4f347ec npm run publish:mainnet
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `democracy-kit.aragonpm.eth`: `2.0.0`
+- `multisig-kit.aragonpm.eth`: `2.0.0`
 
 -----------
 
