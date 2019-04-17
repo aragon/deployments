@@ -163,6 +163,12 @@ democracy-kit.aragonpm.eth:
       ipfsHash: QmNo3xP8VZTiFYzZ7CoeAZHjf8gcATRA6b15azaeh5waQ3
       contractAddress: '0x705Cd9a00b87Bb019a87beEB9a50334219aC4444'
       commitHash: a03fba51687f099e265368c615332c762893108c
+    2.0.0:
+      date: 2019-04-17T00:16:43.000Z
+      txHash: '0x5a25a633babcf9f326e4dec05621464b8548b5d46eaaec53d7f5be7d3ad917d6'
+      ipfsHash: QmeL57npfsQMts3PnEm9TL8JpmxHN8nFCNbzWRRNB4CwxK
+      contractAddress: '0x7f3ed10366826a1227025445D4f4e3e14BBfc91d'
+      commitHash: 9886bba4c0a201bf056f44d751373e5d804e1b90
 multisig-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/multisig'
   versions:
@@ -172,6 +178,12 @@ multisig-kit.aragonpm.eth:
       ipfsHash: QmPx8D1u9362CU28FZfbmJ8NMYKEBkmgVKt6JFoTEkdVJU
       contractAddress: '0x41bbaf498226b68415f1C78ED541c45A18fd7696'
       commitHash: a03fba51687f099e265368c615332c762893108c
+    2.0.0:
+      date: 2019-04-17T00:29:30.000Z
+      txHash: '0x0f4e4f53ab7bf3b6533d5467ba11543fe5eae6da38521e40c273a3a3863ee44f'
+      ipfsHash: QmXJDXUuR2cmwb7C2SfTFH6euuesmbkcqyQ7HgT7r9aSqP
+      contractAddress: '0x87aa2980dde7d2D4e57191f16BB57cF80bf6E5A6'
+      commitHash: 9886bba4c0a201bf056f44d751373e5d804e1b90
 aragon.aragonpm.eth:
   github: 'https://github.com/aragon/aragon/tree/[ref]'
   versions:
