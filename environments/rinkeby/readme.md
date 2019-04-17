@@ -16,7 +16,7 @@
 
 - Version: Aragon client 0.7
 - Start date: Apr 17th 2019, 12.15am CEST
-- Finish date: Apr 17th 2019, 5.37pm CEST
+- Finish date: Apr 17th 2019, 7.38pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 - aragonOS commit hash: [`1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2`](https://github.com/aragon/aragonOS/tree/1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2)
 
@@ -55,11 +55,13 @@ Commands:
 aragon apm publish major --only-content --files build/ --environment rinkeby --build-script build:rinkeby
 ```
 
+- Redeployed with a patch release
+
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon.aragonpm.eth`: `2.0.0`
+- `aragon.aragonpm.eth`: `2.0.1`
 
 ### Aragon Apps
 
