@@ -49,6 +49,51 @@ Compiled at: 2019-04-16T23:15:43.764Z
 =========
 ```
 
+### Aragon Client
+
+Commands:
+```
+aragon apm publish major --only-content --files build/ --environment mainnet --build-script build:mainnet
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `2.0.0`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`, `agent`, `vault`, `survey`
+
+- Finance was redeployed with a patch release
+
+Command (`finance`, `voting`, `token-manager`, `survey`):
+```
+aragon apm publish major --environment mainnet --files app/build
+```
+
+Command (`vault`):
+```
+aragon apm publish major --environment mainnet --files public
+```
+
+Command (`agent`):
+```
+aragon apm publish major --environment mainnet
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.1`
+- `token-manager.aragonpm.eth`: `2.0.0`
+- `voting.aragonpm.eth`: `2.0.0`
+- `vault.aragonpm.eth`: `3.0.0`
+- `survey.aragonpm.eth`: `1.0.0`
+- `agent.aragonpm.eth`: `3.0.0`
+
 ### DAO kits
 
 Deployed: `democracy-kit`, `multisig-kit`
