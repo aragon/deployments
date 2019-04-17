@@ -16,7 +16,7 @@
 
 - Version: Aragon client 0.7
 - Start date: Apr 17th 2019, 1.20am CEST
-- Finish date: TBD
+- Finish date: Apr 17th 2019, 7.56pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 - aragonOS commit hash: [`1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2`](https://github.com/aragon/aragonOS/tree/1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2)
 
