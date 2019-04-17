@@ -65,6 +65,8 @@ Final versions:
 
 Deployed: `finance`, `voting`, `token-manager`, `agent`, `vault`, `survey`
 
+- Finance and Voting were redeployed with a patch release
+
 Command (`finance`, `voting`, `token-manager`, `survey`):
 ```
 aragon apm publish major --environment rinkeby --files app/build
@@ -84,9 +86,9 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `finance.aragonpm.eth`: `2.0.0`
+- `finance.aragonpm.eth`: `2.0.1`
 - `token-manager.aragonpm.eth`: `2.0.0`
-- `voting.aragonpm.eth`: `2.0.0`
+- `voting.aragonpm.eth`: `2.0.1`
 - `vault.aragonpm.eth`: `3.0.0`
 - `survey.aragonpm.eth`: `2.0.0`
 - `agent.aragonpm.eth`: `3.0.0`
