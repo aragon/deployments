@@ -14,6 +14,28 @@
 
 -----------
 
+- Version: Aragon client 0.7.0-hotfix
+- Start date: Apr 18th 2019, 11.40am CEST
+- Finish date: Apr 18th 2019, 11.40am CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+### Aragon Apps
+
+Deployed: `finance`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.2`
+
+-----------
+
 - Version: Aragon client 0.7-rc.6 (contracts upgrade)
 - Start date: Apr 16th 2019, 4.38pm CEST
 - Finish date: Apr 16th 2019, 11.49pm CEST
