@@ -14,6 +14,28 @@
 
 -----------
 
+- Version: Aragon client 0.7.0-hotfix
+- Start date: Apr 18th 2019, 11.55am CEST
+- Finish date: Apr 18th 2019, 11.55am CEST
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Apps
+
+Deployed: `finance`
+
+Command:
+```
+aragon apm publish patch --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.2`
+
+-----------
+
 - Version: Aragon client 0.7
 - Start date: Apr 17th 2019, 12.15am CEST
 - Finish date: Apr 17th 2019, 7.38pm CEST
