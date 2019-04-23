@@ -6,7 +6,9 @@
 ## Artifacts
 
 - Official ENS: `0x314159265dd8dbb310642f98f50c066173c1259b`
-- APM: `0x346854c542d437565339E60dE8CB3EfE1cAB30dC`
+- aragonPM:
+  - `aragonpm.eth`: `0x346854c542d437565339E60dE8CB3EfE1cAB30dC`
+  - `open.aragonpm.eth`: `0x12755944244f4f3ddffad19f7167c7db4f6f8359`
 - DAOFactory (Aragon 0.6): `0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559`
 - DAOFactory (Aragon 0.7): `0xc29f0599df12eb4cbe1a34354c4bac6d944071d1`
 

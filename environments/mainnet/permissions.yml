@@ -47,3 +47,19 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+- address: '0xE04cAbcB24e11620Dd62bB99c396E76cEB578914'
+  owner: Aragon One cold wallet
+  organization: Aragon One
+  permissions:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+  manager:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+- address: 'ANY_ENTITY'
+  permissions:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
