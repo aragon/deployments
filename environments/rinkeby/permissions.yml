@@ -47,3 +47,18 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+- address: '0x4cB3FD420555A09bA98845f0B816e45cFb230983'
+  owner: '@izqui'
+  organization: Aragon One
+  permissions:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+  manager:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+- address: 'ANY_ENTITY'
+  permissions:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'

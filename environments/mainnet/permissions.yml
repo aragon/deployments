@@ -6,6 +6,9 @@
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
@@ -29,6 +32,10 @@
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
@@ -47,3 +54,7 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+- address: 'ANY_ENTITY'
+  permissions:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
