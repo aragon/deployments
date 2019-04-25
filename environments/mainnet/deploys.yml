@@ -337,3 +337,11 @@ survey.aragonpm.eth:
       ipfsHash: Qmdxz6fv8sCBKnsc9s6ji4DMQyEuRncS5DFSXGY3qTeszM
       contractAddress: '0x5Ac00b7f06E959cb5cC700e41A6026915A8472aA'
       commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
+ppf-factory.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-04-25T19:35:07.000Z
+      txHash: '0x1b7ddf9035207bc75df5f6658287793830f547977c621676d808b1005b570537'
+      ipfsHash: QmV3S9jdWrte7JvYVoX64P8VJ4AecMwyzbYXGGReJZAuw5
+      contractAddress: '0xCbcaf05388ac89CF34EBACdFfaFe9E42539e6c02'
+      commitHash: 68ab78db525bee218fd62e155cd76c68136abe3f
