@@ -14,6 +14,49 @@
 
 -----------
 
+- Version: Aragon client 0.7.1-rc.1
+- Start date: Apr 27th 2019, 12.30am CEST
+- Finish date: Apr 27th 2019, 11.40am CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.8`
+
+### Aragon Apps
+
+Deployed: `finance`, `token-manager`, `vault`, `voting`
+
+Command (`finance`, `voting`, `token-manager`, `survey`):
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Command (`vault`):
+```
+aragon apm publish patch --environment staging --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.3`
+- `token-manager.aragonpm.eth`: `2.0.1`
+- `vault.aragonpm.eth`: `3.0.2`
+- `voting.aragonpm.eth`: `2.0.1`
+
+-----------
+
 - Version: Aragon client 0.7.0-hotfix
 - Start date: Apr 18th 2019, 11.40am CEST
 - Finish date: Apr 18th 2019, 11.40am CEST
