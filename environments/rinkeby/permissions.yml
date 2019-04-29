@@ -24,6 +24,8 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - ppf-factory.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
@@ -46,6 +48,8 @@
     - agent.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0x4cB3FD420555A09bA98845f0B816e45cFb230983'
   owner: '@izqui'

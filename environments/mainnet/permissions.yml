@@ -27,6 +27,8 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - ppf-factory.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
@@ -54,7 +56,10 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - ppf-factory.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
 - address: 'ANY_ENTITY'
   permissions:
     - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+    

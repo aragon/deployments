@@ -16,6 +16,42 @@
 
 -----------
 
+- Version: PPF
+- Start date: Apr 25 2019 8:30 PM CEST
+- Finish date: Apr 25 2019 9:00 PM CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- ppf commit hash: [`68ab78db525bee218fd62e155cd76c68136abe3f`](https://github.com/aragon/ppf/tree/68ab78db525bee218fd62e155cd76c68136abe3f)
+
+### PPF
+
+Commands:
+```
+OPERATOR=0x6eC28F4e814f88DA2d981E6E787B786162006D39 OPERATOR_OWNER=0x4cB3FD420555A09bA98845f0B816e45cFb230983 npx truffle exec --network rinkeby scripts/deploy-ppf.js
+npx aragon apm publish major 0x9bc1eb9bf38810b672733213491df7a384caf2fd --environment rinkeby
+```
+
+Output
+```
+=========
+# PPFFactory:
+Address: 0x9bc1eb9bf38810b672733213491df7a384caf2fd
+Transaction hash: 0xa0a486283b2c72149bf4d3a0581e53996095e5b759c40f82675c113cea661e03
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-25T18:27:38.976Z
+=========
+Using factory 0x9bc1eb9bf38810b672733213491df7a384caf2fd
+Deploying with operator 0xDB9B767F1C3ad2a9236D722c9ea726557F099bE8 and operatorOwner 0x4cB3FD420555A09bA98845f0B816e45cFb230983
+PPF instance: 0x2d50575f84b0f185c43304fe2efcb95dbfb5e987
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `ppf-factory.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon client 0.7.0-hotfix
 - Start date: Apr 18th 2019, 11.55am CEST
 - Finish date: Apr 18th 2019, 11.55am CEST

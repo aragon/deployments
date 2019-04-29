@@ -16,6 +16,42 @@
 
 -----------
 
+- Version: PPF
+- Start date: Apr 25 2019 9:00 PM CEST
+- Finish date: Apr 25 2019 9:37 PM CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+- ppf commit hash: [`68ab78db525bee218fd62e155cd76c68136abe3f`](https://github.com/aragon/ppf/tree/68ab78db525bee218fd62e155cd76c68136abe3f)
+
+### PPF
+
+Commands:
+```
+OPERATOR=0xD1714f3BD816E9333B085D02f032098FFbec1240 OPERATOR_OWNER=0xA41a8cE739a0Ac33Db3D60917b8c327bac506349 npx truffle exec --network mainnet scripts/deploy-ppf.js
+npx aragon apm publish major 0xcbcaf05388ac89cf34ebacdffafe9e42539e6c02 --environment mainnet
+```
+
+Output
+```
+=========
+# PPFFactory:
+Address: 0xcbcaf05388ac89cf34ebacdffafe9e42539e6c02
+Transaction hash: 0x17942281216f17013a5a07792254c5e1c97f8237b1b521467cf754f9ea53e42b
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-04-25T18:27:38.976Z
+=========
+Using factory 0xcbcaf05388ac89cf34ebacdffafe9e42539e6c02
+Deploying with operator 0xD1714f3BD816E9333B085D02f032098FFbec1240 and operatorOwner 0xA41a8cE739a0Ac33Db3D60917b8c327bac506349
+PPF instance: 0xfB53Eb8ea00595103688e88A90aEAac8E5d60Bd1
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `ppf-factory.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon client 0.7.0-hotfix
 - Start date: Apr 18th 2019, 12.01pm CEST
 - Finish date: Apr 18th 2019, 12.01pm CEST

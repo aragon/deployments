@@ -208,11 +208,12 @@ Final versions:
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
 - ppf commit hash: [`0cec7305cdaef5df13021a9d67a66a4bc7a4ff2c`](https://github.com/aragon/ppf/tree/0cec7305cdaef5df13021a9d67a66a4bc7a4ff2c)
 
-### PPF
+### PPF
 
-Command:
+Commands:
 ```
 OPERATOR=0x6eC28F4e814f88DA2d981E6E787B786162006D39 OPERATOR_OWNER=0x4cB3FD420555A09bA98845f0B816e45cFb230983 npx truffle exec --network rinkeby scripts/deploy-ppf.js
+npx aragon apm publish major 0xb2bc2aa7d65b9acc99922e57ef8dfdec7066b689 --environment staging
 ```
 
 Output
@@ -228,6 +229,12 @@ Using factory 0xb2bc2aa7d65b9acc99922e57ef8dfdec7066b689
 Deploying with operator 0x6eC28F4e814f88DA2d981E6E787B786162006D39 and operatorOwner 0x4cB3FD420555A09bA98845f0B816e45cFb230983
 PPF instance: 0x6b91cc4e3b2bb8730fb08cb9093dfed41b7c886f
 ```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `ppf-factory.aragonpm.eth`: `1.0.0`
 
 -----------
 
