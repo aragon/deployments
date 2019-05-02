@@ -16,6 +16,57 @@
 
 -----------
 
+- Version: Aragon client 0.7.1
+- Start date: May 2nd 2019, 2.20pm CEST
+- Finish date: May 2nd 2019, 4.10pm CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+**Note**: needed to be published 3 times
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `2.0.4`
+
+### Aragon Apps
+
+Deployed: `finance`, `token-manager`, `vault`, `voting`
+
+Command (`vault`):
+```
+aragon apm publish patch --environment rinkeby --files public
+```
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish patch --environment rinkeby --files app/build
+```
+
+**Note**: the `artifact.json` for `finance` was regenerated using:
+```
+aragon apm publish patch --environment rinkeby --only-artifacts --no-build
+```
+*(It was also manually edited to include the old `newPayment()` method in its list of methods used for radspec)*
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.3`
+- `token-manager.aragonpm.eth`: `2.0.1`
+- `voting.aragonpm.eth`: `2.0.2`
+- `vault.aragonpm.eth`: `3.0.1`
+
+-----------
+
 - Version: PPF
 - Start date: Apr 25 2019 8:30 PM CEST
 - Finish date: Apr 25 2019 9:00 PM CEST

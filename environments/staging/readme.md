@@ -34,9 +34,9 @@ Final versions:
 
 ### Aragon Apps
 
-Deployed: `finance`, `token-manager`, `vault`, `voting`
+Deployed: `finance`, `token-manager`, `voting`
 
-Command (`finance`, `voting`, `token-manager`, `survey`):
+Command (`finance`, `voting`, `token-manager`):
 ```
 aragon apm publish patch --environment staging --files app/build
 ```
@@ -79,7 +79,7 @@ Final versions:
 
 Deployed: `finance`, `token-manager`, `vault`, `voting`
 
-Command (`finance`, `voting`, `token-manager`, `survey`):
+Command (`finance`, `voting`, `token-manager`):
 ```
 aragon apm publish patch --environment staging --files app/build
 ```
