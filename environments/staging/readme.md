@@ -14,6 +14,49 @@
 
 -----------
 
+- Version: Aragon client 0.7.2-rc.1
+- Start date: May 15th 2019, 12.20pm CEST
+- Finish date: May 15th 2019, 12.30pm CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.10`
+
+### Aragon Apps
+
+Deployed: `finance`, `token-manager`, `voting`
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+**Note**: the `artifact.json` for `finance` was regenerated using:
+```
+aragon apm publish patch --environment staging --only-artifacts --no-build
+```
+*(It was also manually edited to include the old `newPayment()` method in its ABI and list of methods for radspec evaluation)*
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.5`
+- `token-manager.aragonpm.eth`: `2.0.3`
+- `voting.aragonpm.eth`: `2.0.3`
+
+-----------
+
 - Version: Aragon client 0.7.1-rc.2
 - Start date: Apr 30th 2019, 8.15pm CEST
 - Finish date: Apr 30th 2019, 8.30pm CEST
