@@ -56,6 +56,8 @@
   owner: '@sohkai'
   organization: Aragon One
   permissions:
+    - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
     - finance.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
