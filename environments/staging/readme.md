@@ -14,6 +14,28 @@
 
 -----------
 
+- Version: Aragon Payroll beta
+- Start date: May 17th 2019, 9.45am CEST
+- Finish date: May 17th 2019, 10.33am CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+### Aragon Apps
+
+Deployed: `payroll`
+
+Command (`payroll`):
+```
+aragon apm publish major --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `payroll.aragonpm.eth`: `1.0.1`
+
+-----------
+
 - Version: Aragon client 0.7.2-rc.1
 - Start date: May 15th 2019, 12.20pm CEST
 - Finish date: May 15th 2019, 12.30pm CEST
