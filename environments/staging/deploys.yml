@@ -693,3 +693,17 @@ ppf-factory.aragonpm.eth:
       ipfsHash: QmSLxwpgS1Qj2uGtxZc7WYCjPxXRtbXbdH8p7WqSmfajt4
       contractAddress: '0xb2BC2Aa7d65b9aCC99922E57EF8dFDEC7066B689'
       commitHash: 0cec7305cdaef5df13021a9d67a66a4bc7a4ff2c
+payroll.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-05-17T07:47:29.000Z
+      txHash: '0x30af696deaffb2354bf334bba77f213bfe76b94867c20a929db8031845219000'
+      ipfsHash: QmYdE4fkNwZjGxMNHBHFaZH9xafqYquVjUPbXEpnwf6xbf
+      contractAddress: '0x010ccF52b45FBA04AD08A3d5A7106b2505B60EcE'
+      commitHash: f8230bffb1f1a69b72bd536944512516f8d188ce
+    1.0.1:
+      date: 2019-05-17T08:30:00.000Z
+      txHash: '0x2a3ec59741faedc8f21732b5ff7eadbcfffd322f4402eb64be8257b47da40b3e'
+      ipfsHash: QmUwMEx7fFU6R6Geg72GtJAca3cxCubNfLVUd1NWwVFRUF
+      contractAddress: '0x010ccF52b45FBA04AD08A3d5A7106b2505B60EcE'
+      commitHash: 580fe22465bf23e912af24e020c276e707c33db8
