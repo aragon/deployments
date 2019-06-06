@@ -16,6 +16,28 @@
 
 -----------
 
+- Version: Aragon client 0.7.3-hotfix
+- Start date: June 6th 2019, 8.00pm CEST
+- Finish date: June 6th 2019, 8.05pm CEST
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Apps
+
+Deployed: `voting`
+
+Command:
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting.aragonpm.eth`: `2.0.4`
+
+-----------
+
 - Version: Aragon client 0.7.3
 - Start date: May 30th 2019, 6.50pm CEST
 - Finish date: May 30th 2019, 7.02pm CEST
