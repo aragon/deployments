@@ -14,6 +14,28 @@
 
 -----------
 
+- Version: Aragon client 0.7.3-hotfix
+- Start date: June 6th 2019, 7.30pm CEST
+- Finish date: June 6th 2019, 7.45pm CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+### Aragon Apps
+
+Deployed: `voting`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting.aragonpm.eth`: `2.0.7`
+
+-----------
+
 - Version: Aragon client 0.7.3-rc.1
 - Start date: May 29th 2019, 7.20pm CEST
 - Finish date: May 29th 2019, 7.25pm CEST

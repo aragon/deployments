@@ -85,6 +85,12 @@ voting.aragonpm.eth:
       ipfsHash: QmPjWU51opgTVnXwAhYAWasL2CaiYHqy2mXdXtzqfC8sKx
       contractAddress: '0xb4fa71b3352D48AA93D34d085f87bb4aF0cE6Ab5'
       commitHash: d13e85c2aaa8d0166242a14193691d0a9ea5b5db
+    2.0.5:
+      date: 2019-06-06T18:00:08.000Z
+      txHash: '0x0d6adf5842c25701957b01a229b9f82b829c492e0a4ad89dddbdca35f591ddb6'
+      ipfsHash: QmaXSm49hUk3FSgAwqxXSUCp2RFL1EGStNLzq27y3aEfpX
+      contractAddress: '0xb4fa71b3352D48AA93D34d085f87bb4aF0cE6Ab5'
+      commitHash: e90e69b124c89af93be831ded056c9e72dd85772
 token-manager.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
   versions:
