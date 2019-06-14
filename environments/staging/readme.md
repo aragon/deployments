@@ -14,6 +14,29 @@
 
 -----------
 
+- Version: Aragon client 0.7.4-rc.2
+- Start date: Jun 14th 2019, 17:40pm CEST
+- Finish date: Jun 14th 2019, 17:50pm CEST
+- Deployer: ([@AquiGorka](https://github.com/AquiGorka)) [`0x7c0be2cc18934e2d72e136b4bf350949adeaf423`](https://rinkeby.etherscan.io/address/0x7c0be2cc18934e2d72e136b4bf350949adeaf423)
+
+Staging deployment for in-progress work on `0.7.4` with fix for sandboxed worker scripts
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.15`
+
+
+-----------
+
 - Version: Aragon client 0.7.4-rc.1
 - Start date: Jun 14th 2019, 12:00pm CEST
 - Finish date: Jun 14th 2019, 16:36pm CEST
