@@ -14,6 +14,45 @@
 
 -----------
 
+- Version: Aragon client 0.7.4-rc.1
+- Start date: Jun 14th 2019, 12:00pm CEST
+- Finish date: Jun 14th 2019, 16:36pm CEST
+- Deployer: ([@AquiGorka](https://github.com/AquiGorka)) [`0x7c0be2cc18934e2d72e136b4bf350949adeaf423`](https://rinkeby.etherscan.io/address/0x7c0be2cc18934e2d72e136b4bf350949adeaf423)
+
+Staging deployment for in-progress work on `0.7.x`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.14`
+
+### Aragon Apps
+
+Deployed: `finance`, `token-manager`
+
+Command:
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.8`
+- `token-manager.aragonpm.eth`: `2.0.5`
+
+
+-----------
+
 - Version: Aragon client 0.7.3-hotfix
 - Start date: June 6th 2019, 7.30pm CEST
 - Finish date: June 6th 2019, 7.45pm CEST
