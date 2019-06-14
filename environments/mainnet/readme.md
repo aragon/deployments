@@ -16,6 +16,48 @@
 
 -----------
 
+- Version: Aragon client 0.7.4
+- Start date: June 14th 2019, 8.10pm CEST
+- Finish date: June 14th 2019, 8.26pm CEST
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `2.0.4`
+
+### Aragon Apps
+
+Deployed: `finance`, `token-manager`
+
+Command (`finance`, `token-manager`):
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+**Note**: the `artifact.json` for `finance` was regenerated using:
+```
+aragon apm publish patch --environment mainnet --only-artifacts --no-build
+```
+*(It was also manually edited to include the old `newPayment()` method in its ABI and list of methods for radspec evaluation)*
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.6`
+- `token-manager.aragonpm.eth`: `2.0.4`
+
+-----------
+
 - Version: Aragon client 0.7.3-hotfix
 - Start date: June 6th 2019, 8.00pm CEST
 - Finish date: June 6th 2019, 8.05pm CEST
