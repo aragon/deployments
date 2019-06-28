@@ -16,6 +16,26 @@
 
 -----------
 
+- Version: Aragon client 0.7.5
+- Start date: June 28th 2019, 4.10pm CEST
+- Finish date: June 28th 2019, 4.21pm CEST
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `2.0.9`
+
+-----------
+
 - Version: Aragon client 0.7.4
 - Start date: June 14th 2019, 6.30pm CEST
 - Finish date: June 14th 2019, 8.05pm CEST
