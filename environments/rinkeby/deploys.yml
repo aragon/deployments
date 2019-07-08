@@ -507,3 +507,19 @@ ppf-factory.aragonpm.eth:
       ipfsHash: QmW5kwtSC8sN3Yr3pRbJGfZC671hKhicSZ4p4eEyqbHdyZ
       contractAddress: '0x9bC1EB9Bf38810B672733213491DF7a384CAf2Fd'
       commitHash: 68ab78db525bee218fd62e155cd76c68136abe3f
+approvals.open.aragonpm.eth:
+  versions:
+    1.0.1:
+      date: 2019-07-08T17:50:50.000Z
+      txHash: '0x8c238ea75a4dd92557da1f2a675a87ea4e538e5d4fd604777428439ee6da7611'
+      ipfsHash: QmacBojh9ojb7yDbjFBvvobkRdocVpiyNqNwzv3w7URTfC
+      contractAddress: '0x5A2646c7778C6af2b8A1Ed1116FC24D129d0df7c'
+      commitHash: efc22f1fa506e75bce678ad53dd6b939aefce47a
+tollgate.open.aragonpm.eth:
+  versions:
+    1.0.1:
+      date: 2019-07-08T17:53:05.000Z
+      txHash: '0x2707bc699f5ffef688870974d1d09325949af76eb94d24f6ddde6b36aee4f43c'
+      ipfsHash: QmYJpDeA3TD6PVdxdFJWvK6FdzvST1oqQvtYFxmMyNCFNF
+      contractAddress: '0xD6D06bb1F0434D4236486136ebEE90B8f359d54c'
+      commitHash: a39e3cf02ff67b7b716bc19b41b843d210bf2e76
