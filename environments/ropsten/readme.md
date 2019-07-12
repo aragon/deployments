@@ -16,9 +16,9 @@
 
 -----------
 
-- Version: Aragon client 0.7.5
-- Start date: Jul 11th 2018, 2.11pm CEST
-- Finish date: TODO
+- Version: Aragon client 0.7.5*
+- Start date: Jul 11th 2019, 2.11pm CEST
+- Finish date: Jul 12th 2019, 8.15pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://ropsten.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
 - aragonOS commit hash: [`c85d34e4bae0bf5b1ab78340b32e712d895179a7`](https://github.com/aragon/aragonOS/tree/c85d34e4bae0bf5b1ab78340b32e712d895179a7)
 - aragon-id commit hash: [`3421f4f6d0f444bdae46ae8615805d79ec929f15`](https://github.com/aragon/aragon-id/tree/3421f4f6d0f444bdae46ae8615805d79ec929f15)
@@ -33,16 +33,6 @@ npx truffle exec --network ropsten scripts/deploy-daofactory.js
 
 Output:
 ```
-=========
-# Kernel:
-Address: 0x67b91c834bb873e43de98b68360e675c1d9c625d
-Transaction hash: 0x78db90d0b7d1c8b916f03cdd66a360107d77f81970e173f5e864def9e38b7448
-Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
-Compiled at: 2019-07-11T12:18:46.647Z
-=========
-^C⏎                                                                                                      [~/p/aragonOS] git:(master) ✗ $ npx truffle exec --network ropsten scripts/deploy-daofactory.js
-Using network 'ropsten'.
-
 =========
 # Kernel:
 Address: 0xef48460fa0a8a46e7a8fbbbbf6a59f4dbfae335d
@@ -160,6 +150,55 @@ Deployed AragonID: 0x3c7f5e7946c09c38f53d608adfd2ed5d6b137ade
 
 ### Aragon Apps
 
+Deployed: `finance`, `voting`, `token-manager`, `agent`, `vault`
+
+- Finance was redeployed with a patch release
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish major --environment ropsten --files app/build
+```
+
+Command (`vault`, `agent`):
+```
+aragon apm publish major --environment ropsten --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting.aragonpm.eth`: `1.0.0`
+- `vault.aragonpm.eth`: `1.0.0`
+- `finance.aragonpm.eth`: `1.0.0`
+- `token-manager.aragonpm.eth`: `1.0.0`
+- `agent.aragonpm.eth`: `1.0.0`
+
 ### DAO kits
 
+Deployed: `democracy-kit`, `multisig-kit`, `bare-kit`
+Command:
+```
+DAO_FACTORY=0x3f2aa9dd22e97070518ba7988fe9b8724129d497 npm run publish:ropsten
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `democracy-kit.aragonpm.eth`: `1.0.0`
+- `multisig-kit.aragonpm.eth`: `1.0.0`
+- `bare-kit.aragonpm.eth`: `1.0.0`
+
 ### Aragon Client
+
+Command:
+```
+npm run publish:ropsten:major
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.0.0`

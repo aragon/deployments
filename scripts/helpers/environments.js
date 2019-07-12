@@ -19,4 +19,8 @@ module.exports = {
     ens: '0xfe03625ea880a8cba336f9b5ad6e15b0a3b5a939',
     node: 'https://rinkeby.infura.io',
   },
+  'ropsten': {
+    ens: '0x6afe2cacee211ea9179992f89dc61ff25c61e923',
+    node: 'https://ropsten.infura.io',
+  },
 }
