@@ -14,6 +14,28 @@
 
 -----------
 
+- Version: Aragon client 0.7.5-hotfix.1
+- Start date: Jul 24th 2019, 20:10pm CEST
+- Finish date: Jul 24th 2019, 20:10pm CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+Staging deployment for `0.7.5-hotfix`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.1.17`
+
+-----------
+
 - Version: Aragon client 0.7.5-rc.1
 - Start date: Jun 28th 2019, 14:00pm CEST
 - Finish date: Jun 28th 2019, 14:00pm CEST
