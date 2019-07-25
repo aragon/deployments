@@ -73,6 +73,12 @@ voting.aragonpm.eth:
       ipfsHash: QmZaUjYWqXeVWDpQLJdFUrewxhnWTiCSzv8RPCcL2FEXED
       contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
       commitHash: e90e69b124c89af93be831ded056c9e72dd85772
+    2.0.5:
+      date: 2019-07-25T15:42:47.000Z
+      txHash: '0x56fdc6f3b7276aa13ff97bb7f213255513c8cb863e3ab0146921a75200fecb63'
+      ipfsHash: QmaJtJ47D8Xobn9Vyncd8VBun4HTzRhNMw4Q2sQWT9HBak
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      commitHash: 5e40f0ab36ba09711e6f979bcae9321534b67044
 finance.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
   versions:
