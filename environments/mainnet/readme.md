@@ -18,7 +18,7 @@
 
 - Version: Aragon client 0.7.5-hotfix
 - Start date: July 25th 2019, 4.20pm CEST
-- Finish date: July 25th 2019, 4.27pm CEST
+- Finish date: July 25th 2019, 7.40pm CEST
 - Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Client
@@ -33,6 +33,28 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 Final versions:
 
 - `aragon.aragonpm.eth`: `2.0.6`
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`
+
+Command (`finance`, `voting`):
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+**Note**: the `artifact.json` for `finance` was regenerated using:
+```
+aragon apm publish patch --environment mainnet --only-artifacts --no-build
+```
+*(It was also manually edited to include the old `newPayment()` method in its ABI and list of methods for radspec evaluation)*
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.0.7`
+- `voting.aragonpm.eth`: `2.0.5`
 
 -----------
 
