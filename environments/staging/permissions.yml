@@ -194,3 +194,22 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+
+- address: '0x8c786893C22cd2dE7b770247f928D7B74b5bd550'
+  owner: '@ajsantander'
+  organization: Aragon One
+  permissions:
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
