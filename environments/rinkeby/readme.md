@@ -11,6 +11,7 @@
   - `open.aragonpm.eth`: `0x915c4a47e7c7f7ab04ac70b4bcfba257a1e8b040`
 - DAOFactory (Aragon 0.6): `0x2298d27a9b847c681d2b2c2828ab9d79013f5f1d`
 - DAOFactory (Aragon 0.7): `0xfdef49fbfe37704af55636bdd4b6bc8cd19143f6`
+- DAOFactory (Aragon 0.8): `0x137676c1941c8b12d18b12eb2215d1361aee20e0`
 
 ## Deployments
 
