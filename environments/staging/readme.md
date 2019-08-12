@@ -9,6 +9,7 @@
 - APM: `0x4994a4b1215bf73f0e69ce69c2e6b43c496ad4bf`
 - DAOFactory (Aragon 0.6): `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
 - DAOFactory (Aragon 0.7): `0xbca2c99aa7018edcde60e6c5744f68003112535d`
+- DAOFactory (Aragon 0.8): `0x137676c1941c8b12d18b12eb2215d1361aee20e0`
 
 ## Deployments
 
