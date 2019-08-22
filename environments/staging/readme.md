@@ -14,6 +14,30 @@
 
 -----------
 
+- Version: Aragon Agent upgrade
+- Start date: Aug 22nd 2019, 6.10pm CEST
+- Finish date: Aug 22nd 2019, 6.10pm CEST
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
+
+Staging deployment for `agent`
+
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish major --environment staging --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `4.0.0`
+
+-----------
+
 - Version: Aragon client 0.7.5-hotfix.1
 - Start date: Jul 24th 2019, 20:10pm CEST
 - Finish date: Jul 24th 2019, 20:10pm CEST
