@@ -16,6 +16,30 @@
 
 -----------
 
+- Version: Aragon Agent upgrade
+- Start date: Aug 22nd 2019, 6.30pm CEST
+- Finish date: Aug 22nd 2019, 6.30pm CEST
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+Rinkeby deployment for `agent`
+
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish major --environment rinkeby --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `4.0.0`
+
+-----------
+
 - Version: Aragon client 0.7.5-hotfix
 - Start date: July 25th 2019, 4.05pm CEST
 - Finish date: July 25th 2019, 7.50pm CEST

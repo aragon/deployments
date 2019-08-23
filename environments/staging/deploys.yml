@@ -755,6 +755,12 @@ agent.aragonpm.eth:
       ipfsHash: QmfJWbrvC121ee6tMuzw4qEcjdc6Wx2sBme8aBT11pCgrL
       contractAddress: '0xdA5504208C5B84eDC608a126ddD5462B4ba1C9e7'
       commitHash: cfabec08a9bddb920e9323419a5ac60b931876ea
+    4.0.0:
+      date: 2019-08-22T16:23:12.000Z
+      txHash: '0x47232bcc5c42779897d50c6cefe71399760c8835d400ea6cb120af6aa731a46a'
+      ipfsHash: QmVLGznTMkW2FPUZ6KKdzMvDQzpzLb3Q2k1RWoa38niVmm
+      contractAddress: '0x8228649F73eEC8e94e4e43ffaB91e79dB824260A'
+      commitHash: 9d63b8626367701bd285e4f9e347051588977aa5
 survey.aragonpm.eth:
   versions:
     1.0.0:
