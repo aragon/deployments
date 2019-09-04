@@ -21,6 +21,7 @@
 - Start date: September 3rd 2019, 18.30pm CEST
 - Finish date: TBD
 - Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x0090aed150056316e37fe6dfa10dc63e79d173b6`](https://ropsten.etherscan.io/address/0x0090aed150056316e37fe6dfa10dc63e79d173b6)
+- aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
 
 ### aragonOS
 
