@@ -55,6 +55,21 @@ Compiled at: 2019-09-03T16:48:05.944Z
 =========
 ```
 
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish patch --environment staging --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `4.0.1`
+
 ### DAO Templates
 
 Deployed: `bare-template`, `company-template`, `company-board-template`, `membership-template`, `reputation-template`
