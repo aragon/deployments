@@ -9,8 +9,85 @@
 - APM: `0x4994a4b1215bf73f0e69ce69c2e6b43c496ad4bf`
 - DAOFactory (Aragon 0.6): `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
 - DAOFactory (Aragon 0.7): `0xbca2c99aa7018edcde60e6c5744f68003112535d`
+- DAOFactory (Aragon 0.8): `0xf959e8953e2fe03782a7b86a7a5d948cb511ef5d`
 
 ## Deployments
+
+-----------
+
+- Version: Aragon client 0.8
+- Start date: September 3rd 2019, 18.30pm CEST
+- Finish date: TBD
+- Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x03acbcb547d03c8e7746ef5988012b59604aa083`](https://rinkeby.etherscan.io/address/0x03acbcb547d03c8e7746ef5988012b59604aa083)
+- aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
+
+### aragonOS
+
+Commands:
+```
+npx truffle compile --all
+ACL_BASE=0xd95677b5b3bc3c89c4c2c3ab702b0aa5d5cb28af npx truffle exec --network rinkeby scripts/deploy-daofactory.js
+```
+
+Output:
+```
+=========
+# Kernel:
+Address: 0x7b6c39dbafcfea414041823ef8f28af7fea52775
+Transaction hash: 0x7d776d5771dad3fe288f149468e882bdfde01d91feed9a6a5b677ba77ae215cd
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.945Z
+=========
+Skipping deploying new ACL base, using provided address: 0xd95677b5b3bc3c89c4c2c3ab702b0aa5d5cb28af
+=========
+# EVMScriptRegistryFactory:
+Address: 0x754fd0a50554c283a97ab4889d0143d5c735e90f
+Transaction hash: 0x0d19c00715cf2f83b0bfb265460f03b38b6cd3c854267eb1954400217dbc7448
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.945Z
+=========
+=========
+# DAOFactory:
+Address: 0xf959e8953e2fe03782a7b86a7a5d948cb511ef5d
+Transaction hash: 0x7fbf2fea966a9c3856162d7084c2e205c6228eba6f19b08ae172cf6c20a4123c
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.944Z
+=========
+```
+
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish patch --environment staging --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `4.0.1`
+
+### DAO Templates
+
+Deployed: `bare-template`, `company-template`, `company-board-template`, `membership-template`, `reputation-template`
+
+Command:
+```
+npm run publish:staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `bare-template.aragonpm.eth`: `1.0.0`
+- `company-template.aragonpm.eth`: `1.0.0`
+- `company-board-template.aragonpm.eth`: `2.0.0`
+- `membership-template.aragonpm.eth`: `1.0.0``
+- `reputation-template.aragonpm.eth`: `1.0.0`
 
 -----------
 
