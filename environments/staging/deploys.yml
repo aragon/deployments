@@ -797,3 +797,43 @@ payroll.aragonpm.eth:
       ipfsHash: QmUwMEx7fFU6R6Geg72GtJAca3cxCubNfLVUd1NWwVFRUF
       contractAddress: '0x010ccF52b45FBA04AD08A3d5A7106b2505B60EcE'
       commitHash: 580fe22465bf23e912af24e020c276e707c33db8
+membership-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-04T16:00:09.000Z
+      txHash: '0xdf8399a47f16b8d0a9c1b3ab1ace12f5a305b604ac479dda99f8f14e4119ce74'
+      ipfsHash: QmaQdzX6vky6ttReAbWTDhFZ5nyFcTFxBysg35Rz5X7iFU
+      contractAddress: '0x139F6a3566FD3a9E55651D72cB42F0E8bC5B5BA0'
+      commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+company-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-04T16:06:24.000Z
+      txHash: '0xb7d3b57232a6647f2d118baae6afa97beed32f3460938bbc3f9a6e08981d9bae'
+      ipfsHash: QmfWj11gwGZA848WCrBGD6r5NAruYbJhE12X5xmSUCqsRq
+      contractAddress: '0x73EE57D35561F405541A00B4202d13FcA90668ef'
+      commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+reputation-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-04T16:12:09.000Z
+      txHash: '0xf80a424f419fcf19462b680294d3610b9e1096766b3175a3b437a9fa3ba85ff3'
+      ipfsHash: QmNjfargpJVPP9eBMG1dtBbXyHv34xs3fkujqCiKjsAsXg
+      contractAddress: '0xE12AC6d33Eb6B474524F57e89ee219BCeC7D086C'
+      commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+company-board-template.aragonpm.eth:
+  versions:
+    2.0.0:
+      date: 2019-09-04T16:25:09.000Z
+      txHash: '0xc4daebea42502e4dbed620627e185834df9d223a4a5e96b303944e43913ba787'
+      ipfsHash: Qmdx7E9SBaZJXjPHjftVNzJr4G9qkt6zWyPPcDvhtLugH3
+      contractAddress: '0xa86971DfFeAd3886C3e09A26e72F29e721c065e6'
+      commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+bare-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-04T16:29:10.000Z
+      txHash: '0x14ace47bba0a0993a9ae7f4acdf37b9b81b38aba3395d0b780c6ff58a37426d0'
+      ipfsHash: QmYNE1wQzZhPAPaPdHtnxmYEjt9LcYoCzkiztG39cuohvo
+      contractAddress: '0x0F7471C1df2021fF45f112878F755aAbe7AA16bF'
+      commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301

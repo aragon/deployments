@@ -55,6 +55,25 @@ Compiled at: 2019-09-03T16:48:05.944Z
 =========
 ```
 
+### DAO Templates
+
+Deployed: `bare-template`, `company-template`, `company-board-template`, `membership-template`, `reputation-template`
+
+Command:
+```
+npm run publish:staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `bare-template.aragonpm.eth`: `1.0.0`
+- `company-template.aragonpm.eth`: `1.0.0`
+- `company-board-template.aragonpm.eth`: `2.0.0`
+- `membership-template.aragonpm.eth`: `1.0.0``
+- `reputation-template.aragonpm.eth`: `1.0.0`
+
 -----------
 
 - Version: Aragon Agent upgrade
