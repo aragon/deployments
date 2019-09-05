@@ -68,6 +68,19 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
+- `agent.aragonpm.eth`: `4.0.2`
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish patch --environment staging --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
 - `agent.aragonpm.eth`: `4.0.1`
 
 ### DAO Templates
