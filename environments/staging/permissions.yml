@@ -28,6 +28,16 @@
       - 'CREATE_VERSION_ROLE'
     - payroll.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - bare-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - membership-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - reputation-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - company-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - company-board-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
@@ -156,6 +166,17 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+  manager:
+    - bare-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - membership-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - reputation-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - company-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - company-board-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0x7c0be2cc18934e2d72e136b4bf350949adeaf423'
   owner: '@aquigorka'
