@@ -547,3 +547,43 @@ tollgate.open.aragonpm.eth:
       ipfsHash: QmYJpDeA3TD6PVdxdFJWvK6FdzvST1oqQvtYFxmMyNCFNF
       contractAddress: '0xD6D06bb1F0434D4236486136ebEE90B8f359d54c'
       commitHash: a39e3cf02ff67b7b716bc19b41b843d210bf2e76
+bare-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-05T16:31:49.000Z
+      txHash: '0x01f096e6fc19a9721088663cd8df3b8e068272d99492f0e1939ca7a0c330288d'
+      ipfsHash: Qmf7X8HZG7WVR96tqkAMaFEBs3okd9TAv23QKnKPM6nHsc
+      contractAddress: '0x789e4695d4D24EBFAcbccDd951A3D4075C5ce261'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+company-board-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-05T16:40:34.000Z
+      txHash: '0x7e756b52842ddd793d53d29d9f070007b3edf249df29af5cf610ab5eec9841fe'
+      ipfsHash: QmTiSuhApKeYUZ4M4uazirqXmC6qrduqpKa3x3ThLyvqAU
+      contractAddress: '0xc1e287844b3445a46B30244fc84663F8740b3b1E'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+company-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-05T16:42:19.000Z
+      txHash: '0x409dc991b9f3c6eacb120c5ef3494b6f8bafc59a8e55fa1fb20934217d915b96'
+      ipfsHash: QmZ22mN3nwjyvjqU7fU8CMKJ2rCGvmnkNgG8E6wVDHEuRt
+      contractAddress: '0xA3809a525B92a8A290E5d704f9Be6B5046506A7b'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+membership-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-05T16:44:19.000Z
+      txHash: '0xde877e78f3365473dc04fbed83ceb5c7f578ce36ae6c208021915b88e65ffc2c'
+      ipfsHash: QmVc6bmT1XZmJPRZbEJEofw9HCfHRzr7GaE96Fuzpn9jgK
+      contractAddress: '0x49C980de0bD76b64d242d3dbA042bF58942E4377'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+reputation-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-09-05T16:45:49.000Z
+      txHash: '0x3fba71b57cb68cdb69f17f8ba1658f6f5ab5a1e1de9dc5873e00c34f298fe8ef'
+      ipfsHash: QmPL4vSG1B1ySemK3QNrW9rDSq1bGyGRwqq1nhMCYrT4Kr
+      contractAddress: '0xefe6Da5fdFEfAbe96E41aCdcb5689420cEE894Cd'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
