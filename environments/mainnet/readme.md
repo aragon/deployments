@@ -56,6 +56,28 @@ Compiled at: 2019-09-05T14:55:39.782Z
 =========
 ```
 
+### DAO Templates
+
+Deployed: `bare-template`, `company-template`, `company-board-template`, `membership-template`, `reputation-template`
+
+Command:
+```
+npm run publish:mainnet
+```
+
+`membership-template.aragonpm.eth` was deployed twice due to issues with transactions not propagating properly
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `bare-template.aragonpm.eth`: `1.0.0`
+- `company-template.aragonpm.eth`: `1.0.0`
+- `company-board-template.aragonpm.eth`: `1.0.0`
+- `membership-template.aragonpm.eth`: `2.0.0`
+- `reputation-template.aragonpm.eth`: `1.0.0`
+
+
 -----------
 
 - Version: Aragon client 0.7.5-hotfix
