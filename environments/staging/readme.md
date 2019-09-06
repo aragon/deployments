@@ -99,7 +99,7 @@ Final versions:
 - `bare-template.aragonpm.eth`: `2.0.0`
 - `company-template.aragonpm.eth`: `2.0.0`
 - `company-board-template.aragonpm.eth`: `3.0.0`
-- `membership-template.aragonpm.eth`: `2.0.0``
+- `membership-template.aragonpm.eth`: `2.0.0`
 - `reputation-template.aragonpm.eth`: `2.0.0`
 
 -----------
