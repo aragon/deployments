@@ -96,11 +96,11 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `bare-template.aragonpm.eth`: `1.0.0`
-- `company-template.aragonpm.eth`: `1.0.0`
-- `company-board-template.aragonpm.eth`: `2.0.0`
-- `membership-template.aragonpm.eth`: `1.0.0``
-- `reputation-template.aragonpm.eth`: `1.0.0`
+- `bare-template.aragonpm.eth`: `2.0.0`
+- `company-template.aragonpm.eth`: `2.0.0`
+- `company-board-template.aragonpm.eth`: `3.0.0`
+- `membership-template.aragonpm.eth`: `2.0.0`
+- `reputation-template.aragonpm.eth`: `2.0.0`
 
 -----------
 

@@ -817,6 +817,12 @@ membership-template.aragonpm.eth:
       ipfsHash: QmaQdzX6vky6ttReAbWTDhFZ5nyFcTFxBysg35Rz5X7iFU
       contractAddress: '0x139F6a3566FD3a9E55651D72cB42F0E8bC5B5BA0'
       commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+    2.0.0:
+      date: 2019-09-06T09:03:09.000Z
+      txHash: '0xaebc4152290d784261d1795a5109798756ef36716f64ec1ae72ab331e970a824'
+      ipfsHash: QmaeHAbVgkb7K67zaJqPNzqqhCyha6WJEwdnRCQ2uf6DcZ
+      contractAddress: '0xd3258F9648042d97A777540cAdFA98927885333a'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 company-template.aragonpm.eth:
   versions:
     1.0.0:
@@ -825,6 +831,12 @@ company-template.aragonpm.eth:
       ipfsHash: QmfWj11gwGZA848WCrBGD6r5NAruYbJhE12X5xmSUCqsRq
       contractAddress: '0x73EE57D35561F405541A00B4202d13FcA90668ef'
       commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+    2.0.0:
+      date: 2019-09-06T08:59:39.000Z
+      txHash: '0x377f70ac00ba3046924812b2832826142b73025913c5e04e52d4addf7d1e4c4d'
+      ipfsHash: QmfPHJUM6Zxgx6NPZgnW4Eb5zM2a3wfskWx4gvtwEKzHS8
+      contractAddress: '0x440518fF57f066352e5CFe89Cda57f00F25393A5'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 reputation-template.aragonpm.eth:
   versions:
     1.0.0:
@@ -833,6 +845,12 @@ reputation-template.aragonpm.eth:
       ipfsHash: QmNjfargpJVPP9eBMG1dtBbXyHv34xs3fkujqCiKjsAsXg
       contractAddress: '0xE12AC6d33Eb6B474524F57e89ee219BCeC7D086C'
       commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+    2.0.0:
+      date: 2019-09-06T09:11:09.000Z
+      txHash: '0xa31900de2609e113891f74e1a73c48f3dbc4c32c33eabb7a54847e9ede385588'
+      ipfsHash: QmRU95cNSjrYVfpQ95M9ygXp5zDLUWyWe8RzPf2TdUVgYx
+      contractAddress: '0x7d137A26a6081eac7D141A3918285Ac5F917860E'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 company-board-template.aragonpm.eth:
   versions:
     2.0.0:
@@ -841,6 +859,12 @@ company-board-template.aragonpm.eth:
       ipfsHash: Qmdx7E9SBaZJXjPHjftVNzJr4G9qkt6zWyPPcDvhtLugH3
       contractAddress: '0xa86971DfFeAd3886C3e09A26e72F29e721c065e6'
       commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+    3.0.0:
+      date: 2019-09-06T08:53:09.000Z
+      txHash: '0xedd29f2e3f04f7585af57850dc3e7d76911beae53d668925b2442c09316aaba3'
+      ipfsHash: Qmaz4tDEY917mvDAt2kB6BAHz48eP9GA8QWhbwAQcukqWH
+      contractAddress: '0xd3cDf7786068d970Ae59a36AB86A0762Ed01E267'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 bare-template.aragonpm.eth:
   versions:
     1.0.0:
@@ -849,3 +873,9 @@ bare-template.aragonpm.eth:
       ipfsHash: QmYNE1wQzZhPAPaPdHtnxmYEjt9LcYoCzkiztG39cuohvo
       contractAddress: '0x0F7471C1df2021fF45f112878F755aAbe7AA16bF'
       commitHash: f805ffe498effbaff1bfa4613a0181395ac5f301
+    2.0.0:
+      date: 2019-09-06T08:46:54.000Z
+      txHash: '0x2b91ebb59404ffa7817bd8457afa8f92dd66ee14e38d1688f691a1ca5281d16a'
+      ipfsHash: QmbB5XPhn4wgF3zLYDBzbbwcx8yaVemwDZZzX6GJz8HMe4
+      contractAddress: '0x6761aE15235f137daFBdA6C79af627697c61BDb5'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
