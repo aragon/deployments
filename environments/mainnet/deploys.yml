@@ -505,6 +505,12 @@ reputation-template.aragonpm.eth:
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 membership-template.aragonpm.eth:
   versions:
+    1.0.0:
+      date: 2019-09-06T11:43:08.000Z
+      txHash: '0x2f311021e6b3487869ee8a827c9e3db3b0a4719d1ef1210e6b16c9f344a24b31'
+      ipfsHash: QmUJfAUyRoj1qfe2ZYPGLfw4jVYyNY4xh1ZdsjCTJa9tJx
+      contractAddress: '0x67430642C0c3B5E6538049B9E9eE719f2a4BeE7c'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
     2.0.0:
       date: 2019-09-06T11:44:05.000Z
       txHash: '0x258ff598f8474ef7f5929eb2400824acdbe83b2db10b557c54598091bff978d0'
