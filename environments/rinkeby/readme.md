@@ -11,8 +11,70 @@
   - `open.aragonpm.eth`: `0x915c4a47e7c7f7ab04ac70b4bcfba257a1e8b040`
 - DAOFactory (Aragon 0.6): `0x2298d27a9b847c681d2b2c2828ab9d79013f5f1d`
 - DAOFactory (Aragon 0.7): `0xfdef49fbfe37704af55636bdd4b6bc8cd19143f6`
+- DAOFactory (Aragon 0.8): `0xad4d106b43b480faa3ef7f98464ffc27fc1faa96`
 
 ## Deployments
+
+-----------
+
+- Version: Aragon client 0.8
+- Start date: September 3rd 2019, 18.30pm CEST
+- Finish date: TBD
+- Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x03acbcb547d03c8e7746ef5988012b59604aa083`](https://rinkeby.etherscan.io/address/0x03acbcb547d03c8e7746ef5988012b59604aa083), ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
+
+### aragonOS
+
+Commands:
+```
+npx truffle compile --all
+ACL_BASE=0x3ae935e863984ecffc980bf67bd73f56a41b94ea npx truffle exec --network rinkeby scripts/deploy-daofactory.js
+```
+
+Output:
+```
+=========
+# Kernel:
+Address: 0xaa1a0367c7588937cbf542ef79cbfe83d317da88
+Transaction hash: 0x39af60d25d2e81df1288783ddf6f052eab787d954ab0a1429f138a164c1fe265
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.945Z
+=========
+Skipping deploying new ACL base, using provided address: 0x3ae935e863984ecffc980bf67bd73f56a41b94ea
+=========
+# EVMScriptRegistryFactory:
+Address: 0x83356268bb32bf9cf656892508da955b232a32e0
+Transaction hash: 0xdc505c3567933a7a3ba7f0aac5875eaf9102f216c18a05859828928d328b0d08
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.945Z
+=========
+=========
+# DAOFactory:
+Address: 0xad4d106b43b480faa3ef7f98464ffc27fc1faa96
+Transaction hash: 0xbb13787c1a06ef9fe266b6a809e0b831ea8f6a426126b213d44c1684b8779048
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.944Z
+=========
+```
+
+### DAO Templates
+
+Deployed: `bare-template`, `company-template`, `company-board-template`, `membership-template`, `reputation-template`
+
+Command:
+```
+npm run publish:rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `bare-template.aragonpm.eth`: `1.0.0`
+- `company-template.aragonpm.eth`: `1.0.0`
+- `company-board-template.aragonpm.eth`: `1.0.0`
+- `membership-template.aragonpm.eth`: `1.0.0`
+- `reputation-template.aragonpm.eth`: `1.0.0`
 
 -----------
 
