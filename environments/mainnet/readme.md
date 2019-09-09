@@ -16,6 +16,70 @@
 
 -----------
 
+- Version: Aragon client 0.8
+- Start date: September 5rd 2019, 5.00pm CEST
+- Finish date: TBD
+- Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+- aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
+
+### aragonOS
+
+Commands:
+```
+npx truffle compile --all
+ACL_BASE=0x81f7564e413586f1f99fde55740ac52b43ca99c9 npx truffle exec --network mainnet scripts/deploy-daofactory.js
+```
+
+Output:
+```
+=========
+# Kernel:
+Address: 0x2b33cf282f867a7ff693a66e11b0fcc5552e4425
+Transaction hash: 0x4ba66ba7acc56d876db9432c571b2f70e7d85877e7d670d4b19d35303981d0f1
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-05T14:55:39.784Z
+=========
+Skipping deploying new ACL base, using provided address: 0x81f7564e413586f1f99fde55740ac52b43ca99c9
+=========
+# EVMScriptRegistryFactory:
+Address: 0xcafa04538aa18ec7ce451bd0e55874c75b80657f
+Transaction hash: 0xd5c90343cea40c3ff5681548c0b625ed4b7808df076c1be7ce84b5e82c49da80
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-05T14:55:39.783Z
+=========
+=========
+# DAOFactory:
+Address: 0xb9da44c051c6cc9e04b7e0f95e95d69c6a6d8031
+Transaction hash: 0x540181de6c68e9747ed8817b1e05ff62f36ac8e686ab8f1c96d9b5b6c065cfd6
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-05T14:55:39.782Z
+=========
+```
+
+### DAO Templates
+
+Deployed: `bare-template`, `company-template`, `company-board-template`, `membership-template`, `reputation-template`
+
+Command:
+```
+npm run publish:mainnet
+```
+
+`membership-template.aragonpm.eth` was deployed twice due to issues with transactions not propagating properly
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `bare-template.aragonpm.eth`: `1.0.0`
+- `company-template.aragonpm.eth`: `1.0.0`
+- `company-board-template.aragonpm.eth`: `1.0.0`
+- `membership-template.aragonpm.eth`: `2.0.0`
+- `reputation-template.aragonpm.eth`: `1.0.0`
+
+
+-----------
+
 - Version: Aragon client 0.7.5-hotfix
 - Start date: July 25th 2019, 4.20pm CEST
 - Finish date: July 25th 2019, 7.40pm CEST
