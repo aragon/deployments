@@ -18,7 +18,7 @@
 - Version: Aragon client 0.8
 - Start date: September 3rd 2019, 18.30pm CEST
 - Finish date: TBD
-- Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x03acbcb547d03c8e7746ef5988012b59604aa083`](https://rinkeby.etherscan.io/address/0x03acbcb547d03c8e7746ef5988012b59604aa083)
+- Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x03acbcb547d03c8e7746ef5988012b59604aa083`](https://rinkeby.etherscan.io/address/0x03acbcb547d03c8e7746ef5988012b59604aa083), ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
 - aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
 
 ### aragonOS
@@ -57,9 +57,14 @@ Compiled at: 2019-09-03T16:48:05.944Z
 
 ### Aragon Apps
 
-Deployed: `agent`
+Deployed: `agent`, `finance`, `voting`, `token-manager`
 
-Command:
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish minor --environment staging --files public
+```
+
+Command (`agent`):
 ```
 aragon apm publish patch --environment staging --files public
 ```
@@ -69,19 +74,9 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 Final versions:
 
 - `agent.aragonpm.eth`: `4.0.2`
-
-Deployed: `agent`
-
-Command:
-```
-aragon apm publish patch --environment staging --files public
-```
-
-Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
-
-Final versions:
-
-- `agent.aragonpm.eth`: `4.0.1`
+- `finance.aragonpm.eth`: `2.1.0`
+- `voting.aragonpm.eth`: `2.1.0`
+- `token-manager.aragonpm.eth`: `2.1.0`
 
 ### DAO Templates
 
@@ -101,6 +96,19 @@ Final versions:
 - `company-board-template.aragonpm.eth`: `3.0.0`
 - `membership-template.aragonpm.eth`: `2.0.0`
 - `reputation-template.aragonpm.eth`: `2.0.0`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:minor
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.2.0`
 
 -----------
 
