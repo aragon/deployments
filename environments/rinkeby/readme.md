@@ -18,8 +18,8 @@
 -----------
 
 - Version: Aragon client 0.8
-- Start date: September 3rd 2019, 18.30pm CEST
-- Finish date: TBD
+- Start date: September 3rd 2019, 6.30pm CEST
+- Finish date: September 10th 2019, 9.14pm CEST
 - Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x03acbcb547d03c8e7746ef5988012b59604aa083`](https://rinkeby.etherscan.io/address/0x03acbcb547d03c8e7746ef5988012b59604aa083), ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 - aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
 
@@ -99,6 +99,19 @@ Final versions:
 - `token-manager.aragonpm.eth`: `2.1.0`
 - `voting.aragonpm.eth`: `2.1.0`
 - `vault.aragonpm.eth`: `2.1.0`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:major
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.0`
 
 -----------
 
