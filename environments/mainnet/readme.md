@@ -17,8 +17,8 @@
 -----------
 
 - Version: Aragon client 0.8
-- Start date: September 5rd 2019, 5.00pm CEST
-- Finish date: TBD
+- Start date: September 5th 2019, 5.00pm CEST
+- Finish date: September 10th 2019, 10.00pm WEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 - aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
 
@@ -77,6 +77,47 @@ Final versions:
 - `membership-template.aragonpm.eth`: `2.0.0`
 - `reputation-template.aragonpm.eth`: `1.0.0`
 
+### Aragon Apps
+
+Deployed: `agent`, `finance`, `vault`, `voting`, `token-manager`
+
+Command (`agent`):
+```
+aragon apm publish major --environment mainnet --files public
+```
+
+Command (`agent`, `finance`, `voting`, `token-manager`):
+```
+aragon apm publish minor --environment mainnet --files app/build
+```
+
+Command (`vault`):
+```
+aragon apm publish minor --environment mainnet --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `4.0.0`
+- `finance.aragonpm.eth`: `2.1.0`
+- `token-manager.aragonpm.eth`: `2.1.0`
+- `voting.aragonpm.eth`: `2.1.0`
+- `vault.aragonpm.eth`: `3.1.0`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:major
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.0`
 
 -----------
 
