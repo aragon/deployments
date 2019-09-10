@@ -76,6 +76,30 @@ Final versions:
 - `membership-template.aragonpm.eth`: `1.0.0`
 - `reputation-template.aragonpm.eth`: `1.0.0`
 
+### Aragon Apps
+
+Deployed: `agent`, `finance`, `vault`, `voting`, `token-manager`
+
+Command (`agent`, `finance`, `voting`, `token-manager`):
+```
+aragon apm publish minor --environment rinkeby --files app/build
+```
+
+Command (`vault`):
+```
+aragon apm publish minor --environment rinkeby --files public
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `4.1.0`
+- `finance.aragonpm.eth`: `2.1.0`
+- `token-manager.aragonpm.eth`: `2.1.0`
+- `voting.aragonpm.eth`: `2.1.0`
+- `vault.aragonpm.eth`: `2.1.0`
+
 -----------
 
 - Version: Aragon Agent upgrade
