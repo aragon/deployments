@@ -18,7 +18,7 @@
 
 - Version: Aragon client 0.8-hotfix
 - Start date: September 10th 2019, 11.45pm WEST
-- Finish date: September 10th 2019, 10.00pm WEST
+- Finish date: September 10th 2019, 11.55pm WEST
 - Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 - aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
 
