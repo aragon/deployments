@@ -16,8 +16,8 @@
 -----------
 
 - Version: Aragon client 0.8
-- Start date: September 3rd 2019, 18.30pm CEST
-- Finish date: TBD
+- Start date: September 3rd 2019, 6.30pm CEST
+- Finish date: September 10th 2019, 6.11pm CEST
 - Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x03acbcb547d03c8e7746ef5988012b59604aa083`](https://rinkeby.etherscan.io/address/0x03acbcb547d03c8e7746ef5988012b59604aa083), ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983)
 - aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
 
@@ -73,10 +73,10 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `agent.aragonpm.eth`: `4.0.2`
-- `finance.aragonpm.eth`: `2.1.0`
-- `voting.aragonpm.eth`: `2.1.0`
-- `token-manager.aragonpm.eth`: `2.1.0`
+- `agent.aragonpm.eth`: `4.0.3`
+- `finance.aragonpm.eth`: `2.1.1`
+- `voting.aragonpm.eth`: `2.1.1`
+- `token-manager.aragonpm.eth`: `2.1.1`
 
 ### DAO Templates
 
@@ -108,7 +108,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon.aragonpm.eth`: `1.2.0`
+- `aragon.aragonpm.eth`: `1.2.1`
 
 -----------
 
