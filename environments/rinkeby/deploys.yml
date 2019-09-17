@@ -623,3 +623,11 @@ reputation-template.aragonpm.eth:
       ipfsHash: QmPL4vSG1B1ySemK3QNrW9rDSq1bGyGRwqq1nhMCYrT4Kr
       contractAddress: '0xefe6Da5fdFEfAbe96E41aCdcb5689420cEE894Cd'
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+oracle-manager.open.aragonpm.eth:
+  versions:
+    4.3.0:
+      date: 2019-09-17T19:14:34.000Z
+      txHash: '0x176331c0fe495d861a86042d61cf01a6c84c4bb1700e4a5c7acdc6709486c237'
+      ipfsHash: QmPvxzSnthSB88bP1JikzW8W1Wm1CZDs72841wAjKmvFud
+      contractAddress: '0x79Ef6b3b6D4c64Ce0E13F70ef34681D8c8630672'
+      commitHash: 0fe56c3964bde63e6af8503eb5624f554ee9d854
