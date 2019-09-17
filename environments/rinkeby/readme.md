@@ -18,7 +18,7 @@
 -----------
 
 - Version: Oracle Manager 4.3
-- Start date: September 17rd 2019, 7.14pm CEST
+- Start date: September 17th 2019, 7.14pm CEST
 - Finish date: September 17th 2019, 7.14pm CEST
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://rinkeby.etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
@@ -36,6 +36,28 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 Final versions:
 
 - `oracle-manager.open.aragonpm.eth`: `4.3.0`
+
+-----------
+
+- Version: Approvals (hatch)
+- Start date: September 13th 2019, 8.55pm CEST
+- Finish date: September 13th 2019, 8.55pm CEST
+- Deployer: ([@ajsantander](https://github.com/ajsantander)) [`0x8c786893c22cd2de7b770247f928d7b74b5bd550`](https://rinkeby.etherscan.io/address/0x8c786893c22cd2de7b770247f928d7b74b5bd550)
+
+### Approvals app
+
+Repo: https://github.com/aragonone/approvals
+
+Command:
+```
+aragon apm publish major --files app/build --environment rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `approvals.hatch.aragonpm.eth`: `1.0.0`
 
 -----------
 
