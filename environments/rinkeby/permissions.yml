@@ -66,3 +66,12 @@
   permissions:
     - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+- address: '0x33329F5a360649Eb1C473b998cF3b975FEb109f6'
+  owner: '@mikec'
+  organization: Level K
+  permissions:
+    - oracle-manager.open.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+  manager:
+    - oracle-manager.open.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
