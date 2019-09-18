@@ -17,6 +17,28 @@
 
 -----------
 
+- Version: Oracle Manager 4.3
+- Start date: September 17rd 2019, 7.14pm CEST
+- Finish date: September 17th 2019, 7.14pm CEST
+- Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://rinkeby.etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
+
+### Oracle Manager
+
+Repo: https://github.com/levelkdev/oracle-manager-app
+
+Command:
+```
+aragon apm publish minor --files dist --environment staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `oracle-manager.open.aragonpm.eth`: `4.3.0`
+
+-----------
+
 - Version: Aragon client 0.8
 - Start date: September 3rd 2019, 6.30pm CEST
 - Finish date: September 10th 2019, 9.14pm CEST
