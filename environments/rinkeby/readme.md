@@ -1076,3 +1076,18 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 Final versions:
 
 - `aragon.aragonpm.eth`: `1.0.0`
+
+### Oracle Manager
+
+Repo: https://github.com/levelkdev/oracle-manager-app
+
+Command:
+```
+aragon apm publish minor --files dist --environment staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `oracle-manager.open.aragonpm.eth`: `4.3.0`
