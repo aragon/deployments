@@ -75,3 +75,12 @@
   manager:
     - oracle-manager.open.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+- address: '0x8c786893c22cd2de7b770247f928d7b74b5bd550'
+  owner: '@ajsantander'
+  organization: Aragon one
+  permissions:
+    - approvals.hatch.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+  manager:
+    - approvals.hatch.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
