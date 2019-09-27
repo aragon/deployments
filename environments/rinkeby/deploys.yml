@@ -661,6 +661,12 @@ oracle-manager.open.aragonpm.eth:
       ipfsHash: QmPvxzSnthSB88bP1JikzW8W1Wm1CZDs72841wAjKmvFud
       contractAddress: '0x79Ef6b3b6D4c64Ce0E13F70ef34681D8c8630672'
       commitHash: 0fe56c3964bde63e6af8503eb5624f554ee9d854
+    5.1.0:
+      date: 2019-09-27T16:07:20.000Z
+      txHash: '0x00912fabb47bf36e976c12cf4a45088b78635f83410b27fcff1861a3a16f557e'
+      ipfsHash: QmX6EsnAkS5XnxBdRQwDUewFZV6irkB33ATR9VA9EJUNP6
+      contractAddress: '0xea6AcfE6f5980DaDF1F6Ac4f54b15FbED9865Cb2'
+      commitHash: efc6239404cd1a429dde2f0a2d5ec7c1b26e191e
 approvals.hatch.aragonpm.eth:
   versions:
     1.0.0:
