@@ -17,6 +17,28 @@
 
 -----------
 
+- Version: Oracle Manager 5.1.0
+- Start date: September 27th 2019, 4.07pm CEST
+- Finish date: September 27th 2019, 4.07pm CEST
+- Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://rinkeby.etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
+
+### Oracle Manager
+
+Repo: https://github.com/levelkdev/oracle-manager-app
+
+Command:
+```
+aragon apm publish minor --files dist --environment staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `oracle-manager.open.aragonpm.eth`: `5.1.0`
+
+-----------
+
 - Version: Futarchy 8.1.0
 - Start date: September 26th 2019, 10.56pm CEST
 - Finish date: September 2th 2019, 10.56pm CEST
