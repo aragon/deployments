@@ -83,4 +83,12 @@
       - 'CREATE_VERSION_ROLE'
   manager:
     - approvals.hatch.aragonpm.eth:
+- address: '0x051401D1824ba49B0370736fC9d87f78Ee6F27C7'
+  owner: '@mikec'
+  organization: Level K
+  permissions:
+    - futarchy.open.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+  manager:
+    - futarchy.open.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'

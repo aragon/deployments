@@ -669,3 +669,11 @@ approvals.hatch.aragonpm.eth:
       ipfsHash: QmR98N9o9HeJ3xFsscBo1qWnWosBYFpsNQWtvsxFpu8dF7
       contractAddress: '0xC142746A60281641423E65b1577284e73eB5Cc6B'
       commitHash: 404cef9b8054a8b8282fec1a98489a767a1928c5
+futarchy.open.aragonpm.eth:
+  versions:
+    8.1.0:
+      date: 2019-09-26T22:56:15.000Z
+      txHash: '0x4b5dcae119c7b45108e4bfa1676a36f5a815eded6021ab878947278495ef011d'
+      ipfsHash: QmbFLJ2evMutbzfQLUDZ4vjLYCXS7VSnpvbmhxV6VqZwBS
+      contractAddress: '0x6cA441Bca1cEb1bB95B80f3A7883DC6a5bd98baC'
+      commitHash: 0ecfef23dbee1f8eb9104223804b6b781328283f
