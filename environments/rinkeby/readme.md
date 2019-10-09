@@ -17,6 +17,43 @@
 
 -----------
 
+- Version: Aragon Fundraising 1.0.0-rc.1
+- Start date: October 9th 2019, 2.00pm CEST
+- Finish date: October 9th 2019, 8.45pm CEST
+- Deployer: Aragon Black testnet cold wallet [`0x9b1B224E0445243eF5fD102114d15136967FfB15`](https://rinkeby.etherscan.io/address/0x9b1B224E0445243eF5fD102114d15136967FfB15)
+
+### Aragon Fundraising
+
+Repo: https://github.com/AragonBlack/fundraising
+
+Command (`aragon-fundraising`):
+```
+aragon apm publish major --files dist --environment rinkeby
+```
+
+Command (`bancor-formula`, `batched-bancor-market-maker`, `presale`, `tap`):
+```
+aragon apm publish major --environment rinkeby
+```
+
+Command (`templates/multisig`):
+```
+npm run publish:rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon-fundraising.aragonpm.eth`: `2.0.0`
+- `bancor-formula.aragonpm.eth`: `1.0.0`
+- `batched-bancor-market-maker.aragonpm.eth`: `1.0.0`
+- `presale.aragonpm.eth`: `1.0.0`
+- `tap.aragonpm.eth`: `1.0.0`
+- `fundraising-multisig-template.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Oracle Manager 6.0.0
 - Start date: October 1st 2019, 8.48am CEST
 - Finish date: October 1st 2019, 8.48am CEST
