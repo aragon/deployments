@@ -695,3 +695,51 @@ futarchy.open.aragonpm.eth:
       ipfsHash: QmQwV5w6xkaa9ELXbHBNy2oAi7sqGr5L2CeNVA5A1tYvsH
       contractAddress: '0x6cA441Bca1cEb1bB95B80f3A7883DC6a5bd98baC'
       commitHash: 1f7473a3571465a2de0438a40346eebe2960fc65
+fundraising-multisig-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-10-09T12:04:36.000Z
+      txHash: '0x0876bf42bd99852db17ff65f2cef41f04f2d31d0a1223d38795f7699bb2f67eb'
+      ipfsHash: QmfCnXnzgr1DunEc4DrafWo1wYWvFpiD2zGc2wG5V62qSZ
+      contractAddress: '0x5671D4815A2a5cFbF541496406460bF56dff2a01'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+bancor-formula.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-10-09T11:13:50.000Z
+      txHash: '0xf3793124409e06b85d6907ea6464e8da8e5d0232336bd3acd6c57aa3906de5d6'
+      ipfsHash: QmP5UWBpHBNzyh3rmHfnhWrXiMZ8DfCA4c9ZYfX1sfNCXA
+      contractAddress: '0x9ac140F489Df1481C20FeB318f09b29A4f744915'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+tap.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-10-09T11:23:05.000Z
+      txHash: '0x3f3b1cfe564ef7326572c7ced33140f9329f27a4a3eb4d0f218f77c486c9a19e'
+      ipfsHash: Qme3cKHJMDPZWnhMn9NjXEjpZL3UM5gRU6XaZAfU75qbcB
+      contractAddress: '0x29A9a13368c9Cf470Ac554fC68486c4aa546FF5D'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+batched-bancor-market-maker.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-10-09T11:29:35.000Z
+      txHash: '0x05cf0ea0a74faf706648dbf55313c5d0578f973f793cccd98e75ecc24fa35e50'
+      ipfsHash: QmbTAFfJBihsadgU2MNejupjr4FpsycACBz4c5Hb1LYvka
+      contractAddress: '0x221cb6d45A668EDaFF2C4dF44F5f4bAcA0C5A9Ff'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+presale.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-10-09T11:38:35.000Z
+      txHash: '0x3c48fbef1701866b6437eaecadd3a6017a733f80ba01ed06fc23e22990265b01'
+      ipfsHash: QmdHkez1rK4dTQtnNZBMfz5jNkzC78R9CDT1opFKbmf3Yr
+      contractAddress: '0x8645E3Cf3d1F1234e6A14ea7e545a51788C9fF31'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+aragon-fundraising.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-10-09T11:47:05.000Z
+      txHash: '0x4bbed5b478346d5be114f95e357218799f13351c0c6bff21887ca316d810dc00'
+      ipfsHash: QmTGT1ymC1csGA6YaKnc1a6F4xNBzhpqXNtCX5PKQaMKGW
+      contractAddress: '0x58A325C03572CE11C054a5F19d2b9D7fc0F96490'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
