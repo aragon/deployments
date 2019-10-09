@@ -743,3 +743,9 @@ aragon-fundraising.aragonpm.eth:
       ipfsHash: QmTGT1ymC1csGA6YaKnc1a6F4xNBzhpqXNtCX5PKQaMKGW
       contractAddress: '0x58A325C03572CE11C054a5F19d2b9D7fc0F96490'
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+    2.0.0:
+      date: 2019-10-09T18:42:38.000Z
+      txHash: '0x805c5b686ac415a2f27d0101ae6d78326f4017e8f3db21115b3ea33559420368'
+      ipfsHash: QmcuQHaHRjAKMkj6bed4d6wcSGU2Q63MkweAhtafD4f2zA
+      contractAddress: '0xF7f519dDE49FB04A5492035Be9013811b1685e1d'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
