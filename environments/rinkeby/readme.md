@@ -45,7 +45,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon-fundraising.aragonpm.eth`: `2.0.0`
+- `aragon-fundraising.aragonpm.eth`: `2.0.1`
 - `bancor-formula.aragonpm.eth`: `1.0.0`
 - `batched-bancor-market-maker.aragonpm.eth`: `1.0.0`
 - `presale.aragonpm.eth`: `1.0.0`
