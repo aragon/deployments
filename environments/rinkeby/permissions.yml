@@ -51,6 +51,37 @@
       - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+- address: '0x9b1B224E0445243eF5fD102114d15136967FfB15'
+  owner: Aragon Black testnet cold wallet
+  organization: Aragon Black
+  permissions:
+    - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - fundraising-multisig-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+  manager:
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - fundraising-multisig-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
 - address: '0x4cB3FD420555A09bA98845f0B816e45cFb230983'
   owner: '@izqui'
   organization: Aragon One
