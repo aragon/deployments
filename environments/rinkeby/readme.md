@@ -19,7 +19,7 @@
 
 - Version: Aragon Fundraising 1.0.0-rc.1
 - Start date: October 9th 2019, 2.00pm CEST
-- Finish date: October 9th 2019, 8.45pm CEST
+- Finish date: October 10th 2019, 1.19pm CEST
 - Deployer: Aragon Black testnet cold wallet [`0x9b1B224E0445243eF5fD102114d15136967FfB15`](https://rinkeby.etherscan.io/address/0x9b1B224E0445243eF5fD102114d15136967FfB15)
 
 ### Aragon Fundraising
