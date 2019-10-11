@@ -11,8 +11,51 @@
   - `open.aragonpm.eth`:
   `0x8980e53c979ca98e3adb8e891aebbc0f3455de37`
 - DAOFactory (Aragon 0.7): `0x3f2aa9dd22e97070518ba7988fe9b8724129d497`
+- DAOFactory (Aragon 0.8): `0x233c587095d066bafe44b543a719c93ff16423f3`
 
 ## Deployments
+
+-----------
+
+- Version: Aragon client 0.8
+- Start date: September 3rd 2019, 18.30pm CEST
+- Finish date: TBD
+- Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x0090aed150056316e37fe6dfa10dc63e79d173b6`](https://ropsten.etherscan.io/address/0x0090aed150056316e37fe6dfa10dc63e79d173b6)
+- aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
+
+### aragonOS
+
+Commands:
+```
+npx truffle compile --all
+ACL_BASE=0x3ae935e863984ecffc980bf67bd73f56a41b94ea npx truffle exec --network rinkeby scripts/deploy-daofactory.js
+```
+
+Output:
+```
+=========
+# Kernel:
+Address: 0xf9e3850087978ba6efe49a8251253b77e9693ded
+Transaction hash: 0xd8ec2bb5aec48d0d0ee93bdbb212e74ddf3aab4cb0be0527b5e67e5b51e0b9a1
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.945Z
+=========
+Skipping deploying new ACL base, using provided address: 0xe34cae5cdc42afd4c68727a936908918b5faa675
+=========
+# EVMScriptRegistryFactory:
+Address: 0x751251ec5dfe02b195d60d817df785ab7b28f6b1
+Transaction hash: 0xeae837d0e04621f85d74bafaba606f8c1952ae5121fa9270c9d9a53aa674fe46
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.945Z
+=========
+=========
+# DAOFactory:
+Address: 0x233c587095d066bafe44b543a719c93ff16423f3
+Transaction hash: 0x9ebf252050ab8812c02f3f50671f2a2760b96077223191bee6629d8ca8e12cc0
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2019-09-03T16:48:05.944Z
+=========
+```
 
 -----------
 
