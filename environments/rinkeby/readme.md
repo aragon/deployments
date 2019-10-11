@@ -17,6 +17,45 @@
 
 -----------
 
+- Version: Aragon client 0.8.1
+- Start date: October 11th 2019, 2.30pm JST
+- Finish date: October 11th 2019, 2.47pm JST
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+
+### Aragon Apps
+
+Deployed: `voting`, `token-manager`
+
+Command (`voting`, `token-manager`):
+```
+aragon apm publish patch --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `4.1.2`
+- `finance.aragonpm.eth`: `2.1.2`
+- `token-manager.aragonpm.eth`: `2.1.2`
+- `voting.aragonpm.eth`: `2.1.2`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.2`
+
+-----------
+
 - Version: Aragon Fundraising 1.0.0-rc.1
 - Start date: October 9th 2019, 2.00pm CEST
 - Finish date: October 10th 2019, 1.19pm CEST
