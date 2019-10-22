@@ -506,6 +506,7 @@ aragon.aragonpm.eth:
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 8cf20f6acd637ec55899818816d03a653abbd61d
 bare-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
   versions:
     1.0.0:
       date: 2019-01-07T14:33:24.000Z
@@ -514,6 +515,7 @@ bare-kit.aragonpm.eth:
       contractAddress: '0xCd9D2a2c74E49CfAFB024006Be614B04c82D5273'
       commitHash: 09943aca3b58c941f7e03e35d9dd8e96e194a481
 agent.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/agent'
   versions:
     1.0.0:
       date: 2019-02-15T20:18:47.000Z
@@ -546,6 +548,7 @@ agent.aragonpm.eth:
       contractAddress: '0x88aFC2Fbb10504865598Ac67Ef5A17A1C5EeBA4b'
       commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
 survey.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey'
   versions:
     1.0.0:
       date: 2019-04-17T15:44:05.000Z
@@ -554,6 +557,7 @@ survey.aragonpm.eth:
       contractAddress: '0x5Ac00b7f06E959cb5cC700e41A6026915A8472aA'
       commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
 ppf-factory.aragonpm.eth:
+  github: 'https://github.com/aragon/ppf/tree/[ref]/packages/ppf-contracts'
   versions:
     1.0.0:
       date: 2019-04-25T19:35:07.000Z
@@ -562,6 +566,7 @@ ppf-factory.aragonpm.eth:
       contractAddress: '0xCbcaf05388ac89CF34EBACdFfaFe9E42539e6c02'
       commitHash: 68ab78db525bee218fd62e155cd76c68136abe3f
 bare-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/bare'
   versions:
     1.0.0:
       date: 2019-09-06T09:44:54.000Z
@@ -570,6 +575,7 @@ bare-template.aragonpm.eth:
       contractAddress: '0x772e046Dc341bc197c6Ef1EE083e1a1368d65646'
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 company-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/company'
   versions:
     1.0.0:
       date: 2019-09-06T09:49:55.000Z
@@ -578,6 +584,7 @@ company-template.aragonpm.eth:
       contractAddress: '0xd737632caC4d039C9B0EEcc94C12267407a271b5'
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 company-board-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/company-board'
   versions:
     1.0.0:
       date: 2019-09-06T09:36:18.000Z
@@ -585,15 +592,8 @@ company-board-template.aragonpm.eth:
       ipfsHash: QmcKHmK9NoTHF9ccfTypSxiErYbe9PNuKsGJKuD72tHxoR
       contractAddress: '0x4d1A892f42c947fa952b57bc6939b27A96215CfA'
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
-reputation-template.aragonpm.eth:
-  versions:
-    1.0.0:
-      date: 2019-09-06T11:04:17.000Z
-      txHash: '0x9b219b0c19473787ada6ef846ece268a515f95a743c07430865ca1ab25ca4b8b'
-      ipfsHash: QmQGmsHp4A5y3kWc8hrYKyKTaGfjH6RcioVrqgGSbaG8JT
-      contractAddress: '0x3a06A6544e48708142508D9042f94DDdA769d04F'
-      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 membership-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/membership'
   versions:
     1.0.0:
       date: 2019-09-06T11:43:08.000Z
@@ -606,4 +606,13 @@ membership-template.aragonpm.eth:
       txHash: '0x258ff598f8474ef7f5929eb2400824acdbe83b2db10b557c54598091bff978d0'
       ipfsHash: QmV363g3R9ecSLJU18DZxDPUNZoWPXaNAc8vkB4oR8iydn
       contractAddress: '0x67430642C0c3B5E6538049B9E9eE719f2a4BeE7c'
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+reputation-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/reputation'
+  versions:
+    1.0.0:
+      date: 2019-09-06T11:04:17.000Z
+      txHash: '0x9b219b0c19473787ada6ef846ece268a515f95a743c07430865ca1ab25ca4b8b'
+      ipfsHash: QmQGmsHp4A5y3kWc8hrYKyKTaGfjH6RcioVrqgGSbaG8JT
+      contractAddress: '0x3a06A6544e48708142508D9042f94DDdA769d04F'
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
