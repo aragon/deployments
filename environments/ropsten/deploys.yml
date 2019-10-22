@@ -1,4 +1,5 @@
 vault.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
   versions:
     1.0.0:
       date: 2019-07-12T16:28:56.000Z
@@ -7,6 +8,7 @@ vault.aragonpm.eth:
       contractAddress: '0x6232B169db8e0f5A1FD1eEC3B802aa3FFC430bB4'
       commitHash: c4726612f77fdece535c72b3f00d9f8bf2eef152
 agent.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/agent'
   versions:
     1.0.0:
       date: 2019-07-12T16:32:33.000Z
@@ -15,6 +17,7 @@ agent.aragonpm.eth:
       contractAddress: '0xb5BA20A4E9167B640311a0C10D773Bb143DB5e39'
       commitHash: c4726612f77fdece535c72b3f00d9f8bf2eef152
 finance.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
   versions:
     1.0.0:
       date: 2019-07-12T16:37:42.000Z
@@ -23,6 +26,7 @@ finance.aragonpm.eth:
       contractAddress: '0x15A437C3419C9EDD13E6caAbd81F1CfC05E71904'
       commitHash: c4726612f77fdece535c72b3f00d9f8bf2eef152
 token-manager.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
   versions:
     1.0.0:
       date: 2019-07-12T16:39:24.000Z
@@ -31,6 +35,7 @@ token-manager.aragonpm.eth:
       contractAddress: '0x9f4984865797213Dd4431551114c47Bd98Be8AAc'
       commitHash: c4726612f77fdece535c72b3f00d9f8bf2eef152
 voting.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/voting'
   versions:
     1.0.0:
       date: 2019-07-12T16:41:52.000Z
@@ -39,6 +44,7 @@ voting.aragonpm.eth:
       contractAddress: '0xfbE58920A62c8DE89Ea59603b2a67578d9a63F8c'
       commitHash: c4726612f77fdece535c72b3f00d9f8bf2eef152
 democracy-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
   versions:
     1.0.0:
       date: 2019-07-12T17:04:38.000Z
@@ -47,6 +53,7 @@ democracy-kit.aragonpm.eth:
       contractAddress: '0x0C2E246637D168e876A0CB309097c8EEb4093cf6'
       commitHash: 7c96ff4fce2d7d4bc6368b276772f7ef1a233993
 multisig-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/multisig'
   versions:
     1.0.0:
       date: 2019-07-12T17:12:55.000Z
@@ -55,6 +62,7 @@ multisig-kit.aragonpm.eth:
       contractAddress: '0x80786DA9251E3Bf0Bf122961C7d5aB2bE2dA02c9'
       commitHash: 7c96ff4fce2d7d4bc6368b276772f7ef1a233993
 bare-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
   versions:
     1.0.0:
       date: 2019-07-12T17:23:52.000Z
@@ -63,6 +71,7 @@ bare-kit.aragonpm.eth:
       contractAddress: '0xaC722c66312fC581Bc57Ee4141871Fe0bf22fA08'
       commitHash: 7c96ff4fce2d7d4bc6368b276772f7ef1a233993
 aragon.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon/tree/[ref]'
   versions:
     1.0.0:
       date: 2019-07-12T18:17:07.000Z
