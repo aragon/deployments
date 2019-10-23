@@ -59,6 +59,8 @@
       - 'CREATE_VERSION_ROLE'
     - projects.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - open-enterprise-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0x9b1B224E0445243eF5fD102114d15136967FfB15'
@@ -105,6 +107,8 @@
     - rewards.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - projects.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - open-enterprise-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0x4cB3FD420555A09bA98845f0B816e45cFb230983'
   owner: '@izqui'
