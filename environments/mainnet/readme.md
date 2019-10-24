@@ -17,6 +17,44 @@
 
 -----------
 
+- Version: Aragon client 0.8.3
+- Start date: October 24th 2019, 7.19pm JST
+- Finish date: October 24th 2019, 7.39pm JST
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.1.3`
+- `token-manager.aragonpm.eth`: `2.1.3`
+- `voting.aragonpm.eth`: `2.1.3`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.4`
+
+-----------
+
 - Version: Aragon client 0.8.2
 - Start date: October 11th 2019, 2.50pm JST
 - Finish date: October 11th 2019, 3.00pm JST
