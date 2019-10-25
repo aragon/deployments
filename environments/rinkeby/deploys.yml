@@ -571,6 +571,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmWT2MSSb1SRfsnTdpSDPp68mJXS9qTsbU9XaMR6ohGhuP
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 775edd606333a111eb2693df53900039722a95dc
+    3.0.4:
+      date:
+      txHash:
+      ipfsHash: QmeyFxX2Aak2QqJpMMZm6QYXSikL2DAvc2NRmmcFzW9hD1
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: 4617a6f2d9398489b7de5cd03934d7cb47d87c9a
 bare-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
   versions:
