@@ -17,11 +17,30 @@
 
 -----------
 
+- Version:
+- Start date:
+- Finish date:
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.5`
+
+-----------
+
 - Version: Aragon client 0.8.3
 - Start date: October 24th 2019, 7.19pm JST
 - Finish date: October 24th 2019, 7.39pm JST
 - Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
-
 
 ### Aragon Apps
 
