@@ -531,7 +531,7 @@ aragon.aragonpm.eth:
       commitHash: 775edd606333a111eb2693df53900039722a95dc
     3.0.5:
       date:
-      txHash:
+      txHash: '0x27461b05145f432ace476f370b80f3481e0816859bec27be6c6ba2f4be82fbca'
       ipfsHash: QmWPhZL1g6nAoXLc2JfrTudi5KnFBV1cQUA8tsZrnQWEbG
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 4617a6f2d9398489b7de5cd03934d7cb47d87c9a
