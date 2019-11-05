@@ -17,9 +17,9 @@
 
 -----------
 
-- Version:
-- Start date:
-- Finish date:
+- Version: Aragon client 0.8.3-hotfix
+- Start date: October 25th 2019, 1:30m CEST
+- Finish date: October 25th 2019, 1:30am CEST
 - Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Client

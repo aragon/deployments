@@ -18,8 +18,8 @@
 -----------
 
 - Version: Aragon client 0.8.3-hotfix
-- Start date:
-- Finish date:
+- Start date: October 25th 2019, 1:30m CEST
+- Finish date: October 25th 2019, 1:30am CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
