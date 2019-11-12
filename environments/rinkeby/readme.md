@@ -17,6 +17,43 @@
 
 -----------
 
+- Version: Aragon client 0.8.4
+- Start date: November 12th 2019, 6.00pm CET
+- Finish date: November 12th 2019, 6.40pm CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish patch --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.1.3`
+- `token-manager.aragonpm.eth`: `2.1.4`
+- `voting.aragonpm.eth`: `2.1.4`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.5`
+
+-----------
+
 - Version: Oracle Manager 7.0.0
 - Start date: November 11th 2019, 5:13am CEST
 - Finish date: November 11th 2019, 5:13am CEST
@@ -99,7 +136,7 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `finance.aragonpm.eth`: `2.1.3`
+- `finance.aragonpm.eth`: `2.1.2`
 - `token-manager.aragonpm.eth`: `2.1.3`
 - `voting.aragonpm.eth`: `2.1.3`
 
