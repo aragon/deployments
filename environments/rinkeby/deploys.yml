@@ -825,3 +825,9 @@ futarchy.open.aragonpm.eth:
       ipfsHash: QmQwV5w6xkaa9ELXbHBNy2oAi7sqGr5L2CeNVA5A1tYvsH
       contractAddress: '0x6cA441Bca1cEb1bB95B80f3A7883DC6a5bd98baC'
       commitHash: 1f7473a3571465a2de0438a40346eebe2960fc65
+    9.0.0:
+      date: 2019-11-12T03:06:37.000Z
+      txHash: '0xc69d9085f0cefa094308ed1026d3146d994927c04b3eb6c2a2b2438fac02db87'
+      ipfsHash: QmRzQSaXYTFCXde9yPnxnnxTDb7wp9Gcs4Hfbd63udskUr
+      contractAddress: '0x53797291de02E4C10B3d6DCB38F1db1cf223a27d'
+      commitHash: 72c1004c12880d8cb601cc8ab53fb5442338caa8
