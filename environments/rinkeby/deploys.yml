@@ -840,6 +840,12 @@ oracle-manager.open.aragonpm.eth:
       ipfsHash: QmXFnDWD9HadQwPBci5S4Esofs3Jy88SwrWDJSUJ71m28N
       contractAddress: '0x67270e7946d5e852e463f48758aB54B382eC1eA7'
       commitHash: 6661ce6ff2dda225d3ed89a3c9a187f5173d08f4
+    8.0.0:
+      date: 2019-11-17T07:05:33.000Z
+      txHash: '0x358b097c2af0e292a8cef4110562a23b40c4b4f7705a155202bbbc50c11c7d31'
+      ipfsHash: Qmer3EoLgDRwgq6EKrei6VmaUCWPPgN4og7eRAUYh3gtCK
+      contractAddress: '0x2e652365D996DD33F48b1b04291dcfC6c31b58b1'
+      commitHash: b6231de075cf8199de36f3254927c3c5a8bd0e42
 futarchy.open.aragonpm.eth:
   github: 'https://github.com/levelkdev/futarchy-app/tree/[ref]'
   versions:
@@ -861,3 +867,9 @@ futarchy.open.aragonpm.eth:
       ipfsHash: QmRzQSaXYTFCXde9yPnxnnxTDb7wp9Gcs4Hfbd63udskUr
       contractAddress: '0x53797291de02E4C10B3d6DCB38F1db1cf223a27d'
       commitHash: 72c1004c12880d8cb601cc8ab53fb5442338caa8
+    10.0.0:
+      date: 2019-11-17T06:53:33.000Z
+      txHash: '0x75d2193024fbb7cd43e1a3692a1ecfc464acfb7facc4e2fe6697b3e4fa056c65'
+      ipfsHash: QmWj4v37bQWFDZNgyAZon4ErEaX9NufzqtHtDdjdaggshB
+      contractAddress: '0x2AFC62Dff5da6110465F476119C56b80Fe5371D1'
+      commitHash: 1b150103411b8a93c6354ceb4c67130e2dc35fcf
