@@ -17,6 +17,28 @@
 
 -----------
 
+- Version: Futarchy 10.0.0
+- Start date: November 17th 2019, 6:53am CEST
+- Finish date: November 17th 2019, 6:53am CEST
+- Deployer: ([@mikec](https://github.com/mikec)) [`0x051401D1824ba49B0370736fC9d87f78Ee6F27C7`](https://rinkeby.etherscan.io/address/0x051401D1824ba49B0370736fC9d87f78Ee6F27C7)
+
+### Futarchy
+
+Repo: https://github.com/levelkdev/futarchy-app
+
+Command:
+```
+aragon apm publish minor --files dist --environment staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `futarchy.open.aragonpm.eth`: `10.0.0`
+
+-----------
+
 - Version: Aragon client 0.8.4
 - Start date: November 12th 2019, 6.00pm CET
 - Finish date: November 12th 2019, 6.40pm CET
