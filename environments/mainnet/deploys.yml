@@ -670,3 +670,11 @@ reputation-template.aragonpm.eth:
       ipfsHash: QmQGmsHp4A5y3kWc8hrYKyKTaGfjH6RcioVrqgGSbaG8JT
       contractAddress: '0x3a06A6544e48708142508D9042f94DDdA769d04F'
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+futarchy.open.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-11-20T20:15:07.000Z
+      txHash: '0x5d7a15b908d91fa3c18bf7fbc7769a6d6ddc0d1d22d18159f296f9c4d655818a'
+      ipfsHash: Qmbrh9r6jBt2DYr38G3TtkXxQLBtNuhE92W7rBJpUxiuAC
+      contractAddress: '0x421bE6D6889bb44eddcaD00F48Bfbe6bE3C8b6f6'
+      commitHash: 7c46dee1a96acb181ff8ddb43d1e5c44ad83112a
