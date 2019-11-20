@@ -99,6 +99,10 @@
   permissions:
     - futarchy.open.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - oracle-manager.open.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
   manager:
     - futarchy.open.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - oracle-manager.open.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
