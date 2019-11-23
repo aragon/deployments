@@ -367,6 +367,12 @@ finance.aragonpm.eth:
       ipfsHash: QmajzY3o55unVmjqRugiG6zfV5U8vuPGGrpV9G7yw4ePup
       contractAddress: '0x94D3013A8700E8B168f66529aD143590CC6b259d'
       commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
+    2.1.4:
+      date: 2019-11-23T12:02:34.000Z
+      txHash: '0x3601c541ea8eb3dfc101fce686359a3b7fb7777327595254384ebe28eb03bc68'
+      ipfsHash: QmYAmbbDLygCTfNFcdeyYYNUahJBVSkku42AEYtyy986XW
+      contractAddress: '0x94D3013A8700E8B168f66529aD143590CC6b259d'
+      commitHash: bed2a02e8a4f0bff4e6a50a25d4f4611b523f1ec
 vault.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
   versions:
