@@ -1,3 +1,7 @@
+- address: 'ANY_ENTITY'
+  permissions:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
 - address: '0xE04cAbcB24e11620Dd62bB99c396E76cEB578914'
   owner: Aragon One cold wallet
   organization: Aragon One
@@ -32,10 +36,12 @@
   manager:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
     - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
@@ -70,10 +76,6 @@
       - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
-- address: 'ANY_ENTITY'
-  permissions:
-    - open.aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
 - address: '0xAd6C4A3f4550A8a5511A4e9D9E99AcbAdf92b210'
   owner: Autark cold wallet
   organization: Autark

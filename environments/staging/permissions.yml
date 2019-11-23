@@ -1,8 +1,17 @@
+- address: 'ANY_ENTITY'
+  permissions:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+
 - address: '0x4cB3FD420555A09bA98845f0B816e45cFb230983'
   owner: '@izqui'
   organization: Aragon One
   permissions:
     - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
@@ -29,18 +38,19 @@
     - payroll.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - bare-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
     - membership-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
     - reputation-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
     - company-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
     - company-board-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
@@ -72,6 +82,11 @@
   permissions:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
@@ -92,6 +107,12 @@
       - 'CREATE_VERSION_ROLE'
     - payroll.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+  manager:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
 
 - address: '0x1f1380c997a0d0f1801636fc3bc488cfad843bb5'
   owner: '@bpierre'
@@ -168,15 +189,15 @@
       - 'CREATE_VERSION_ROLE'
   manager:
     - bare-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
     - membership-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
     - reputation-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
     - company-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
     - company-board-template.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
+      - 'CREATE_VERSION_ROLE'
 
 - address: '0x7c0be2cc18934e2d72e136b4bf350949adeaf423'
   owner: '@aquigorka'
