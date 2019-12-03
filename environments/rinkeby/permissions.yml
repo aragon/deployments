@@ -85,8 +85,6 @@
   owner: Aragon Black testnet cold wallet
   organization: Aragon Black
   permissions:
-    - aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
     - aragon-fundraising.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - bancor-formula.aragonpm.eth:

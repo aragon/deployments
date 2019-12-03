@@ -6,13 +6,15 @@
 ## Artifacts
 
 - ENS: `0xfe03625ea880a8cba336f9b5ad6e15b0a3b5a939`
+- aragonID: `0xa2e76aa249e3f52ea94c175662adadf27185484a`
 - aragonPM:
   - `aragonpm.eth`: `0x4994a4b1215bf73f0e69ce69c2e6b43c496ad4bf`
   - `hatch.aragonpm.eth`: `0xf0d6beea5fa2938f6b8e7003d329f8a06402ca8f`
   - `open.aragonpm.eth`: `0xacddac280e1fc423a3db3b45ed5b4ab1ca632ef1`
-- DAOFactory (Aragon 0.6): `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
-- DAOFactory (Aragon 0.7): `0xbca2c99aa7018edcde60e6c5744f68003112535d`
-- DAOFactory (Aragon 0.8): `0xf959e8953e2fe03782a7b86a7a5d948cb511ef5d`
+- DAOFactory
+  - Aragon 0.8 (**✅ RECOMMENDED**): `0xf959e8953e2fe03782a7b86a7a5d948cb511ef5d`
+  - Aragon 0.7 (**🙅 DEPRECATED**): `0xbca2c99aa7018edcde60e6c5744f68003112535d`
+  - Aragon 0.6 (**🙅 DEPRECATED**): `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
 
 ## Deployments
 
