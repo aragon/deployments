@@ -26,6 +26,8 @@
       - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - token-wrapper.hatch.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
@@ -62,6 +64,8 @@
     - open-enterprise-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-wrapper.hatch.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0x9b1B224E0445243eF5fD102114d15136967FfB15'
   owner: Aragon Black testnet cold wallet

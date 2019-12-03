@@ -17,6 +17,28 @@
 
 -----------
 
+- Version: Token Wrapper (hatch)
+- Start date: December 3rd, 6.10pm CEST
+- Finish date: December 3rd, 8.20pm CEST
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Token Wrapper app
+
+Repo: https://github.com/aragonone/token-wrapper
+
+Command:
+```
+npm run apm:publish -- major --environment rinkeby --use-frame
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `token-wrapper.hatch.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon client 0.8.5
 - Start date: November 27th 2019, 6.10pm CET
 - Finish date: November 27th 2019, 6.40pm CET
