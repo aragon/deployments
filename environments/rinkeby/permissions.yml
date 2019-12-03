@@ -1,3 +1,7 @@
+- address: 'ANY_ENTITY'
+  permissions:
+    - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
 - address: '0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff'
   owner: Aragon One testnet cold wallet
   organization: Aragon One
@@ -31,6 +35,7 @@
   manager:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
@@ -120,15 +125,14 @@
   permissions:
     - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
   manager:
     - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
-- address: 'ANY_ENTITY'
-  permissions:
-    - open.aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
 - address: '0x33329F5a360649Eb1C473b998cF3b975FEb109f6'
   owner: '@mikec'
   organization: Level K
