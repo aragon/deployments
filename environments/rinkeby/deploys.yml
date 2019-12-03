@@ -903,3 +903,11 @@ futarchy.open.aragonpm.eth:
       ipfsHash: QmWj4v37bQWFDZNgyAZon4ErEaX9NufzqtHtDdjdaggshB
       contractAddress: '0x2AFC62Dff5da6110465F476119C56b80Fe5371D1'
       commitHash: 1b150103411b8a93c6354ceb4c67130e2dc35fcf
+token-wrapper.hatch.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-12-03T17:15:43.000Z
+      txHash: '0x3517bcd165bf36d38318a0c8acd008cf9bf4ca69c80e2857e87ab55b3404d0b4'
+      ipfsHash: QmYVrsuf74m31WyF5yddeK1CJQqwAMA2Sqk6bfNtKWUAcq
+      contractAddress: '0xb7ebeE4e9F98fA3C81EF8a098179EF03A3D370BF'
+      commitHash: a0bbe28e7c4f08e913f0049f1cbf12b846541bb6
