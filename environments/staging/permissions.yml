@@ -83,6 +83,10 @@
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+    - hatch.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
     - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
@@ -108,6 +112,11 @@
     - payroll.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
   manager:
+    - hatch.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
     - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
