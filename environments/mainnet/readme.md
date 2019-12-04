@@ -20,6 +20,43 @@
 
 -----------
 
+- Version: Aragon client 0.8.5
+- Start date: December 4th 2019, 8.30pm CET
+- Finish date: December 4th 2019, 8.50pm CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish patch --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.1.5`
+- `token-manager.aragonpm.eth`: `2.1.5`
+- `voting.aragonpm.eth`: `2.1.5`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.7`
+
+-----------
+
 - Version: Aragon client 0.8.5 (only MCD DAI)
 - Start date: November 23th 2019, 1.00pm CET
 - Finish date: November 12th 2019, 1.10pm CET
