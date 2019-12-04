@@ -109,6 +109,12 @@ voting.aragonpm.eth:
       ipfsHash: QmR34nZedLNHhd91jceUtWSBXugAWtRQP8bEQ3pPRimrpa
       contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
       commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
+    2.1.5:
+      date: 2019-12-04T19:44:03.000Z
+      txHash: '0xf829e292b8218b38258ee3eeae7b2997e726fb5c241a00f36f17e7d4943685d0'
+      ipfsHash: QmcgFogXwcHwHZFHJ2JUsVauFPXDWfGQ3aeYTjfayBKAYW
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
 finance.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
   versions:
@@ -232,6 +238,12 @@ finance.aragonpm.eth:
       ipfsHash: QmZg3DD3mf2FHsjUkns2k1Tems4PRBoiuJpmfyd9zdYNT1
       contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
       commitHash: bed2a02e8a4f0bff4e6a50a25d4f4611b523f1ec
+    2.1.5:
+      date: 2019-12-04T19:37:23.000Z
+      txHash: '0xb26f294893b564a196132bad7cb518d02c312944d4ecbd13a1d7cae02370d0f7'
+      ipfsHash: QmW8V1XwnTJih1ELGLggceJdKrc1MXKBEpVVVALxiHpuYb
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
 vault.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
   versions:
@@ -376,6 +388,12 @@ token-manager.aragonpm.eth:
       ipfsHash: QmPF3eemDH2bSq9dV3VpcDSTvhk2TRvNVJF2aLBZ5BaLJ7
       contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
       commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
+    2.1.5:
+      date: 2019-12-04T19:40:24.000Z
+      txHash: '0x2f4fee297bab4b7e35240232d8b6f4a683a3fd2860bdd6818c78ed291a8b9370'
+      ipfsHash: QmZfMLh3xQndA65FS1trdXYVcHtCQZe4XrH8RMY1gzYRSQ
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
 democracy-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
   versions:
@@ -565,6 +583,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmR5x29wx6cLodBQhhk9YWup1q48PBJcyaXim89bHHNwZU
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 6fa27f45fe2ca563fc2ad1325a194cd9df0afa9e
+    3.0.7:
+      date: 2019-12-04T19:46:14.000Z
+      txHash: '0x77266579138bf9ced802e26cf5e72e290fad9b35bc79dcc9b70aec2b1b801d03'
+      ipfsHash: QmREjsCc3iR15cJKbBof169DphyfEWJbhi1TQrq89MPvKR
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: a102fbdb3767657096ba3a0a43c9cb922c6701ed
 bare-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
   versions:
