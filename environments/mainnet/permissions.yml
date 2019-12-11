@@ -31,6 +31,18 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - fundraising-multisig-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
   manager:
@@ -74,6 +86,18 @@
       - 'CREATE_VERSION_ROLE'
     - open-enterprise-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - fundraising-multisig-template.aragonpm.eth::
+      - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0xAd6C4A3f4550A8a5511A4e9D9E99AcbAdf92b210'
@@ -91,6 +115,22 @@
     - projects.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - open-enterprise-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+- address: '0x9b1B224E0445243eF5fD102114d15136967FfB15'
+  owner: Aragon Black cold wallet
+  organization: Aragon Black
+  permissions:
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - fundraising-multisig-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0xC43B0C4b6d227536238f071fBa7e624b2A632830'
   owner: '@sohkai' (revoked)
