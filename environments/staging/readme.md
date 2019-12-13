@@ -27,28 +27,15 @@
 
 ### Aragon Fundraising
 
-Repo: https://github.com/AragonBlack/fundraising
+Replicated Rinkeby rc.1 deployment from Rinkeby.
 
-Command (`aragon-fundraising`):
-```
-aragon apm publish major --files dist --environment rinkeby
-```
-
-Command (`bancor-formula`, `batched-bancor-market-maker`, `presale`, `tap`):
-```
-aragon apm publish major --environment rinkeby
-```
-
-Command (`templates/multisig`):
-```
-npm run publish:rinkeby
-```
+`aragon-fundraising.aragonpm.eth` was deployed numerous times due to mistakes in the contract addresses and content URIs.
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon-fundraising.aragonpm.eth`: `2.0.0`
+- `aragon-fundraising.aragonpm.eth`: `3.0.0`
 - `bancor-formula.aragonpm.eth`: `1.0.0`
 - `batched-bancor-market-maker.aragonpm.eth`: `1.0.0`
 - `presale.aragonpm.eth`: `1.0.0`
