@@ -934,6 +934,8 @@ bare-template.aragonpm.eth:
       contractAddress: '0x6761aE15235f137daFBdA6C79af627697c61BDb5'
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
 aragon-fundraising.aragonpm.eth:
+  github: >-
+    https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
   versions:
     2.0.0:
       date: 2019-12-12T11:33:30.000Z
@@ -948,6 +950,7 @@ aragon-fundraising.aragonpm.eth:
       contractAddress: '0xF7f519dDE49FB04A5492035Be9013811b1685e1d'
       commitHash: eeaa5843a70a0ddd20d994d4bfb6e711ff516665
 bancor-formula.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula'
   versions:
     1.0.0:
       date: 2019-12-12T17:04:30.000Z
@@ -956,6 +959,8 @@ bancor-formula.aragonpm.eth:
       contractAddress: '0x9ac140F489Df1481C20FeB318f09b29A4f744915'
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
 batched-bancor-market-maker.aragonpm.eth:
+  github: >-
+    https://github.com/aragonblack/fundraising/tree/[ref]/apps/batched-bancor-market-maker
   versions:
     1.0.0:
       date: 2019-12-12T17:07:15.000Z
@@ -964,6 +969,7 @@ batched-bancor-market-maker.aragonpm.eth:
       contractAddress: '0x221cb6d45A668EDaFF2C4dF44F5f4bAcA0C5A9Ff'
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
 tap.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/tap'
   versions:
     1.0.0:
       date: 2019-12-12T17:10:45.000Z
@@ -972,6 +978,7 @@ tap.aragonpm.eth:
       contractAddress: '0x29A9a13368c9Cf470Ac554fC68486c4aa546FF5D'
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
 presale.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/presale'
   versions:
     1.0.0:
       date: 2019-12-12T17:08:45.000Z
@@ -980,6 +987,7 @@ presale.aragonpm.eth:
       contractAddress: '0x8645E3Cf3d1F1234e6A14ea7e545a51788C9fF31'
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
 fundraising-multisig-template.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/templates/multisig'
   versions:
     1.0.0:
       date: 2019-12-12T17:15:00.000Z
