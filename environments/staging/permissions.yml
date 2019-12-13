@@ -37,6 +37,8 @@
       - 'CREATE_VERSION_ROLE'
     - payroll.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - balance-redirect-presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
     - bare-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - membership-template.aragonpm.eth:
@@ -111,6 +113,20 @@
       - 'CREATE_VERSION_ROLE'
     - payroll.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - balance-redirect-presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - fundraising-multisig-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
   manager:
     - hatch.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
@@ -122,6 +138,20 @@
       - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - balance-redirect-presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - fundraising-multisig-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
 
 - address: '0x1f1380c997a0d0f1801636fc3bc488cfad843bb5'
   owner: '@bpierre'
@@ -172,6 +202,18 @@
     - agent.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - balance-redirect-presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 
 - address: '0xd5931f0a36FE76845a5330f6D0cd7a378401e34d'
@@ -263,4 +305,21 @@
     - agent.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0x9b1B224E0445243eF5fD102114d15136967FfB15'
+  owner: Aragon Black testnet cold wallet
+  organization: Aragon Black
+  permissions:
+    - aragon-fundraising.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bancor-formula.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - batched-bancor-market-maker.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - tap.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - fundraising-multisig-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'

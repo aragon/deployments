@@ -933,3 +933,65 @@ bare-template.aragonpm.eth:
       ipfsHash: QmbB5XPhn4wgF3zLYDBzbbwcx8yaVemwDZZzX6GJz8HMe4
       contractAddress: '0x6761aE15235f137daFBdA6C79af627697c61BDb5'
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+aragon-fundraising.aragonpm.eth:
+  github: >-
+    https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
+  versions:
+    2.0.0:
+      date: 2019-12-12T11:33:30.000Z
+      txHash: '0xa3d11e9a2e179cb0f58bc4d0f3ded88ffd8b2339ef3ecd865d706e8a38221fc4'
+      ipfsHash: QmX6GNzSo3KWCWmhWWJEEpmU5n9ZranqzDwAJVPQKg2w4G
+      contractAddress: '0x58A325C03572CE11C054a5F19d2b9D7fc0F96490'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+    3.0.0:
+      date: 2019-12-13T19:05:34.000Z
+      txHash: '0x789c04f9a076f67d7299c7353b53eaeb5b93673954d27486ad456b01fa63e898'
+      ipfsHash: QmX6GNzSo3KWCWmhWWJEEpmU5n9ZranqzDwAJVPQKg2w4G
+      contractAddress: '0xF7f519dDE49FB04A5492035Be9013811b1685e1d'
+      commitHash: eeaa5843a70a0ddd20d994d4bfb6e711ff516665
+bancor-formula.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula'
+  versions:
+    1.0.0:
+      date: 2019-12-12T17:04:30.000Z
+      txHash: '0x3930d1d3f9aa4701b4d6b827250d1ddb10ea78dddf7392f8e815c02dd900ceb5'
+      ipfsHash: QmP5UWBpHBNzyh3rmHfnhWrXiMZ8DfCA4c9ZYfX1sfNCXA
+      contractAddress: '0x9ac140F489Df1481C20FeB318f09b29A4f744915'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+batched-bancor-market-maker.aragonpm.eth:
+  github: >-
+    https://github.com/aragonblack/fundraising/tree/[ref]/apps/batched-bancor-market-maker
+  versions:
+    1.0.0:
+      date: 2019-12-12T17:07:15.000Z
+      txHash: '0x11d03e3d5b86ad2a33055f3132e4508ccecce290209f5f337b2480563cc4655b'
+      ipfsHash: QmbTAFfJBihsadgU2MNejupjr4FpsycACBz4c5Hb1LYvka
+      contractAddress: '0x221cb6d45A668EDaFF2C4dF44F5f4bAcA0C5A9Ff'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+tap.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/tap'
+  versions:
+    1.0.0:
+      date: 2019-12-12T17:10:45.000Z
+      txHash: '0xdc58f0126088eb0f487db9e72bdc85c2f63e657cdfc91f863221c514ba620144'
+      ipfsHash: Qme3cKHJMDPZWnhMn9NjXEjpZL3UM5gRU6XaZAfU75qbcB
+      contractAddress: '0x29A9a13368c9Cf470Ac554fC68486c4aa546FF5D'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+presale.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/presale'
+  versions:
+    1.0.0:
+      date: 2019-12-12T17:08:45.000Z
+      txHash: '0xe726873f7fbd6b7bf92b098e60cb3cf0b89535c032a3250e9638d71fe53e51c3'
+      ipfsHash: QmdHkez1rK4dTQtnNZBMfz5jNkzC78R9CDT1opFKbmf3Yr
+      contractAddress: '0x8645E3Cf3d1F1234e6A14ea7e545a51788C9fF31'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+fundraising-multisig-template.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/templates/multisig'
+  versions:
+    1.0.0:
+      date: 2019-12-12T17:15:00.000Z
+      txHash: '0xd89eccd940677b5e09d3c799a78d5e3c39faa637fe799738d21b57400024607e'
+      ipfsHash: QmfCnXnzgr1DunEc4DrafWo1wYWvFpiD2zGc2wG5V62qSZ
+      contractAddress: '0x5671D4815A2a5cFbF541496406460bF56dff2a01'
+      commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d

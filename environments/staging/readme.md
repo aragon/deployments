@@ -20,6 +20,30 @@
 
 -----------
 
+- Version: Aragon Fundraising 1.0.0-rc.1
+- Start date: December 12th 2019, 11.00am CEST
+- Finish date: December 12th 2019, 7.30pm CEST
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Fundraising
+
+Replicated Rinkeby rc.1 deployment from Rinkeby.
+
+`aragon-fundraising.aragonpm.eth` was deployed numerous times due to mistakes in the contract addresses and content URIs.
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon-fundraising.aragonpm.eth`: `3.0.0`
+- `bancor-formula.aragonpm.eth`: `1.0.0`
+- `batched-bancor-market-maker.aragonpm.eth`: `1.0.0`
+- `presale.aragonpm.eth`: `1.0.0`
+- `tap.aragonpm.eth`: `1.0.0`
+- `fundraising-multisig-template.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon client 0.8
 - Start date: September 3rd 2019, 6.30pm CEST
 - Finish date: September 10th 2019, 6.11pm CEST
