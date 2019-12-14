@@ -21,9 +21,29 @@
 
 -----------
 
+- Version: Aragon client 0.8.5-hotfix
+- Start date: December 14th 2019, 7:10pm CET
+- Finish date: December 14th 2019, 7:15pm CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.7`
+
+-----------
+
 - Version: Token Wrapper (hatch)
-- Start date: December 3rd, 6.10pm CEST
-- Finish date: December 3rd, 8.20pm CEST
+- Start date: December 3rd, 6.10pm CET
+- Finish date: December 3rd, 8.20pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Token Wrapper app
@@ -103,8 +123,8 @@ Final versions:
 -----------
 
 - Version: Oracle Manager 8.0.0
-- Start date: November 17th 2019, 7:05am CEST
-- Finish date: November 17th 2019, 7:05am CEST
+- Start date: November 17th 2019, 7:05am CET
+- Finish date: November 17th 2019, 7:05am CET
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://rinkeby.etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
 ### Oracle Manager
@@ -125,8 +145,8 @@ Final versions:
 -----------
 
 - Version: Futarchy 10.0.0
-- Start date: November 17th 2019, 6:53am CEST
-- Finish date: November 17th 2019, 6:53am CEST
+- Start date: November 17th 2019, 6:53am CET
+- Finish date: November 17th 2019, 6:53am CET
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x051401D1824ba49B0370736fC9d87f78Ee6F27C7`](https://rinkeby.etherscan.io/address/0x051401D1824ba49B0370736fC9d87f78Ee6F27C7)
 
 ### Futarchy
@@ -228,7 +248,7 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.3-hotfix
-- Start date: October 25th 2019, 1:30m CEST
+- Start date: October 25th 2019, 1:30am CEST
 - Finish date: October 25th 2019, 1:30am CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
