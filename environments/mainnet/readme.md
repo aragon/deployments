@@ -20,10 +20,30 @@
 
 -----------
 
+- Version: Aragon client 0.8.5-hotfix
+- Start date: December 14th 2019, 7:15pm CET
+- Finish date: December 14th 2019, 7:20pm CET
+- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.8`
+
+-----------
+
 - Version: Aragon client 0.8.5
 - Start date: December 4th 2019, 8.30pm CET
 - Finish date: December 4th 2019, 8.50pm CET
-- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
 
@@ -60,7 +80,7 @@ Final versions:
 - Version: Aragon client 0.8.5 (only MCD DAI)
 - Start date: November 23th 2019, 1.00pm CET
 - Finish date: November 12th 2019, 1.10pm CET
-- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
 
@@ -80,8 +100,8 @@ Final versions:
 -----------
 
 - Version: Futarchy 1.0.0
-- Start date: November 20th 2019, 10:15pm CEST
-- Finish date: November 20th 2019, 10:15pm CEST
+- Start date: November 20th 2019, 10:15pm CET
+- Finish date: November 20th 2019, 10:15pm CET
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
 ### Futarchy
@@ -102,8 +122,8 @@ Final versions:
 -----------
 
 - Version: Oracle Manager 1.0.0
-- Start date: November 20th 2019, 11:25pm CEST
-- Finish date: November 20th 2019, 11:25pm CEST
+- Start date: November 20th 2019, 11:25pm CET
+- Finish date: November 20th 2019, 11:25pm CET
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
 ### Oracle Manager
