@@ -116,7 +116,7 @@
       - 'CREATE_VERSION_ROLE'
     - open-enterprise-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
-- address: '0x9b1B224E0445243eF5fD102114d15136967FfB15'
+- address: '0x17d38262cEb5317aF645a246B0Ce6FC4cC3088f6'
   owner: Aragon Black cold wallet
   organization: Aragon Black
   permissions:
@@ -132,11 +132,8 @@
       - 'CREATE_VERSION_ROLE'
     - fundraising-multisig-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
-- address: '0xC43B0C4b6d227536238f071fBa7e624b2A632830'
-  owner: '@sohkai' (revoked)
-  organization: Aragon One
 - address: '0x33329F5a360649Eb1C473b998cF3b975FEb109f6'
-  owner: '@mikec'
+  owner: @mikec
   organization: Level K
   permissions:
     - futarchy.open.aragonpm.eth:
@@ -148,3 +145,9 @@
       - 'CREATE_VERSION_ROLE'
     - oracle-manager.open.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+- address: '0xC43B0C4b6d227536238f071fBa7e624b2A632830'
+  owner: @sohkai (revoked)
+  organization: Aragon One
+- address: '0x9b1B224E0445243eF5fD102114d15136967FfB15'
+  owner: Aragon Black cold wallet (revoked)
+  organization: Aragon Black
