@@ -31,6 +31,8 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - balance-redirect-presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
   manager:
@@ -72,6 +74,8 @@
       - 'CREATE_VERSION_ROLE'
     - projects.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - balance-redirect-presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
     - open-enterprise-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
@@ -108,3 +112,6 @@
       - 'CREATE_VERSION_ROLE'
     - oracle-manager.open.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+- address: '0x6F82dfD56A399390EFe5140d8E0390B200Dbb935'
+  owner: @bingen (revoked)
+  organization: Aragon One

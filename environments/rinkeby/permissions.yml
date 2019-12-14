@@ -32,6 +32,8 @@
       - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - balance-redirect-presale.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - token-wrapper.hatch.aragonpm.eth:
@@ -74,6 +76,8 @@
     - rewards.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - projects.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - balance-redirect-presale.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - open-enterprise-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
@@ -181,5 +185,8 @@
     - oracle-manager.open.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0xC43B0C4b6d227536238f071fBa7e624b2A632830'
-  owner: '@sohkai' (revoked)
+  owner: @sohkai (revoked)
+  organization: Aragon One
+- address: '0xD4D121b2ba5dC9eC6e028F9cdDCA1a33c73604D4'
+  owner: @bingen (revoked)
   organization: Aragon One
