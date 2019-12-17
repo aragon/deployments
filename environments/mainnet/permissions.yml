@@ -87,6 +87,8 @@
   owner: Autark cold wallet
   organization: Autark
   permissions:
+    - hatch.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
     - address-book.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - allocations.aragonpm.eth:
@@ -99,6 +101,12 @@
       - 'CREATE_VERSION_ROLE'
     - open-enterprise-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+- address: '0x17d38262cEb5317aF645a246B0Ce6FC4cC3088f6'
+  owner: Aragon Black cold wallet
+  organization: Aragon Black
+  permissions:
+    - hatch.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
 - address: '0xC43B0C4b6d227536238f071fBa7e624b2A632830'
   owner: '@sohkai' (revoked)
   organization: Aragon One
