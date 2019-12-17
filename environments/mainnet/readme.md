@@ -9,6 +9,7 @@
 - aragonID: `0x546aa2eae2514494eeadb7bbb35243348983c59d`
 - aragonPM:
   - `aragonpm.eth`: `0x346854c542d437565339E60dE8CB3EfE1cAB30dC`
+  - `hatch.aragonpm.eth`: `0x763f4f2dbA519A4c73ed59294f77bA77E30EFD1a`
   - `open.aragonpm.eth`: `0x12755944244f4f3ddffad19f7167c7db4f6f8359`
 - DAOFactory:
   - Aragon 0.8 (**✅ RECOMMENDED**): `0xb9da44c051c6cc9e04b7e0f95e95d69c6a6d8031`

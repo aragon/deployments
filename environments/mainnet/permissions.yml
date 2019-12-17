@@ -8,7 +8,9 @@
   permissions:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - hatch.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
     - open.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
@@ -35,6 +37,11 @@
       - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - hatch.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
