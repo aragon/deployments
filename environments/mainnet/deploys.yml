@@ -722,3 +722,11 @@ oracle-manager.open.aragonpm.eth:
       ipfsHash: QmZ65hiwvD9wgon9Ebqy96iggLjczA9VSk75f8uPGKCdMr
       contractAddress: '0x096f3103a7573608c750F12De0eA37DE75235cD9'
       commitHash: b6231de075cf8199de36f3254927c3c5a8bd0e42
+balance-redirect-presale.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-12-17T17:24:12.000Z
+      txHash: '0x0fe13a85d27f26d81e4589f54b7e799928173eb67a46b765a94939848c113cb1'
+      ipfsHash: QmRgx3dbFAsWUhyjMWW8VsXUX2yuByeNeYrnpp8YCXcx6C
+      contractAddress: '0x280c50ad7e6650bC6142e60bE17157fEd01C65e3'
+      commitHash: 44163a62bab42424dd047a4d047e53e8ea97a62e
