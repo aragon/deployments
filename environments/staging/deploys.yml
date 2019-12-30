@@ -1019,3 +1019,19 @@ fundraising-multisig-template.aragonpm.eth:
       ipfsHash: QmfCnXnzgr1DunEc4DrafWo1wYWvFpiD2zGc2wG5V62qSZ
       contractAddress: '0x5671D4815A2a5cFbF541496406460bF56dff2a01'
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
+token-wrapper.hatch.aragonpm.eth:
+  versions:
+    1.0.3:
+      date: 2019-12-30T15:51:31.000Z
+      txHash: '0x2dbeba5538a8161f7ce57235a8fa8a7ee9a7b9c252ad2ed6e95ec5a76c067bd3'
+      ipfsHash: QmQvQf9S4t2Db3JamxYBgpkR7TDkniAw6AC6S3Bb2eYAAs
+      contractAddress: '0x64E998B9eF75D79a26AD0EbD7b89A9d72fEDFf50'
+      commitHash: 4fa12e7061b271c74a9930b83649217e936c09f0
+voting-aggregator.hatch.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-12-30T15:53:16.000Z
+      txHash: '0x1b91234b51318c0e8049605838faaf3ac73d356f8b599a8597a6f5f3eea4f5ca'
+      ipfsHash: QmdjpnUix6BE74XCgSsFwPKViFDD2VtNmNu7qopUMxLC1R
+      contractAddress: '0x1dB29BBDEC3987ac1B15F318bA71296dbACAE589'
+      commitHash: 4fa12e7061b271c74a9930b83649217e936c09f0

@@ -123,6 +123,10 @@
       - 'CREATE_VERSION_ROLE'
     - fundraising-multisig-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - token-wrapper.hatch.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting-aggregator.hatch.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
   manager:
     - hatch.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
@@ -147,6 +151,10 @@
     - tap.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - fundraising-multisig-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-wrapper.hatch.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - voting-aggregator.hatch.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 
 - address: '0x1f1380c997a0d0f1801636fc3bc488cfad843bb5'
