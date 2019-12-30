@@ -20,6 +20,45 @@
 
 -----------
 
+- Version: Aragon client 0.8.6
+- Start date: December 30st 2019, 2.50pm CET
+- Finish date: December 30st 2019, 3.00pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+- Finance redeployed as first release was on wrong commit hash
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.1.3`
+- `token-manager.aragonpm.eth`: `2.1.2`
+- `voting.aragonpm.eth`: `2.1.2`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.2.2`
+
+-----------
+
 - Version: Aragon Fundraising 1.0.0-rc.1
 - Start date: December 12th 2019, 11.00am CEST
 - Finish date: December 12th 2019, 7.30pm CEST
