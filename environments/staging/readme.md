@@ -15,6 +15,7 @@
   - Aragon 0.8 (**✅ RECOMMENDED**): `0xf959e8953e2fe03782a7b86a7a5d948cb511ef5d`
   - Aragon 0.7 (**🙅 DEPRECATED**): `0xbca2c99aa7018edcde60e6c5744f68003112535d`
   - Aragon 0.6 (**🙅 DEPRECATED**): `0x10e1fcca61798cae1e1bcddcbc0cf3e8c03418a6`
+- MiniMeTokenFactory: `0xac443f983c38c02149ce2ffcff8b7de90dccf77c`
 
 ## Deployments
 
