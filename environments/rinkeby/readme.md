@@ -378,9 +378,9 @@ Final versions:
 
 -----------
 
-- Version: Aragon Fundraising 1.0.0-rc.1
-- Start date: October 9th 2019, 2.00pm CEST
-- Finish date: October 10th 2019, 1.19pm CEST
+- Version: Aragon Fundraising 2.0.0
+- Start date: January 9th 2020, 18.58pm CET
+- Finish date: January 9th 2020, 18.58pm CET
 - Deployer: Aragon Black testnet cold wallet [`0x9b1B224E0445243eF5fD102114d15136967FfB15`](https://rinkeby.etherscan.io/address/0x9b1B224E0445243eF5fD102114d15136967FfB15)
 
 ### Aragon Fundraising
@@ -406,11 +406,11 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
 Final versions:
 
-- `aragon-fundraising.aragonpm.eth`: `2.0.1`
+- `aragon-fundraising.aragonpm.eth`: `3.0.1`
 - `bancor-formula.aragonpm.eth`: `1.0.0`
-- `batched-bancor-market-maker.aragonpm.eth`: `1.0.0`
-- `presale.aragonpm.eth`: `1.0.0`
-- `tap.aragonpm.eth`: `1.0.0`
+- `batched-bancor-market-maker.aragonpm.eth`: `2.0.0`
+- `presale.aragonpm.eth`: `2.0.0`
+- `tap.aragonpm.eth`: `2.0.0`
 - `fundraising-multisig-template.aragonpm.eth`: `1.0.0`
 
 -----------

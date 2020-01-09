@@ -876,6 +876,12 @@ aragon-fundraising.aragonpm.eth:
       ipfsHash: QmYrmrYAb5QMVy6jpEj2e8p1dcsp4gSGekDuRbp77RiFfs
       contractAddress: '0x8322dd3ae5a4Ace3eFfEf456dBAdB32C69Cf7462'
       commitHash: 205029d1b35cb32533b1d6d120351728e4c48f91
+    3.0.1:
+      date: 2020-01-09T17:58:29.000Z
+      txHash: '0x512b4abbce58061c38f3c9145a62409317ef8fa7460cb8c76a703029d37e1d04'
+      ipfsHash: QmZQyPJw2q1aQvig97Wpm4VzdvF9JYtHMiNeBjQmtMu5Hv
+      contractAddress: '0x8322dd3ae5a4Ace3eFfEf456dBAdB32C69Cf7462'
+      commitHash: 78dc8daf33a2d6fe903d3332f23d9174fba4bb34
 approvals.hatch.aragonpm.eth:
   github: 'https://github.com/aragonone/approvals/tree/[ref]'
   versions:
