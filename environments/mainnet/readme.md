@@ -9,6 +9,7 @@
 - aragonID: `0x546aa2eae2514494eeadb7bbb35243348983c59d`
 - aragonPM:
   - `aragonpm.eth`: `0x346854c542d437565339E60dE8CB3EfE1cAB30dC`
+  - `hatch.aragonpm.eth`: `0x763f4f2dbA519A4c73ed59294f77bA77E30EFD1a`
   - `open.aragonpm.eth`: `0x12755944244f4f3ddffad19f7167c7db4f6f8359`
 - DAOFactory:
   - Aragon 0.8 (**✅ RECOMMENDED**): `0xb9da44c051c6cc9e04b7e0f95e95d69c6a6d8031`
@@ -20,10 +21,67 @@
 
 -----------
 
+- Version: Aragon client 0.8.6
+- Start date: December 21st 2019, 9.25pm CET
+- Finish date: December 21st 2019, 9.30pm CET
+- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish patch --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.1.6`
+- `token-manager.aragonpm.eth`: `2.1.6`
+- `voting.aragonpm.eth`: `2.1.6`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.9`
+
+-----------
+
+- Version: Aragon client 0.8.5-hotfix
+- Start date: December 14th 2019, 7:15pm CET
+- Finish date: December 14th 2019, 7:20pm CET
+- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.8`
+
+-----------
+
 - Version: Aragon client 0.8.5
 - Start date: December 4th 2019, 8.30pm CET
 - Finish date: December 4th 2019, 8.50pm CET
-- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
 
@@ -60,7 +118,7 @@ Final versions:
 - Version: Aragon client 0.8.5 (only MCD DAI)
 - Start date: November 23th 2019, 1.00pm CET
 - Finish date: November 12th 2019, 1.10pm CET
-- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
 
@@ -80,8 +138,8 @@ Final versions:
 -----------
 
 - Version: Futarchy 1.0.0
-- Start date: November 20th 2019, 10:15pm CEST
-- Finish date: November 20th 2019, 10:15pm CEST
+- Start date: November 20th 2019, 10:15pm CET
+- Finish date: November 20th 2019, 10:15pm CET
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
 ### Futarchy
@@ -102,8 +160,8 @@ Final versions:
 -----------
 
 - Version: Oracle Manager 1.0.0
-- Start date: November 20th 2019, 11:25pm CEST
-- Finish date: November 20th 2019, 11:25pm CEST
+- Start date: November 20th 2019, 11:25pm CET
+- Finish date: November 20th 2019, 11:25pm CET
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
 ### Oracle Manager
