@@ -411,7 +411,7 @@ Final versions:
 - `batched-bancor-market-maker.aragonpm.eth`: `2.0.0`
 - `presale.aragonpm.eth`: `2.0.0`
 - `tap.aragonpm.eth`: `2.0.0`
-- `fundraising-multisig-template.aragonpm.eth`: `1.0.0`
+- `fundraising-multisig-template.aragonpm.eth`: `2.0.0`
 
 -----------
 
