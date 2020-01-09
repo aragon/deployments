@@ -763,6 +763,12 @@ aragon-fundraising.aragonpm.eth:
       ipfsHash: QmRkVpgpj1tUGL4akLao5upCWy7X77c5nu2kyFQGjUQK2K
       contractAddress: '0x93383E74ee566a0110673628E14CCaa5eA840729'
       commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
+    1.0.1:
+      date: 2020-01-09T18:15:01.000Z
+      txHash: '0x898079411b277c20f9f0b8a8c7112f9592417d7d965cea92d846bec12fe5b39f'
+      ipfsHash: QmauDAkBiAir7kYVYiH1Spur8pEArX88a2atDKHG7Yy9yt
+      contractAddress: '0x93383E74ee566a0110673628E14CCaa5eA840729'
+      commitHash: 78dc8daf33a2d6fe903d3332f23d9174fba4bb34
 fundraising-multisig-template.aragonpm.eth:
   github: 'https://github.com/aragonblack/fundraising/tree/[ref]/templates/multisig'
   versions:
