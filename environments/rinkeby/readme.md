@@ -21,6 +21,43 @@
 
 -----------
 
+- Version: Aragon Fundraising 2.0.0
+- Start date: January 9th 2020, 18.58pm CET
+- Finish date: January 9th 2020, 18.58pm CET
+- Deployer: Aragon Black testnet cold wallet [`0x9b1B224E0445243eF5fD102114d15136967FfB15`](https://rinkeby.etherscan.io/address/0x9b1B224E0445243eF5fD102114d15136967FfB15)
+
+### Aragon Fundraising
+
+Repo: https://github.com/AragonBlack/fundraising
+
+Command (`aragon-fundraising`):
+```
+aragon apm publish major --files dist --environment rinkeby
+```
+
+Command (`bancor-formula`, `batched-bancor-market-maker`, `presale`, `tap`):
+```
+aragon apm publish major --environment rinkeby
+```
+
+Command (`templates/multisig`):
+```
+npm run publish:rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon-fundraising.aragonpm.eth`: `3.0.1`
+- `bancor-formula.aragonpm.eth`: `1.0.0`
+- `batched-bancor-market-maker.aragonpm.eth`: `2.0.0`
+- `presale.aragonpm.eth`: `2.0.0`
+- `tap.aragonpm.eth`: `2.0.0`
+- `fundraising-multisig-template.aragonpm.eth`: `2.0.0`
+
+-----------
+
 - Version: Aragon client 0.8.6
 - Start date: December 21st 2019, 8.50pm CET
 - Finish date: December 21st 2019, 9.10pm CET
