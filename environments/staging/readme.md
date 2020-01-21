@@ -20,6 +20,42 @@
 
 -----------
 
+- Version: Aragon client 0.8.6-hotfix
+- Start date: January 20th 2020, 11.30pm CET
+- Finish date: January 21th 2020, 1.45pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Apps
+
+Deployed: `voting`
+
+Command (`voting`):
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting.aragonpm.eth`: `2.1.3`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.2.3`
+
+
+-----------
+
 - Version: Voting connectors rc.2
 - Start date: January 7th, 8.30pm CET
 - Finish date: January 7th, 8.30pm CET
