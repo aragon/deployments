@@ -21,6 +21,29 @@
 
 -----------
 
+- Version: Voting connectors
+- Start date: January 24th, 10.00pm CET
+- Finish date: January 24th, 10.15pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Voting Connectors
+
+Deployed: `token-wrapper`, `voting-aggregator`
+
+Command (`token-wrapper`, `voting-aggregator`):
+```
+npm run apm:publish -- major --environment staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `token-wrapper.hatch.aragonpm.eth`: `1.0.0`
+- `voting-aggregator.hatch.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon client 0.8.7
 - Start date: January 24th 2020, 4.40pm CET
 - Finish date: January 24th 2020, 4.50pm CET

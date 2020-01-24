@@ -1001,3 +1001,17 @@ token-wrapper.hatch.aragonpm.eth:
       ipfsHash: QmYVrsuf74m31WyF5yddeK1CJQqwAMA2Sqk6bfNtKWUAcq
       contractAddress: '0xb7ebeE4e9F98fA3C81EF8a098179EF03A3D370BF'
       commitHash: a0bbe28e7c4f08e913f0049f1cbf12b846541bb6
+    2.0.0:
+      date: 2020-01-24T15:59:56.000Z
+      txHash: '0xa605ba41f7cabc33b3acf2128abc1df89452ab08506e1f279ca62de69b7f6529'
+      ipfsHash: QmapFjpdZkFWYLyL1oAxo1FZnPdS7oD4wZaNkGUpvir1oC
+      contractAddress: '0xdeFe956e2FC6c6FF6c688B9c4092457fccce13cc'
+      commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
+voting-aggregator.hatch.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-01-24T18:04:42.000Z
+      txHash: '0x0266e0edd79c534ac04c72a7227c13c993d03efb126ca172e691c8c808aeb89a'
+      ipfsHash: QmV81AwSDb5Q1sPgGvQH5HuW9T3RVsfFc2QmbRFZCaiQyv
+      contractAddress: '0x33A981eD0B2Af893d756035DB7768d291F07460F'
+      commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
