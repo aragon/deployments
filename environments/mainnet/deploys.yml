@@ -840,3 +840,19 @@ balance-redirect-presale.aragonpm.eth:
       ipfsHash: QmRgx3dbFAsWUhyjMWW8VsXUX2yuByeNeYrnpp8YCXcx6C
       contractAddress: '0x280c50ad7e6650bC6142e60bE17157fEd01C65e3'
       commitHash: 44163a62bab42424dd047a4d047e53e8ea97a62e
+token-wrapper.hatch.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-01-24T21:11:42.000Z
+      txHash: '0x04155282d257c1c4fcfafab8126c68fb4e9dcfe6de849330f7ea47d075d28da6'
+      ipfsHash: QmYS9VpcH1x2NLFBxyUf26vkn3xwhnJuGv1ESAkcyXJ95M
+      contractAddress: '0x96E672A399b0E78F1B05631857F3D25c78Fabaf3'
+      commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
+voting-aggregator.hatch.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-01-24T21:15:50.000Z
+      txHash: '0xcc2f8ac02331213593e6f628794bc108af15f26be2a63d577ca995474d602856'
+      ipfsHash: QmYpF5Ft3Ca1exnN5rGuw1nd5PjaHXgh6CbBPmTFKmA1SR
+      contractAddress: '0x21535EE4467F8ABC3A2Be4AE5FA80B1891805665'
+      commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
