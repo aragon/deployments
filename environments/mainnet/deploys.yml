@@ -856,3 +856,11 @@ voting-aggregator.hatch.aragonpm.eth:
       ipfsHash: QmYpF5Ft3Ca1exnN5rGuw1nd5PjaHXgh6CbBPmTFKmA1SR
       contractAddress: '0x21535EE4467F8ABC3A2Be4AE5FA80B1891805665'
       commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
+catalyst.open.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-01-28T18:10:44.000Z
+      txHash: '0x2238fd92878fd3065227e5500f22b5f14be008c96fc2aa8a500aaa4e5094c34d'
+      ipfsHash: QmUGVqktAtNhnojjydphfCmCPd1Y9CU6FKpcrwgT4to9cb
+      contractAddress: '0xCC054fAB08127C19f621aB83AdE5962Cd10584ec'
+      commitHash: ab7c64405db0e25114209b3e6bb63df8d250ced7
