@@ -21,6 +21,26 @@
 
 -----------
 
+- Version: Aragon client 0.8.7-hotfix
+- Start date: January 30th 2020, 11:30pm CET
+- Finish date: January 30th 2020, 7:30pm CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.10`
+
+-----------
+
 - Version: Voting connectors
 - Start date: January 24th, 5.00pm CET
 - Finish date: January 24th, 7.00pm CET
