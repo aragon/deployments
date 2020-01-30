@@ -24,7 +24,7 @@
 - Version: Voting connectors
 - Start date: January 24th, 10.00pm CET
 - Finish date: January 24th, 10.15pm CET
-- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Voting Connectors
 
@@ -47,7 +47,7 @@ Final versions:
 - Version: Aragon client 0.8.7
 - Start date: January 24th 2020, 4.40pm CET
 - Finish date: January 24th 2020, 4.50pm CET
-- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Apps
 
@@ -55,7 +55,7 @@ Deployed: `finance`, `voting`, `token-manager`
 
 Command (`finance`, `voting`, `token-manager`):
 ```
-aragon apm publish patch --environment rinkeby --files app/build
+aragon apm publish patch --environment mainnet --files app/build
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -70,7 +70,7 @@ Final versions:
 
 Command:
 ```
-npm run publish:rinkeby:patch
+npm run publish:mainnet:patch
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -81,10 +81,47 @@ Final versions:
 
 -----------
 
+- Version: Aragon Fundraising 1.0.0
+- Start date: January 9th 2020, 19.15pm CET
+- Finish date: January 9th 2020, 19.15pm CET
+- Deployer: Aragon Black mainnet cold wallet [`0x17d38262cEb5317aF645a246B0Ce6FC4cC3088f6`](https://etherscan.io/address/0x17d38262cEb5317aF645a246B0Ce6FC4cC3088f6)
+
+### Aragon Fundraising
+
+Repo: https://github.com/AragonBlack/fundraising
+
+Command (`aragon-fundraising`):
+```
+aragon apm publish major --files dist --environment mainnet
+```
+
+Command (`bancor-formula`, `batched-bancor-market-maker`, `presale`, `tap`):
+```
+aragon apm publish major --environment mainnet
+```
+
+Command (`templates/multisig`):
+```
+npm run publish:mainnet
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon-fundraising.aragonpm.eth`: `1.0.1`
+- `bancor-formula.aragonpm.eth`: `1.0.0`
+- `batched-bancor-market-maker.aragonpm.eth`: `1.0.0`
+- `presale.aragonpm.eth`: `1.0.0`
+- `tap.aragonpm.eth`: `1.0.0`
+- `fundraising-multisig-template.aragonpm.eth`: `1.0.0`
+
+-----------
+
 - Version: Aragon client 0.8.6
 - Start date: December 21st 2019, 9.25pm CET
 - Finish date: December 21st 2019, 9.30pm CET
-- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Apps
 
@@ -92,7 +129,7 @@ Deployed: `finance`, `voting`, `token-manager`
 
 Command (`finance`, `voting`, `token-manager`):
 ```
-aragon apm publish patch --environment rinkeby --files app/build
+aragon apm publish patch --environment mainnet --files app/build
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -107,7 +144,7 @@ Final versions:
 
 Command:
 ```
-npm run publish:rinkeby:patch
+npm run publish:mainnet:patch
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -121,7 +158,7 @@ Final versions:
 - Version: Aragon client 0.8.5-hotfix
 - Start date: December 14th 2019, 7:15pm CET
 - Finish date: December 14th 2019, 7:20pm CET
-- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Client
 
@@ -141,7 +178,7 @@ Final versions:
 - Version: Aragon client 0.8.5
 - Start date: December 4th 2019, 8.30pm CET
 - Finish date: December 4th 2019, 8.50pm CET
-- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Apps
 
@@ -149,7 +186,7 @@ Deployed: `finance`, `voting`, `token-manager`
 
 Command (`finance`, `voting`, `token-manager`):
 ```
-aragon apm publish patch --environment rinkeby --files app/build
+aragon apm publish patch --environment mainnet --files app/build
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -164,7 +201,7 @@ Final versions:
 
 Command:
 ```
-npm run publish:rinkeby:patch
+npm run publish:mainnet:patch
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -178,7 +215,7 @@ Final versions:
 - Version: Aragon client 0.8.5 (only MCD DAI)
 - Start date: November 23th 2019, 1.00pm CET
 - Finish date: November 12th 2019, 1.10pm CET
-- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Apps
 
@@ -1459,40 +1496,3 @@ Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 Final versions:
 
 - `aragon.aragonpm.eth`: `1.0.0`
-
------------
-
-- Version: Aragon Fundraising 1.0.0
-- Start date: January 9th 2020, 19.15pm CET
-- Finish date: January 9th 2020, 19.15pm CET
-- Deployer: Aragon Black mainnet cold wallet [`0x17d38262cEb5317aF645a246B0Ce6FC4cC3088f6`](https://etherscan.io/address/0x17d38262cEb5317aF645a246B0Ce6FC4cC3088f6)
-
-### Aragon Fundraising
-
-Repo: https://github.com/AragonBlack/fundraising
-
-Command (`aragon-fundraising`):
-```
-aragon apm publish major --files dist --environment rinkeby
-```
-
-Command (`bancor-formula`, `batched-bancor-market-maker`, `presale`, `tap`):
-```
-aragon apm publish major --environment rinkeby
-```
-
-Command (`templates/multisig`):
-```
-npm run publish:rinkeby
-```
-
-Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
-
-Final versions:
-
-- `aragon-fundraising.aragonpm.eth`: `1.0.1`
-- `bancor-formula.aragonpm.eth`: `1.0.0`
-- `batched-bancor-market-maker.aragonpm.eth`: `1.0.0`
-- `presale.aragonpm.eth`: `1.0.0`
-- `tap.aragonpm.eth`: `1.0.0`
-- `fundraising-multisig-template.aragonpm.eth`: `1.0.0`
