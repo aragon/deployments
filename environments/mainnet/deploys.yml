@@ -864,3 +864,9 @@ catalyst.open.aragonpm.eth:
       ipfsHash: QmUGVqktAtNhnojjydphfCmCPd1Y9CU6FKpcrwgT4to9cb
       contractAddress: '0xCC054fAB08127C19f621aB83AdE5962Cd10584ec'
       commitHash: ab7c64405db0e25114209b3e6bb63df8d250ced7
+    1.0.2:
+      date: 2020-01-30T21:10:55.000Z
+      txHash: '0x4090577cc3d0a7646bcd2cd29c85152dbe2e7e5025f5b903377c20f672220a13'
+      ipfsHash: QmSSFf5EUs3iLhjEJmHL4mkfZ9vSaGkL9Kz5BKe3C7acYb
+      contractAddress: '0xCC054fAB08127C19f621aB83AdE5962Cd10584ec'
+      commitHash: 25822632fa67bfbe3256f036fb2b04046379a874
