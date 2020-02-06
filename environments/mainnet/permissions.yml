@@ -166,7 +166,7 @@
     - fundraising-multisig-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0x5089F026B446a9FBc0b696DA3CCab49d7FDF7671'
-  owner: 1Hive testnet cold wallet
+  owner: 1Hive cold wallet
   organization: 1Hive
   permissions:
     - dandelion-voting.aragonpm.eth:
