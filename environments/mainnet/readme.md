@@ -12,12 +12,77 @@
   - `hatch.aragonpm.eth`: `0x763f4f2dbA519A4c73ed59294f77bA77E30EFD1a`
   - `open.aragonpm.eth`: `0x12755944244f4f3ddffad19f7167c7db4f6f8359`
 - DAOFactory:
-  - Aragon 0.8 (**✅ RECOMMENDED**): `0xb9da44c051c6cc9e04b7e0f95e95d69c6a6d8031`
-  - Aragon 0.7 (**🙅 DEPRECATED**): `0xc29f0599df12eb4cbe1a34354c4bac6d944071d1`
-  - Aragon 0.6 (**🙅 DEPRECATED**): `0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559`
+  - 0.8.1 (**✅ RECOMMENDED**): `0x7378ad1ba8f3c8e64bbb2a04473edd35846360f1`
+  - 0.8 (**✅ RECOMMENDED**): `0xb9da44c051c6cc9e04b7e0f95e95d69c6a6d8031`
+  - 0.7 (**🙅 DEPRECATED**): `0xc29f0599df12eb4cbe1a34354c4bac6d944071d1`
+  - 0.6 (**🙅 DEPRECATED**): `0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559`
 - MiniMeTokenFactory: `0x909d05f384d0663ed4be59863815ab43b4f347ec`
 
+### aragonOS
+
+- Kernel:
+  - v1.1: `0x2b33cf282f867a7ff693a66e11b0fcc5552e4425`
+  - v1.0: `0x4a6ce97a84178a84c1cee46a763db619d0e6e413`
+- ACL:
+  - v1.1: `0x9f3b9198911054b122fdb865f8a5ac516201c339`
+  - v1.0: `0x81f7564e413586f1f99fde55740ac52b43ca99c9`
+
 ## Deployments
+
+-----------
+
+- Version: DAOFactory 0.8.1
+- Start date: February 6 2020, 10:30am CET
+- Finish date: February 6 2020, 11:30am CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- aragonOS commit hash: [`https://github.com/aragon/aragonOS/tree/f3ae59b00f73984e562df00129c925339cd069ff`](https://github.com/aragon/aragonOS/tree/)
+
+### aragonOS
+
+#### ACL v1.1
+
+To minimize changes from the original ACL deployed at `0x3ae935e863984ecffc980bf67bd73f56a41b94ea`, the ACL changes from [`aragonOS@4.4.0`](https://github.com/aragon/aragonOS/releases/tag/v4.4.0) were backported to [`aragonOS@4.0.2`](https://github.com/aragon/aragonOS/releases/tag/v4.0.2).
+
+Command:
+```
+npx truffle compile --all
+npx truffle console --network rinkeby
+
+> const logDeploy = require('./helpers/deploy-logger')
+> logDeploy(await ACL.new())
+```
+
+Output:
+```
+=========
+# ACL:
+Address: 0x9f3b9198911054b122fdb865f8a5ac516201c339
+Transaction hash: 0x5386811bf81996e37265b328749122f52eebbdb443fb163804b9eb57346dde41
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2020-02-06T08:56:52.187Z
+=========
+```
+
+#### DAOFactory
+
+Command:
+```
+npx truffle compile --all
+KERNEL_BASE=0x2b33cf282f867a7ff693a66e11b0fcc5552e4425 ACL_BASE=0x9f3b9198911054b122fdb865f8a5ac516201c339 EVM_REG_FACTORY=0xcafa04538aa18ec7ce451bd0e55874c75b80657f npx truffle exec --network mainnet scripts/deploy-daofactory.js
+```
+Output:
+```
+Skipping deploying new Kernel base, using provided address: 0x2b33cf282f867a7ff693a66e11b0fcc5552e4425
+Skipping deploying new ACL base, using provided address: 0x9f3b9198911054b122fdb865f8a5ac516201c339
+Skipping deploying new EVMScriptRegistryFactory, using provided address: 0xcafa04538aa18ec7ce451bd0e55874c75b80657f
+=========
+# DAOFactory:
+Address: 0x7378ad1ba8f3c8e64bbb2a04473edd35846360f1
+Transaction hash: 0x89da0276e6965ae0e5e3137821f70d291e69e8a3fc20c6e1c6991aa2b239d427
+Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
+Compiled at: 2020-02-06T10:27:04.722Z
+=========
+```
 
 -----------
 
