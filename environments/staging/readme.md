@@ -20,6 +20,168 @@
 
 -----------
 
+- Version: Aragon client 0.8.7-rc.2
+- Start date: January 24th 2020, 2.15pm CET
+- Finish date: January 24th 2020, 2.20pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.2.5`
+
+-----------
+
+- Version: Aragon client 0.8.7-rc.1
+- Start date: January 23rd 2020, 10.25pm CET
+- Finish date: January 23rd 2020, 10.30pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.2.4`
+
+-----------
+
+- Version: Aragon client 0.8.6-hotfix
+- Start date: January 20th 2020, 11.30pm CET
+- Finish date: January 21th 2020, 1.45pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Apps
+
+Deployed: `voting`
+
+Command (`voting`):
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting.aragonpm.eth`: `2.1.3`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.2.3`
+
+-----------
+
+- Version: Voting connectors rc.2
+- Start date: January 7th, 8.30pm CET
+- Finish date: January 7th, 8.30pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Voting Connectors
+
+Deployed: `token-wrapper`, `voting-aggregator`
+
+Command (`token-wrapper`, `voting-aggregator`):
+```
+npm run apm:publish -- major --environment staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `token-wrapper.hatch.aragonpm.eth`: `2.0.0`
+- `voting-aggregator.hatch.aragonpm.eth`: `2.0.0`
+
+-----------
+
+- Version: Voting connectors rc.1
+- Start date: December 30th 2019, 4.00pm CET
+- Finish date: December 30th 2019, 5.00pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Voting Connectors
+
+Deployed: `token-wrapper`, `voting-aggregator`
+
+- TokenWrapper redeployed as first few releases used incorrect IPFS hashes
+
+Command (`token-wrapper`, `voting-aggregator`):
+```
+npm run apm:publish -- major --environment staging
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `token-wrapper.hatch.aragonpm.eth`: `1.0.3`
+- `voting-aggregator.hatch.aragonpm.eth`: `1.0.0`
+
+-----------
+
+- Version: Aragon client 0.8.6
+- Start date: December 30st 2019, 2.50pm CET
+- Finish date: December 30st 2019, 3.00pm CET
+- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+
+### Aragon Apps
+
+Deployed: `finance`, `voting`, `token-manager`
+
+- Finance redeployed as first release was on wrong commit hash
+
+Command (`finance`, `voting`, `token-manager`):
+```
+aragon apm publish patch --environment staging --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.1.3`
+- `token-manager.aragonpm.eth`: `2.1.2`
+- `voting.aragonpm.eth`: `2.1.2`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:staging:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `1.2.2`
+
+-----------
+
 - Version: Aragon Fundraising 1.0.0-rc.1
 - Start date: December 12th 2019, 11.00am CEST
 - Finish date: December 12th 2019, 7.30pm CEST
