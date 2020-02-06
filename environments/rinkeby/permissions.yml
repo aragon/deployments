@@ -77,9 +77,23 @@
       - 'CREATE_VERSION_ROLE'
     - projects.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
+    - open-enterprise-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
     - balance-redirect-presale.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
-    - open-enterprise-template.aragonpm.eth:
+    - dandelion-voting.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+    - delay.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - redemptions.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - time-lock.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-balance-oracle.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-request.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - dandelion-org-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
@@ -133,6 +147,24 @@
     - projects.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - open-enterprise-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+- address: '0x87C6F048CfcF61083571cd9bCFC20Eba6868fc1e'
+  owner: 1Hive testnet cold wallet
+  organization: 1Hive
+  permissions:
+    - dandelion-voting.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+    - delay.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - redemptions.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - time-lock.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-balance-oracle.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-request.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - dandelion-org-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0x4cB3FD420555A09bA98845f0B816e45cFb230983'
   owner: '@izqui'
