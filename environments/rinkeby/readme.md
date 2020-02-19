@@ -22,24 +22,26 @@
 -----------
 
 - Version: Aragon client 0.8.8
-- Start date: February 19 2020, 5:15am CET
-- Finish date: February 19 2020, 5.15am CET
+- Start date: February 19th 2020, 5:15am CET
+- Finish date: February 19th 2020, 5.15am CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
 
-Deployed: `finance`, `voting`, `token-manager`
+Deployed: `finance`
 
-Command (`finance`, `voting`, `token-manager`):
+Command:
 ```
 aragon apm publish patch --environment rinkeby --files app/build
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
+- `finance.aragonpm.eth` had to be republished twice as `2.1.8` had an incorrect artifact due to mis-configuration.
+
 Final versions:
 
-- `finance.aragonpm.eth`: `2.1.8`
+- `finance.aragonpm.eth`: `2.1.9`
 
 ### Aragon Client
 
