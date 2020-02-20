@@ -876,3 +876,89 @@ catalyst.open.aragonpm.eth:
       ipfsHash: QmSSFf5EUs3iLhjEJmHL4mkfZ9vSaGkL9Kz5BKe3C7acYb
       contractAddress: '0xCC054fAB08127C19f621aB83AdE5962Cd10584ec'
       commitHash: 25822632fa67bfbe3256f036fb2b04046379a874
+redemptions.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-07T18:18:53.000Z
+      txHash: '0xe14079bf1c7ef6985c88781d0651de0ca1364d530b3221a11f9f0fe86114bcf6'
+      ipfsHash: QmXdEGNVwweyjKC2S7f6RVQSZp8gZNF1zjGQMqvJUiqMeE
+      contractAddress: '0x5B1f69304651b3e7a9789D27e84f1F7336c356e8'
+      commitHash: 533acc281239501b424ef8fc1c4e86e5fb574306
+    1.1.0:
+      date: 2020-02-15T19:13:53.000Z
+      txHash: '0xd6ed241fe7a5c15b6d2e59d43387f035c3fcb1718f13c0cfe516e680fc1026cf'
+      ipfsHash: QmTmH2Ev15k1sYERVQigGPaaBhVLtuqDafNot4JRH6HRoD
+      contractAddress: '0x5B1f69304651b3e7a9789D27e84f1F7336c356e8'
+      commitHash: 98b6b78dec2a3ca36ebe4fa56f22625479451370
+
+token-request.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-06T18:30:30
+      txHash: '0xc6764767cdcda45a6a3ae7687aa0f8e0c4f7ce3b1cfe4f5cf3fd66fec21a96a8'
+      ipfsHash: QmZuMvYt75YD81jnrcGTQRGKoppEm17ErSQEdbxLXyiFEr
+      contractAddress: '0x61dAC0359fAeCFE0b39a52F892B40fD8b23F4266'
+      commitHash: b58ef2b0c815e70624427c29bb362a730a99e4a7
+    1.1.0:
+      date: 2020-02-15T19:29:30
+      txHash: '0xf290e3b8978e3f69734b990be4e797a8dc87612dc2cb7287a5a182a6ca22767a'
+      ipfsHash: QmYQ1KuuRjK9wVn3pPxzPZ4vC9SpP2QZNGKKtyzSMp4RPQ
+      contractAddress: '0x61dAC0359fAeCFE0b39a52F892B40fD8b23F4266'
+      commitHash: 315dd20c6eb6f1b49bf452b29b221dd676a7f473
+
+time-lock.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-07T19:07:15
+      txHash: '0xcd1be1bee80135abd11665ee1d21e71ef10fc861ab82b6412e1ce2252806f0de'
+      ipfsHash: QmbA48JgDCL54vp6pAdDtff8bXmXakRg1DLrwgqsYXhtPB
+      contractAddress: '0x8DEcc97558329A4653b3Feca8c77E77E621AAFD5'
+      commitHash: 55640065b81f8f02c7355da6b8005900f4c79ff9
+    1.1.0:
+      date: 2020-02-15T19:44:15
+      txHash: '0x436beb6dcc2babb2ee9c85f8e5a21404f4ca5c9c3d4f7291503b0f2e1be1875c'
+      ipfsHash: QmVhQk3ivXcpnDMc4NSGtKGf11c4vhBLdTTpwS7YNH14JY
+      contractAddress: '0x8DEcc97558329A4653b3Feca8c77E77E621AAFD5'
+      commitHash: 28791d7a5c637cb571463d3fecf34b77d361eab0
+
+dandelion-voting.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-07T18:42:45
+      txHash: '0x186c01e124d87464291e5f245b1db3509a8d73650c80669c325b13b80ce8ec64'
+      ipfsHash: QmdNmz3jHmjnhpmEFncWr59GVq86TwAvo4sCksGkoGeghk
+      contractAddress: '0x417c5ec1E30D37f1d3D54A974E2F384e640046E5'
+      commitHash: 23ff0b5d80cf69039549574deee4b60cfde93c6c
+    1.1.0:
+      date: 2020-02-07T19:54:45
+      txHash: '0x021d15d871a1c820dab0726ddf711384a1e3642b5c13b5f0aa518a43bed6a876'
+      ipfsHash: QmWRU4hGynmE9aRVFZPYmMwGccvYJpSp2eRycT42UHGgMi
+      contractAddress: '0x417c5ec1E30D37f1d3D54A974E2F384e640046E5'
+      commitHash: be831c5bf41a2a71a97a74708c15fedfd2b74969
+
+delay.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-12-07T19:13:30
+      txHash: '0x6ef37c76f3305cf158e97a2ef9ec1f01a75cc6c42e45e3d04ce46b46f7a569ac'
+      ipfsHash: QmPJGitiEgZg2T6jxzZtEE3xo4dZfPYea89aN8zSTTtC4T
+      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
+      commitHash: 6b7fdb14e9efc0a1fe3a1e80e74a39c8f59de4d8
+
+token-balance-oracle.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2010-02-07T19:22:30
+      txHash: '0x6ef37c76f3305cf158e97a2ef9ec1f01a75cc6c42e45e3d04ce46b46f7a569ac'
+      ipfsHash: QmSCbnmBoe6iAfCjcwrVbtfmYuJY71LURSbn7tfcjXsrs5
+      contractAddress: '0x17e6bd94778A6a509D62507DF37D60d1B23E225d'
+      commitHash: 9a77e10c0dcfa5e41292d0bae5ece5f7e33796f7
+
+dandelion-org-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-06T20:24:30
+      txHash: '0x8445fed06629e59fefa55c65914402b00ffd2e1d41126172d45bb4a3268656bd'
+      ipfsHash: QmcfeX1eoEZNzhQ5d1i7awKMzG367KxQw6UzgBxT9DiXuJ
+      contractAddress: '0xbc2a863ef2b96d454ac7790d5a9e8cffd8eccba8'
+      commitHash: 393be58887c54286ae7fae7c60fe005a24bfae4e
