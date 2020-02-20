@@ -1049,7 +1049,6 @@ redemptions.aragonpm.eth:
       ipfsHash: QmcRiC6S88FmmtM119QozbyCVNxdin16Fz4LfeK41T3w3P
       contractAddress: '0xe47d2A5D3319E30D1078DB181966707d8a58dE98'
       commitHash: abf13a35be8e42a827420a4572ff12fb641454b6
-
 token-request.aragonpm.eth:
   versions:
     1.0.0:
@@ -1064,7 +1063,6 @@ token-request.aragonpm.eth:
       ipfsHash: QmNax78zGSNXoHH8gbj8fXRnpLUbx9hBTFVMNzexLfuobV
       contractAddress: '0x592445A6cd642fB14cefdfe343C655A23a7a3931'
       commitHash: f512d58224188e86a221133c17b9c6dd6cd2c77e
-
 time-lock.aragonpm.eth:
   versions:
     1.0.0:
@@ -1079,7 +1077,6 @@ time-lock.aragonpm.eth:
       ipfsHash: QmRhKcyFmU6ffgCjURrgPM48m4QQKJGtq8mEKFCmF8edzx
       contractAddress: '0x27256872354F490c96C8D5c72588B96EAEb7e15B'
       commitHash: 639c696a0b6d561b70481539ec1a2cc55ea2f546
-
 dandelion-voting.aragonpm.eth:
   versions:
     1.0.0:
@@ -1088,7 +1085,6 @@ dandelion-voting.aragonpm.eth:
       ipfsHash: QmdWbWPXg9o1L59LFJAiodUbJ73LWfoASas57PXMoufzyA
       contractAddress: '0x865511DCA976E036AB5e559DCCD8d6396893Ab40'
       commitHash: 23ff0b5d80cf69039549574deee4b60cfde93c6c
-
 delay.aragonpm.eth:
   versions:
     1.0.0:
@@ -1097,7 +1093,6 @@ delay.aragonpm.eth:
       ipfsHash: QmdppZtH6iNukcWo8xtGt8A5yDPYnTaexRS1xQhara54qR
       contractAddress: '0x214044cc3fa7a3ECEF0bC9052Fe9B296585E3275'
       commitHash: 6b7fdb14e9efc0a1fe3a1e80e74a39c8f59de4d8
-
 token-balance-oracle.aragonpm.eth:
   versions:
     1.0.0:
@@ -1106,7 +1101,6 @@ token-balance-oracle.aragonpm.eth:
       ipfsHash: QmP89dpyLXbySNttB7uedYFy1kgdLMocYhNzmfXYyRri6A
       contractAddress: '0xE73523aebca43026791101a50B0bE1a2a1BB3BFA'
       commitHash: 9a77e10c0dcfa5e41292d0bae5ece5f7e33796f7
-
 dandelion-org-template.aragonpm.eth:
   versions:
     1.0.0:
