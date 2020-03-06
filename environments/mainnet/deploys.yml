@@ -940,6 +940,18 @@ delay.aragonpm.eth:
       ipfsHash: QmPJGitiEgZg2T6jxzZtEE3xo4dZfPYea89aN8zSTTtC4T
       contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
       commitHash: 6b7fdb14e9efc0a1fe3a1e80e74a39c8f59de4d8
+    1.1.0:
+      date: 2020-03-03T13:30:30
+      txHash: '0xf4daeb47ed3cd7213da0ce1450508c52fa5e41af6362aae4f7dd7c3cd405bb48'
+      ipfsHash: Qmb2DU1EsACPNeQRpR2svQm3mqvvvaXEmiM1DuEyNfaWVc
+      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
+      commitHash: c686d0b6676eb664c000f064d8789bd376d8206f
+    1.1.1:
+      date: 2020-03-03T13:55:30
+      txHash: '0x96a1acc3b09e2464ef399906f97a9db79040400597d55980cdf2ca34603e93da'
+      ipfsHash: QmSE1VZT1Q2yB43SLRqeJ7hvxYYKzCwtrCv7uTCnikvfdb
+      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
+      commitHash: c686d0b6676eb664c000f064d8789bd376d8206f
 token-balance-oracle.aragonpm.eth:
   versions:
     1.0.0:
