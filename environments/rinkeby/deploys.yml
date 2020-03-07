@@ -427,6 +427,18 @@ finance.aragonpm.eth:
       ipfsHash: QmbAEvts3zkDKM71k5n45EsS4fEqXi3958SFedJUveDJ2D
       contractAddress: '0x94D3013A8700E8B168f66529aD143590CC6b259d'
       commitHash: f44ee48106bc15039d8b716e0162abc4c867dec2
+    2.1.8:
+      date: 2020-02-19T04:14:05.000Z
+      txHash: '0x29891e65797a366883cbb8822a403c74c4431f944b62044bf68378cd210d6754'
+      ipfsHash: QmVEwDCP2nD8Nw3GNS5BQeigHTt8NirQsEbncjScb4iLRQ
+      contractAddress: '0x94D3013A8700E8B168f66529aD143590CC6b259d'
+      commitHash: 9dabc15a0096c5aced709683ba231ba2e666cbb1
+    2.1.9:
+      date: 2020-02-19T04:44:05.000Z
+      txHash: '0x79a99e318a2e49fd69840d3921778f39e319e4dc1e03f55ae88610823a2031d8'
+      ipfsHash: QmbnhuLvvvcqEpRXd6VtnqZYAFZJdvAnhUrBAwqE1rfeRP
+      contractAddress: '0x94D3013A8700E8B168f66529aD143590CC6b259d'
+      commitHash: 41d546b3e870ce67facf661e62cb1db36301e4e0
 vault.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
   versions:
@@ -691,6 +703,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmfP2XuFcoj8FxQFirJ2M1mMQ2yLwpLfdGab5NRFpXUjhc
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 7143bbb8de768a6dc90ba51de6125bce70a2c7a1
+    3.0.11:
+      date: 2020-02-19T04:14:20.000Z
+      txHash: '0x029cbf440b69789368804e9aa9da6346fdf2ad797b78e03486245bd98051e19e'
+      ipfsHash: QmNNUvQB9W7BMiaqwt9npesVFqmZQWDUT6S8FAqwHXLnQo
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: fba89d9d60749c2d2a360db08a03a732119e624e
 bare-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
   versions:

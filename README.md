@@ -1,6 +1,8 @@
 # Deployments [![Build Status](https://travis-ci.org/aragon/deployments.svg?branch=master)](https://travis-ci.org/aragon/deployments)
 
-:package: Real-world deployments of Aragon code to Ethereum networks.
+:package: Real-world deployments of code powering Aragon organizations to Ethereum networks.
+
+> For information related to Aragon Network deployments, see [`aragon-network-deploy`](https://github.com/aragon/aragon-network-deploy).
 
 ## Environments
 

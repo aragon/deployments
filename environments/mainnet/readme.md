@@ -31,6 +31,41 @@
 
 -----------
 
+- Version: Aragon client 0.8.8
+- Start date: February 20th 2020, 12:45am CET
+- Finish date: February 20th 2020, 12.55am CET
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Apps
+
+Deployed: `finance`
+
+Command:
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `finance.aragonpm.eth`: `2.1.8`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.12`
+
+-----------
+
 - Version: DAOFactory 0.8.1
 - Start date: February 6 2020, 10:30am CET
 - Finish date: February 6 2020, 11:30am CET
@@ -89,7 +124,7 @@ Compiled at: 2020-02-06T10:27:04.722Z
 - Version: Aragon client 0.8.7-hotfix
 - Start date: January 30th 2020, 11:45pm CET
 - Finish date: January 30th 2020, 11:45pm CET
-- Deployer: Aragon One cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Client
 
