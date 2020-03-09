@@ -912,6 +912,110 @@ aragon-fundraising.aragonpm.eth:
       ipfsHash: QmZQyPJw2q1aQvig97Wpm4VzdvF9JYtHMiNeBjQmtMu5Hv
       contractAddress: '0x8322dd3ae5a4Ace3eFfEf456dBAdB32C69Cf7462'
       commitHash: 78dc8daf33a2d6fe903d3332f23d9174fba4bb34
+redemptions.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-06T13:57:53.000Z
+      txHash: '0xa968a8032f1d92945c3a96e27020766acd67f5530228473257f5038f05f97351'
+      ipfsHash: QmcwnyqnUgqMjARxA4kSGA82nPHtkmMVMWdUtf6yX1hopA
+      contractAddress: '0xa2f8051b0647d8A193132c9D9847C94cF7665c6c'
+      commitHash: 533acc281239501b424ef8fc1c4e86e5fb574306
+    2.0.0:
+      date: 2020-02-06T20:24:11.000Z
+      txHash: '0x3316bd4bbffcfed06ff2ec8d51b30341fbf610f4744c345396f0764f82417cd6'
+      ipfsHash: QmcRiC6S88FmmtM119QozbyCVNxdin16Fz4LfeK41T3w3P
+      contractAddress: '0xe47d2A5D3319E30D1078DB181966707d8a58dE98'
+      commitHash: abf13a35be8e42a827420a4572ff12fb641454b6
+    2.1.0:
+      date: 2020-03-03T12:32:53.000Z
+      txHash: '0xe34d69ee2555abb91b1611dcb97afd3cdd79835d3e7a930dbf1c5d55739464f3'
+      ipfsHash: QmQFQVjy6V4aMz1dYqvPXEMUS2VEVN2EcdpGQorQu3g2oZ
+      contractAddress: '0xe47d2A5D3319E30D1078DB181966707d8a58dE98'
+      commitHash: 98b6b78dec2a3ca36ebe4fa56f22625479451370
+token-request.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-06T14:09:30.000Z
+      txHash: '0xbd11768024c41a339c7fbf25c1c802a5f1bc0b41069b6e55b28fce59b1d3a9a1'
+      ipfsHash: QmcFRWZAX3Nq6ErzE6MaqdJgXwz45SnaehTirV3K2ffrUa
+      contractAddress: '0x19351c11d31aF469Ad859B01fca59e1051F86a20'
+      commitHash: b58ef2b0c815e70624427c29bb362a730a99e4a7
+    2.0.0:
+      date: 2020-02-06T17:09:30.000Z
+      txHash: '0x8a9119053c3a9227a40b9ad8a50eec3f28c2ce9456e93058eaf2b82bbc2e749e'
+      ipfsHash: QmNax78zGSNXoHH8gbj8fXRnpLUbx9hBTFVMNzexLfuobV
+      contractAddress: '0x592445A6cd642fB14cefdfe343C655A23a7a3931'
+      commitHash: f512d58224188e86a221133c17b9c6dd6cd2c77e
+    2.1.0:
+      date: 2020-03-03T12:39:30
+      txHash: '0x9c63fad7405b527717483322a20843dbd6fb1a52d0f3105a28a54ae74ed076a1'
+      ipfsHash: QmX4x1zpprGoS5GFmZLrawcJQj52awzQa3QyxoxaQWz3dX
+      contractAddress: '0x592445A6cd642fB14cefdfe343C655A23a7a3931'
+      commitHash: b82bb54af14c419d86dc8d32f4fa7abf266b1723
+time-lock.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-06T14:20:15.000Z
+      txHash: '0x2bdae5eae4438e7035576ee2fd534973d596126ed4eca7bbff8590c3cecded6e'
+      ipfsHash: QmbuHeCR5vr6fTDQiqoRyAGhcQnjKYTihxcRAQgyw3rpeJ
+      contractAddress: '0x74fD87CeF4F3cFf34f7419431e04f0087875fCb9'
+      commitHash: 55640065b81f8f02c7355da6b8005900f4c79ff9
+    2.0.0:
+      date: 2020-02-06T14:20:15.000Z
+      txHash: '0x7d746087d7c3020d3c7453c2813542f7c07564e99d2dcd3f434810de62e0311a'
+      ipfsHash: QmRhKcyFmU6ffgCjURrgPM48m4QQKJGtq8mEKFCmF8edzx
+      contractAddress: '0x27256872354F490c96C8D5c72588B96EAEb7e15B'
+      commitHash: 639c696a0b6d561b70481539ec1a2cc55ea2f546
+    2.1.0:
+      date: 2020-03-03T12:36:15
+      txHash: '0xae3b1a5e4a0a905bb1fb361fef735ae553fec25a261d9ed46115364e9a20b192'
+      ipfsHash: QmdphdtxMB1fU7N48EeXi1h5PXk7my1hCrU4vtcg6WPVmw
+      contractAddress: '0x27256872354F490c96C8D5c72588B96EAEb7e15B'
+      commitHash: 28791d7a5c637cb571463d3fecf34b77d361eab0
+dandelion-voting.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-06T17:31:45.000Z
+      txHash: '0xb72c3af48c79c3da19d96cfee643720c70e68bceb75a29f30e3e9713f4758024'
+      ipfsHash: QmdWbWPXg9o1L59LFJAiodUbJ73LWfoASas57PXMoufzyA
+      contractAddress: '0x865511DCA976E036AB5e559DCCD8d6396893Ab40'
+      commitHash: 23ff0b5d80cf69039549574deee4b60cfde93c6c
+    1.1.0:
+      date: 2020-03-03T12:40:45
+      txHash: '0x00636162baa77561be7d889d747802559e6ab971efb039d899fb5420478f8188'
+      ipfsHash: QmZAPo7YtbYYSzXWh7Ujdyyvv4yHcStkRp9WcbEM9Nn4BJy
+      contractAddress: '0x865511DCA976E036AB5e559DCCD8d6396893Ab40'
+      commitHash: be831c5bf41a2a71a97a74708c15fedfd2b74969
+delay.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-12-06T15:29:30.000Z
+      txHash: '0xedd641f5cb4805d450a3ec3459351ceaac271455f140ce4b461742595888152b'
+      ipfsHash: QmdppZtH6iNukcWo8xtGt8A5yDPYnTaexRS1xQhara54qR
+      contractAddress: '0x214044cc3fa7a3ECEF0bC9052Fe9B296585E3275'
+      commitHash: 6b7fdb14e9efc0a1fe3a1e80e74a39c8f59de4d8
+    1.1.0:
+      date: 2020-03-03T13:17:30
+      txHash: '0xe39d7bad499f7db4f2d8054795ea0af79c5557a9f39cd597e2d309b633f75200'
+      ipfsHash: Qmb2DU1EsACPNeQRpR2svQm3mqvvvaXEmiM1DuEyNfaWVc
+      contractAddress: '0x214044cc3fa7a3ECEF0bC9052Fe9B296585E3275'
+      commitHash: c686d0b6676eb664c000f064d8789bd376d8206f
+token-balance-oracle.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2010-02-06T16:30:30.000Z
+      txHash: '0x85cee49c892f7d6439dba047ef1f2be98d0d9c4fab0668af179d2cd9bda45aee'
+      ipfsHash: QmP89dpyLXbySNttB7uedYFy1kgdLMocYhNzmfXYyRri6A
+      contractAddress: '0xE73523aebca43026791101a50B0bE1a2a1BB3BFA'
+      commitHash: 9a77e10c0dcfa5e41292d0bae5ece5f7e33796f7
+dandelion-org-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-02-06T16:20:30.000Z
+      txHash: '0xbb5d1cb631f8e7e780f3b09e6971520b505e7e2a96e9c41ac6de8604ad68d36'
+      ipfsHash: Qmc3fYndnpqJEnm21EYWrvM8DtiHpGaeX2yebD4KuNqNpB
+      contractAddress: '0x09380aeaf234052bb8bde6dceffc45d8fde8f98d'
+      commitHash: 393be58887c54286ae7fae7c60fe005a24bfae4e
 approvals.hatch.aragonpm.eth:
   github: 'https://github.com/aragonone/approvals/tree/[ref]'
   versions:
@@ -921,6 +1025,28 @@ approvals.hatch.aragonpm.eth:
       ipfsHash: QmR98N9o9HeJ3xFsscBo1qWnWosBYFpsNQWtvsxFpu8dF7
       contractAddress: '0xC142746A60281641423E65b1577284e73eB5Cc6B'
       commitHash: 404cef9b8054a8b8282fec1a98489a767a1928c5
+token-wrapper.hatch.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2019-12-03T17:15:43.000Z
+      txHash: '0x3517bcd165bf36d38318a0c8acd008cf9bf4ca69c80e2857e87ab55b3404d0b4'
+      ipfsHash: QmYVrsuf74m31WyF5yddeK1CJQqwAMA2Sqk6bfNtKWUAcq
+      contractAddress: '0xb7ebeE4e9F98fA3C81EF8a098179EF03A3D370BF'
+      commitHash: a0bbe28e7c4f08e913f0049f1cbf12b846541bb6
+    2.0.0:
+      date: 2020-01-24T15:59:56.000Z
+      txHash: '0xa605ba41f7cabc33b3acf2128abc1df89452ab08506e1f279ca62de69b7f6529'
+      ipfsHash: QmapFjpdZkFWYLyL1oAxo1FZnPdS7oD4wZaNkGUpvir1oC
+      contractAddress: '0xdeFe956e2FC6c6FF6c688B9c4092457fccce13cc'
+      commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
+voting-aggregator.hatch.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2020-01-24T18:04:42.000Z
+      txHash: '0x0266e0edd79c534ac04c72a7227c13c993d03efb126ca172e691c8c808aeb89a'
+      ipfsHash: QmV81AwSDb5Q1sPgGvQH5HuW9T3RVsfFc2QmbRFZCaiQyv
+      contractAddress: '0x33A981eD0B2Af893d756035DB7768d291F07460F'
+      commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
 approvals.open.aragonpm.eth:
   github: 'https://github.com/aragonone/approvals/tree/[ref]'
   versions:
@@ -999,28 +1125,6 @@ futarchy.open.aragonpm.eth:
       ipfsHash: QmWj4v37bQWFDZNgyAZon4ErEaX9NufzqtHtDdjdaggshB
       contractAddress: '0x2AFC62Dff5da6110465F476119C56b80Fe5371D1'
       commitHash: 1b150103411b8a93c6354ceb4c67130e2dc35fcf
-token-wrapper.hatch.aragonpm.eth:
-  versions:
-    1.0.0:
-      date: 2019-12-03T17:15:43.000Z
-      txHash: '0x3517bcd165bf36d38318a0c8acd008cf9bf4ca69c80e2857e87ab55b3404d0b4'
-      ipfsHash: QmYVrsuf74m31WyF5yddeK1CJQqwAMA2Sqk6bfNtKWUAcq
-      contractAddress: '0xb7ebeE4e9F98fA3C81EF8a098179EF03A3D370BF'
-      commitHash: a0bbe28e7c4f08e913f0049f1cbf12b846541bb6
-    2.0.0:
-      date: 2020-01-24T15:59:56.000Z
-      txHash: '0xa605ba41f7cabc33b3acf2128abc1df89452ab08506e1f279ca62de69b7f6529'
-      ipfsHash: QmapFjpdZkFWYLyL1oAxo1FZnPdS7oD4wZaNkGUpvir1oC
-      contractAddress: '0xdeFe956e2FC6c6FF6c688B9c4092457fccce13cc'
-      commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
-voting-aggregator.hatch.aragonpm.eth:
-  versions:
-    1.0.0:
-      date: 2020-01-24T18:04:42.000Z
-      txHash: '0x0266e0edd79c534ac04c72a7227c13c993d03efb126ca172e691c8c808aeb89a'
-      ipfsHash: QmV81AwSDb5Q1sPgGvQH5HuW9T3RVsfFc2QmbRFZCaiQyv
-      contractAddress: '0x33A981eD0B2Af893d756035DB7768d291F07460F'
-      commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
 catalyst.open.aragonpm.eth:
   versions:
     1.0.1:
