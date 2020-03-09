@@ -1001,7 +1001,7 @@ dandelion-voting.aragonpm.eth:
     1.1.0:
       date: 2020-03-03T12:40:45
       txHash: '0x00636162baa77561be7d889d747802559e6ab971efb039d899fb5420478f8188'
-      ipfsHash: QmZAPo7YtbYYSzXWh7Ujdyyvv4yHcStkRp9WcbEM9Nn4BJy
+      ipfsHash: QmZAPo7YtbYYSzXWh7Ujdyyvv4yHcStkRp9WcbEM9Nn4BJ
       contractAddress: '0x865511DCA976E036AB5e559DCCD8d6396893Ab40'
       commitHash: be831c5bf41a2a71a97a74708c15fedfd2b74969
 delay.aragonpm.eth:
