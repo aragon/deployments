@@ -111,6 +111,20 @@
       - 'CREATE_VERSION_ROLE'
     - fundraising-multisig-template.aragonpm.eth::
       - 'CREATE_VERSION_ROLE'
+    - dandelion-voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - delay.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - redemptions.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - time-lock.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-balance-oracle.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-request.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - dandelion-org-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0xAd6C4A3f4550A8a5511A4e9D9E99AcbAdf92b210'
@@ -150,6 +164,24 @@
     - tap.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - fundraising-multisig-template.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+- address: '0x5089F026B446a9FBc0b696DA3CCab49d7FDF7671'
+  owner: 1Hive cold wallet
+  organization: 1Hive
+  permissions:
+    - dandelion-voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - delay.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - redemptions.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - time-lock.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-balance-oracle.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-request.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - dandelion-org-template.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
 - address: '0x33329F5a360649Eb1C473b998cF3b975FEb109f6'
   owner: @mikec
