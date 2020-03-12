@@ -775,6 +775,12 @@ agent.aragonpm.eth:
       ipfsHash: QmWNJXquasyPiYxXBpTfAKLTXZGkYvVCdnqU8aWiYNqYFA
       contractAddress: '0xd3bbC93Dbc98128fAC514Be911e285102B931b5e'
       commitHash: b1e46b0390cffada00b3976027eb996dabdc7eba
+    5.0.1:
+      date: 2020-03-12T01:26:33.000Z
+      txHash: '0xaa309b56c3676f386ec2afd13bbe94bf0fec6ef00dc022cb166f687c71ba0a5e'
+      ipfsHash: QmXBnAn37C813nLSHtLL3EcCsYSJS6k5kK15QcmD6DvHNZ
+      contractAddress: '0xd3bbC93Dbc98128fAC514Be911e285102B931b5e'
+      commitHash: 36050900463f4db2bf48f5e80c6cb34c9c0d795d
 survey.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey'
   versions:
@@ -983,7 +989,7 @@ token-request.aragonpm.eth:
       contractAddress: '0x592445A6cd642fB14cefdfe343C655A23a7a3931'
       commitHash: f512d58224188e86a221133c17b9c6dd6cd2c77e
     2.1.0:
-      date: 2020-03-03T12:39:30
+      date: 2020-03-03T12:39:30.000Z
       txHash: '0x9c63fad7405b527717483322a20843dbd6fb1a52d0f3105a28a54ae74ed076a1'
       ipfsHash: QmX4x1zpprGoS5GFmZLrawcJQj52awzQa3QyxoxaQWz3dX
       contractAddress: '0x592445A6cd642fB14cefdfe343C655A23a7a3931'
@@ -1003,7 +1009,7 @@ time-lock.aragonpm.eth:
       contractAddress: '0x27256872354F490c96C8D5c72588B96EAEb7e15B'
       commitHash: 639c696a0b6d561b70481539ec1a2cc55ea2f546
     2.1.0:
-      date: 2020-03-03T12:36:15
+      date: 2020-03-03T12:36:15.000Z
       txHash: '0xae3b1a5e4a0a905bb1fb361fef735ae553fec25a261d9ed46115364e9a20b192'
       ipfsHash: QmdphdtxMB1fU7N48EeXi1h5PXk7my1hCrU4vtcg6WPVmw
       contractAddress: '0x27256872354F490c96C8D5c72588B96EAEb7e15B'
@@ -1017,7 +1023,7 @@ dandelion-voting.aragonpm.eth:
       contractAddress: '0x865511DCA976E036AB5e559DCCD8d6396893Ab40'
       commitHash: 23ff0b5d80cf69039549574deee4b60cfde93c6c
     1.1.0:
-      date: 2020-03-03T12:40:45
+      date: 2020-03-03T12:40:45.000Z
       txHash: '0x00636162baa77561be7d889d747802559e6ab971efb039d899fb5420478f8188'
       ipfsHash: QmZAPo7YtbYYSzXWh7Ujdyyvv4yHcStkRp9WcbEM9Nn4BJ
       contractAddress: '0x865511DCA976E036AB5e559DCCD8d6396893Ab40'
@@ -1031,7 +1037,7 @@ delay.aragonpm.eth:
       contractAddress: '0x214044cc3fa7a3ECEF0bC9052Fe9B296585E3275'
       commitHash: 6b7fdb14e9efc0a1fe3a1e80e74a39c8f59de4d8
     1.1.0:
-      date: 2020-03-03T13:17:30
+      date: 2020-03-03T13:17:30.000Z
       txHash: '0xe39d7bad499f7db4f2d8054795ea0af79c5557a9f39cd597e2d309b633f75200'
       ipfsHash: Qmb2DU1EsACPNeQRpR2svQm3mqvvvaXEmiM1DuEyNfaWVc
       contractAddress: '0x214044cc3fa7a3ECEF0bC9052Fe9B296585E3275'

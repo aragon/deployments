@@ -721,6 +721,12 @@ agent.aragonpm.eth:
       ipfsHash: QmbxRT5KXXP37ce3ixBRUxjXxaMjk2ff7fj923c48XkDBr
       contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
       commitHash: b1e46b0390cffada00b3976027eb996dabdc7eba
+    5.0.1:
+      date: 2020-03-12T01:28:39.000Z
+      txHash: '0xbd566be5d976e886e0e282e277ba0d1763e3b7c44ea87abfae36b959056e29fd'
+      ipfsHash: QmZNRpitma8WNmR7aESAdLGXkRCp2EppkPTdNd2Ccw8teh
+      contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
+      commitHash: 36050900463f4db2bf48f5e80c6cb34c9c0d795d
 survey.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey'
   versions:
