@@ -661,6 +661,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmRYuuHrMDaof3qg3ia9gAmi1fUjiA6GdEQaBiHrYivjVw
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: fba89d9d60749c2d2a360db08a03a732119e624e
+    3.0.13:
+      date: 2020-03-12T00:39:24.000Z
+      txHash: '0xf0f98bb823251ec0632238fdc76144698aaf6db4fbed59afc8db7fb47636c288'
+      ipfsHash: Qmbgb8UhnUSCCjmkaeHxhn93hmnbRRctMDxNMiumQgwrJD
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: 9435be3df33e5c04f1c08250664d266ca99c46f5
 bare-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
   versions:
@@ -703,6 +709,18 @@ agent.aragonpm.eth:
       ipfsHash: QmZB8z6hTJWM6Z6zpYoUVt76KoFLpoXfkh4Sar5CW3eAiW
       contractAddress: '0x88aFC2Fbb10504865598Ac67Ef5A17A1C5EeBA4b'
       commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
+    4.1.0:
+      date: 2020-03-12T00:12:20.000Z
+      txHash: '0x59c08e51108ec49d2ca1e37b1f53ca77b1807ce59b24a6c366db888893c99ce0'
+      ipfsHash: QmUm4xMwgqGcFdRDjPzNAeTyxhesd9AREC1rMmNUC3cspY
+      contractAddress: '0x88aFC2Fbb10504865598Ac67Ef5A17A1C5EeBA4b'
+      commitHash: 10c6fa195bc05216dd42e2863216dbda806f967a
+    5.0.0:
+      date: 2020-03-12T00:36:28.000Z
+      txHash: '0x74f18fb9dc5298e434b4f61cb6e61fd93905a2bdcfdc99b5bf46430a1f28ea0c'
+      ipfsHash: QmbxRT5KXXP37ce3ixBRUxjXxaMjk2ff7fj923c48XkDBr
+      contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
+      commitHash: b1e46b0390cffada00b3976027eb996dabdc7eba
 survey.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey'
   versions:
@@ -907,13 +925,13 @@ delay.aragonpm.eth:
       contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
       commitHash: 6b7fdb14e9efc0a1fe3a1e80e74a39c8f59de4d8
     1.1.0:
-      date: 2020-03-03T13:30:30
+      date: 2020-03-03T13:30:30.000Z
       txHash: '0xf4daeb47ed3cd7213da0ce1450508c52fa5e41af6362aae4f7dd7c3cd405bb48'
       ipfsHash: Qmb2DU1EsACPNeQRpR2svQm3mqvvvaXEmiM1DuEyNfaWVc
       contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
       commitHash: c686d0b6676eb664c000f064d8789bd376d8206f
     1.1.1:
-      date: 2020-03-03T13:55:30
+      date: 2020-03-03T13:55:30.000Z
       txHash: '0x96a1acc3b09e2464ef399906f97a9db79040400597d55980cdf2ca34603e93da'
       ipfsHash: QmSE1VZT1Q2yB43SLRqeJ7hvxYYKzCwtrCv7uTCnikvfdb
       contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
