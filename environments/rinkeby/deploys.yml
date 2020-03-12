@@ -709,6 +709,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmNNUvQB9W7BMiaqwt9npesVFqmZQWDUT6S8FAqwHXLnQo
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: fba89d9d60749c2d2a360db08a03a732119e624e
+    3.0.12:
+      date: 2020-03-12T00:29:48.000Z
+      txHash: '0xf0a3b0a03c57e0ea42c43192449e22315da031b29b4fb89e1937bd675646c750'
+      ipfsHash: QmVe2coasAv32fnEr197Box9rV7tt5GqTqxs647WsvTUVx
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: 9435be3df33e5c04f1c08250664d266ca99c46f5
 bare-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
   versions:
@@ -757,6 +763,18 @@ agent.aragonpm.eth:
       ipfsHash: QmYUo7bYzCPATX8hL8RFQcYviRscnvHALZWPGph7qBYy3c
       contractAddress: '0x150B021eBEe88dae6D5540ccBE71a01930590A36'
       commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
+    4.2.0:
+      date: 2020-03-12T00:00:39.000Z
+      txHash: '0x537dcb3aaeb4467b00b935644e3356b04e82144fdc91996ee02856c0b17eb3a3'
+      ipfsHash: QmQegBKDhXiDpSqhHV4qW1YZQKPAn5tYAk9AxRfrJLNahu
+      contractAddress: '0x150B021eBEe88dae6D5540ccBE71a01930590A36'
+      commitHash: 10c6fa195bc05216dd42e2863216dbda806f967a
+    5.0.0:
+      date: 2020-03-12T00:28:32.000Z
+      txHash: '0x706e246ae09285b027ecaa2186380918a00ad065a072a30d08f00d0f6657d614'
+      ipfsHash: QmWNJXquasyPiYxXBpTfAKLTXZGkYvVCdnqU8aWiYNqYFA
+      contractAddress: '0xd3bbC93Dbc98128fAC514Be911e285102B931b5e'
+      commitHash: b1e46b0390cffada00b3976027eb996dabdc7eba
 survey.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey'
   versions:

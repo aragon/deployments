@@ -31,6 +31,43 @@
 
 -----------
 
+- Version: Aragon client 0.8.9
+- Start date: March 11th 2020, 11:45am CET
+- Finish date: March 12th 2020, 12.30am CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Aragon Apps
+
+Deployed: `agent`
+
+Command:
+```
+aragon apm publish minor --environment rinkeby --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+- `agent.aragonpm.eth` was first published with `4.2.0` to update the existing app's UI before publishing `5.0.0`
+
+Final versions:
+
+- `agent.aragonpm.eth`: `5.0.0`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.12`
+
+-----------
+
 - Version: Aragon client 0.8.8
 - Start date: February 19th 2020, 5:15am CET
 - Finish date: February 19th 2020, 5.15am CET
