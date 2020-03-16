@@ -24,21 +24,48 @@
     - bare-kit.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
   manager:
+    - democracy-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - multisig-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051'
+  owner: '@sohkai'
+  organization: Aragon One
+  permissions:
     - aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
-    - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
-    - democracy-kit.aragonpm.eth:
+    - finance.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
-    - multisig-kit.aragonpm.eth:
+    - aragon.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - bare-kit.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+
+- address: '0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff'
+  owner: Aragon One testnet cold wallet
+  organization: Aragon One
+  manager:
+    - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - voting.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - vault.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - finance.aragonpm.eth:
+      - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
