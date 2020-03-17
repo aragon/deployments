@@ -25,10 +25,17 @@ githubHookHandler.on('push', async function (event) {
   const ref = event.payload.ref
 
   const commits = event.payload.commits
-  const { message, id } = commits[commits.length-1]
 
   if (repo === REPO && ref === REF) {
-    console.log(`Triggering update (${id}): ${message}`)
+    // Sometimes Github does not send us commits in the push events
+    const { message, id } = commits[commits.length-1] || {}
+
+    if (message && id) {
+      console.log(`Triggering update (${id}): ${message}`)
+    } else {
+      console.log('Trigger update (no id)')
+    }
+
     try {
       await execa(UPDATE_SCRIPT)
       console.log('Successful update')
