@@ -14,6 +14,8 @@
 
 ## Scripts
 
+To use the scripts or commit changes to the repo, please initialize via `yarn` first.
+
 ### `scripts/decompress`
 
 It will traverse all the compressed files for versions of the different environments and save them to the `decompressed` directory.

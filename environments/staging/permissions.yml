@@ -1,184 +1,184 @@
 - address: 'ANY_ENTITY'
   permissions:
     - open.aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
 
 - address: '0x4cB3FD420555A09bA98845f0B816e45cFb230983'
   owner: '@izqui'
   organization: Aragon One
   permissions:
     - aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'ACL::CREATE_PERMISSIONS_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'ACL::CREATE_PERMISSIONS_ROLE'
     - open.aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'ACL::CREATE_PERMISSIONS_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - democracy-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - multisig-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - payroll.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - balance-redirect-presale.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - bare-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - membership-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - reputation-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - company-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - company-board-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
-      - 'Kernel::APP_MANAGER_ROLE'
-      - 'ACL::CREATE_PERMISSIONS_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+        - 'Kernel::APP_MANAGER_ROLE'
+        - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - democracy-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - multisig-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - ppf-factory.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - payroll.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051'
   owner: '@sohkai'
   organization: Aragon One
   permissions:
     - aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
     - hatch.aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'ACL::CREATE_PERMISSIONS_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'ACL::CREATE_PERMISSIONS_ROLE'
     - open.aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'ACL::CREATE_PERMISSIONS_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - democracy-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - multisig-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - payroll.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - balance-redirect-presale.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon-fundraising.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - bancor-formula.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - batched-bancor-market-maker.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - presale.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - tap.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - fundraising-multisig-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-wrapper.hatch.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting-aggregator.hatch.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
   manager:
     - hatch.aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
-      - 'Kernel::APP_MANAGER_ROLE'
-      - 'ACL::CREATE_PERMISSIONS_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+        - 'Kernel::APP_MANAGER_ROLE'
+        - 'ACL::CREATE_PERMISSIONS_ROLE'
     - open.aragonpm.eth:
-      - 'APMRegistry::CREATE_REPO_ROLE'
-      - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
-      - 'Kernel::APP_MANAGER_ROLE'
-      - 'ACL::CREATE_PERMISSIONS_ROLE'
+        - 'APMRegistry::CREATE_REPO_ROLE'
+        - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
+        - 'Kernel::APP_MANAGER_ROLE'
+        - 'ACL::CREATE_PERMISSIONS_ROLE'
     - balance-redirect-presale.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon-fundraising.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - bancor-formula.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - batched-bancor-market-maker.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - presale.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - tap.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - fundraising-multisig-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-wrapper.hatch.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting-aggregator.hatch.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0x1f1380c997a0d0f1801636fc3bc488cfad843bb5'
   owner: '@bpierre'
   organization: Aragon One
   permissions:
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - democracy-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - multisig-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0x590e1aC49666ec8024dC0C6620Eed6916a18F27e'
   owner: '@bingen (revoked)'
@@ -190,140 +190,140 @@
   organization: Aragon One
   permissions:
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - democracy-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - multisig-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - balance-redirect-presale.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon-fundraising.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - bancor-formula.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - batched-bancor-market-maker.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - presale.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - tap.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0xd5931f0a36FE76845a5330f6D0cd7a378401e34d'
   owner: '@facuspagnuolo'
   organization: Aragon One
   permissions:
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - democracy-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - multisig-kit.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
   manager:
     - bare-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - membership-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - reputation-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - company-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - company-board-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0x7c0be2cc18934e2d72e136b4bf350949adeaf423'
   owner: '@aquigorka'
   organization: Aragon One
   permissions:
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0x3bD60bafEa8A7768C6f4352AF4Cfe01701884Ff2'
   owner: '@2color'
   organization: Aragon One
   permissions:
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0x8c786893C22cd2dE7b770247f928D7B74b5bd550'
   owner: '@ajsantander'
   organization: Aragon One
   permissions:
     - finance.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - token-manager.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - aragon.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - agent.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - survey.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
 
 - address: '0x9b1B224E0445243eF5fD102114d15136967FfB15'
   owner: Aragon Black testnet cold wallet
   organization: Aragon Black
   permissions:
     - aragon-fundraising.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - bancor-formula.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - batched-bancor-market-maker.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - presale.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - tap.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
     - fundraising-multisig-template.aragonpm.eth:
-      - 'CREATE_VERSION_ROLE'
+        - 'CREATE_VERSION_ROLE'
