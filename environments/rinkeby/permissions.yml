@@ -12,23 +12,33 @@
     - hatch.aragonpm.eth:
         - 'APMRegistry::CREATE_REPO_ROLE'
         - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - aragon.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
     - finance.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
-    - token-manager.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
     - democracy-kit.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
     - multisig-kit.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
-    - aragon.aragonpm.eth:
+    - bare-template.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
-    - agent.aragonpm.eth:
+    - company-template.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
-    - survey.aragonpm.eth:
+    - company-board-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - membership-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - reputation-template.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
     - balance-redirect-presale.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
@@ -47,23 +57,33 @@
         - 'ENSSubdomainRegistry::CREATE_NAME_ROLE'
         - 'Kernel::APP_MANAGER_ROLE'
         - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - aragon.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - agent.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
     - finance.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - survey.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - token-manager.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
     - voting.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
-    - token-manager.aragonpm.eth:
-        - 'CREATE_VERSION_ROLE'
     - democracy-kit.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
     - multisig-kit.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
-    - aragon.aragonpm.eth:
+    - bare-template.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
-    - agent.aragonpm.eth:
+    - company-template.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
-    - survey.aragonpm.eth:
+    - company-board-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - membership-template.aragonpm.eth:
+        - 'CREATE_VERSION_ROLE'
+    - reputation-template.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
     - about.aragonpm.eth:
         - 'CREATE_VERSION_ROLE'
