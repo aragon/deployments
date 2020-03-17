@@ -1,1006 +1,1006 @@
-voting.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/voting'
-  versions:
-    1.0.0:
-      date: 2018-10-27T12:31:29.000Z
-      txHash: '0xf08a1f4b8eaab62b276ee381b33a4e3cf97720519de03ba7968aa1c0d831d682'
-      ipfsHash: Qmer59t99nhZMk69TZTtXFn3im8uFLjpsLdub7zb75r1vq
-      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
-      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
-    1.0.1:
-      date: 2018-10-30T14:11:09.000Z
-      txHash: '0xb23b18e7c12a3b563ed88c1914cca627f5cab34e67fb3627603d54178b67c56b'
-      ipfsHash: QmPQjG4PSPXvhRYzxFBuU7HWSBTjyHL9HfRXapgjQUigkP
-      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
-      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
-    1.0.2:
-      date: 2018-11-05T20:24:20.000Z
-      txHash: '0x6a628c09125e16d599ed97d0da09e7543842fa794445c5771248b4b23a6bd435'
-      ipfsHash: QmXkC9JfpR2xUEUYrGdcepjaBGPopd2cNJg2UKDpi8Hmye
-      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
-      commitHash: b9ee11b10f59957575cfb9de173107b0bd6c8bb2
-    1.0.3:
-      date: 2018-11-14T23:16:18.000Z
-      txHash: '0x557ba2f6dc97bb3f0fd826c967e03570cc0aea583c2d0588febdf8537f25e015'
-      ipfsHash: QmctB78EiDW5LtSNA2FY8VUDwDWijv54UFDWKBs4a5nvyj
-      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
-      commitHash: abc49e75e596e35db28f25c9a2779771ec399a72
-    1.0.4:
-      date: 2018-12-21T08:27:59.000Z
-      txHash: '0x5b7c0bd09a6e50a19a1f8ce74a654de07950b3d556ac200c712a182a14fcdada'
-      ipfsHash: QmcwXZXdbxF5qgKFh66zfZHTXYoUeHT9gtVqn27WMCvxTr
-      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
-      commitHash: d99b6e9d62d3de47601077adb6b3b14fbe92f8a9
-    1.0.5:
-      date: 2019-01-29T03:56:45.000Z
-      txHash: '0x6142ae3590c1d559a69205163808fdfaa29061238b59a68beb85bcfd67268962'
-      ipfsHash: QmTJ9ipNBoS91HZVmDU2yVoRJQqZ17DBXG82zdUETRvWc3
-      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
-      commitHash: c2820ce9ffd696e490283596761c7588f0718a9a
-    1.0.6:
-      date: 2019-02-27T16:08:24.000Z
-      txHash: '0x8a409bd47157cf2b10717b4cc41b26f32d497a4e19f59a1372d59ef0e2a02952'
-      ipfsHash: QmNsgidYJUMnuofwn4J5ug7mrfj5BxHywmwuWj46tU9KP8
-      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
-      commitHash: 819de2da7a37edbc401cb1e983ccf75f75c4eff3
-    2.0.0:
-      date: 2019-04-17T17:26:18.000Z
-      txHash: '0xa4c706a4575f476d23bbeb1790bc72a127cf95b43053a29799d85e11a65e99fb'
-      ipfsHash: QmXLn9D7PdgLv74syBFghbwdcsvExZF1e6Ri62Ss9G3K9i
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: 0bf6ff42015e74279500632bf920aae00e68aa86
-    2.0.1:
-      date: 2019-05-02T14:21:31.000Z
-      txHash: '0xf33bc2a06dcada1594e56650c57cb7eae33e0cfa1c93bb52988481ad21e1689f'
-      ipfsHash: QmdhSZf1NJt4hU9JsYTS5qkUowziYypsx4aAV1z1qTsiKV
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: 4b5094a63ee668368c52a7b37dccb0969c397a8f
-    2.0.2:
-      date: 2019-05-16T11:03:42.000Z
-      txHash: '0xfb3e0e13238f52a080bcee56702f00cb16e149ecf6292fbf2db8f669d42d0bf6'
-      ipfsHash: QmYPXk7cqEefQ3TdGCmvbzMppS3tLjH1WT7Qv7uY228bHa
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: f8230bffb1f1a69b72bd536944512516f8d188ce
-    2.0.3:
-      date: 2019-05-30T17:00:15.000Z
-      txHash: '0xbcf19f3828cf48c561e0d0f2bd4df51ee8fa1f4d25e00d925f48d35491c88b7d'
-      ipfsHash: QmQ5FKENnbYyXawNPzHfVG8EPe3iyqxbCujEwH1iioR86T
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: d13e85c2aaa8d0166242a14193691d0a9ea5b5db
-    2.0.4:
-      date: 2019-06-06T18:04:52.000Z
-      txHash: '0x446e32a9eb4d099e3c486f275f7e0d438ff62c319535eb45288d162b5cd95c97'
-      ipfsHash: QmZaUjYWqXeVWDpQLJdFUrewxhnWTiCSzv8RPCcL2FEXED
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: e90e69b124c89af93be831ded056c9e72dd85772
-    2.0.5:
-      date: 2019-07-25T15:42:47.000Z
-      txHash: '0x56fdc6f3b7276aa13ff97bb7f213255513c8cb863e3ab0146921a75200fecb63'
-      ipfsHash: QmaJtJ47D8Xobn9Vyncd8VBun4HTzRhNMw4Q2sQWT9HBak
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: 5e40f0ab36ba09711e6f979bcae9321534b67044
-    2.1.0:
-      date: 2019-09-10T20:58:15.000Z
-      txHash: '0x7135bb2b47ec822b92e2e89e41ce3959128628092812c021e428944c97fc4860'
-      ipfsHash: QmUAmafoJQXY9htQmiJh4k6p7Kf2oqiQMKcijtoyyF9EHL
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
-    2.1.1:
-      date: 2019-09-19T17:18:42.000Z
-      txHash: '0x8ed2b42eb0f6710773ff185d526b0be741adcf9c942952c4afb96734a48b9304'
-      ipfsHash: QmSha7xsHauUDQNBmYimMageRkGMNEdXHS8A6SsM8RSMMs
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
-    2.1.2:
-      date: 2019-10-11T05:53:56.000Z
-      txHash: '0x4858e3663adde01323228f3689ab32d591b037397adadef5f47cb54d6ee8f1a1'
-      ipfsHash: QmcA7rzsW2KL2F6HAxTHwTGftMKSscbQCw3BhF2E9jyHR4
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: 4d9d13873647b87058e4d8b949df4cb3b49ef275
-    2.1.3:
-      date: 2019-10-24T10:30:27.000Z
-      txHash: '0xe0e2060b5650f8ca38b0ac00a636c3f83e19bb9f930d3cd84858798aa10d0ba1'
-      ipfsHash: Qma2wjuANGyTroEiqQQSq8R3X6MajvgbcuDTehyEZ9Qd4H
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: 52243a90a9226ef3b40bd7ee28fb852f69155df1
-    2.1.4:
-      date: 2019-11-12T18:08:26.000Z
-      txHash: '0x7a24b9dc6ce60d45f70bb8cc2ce81dd2d0a088e5d2ae6f8e55e9194ce0ea8948'
-      ipfsHash: QmR34nZedLNHhd91jceUtWSBXugAWtRQP8bEQ3pPRimrpa
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
-    2.1.5:
-      date: 2019-12-04T19:44:03.000Z
-      txHash: '0xf829e292b8218b38258ee3eeae7b2997e726fb5c241a00f36f17e7d4943685d0'
-      ipfsHash: QmcgFogXwcHwHZFHJ2JUsVauFPXDWfGQ3aeYTjfayBKAYW
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
-    2.1.6:
-      date: 2019-12-21T20:27:01.000Z
-      txHash: '0x930219bc1222c83b871a0fc97ac08c7c36d866c5b5e795cc580025b4577b07a8'
-      ipfsHash: Qmf4hN3GeCkemS8QgkiqYQCZj7cuYi8pmnvRFjZEWWnWwc
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: b56258a76a3aa0a711ee6ae415d119f55780283a
-    2.1.7:
-      date: 2020-01-24T15:42:43.000Z
-      txHash: '0x53a0afa2e052e053dd8aef29974b036dc264d0259307a862f838d133ba58533f'
-      ipfsHash: QmWjc1HgaZ9PvE1W52DvHTyqwYf3GEAZmnV7ABptwToEhE
-      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
-      commitHash: f44ee48106bc15039d8b716e0162abc4c867dec2
-finance.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
-  versions:
-    1.0.0:
-      date: 2018-10-27T12:35:00.000Z
-      txHash: '0x5043036267f88e872ab77983604b32e6c7534f5f35b9d34460923fb578d8dcc2'
-      ipfsHash: QmWWNkXdGDnTaxAxw6vtCM21SDJeWLyaoUzDb3skYXynmo
-      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
-      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
-    1.1.0:
-      date: 2018-10-30T10:12:19.000Z
-      txHash: '0x47cd9bf4e8185b2b3107c804648dd26943547deaa5a0f7ec6822519aee5dab8f'
-      ipfsHash: QmVP2vSfZLuMt5xHEDVznYL3tmHHjXjMedj8DJWp3mB4ob
-      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
-      commitHash: 9bc4caba3a10497eb2e416460e9f209a5a59e7a3
-    1.1.1:
-      date: 2018-10-30T14:12:34.000Z
-      txHash: '0x130afd1a7b47b6b365ed3d041ac47d6849872d9ed43f16e2956c46f0726ed852'
-      ipfsHash: QmbGnLop5YM9L86jUPjK1SYghnacvtVw7hQp867ZvgGafb
-      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
-      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
-    1.1.2:
-      date: 2018-11-05T20:20:58.000Z
-      txHash: '0xf0bb440876f62423a3b12c432adb4481066a188cfc2f995cb48172b0076dedab'
-      ipfsHash: QmdVUmS5ZWp9hoRXYKEES6LeS7JBAnPVqczBKCNEq2exEq
-      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
-      commitHash: b9ee11b10f59957575cfb9de173107b0bd6c8bb2
-    1.1.3:
-      date: 2018-12-21T08:32:41.000Z
-      txHash: '0x7d68a57279723792d367c6e7ffd4bb91c71dc2abd061ff3a4259c1284a27da21'
-      ipfsHash: QmV6tztPfFiGrQNF1yJ27jLbQzAuDtycCPGtkmq6yMHkSG
-      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
-      commitHash: d99b6e9d62d3de47601077adb6b3b14fbe92f8a9
-    1.1.4:
-      date: 2019-01-29T03:59:05.000Z
-      txHash: '0xaf4328b7604bcc94fa8b63aa7b97360f962f0b85cd68464246cc7108ebe6a2b0'
-      ipfsHash: QmWLTMDMXWq98fcrySgSA2JRyjd5iVboSkizo7FzkcBk5d
-      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
-      commitHash: c2820ce9ffd696e490283596761c7588f0718a9a
-    1.1.5:
-      date: 2019-02-27T15:58:09.000Z
-      txHash: '0x8726d71a0d2bbe80684cef5ae30c19cf87668e3ecd66180f60f4e6658a008018'
-      ipfsHash: QmegL7LXHrNsuBv2YQMRyCRGhvjGofjYg5EZtSvKg3d6fG
-      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
-      commitHash: 819de2da7a37edbc401cb1e983ccf75f75c4eff3
-    2.0.0:
-      date: 2019-04-17T15:42:57.000Z
-      txHash: '0x4cf6023b6c80bb3d429ba910ba1f461f3abeb2393b066b3c417f3285ab5f7eaa'
-      ipfsHash: QmNSJXKcp5UaGZcwtzJAqQtAFfYA9vNEJczGvUD89aJLfc
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
-    2.0.1:
-      date: 2019-04-17T17:29:02.000Z
-      txHash: '0x365dd49e0765a3834efa7ff3fae6aa612a3ee6f9be0424186b28a5a960201799'
-      ipfsHash: QmZzVN9x3NhkXVo87JU2h8n8bAMQgZaDttz2Gp6Rb6qAJN
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: 0bf6ff42015e74279500632bf920aae00e68aa86
-    2.0.2:
-      date: 2019-04-18T10:01:12.000Z
-      txHash: '0x3b072317f799a71d550144146c987455fd34f3f215bb4f3bacad3800cb545574'
-      ipfsHash: QmdvxAWVjcZaKFDCPqLRgzUTYjTdmycgWkRj8uVwikwxPu
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: 0183acd9cb3a226c240f9b17c810bd18b9adc6ee
-    2.0.3:
-      date: 2019-05-02T14:20:35.000Z
-      txHash: '0x4f83f996479fca49a71ab29f8085934402b8cb70f2a6c606aebca9f6c87d6d81'
-      ipfsHash: QmfRaZ8ysioHejiqPyQmm5N5QjE9Bm8EeiW33KP7hr9z8F
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: 4b5094a63ee668368c52a7b37dccb0969c397a8f
-    2.0.4:
-      date: 2019-05-16T11:16:18.000Z
-      txHash: '0x276ad7e4180ac9d4d3dd7ad83c0a681c39cf76970645925530bcbf11daf6733b'
-      ipfsHash: QmTwyHRQnAEf4wpR1SKMGpAizgu5LJoaocfV2HHm269uFE
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: f8230bffb1f1a69b72bd536944512516f8d188ce
-    2.0.5:
-      date: 2019-05-30T16:57:22.000Z
-      txHash: '0xc4d432e271690368a08a169bf64dfd93dd9d4b2e7643a57870af424177584846'
-      ipfsHash: QmdLQsHaMsrqZiCWGZNvAGi8v4mQWHfYK4ygEAzXbbJbqy
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: d13e85c2aaa8d0166242a14193691d0a9ea5b5db
-    2.0.6:
-      date: 2019-06-14T18:20:00.000Z
-      txHash: '0x672c82fecfee00b7d19b0f8af69b627dd8f95950999e442072d7fd992a249a88'
-      ipfsHash: QmUigVxDYp4qcNZUwBe3Q1mG7Mq7rQrdctMreke1Cg32oZ
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: 8c81ed9b0eb03f692724de01f59b368fa2d64511
-    2.0.7:
-      date: 2019-07-25T17:44:54.000Z
-      txHash: '0x3dc8b8af0299a2fac4fb619707faa1f5816e7ae0716d89ded7f3f30343ceacea'
-      ipfsHash: Qmcx4Gqc8HaET4s7ee4eErqwkV8fgmQWkr9si1ujPbDFqa
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: 5e40f0ab36ba09711e6f979bcae9321534b67044
-    2.1.0:
-      date: 2019-09-10T20:56:44.000Z
-      txHash: '0xc043f26a51bc6667fe14e72d0a811fd24abd201d8d585f975aae1f8ff2ff3a54'
-      ipfsHash: QmQmv6Sx2XGDKtncqZPYz3skQjJtxCbcfuPyyDh8iHx2P3
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
-    2.1.1:
-      date: 2019-09-19T17:17:42.000Z
-      txHash: '0xe27f838a892efa07139198eb913c38720577926e7ab5b67acca23384a7a6359f'
-      ipfsHash: QmaQX7XoMTEeptehbVHuhpNYcWcbQZs1gVjzfKes3WruXc
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
-    2.1.2:
-      date: 2019-10-24T10:21:25.000Z
-      txHash: '0x37c2039c658f3faf3889b7a59bfca52be86c16bc30c0987472f01c5ae9eeb693'
-      ipfsHash: QmWyueP8dtXwuojHX4ThZJpggxxpyQYaGvDoHJa7dcPUrh
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: 52243a90a9226ef3b40bd7ee28fb852f69155df1
-    2.1.3:
-      date: 2019-11-12T17:57:37.000Z
-      txHash: '0x942f14454b5536c9229b606e8f7183dcf9e47a47f4821241de610d04158a7b0f'
-      ipfsHash: QmXurTga59J4kLjgYUhdtKyYQk7qM7WQch5gN9ASu1eDhm
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
-    2.1.4:
-      date: 2019-11-23T12:04:50.000Z
-      txHash: '0x5d60fda4bb5fdc1cd6aab3a353de51d32385b18da8b7bbd5e024ac60c175fc5c'
-      ipfsHash: QmZg3DD3mf2FHsjUkns2k1Tems4PRBoiuJpmfyd9zdYNT1
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: bed2a02e8a4f0bff4e6a50a25d4f4611b523f1ec
-    2.1.5:
-      date: 2019-12-04T19:37:23.000Z
-      txHash: '0xb26f294893b564a196132bad7cb518d02c312944d4ecbd13a1d7cae02370d0f7'
-      ipfsHash: QmW8V1XwnTJih1ELGLggceJdKrc1MXKBEpVVVALxiHpuYb
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
-    2.1.6:
-      date: 2019-12-21T20:26:22.000Z
-      txHash: '0xde74980fededf5b0993d14564d2c3ccb24f6a293a134239de6a0ec2108fa5f27'
-      ipfsHash: QmQVzkszYzXUpXBcPvyhQtY2Bs82MFY4NjV6aarAEo3WWB
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: b56258a76a3aa0a711ee6ae415d119f55780283a
-    2.1.7:
-      date: 2020-01-24T15:42:03.000Z
-      txHash: '0x5b478ec9d30c6f9eeef9d8ce27e4ef18113a8097348b6d89383bb4287e9072cc'
-      ipfsHash: QmPi4HY56jntedaNtta5fgxf5wao2mMDmdmWk1N95PpzFs
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: f44ee48106bc15039d8b716e0162abc4c867dec2
-    2.1.8:
-      date: 2020-02-19T23:51:56.000Z
-      txHash: '0xed678c3f933c341680c854f0bed9a250a34de151e2eea7b2fae9290ef993f09c'
-      ipfsHash: QmeVsMqxYfnSShsC5KKob43KxfE95vtDzc4WRMx1DqBnm3
-      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
-      commitHash: 41d546b3e870ce67facf661e62cb1db36301e4e0
-vault.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
-  versions:
-    1.0.0:
-      date: 2018-10-27T12:38:39.000Z
-      txHash: '0x328a570d1eb56f35b73e099d8cd670d60a9a4e4d408cbe795dc2de843149ad4c'
-      ipfsHash: QmaSKh2HmGhtuGUBZ7CgroWSDUYaQh3a1s2UsWkM13XHMF
-      contractAddress: '0xD7FC611Be047A6F65Aea7cC146bDAb9451763d99'
-      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
-    2.0.0:
-      date: 2018-10-29T22:23:06.000Z
-      txHash: '0x773afb7108183fa4fd4f6db38a5bc07f65b3d2ae4890d5d36e51fdf718380ce8'
-      ipfsHash: QmWQwpwsr4xRkCiVmEV6jjpakBG3MJZsmKFT6DDwaY4JN1
-      contractAddress: '0xf4CF4DdcFAb03D724F75C877343ee836c37cF454'
-      commitHash: 335ad37c45c5cb462c9a64b88055d4f6769b6142
-    2.0.1:
-      date: 2018-10-30T14:14:04.000Z
-      txHash: '0x4ef8365faa6ece84b0812a9ad78765dff739097679ed30f2f0b5210ecdaf156e'
-      ipfsHash: QmVHmagJ4VEqHAsgcjfcRTcK3Y3cY1Ct6qCcPWNhB11zBY
-      contractAddress: '0xf4CF4DdcFAb03D724F75C877343ee836c37cF454'
-      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
-    3.0.0:
-      date: 2019-04-17T15:56:51.000Z
-      txHash: '0x2aa55440d7ea355fce66c325b03525686a6674a2f6247ed75450993568a61231'
-      ipfsHash: QmRVjwn72ULZ6AHV8fZy4YXUxy5WQXTEajBmEgFxqrWdTt
-      contractAddress: '0x03AD07802BBA1b6FA293E593a42845E6569A7470'
-      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
-    3.0.1:
-      date: 2019-05-02T14:23:27.000Z
-      txHash: '0xf746cdf966e59e71279a39bc48a727bdc2a2b2b48b8c6fff416546acc2367680'
-      ipfsHash: QmYRcQBcHsietDuUmt7bbFG7BqetoYF85CxDn7pAa2wdnA
-      contractAddress: '0x03AD07802BBA1b6FA293E593a42845E6569A7470'
-      commitHash: 4b5094a63ee668368c52a7b37dccb0969c397a8f
-    3.1.0:
-      date: 2019-09-10T20:50:15.000Z
-      txHash: '0x3dacc869632d35a3ce179491918ad5383cec1710f10af9c70446984d759dc343'
-      ipfsHash: QmNhG1DctzrzDWrcAsbhHp184Tt3iCG33LJDfZPbj6WG3k
-      contractAddress: '0x03AD07802BBA1b6FA293E593a42845E6569A7470'
-      commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
-token-manager.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
-  versions:
-    1.0.0:
-      date: 2018-10-27T12:44:29.000Z
-      txHash: '0xdca6b8e880808aed82c58944cf6ce611077a45c682adc63ad01626abf08ef606'
-      ipfsHash: QmTwm6Jvg6GsFshtp69fq8Nz887cu1oPvW3K7iPgNjNW7V
-      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
-      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
-    1.0.1:
-      date: 2018-10-28T13:19:34.000Z
-      txHash: '0x702224e323128d9f23d8fafae201d29e050856b3392b206e8403a7f161dbd493'
-      ipfsHash: Qmeh6QKsecvaUfvVyMLiWoP5Mw1yAjzDU8NeUptGrBpJ9e
-      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
-      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
-    1.0.2:
-      date: 2018-10-30T14:09:02.000Z
-      txHash: '0x384cba421a23fc0b4eb5b74261dea49228c8540846574fb7aa57014154bb759c'
-      ipfsHash: QmaoVT6dysydb1FcYni3WLCcfjEgg82agLdwpNugTDiarL
-      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
-      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
-    1.0.3:
-      date: 2018-11-05T20:23:25.000Z
-      txHash: '0xbf7189741badccfd25903acd402e414c202136e14703ea596a1328050ed7982d'
-      ipfsHash: QmbVm3WpSHA7fkzafUfV1EvwC7tNLqw4FQZshPVto3NNGP
-      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
-      commitHash: b9ee11b10f59957575cfb9de173107b0bd6c8bb2
-    1.0.4:
-      date: 2018-12-21T08:36:01.000Z
-      txHash: '0x4c45e83f98956ac1f353f943c7eed96a777fa92e03473bb8c7da6a372d520501'
-      ipfsHash: QmVg8jxSZfSbUUikiSmf1MXFf1fQs8y2XoSf3vFwpihnL5
-      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
-      commitHash: d99b6e9d62d3de47601077adb6b3b14fbe92f8a9
-    1.0.5:
-      date: 2019-01-29T03:58:02.000Z
-      txHash: '0x1bb4e919f6e65cac2bd81818050faeed987fc71349fcf4664e871543d0182f74'
-      ipfsHash: QmQg7Lqf2TqYPfztWwvmntcE5DGYXMevCsWG2vUd41VUj3
-      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
-      commitHash: c2820ce9ffd696e490283596761c7588f0718a9a
-    1.0.6:
-      date: 2019-02-27T16:04:59.000Z
-      txHash: '0x9edacfae80f3d19eba8995f21d34391f554cca6970a81880c6d9b5b5ceffb146'
-      ipfsHash: QmPK9tECDPsrWhDNrK9wAAnZwV3kpJgmu5RdPHWHHAAxpn
-      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
-      commitHash: 819de2da7a37edbc401cb1e983ccf75f75c4eff3
-    2.0.0:
-      date: 2019-04-17T15:46:23.000Z
-      txHash: '0xf780de1955803fe124f449894b124073f25d1ca9bc8a40fcf4e9dfa036527ab7'
-      ipfsHash: QmPeMdoxFQ9WRfk1i6XyJkXjuGMT5LshoK7DxD1B6Joe5i
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
-    2.0.1:
-      date: 2019-05-02T14:24:33.000Z
-      txHash: '0x2a0c425b3ae002aa6536522ddd22dc2123c90d00d099106d861f147a8a7f6dec'
-      ipfsHash: QmUC5v2LN5ygvaMi57ytP523rKaHWmWFRdSPHY9nzZhnXu
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: 4b5094a63ee668368c52a7b37dccb0969c397a8f
-    2.0.2:
-      date: 2019-05-16T11:14:12.000Z
-      txHash: '0x9520ba6a158c49fb741cd77ab60e2b90c63ab6c4ea87dd46a0b84310061206ee'
-      ipfsHash: QmUMYkwTUPF53uvbCfMPXDytVRhbw29EYxGNtHxkikcWnh
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: f8230bffb1f1a69b72bd536944512516f8d188ce
-    2.0.3:
-      date: 2019-05-30T16:58:26.000Z
-      txHash: '0x4493acae98c78c7c4fcf89691afbb16f9f806aeee8732328f729bcba99878a15'
-      ipfsHash: QmbVFj4jkDpchJnBHK52WTdZWugM6sFvU7QPopnecKmAak
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: d13e85c2aaa8d0166242a14193691d0a9ea5b5db
-    2.0.4:
-      date: 2019-06-14T18:21:43.000Z
-      txHash: '0x40b008e926e5206218b58febe6bcf8b97e4478c24b18c511ef9314095bc7fe59'
-      ipfsHash: QmcKAS1ReroTLQZA1AzDCURbqyiYzVt9GnMX8H893WXivM
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: 8c81ed9b0eb03f692724de01f59b368fa2d64511
-    2.1.0:
-      date: 2019-09-10T20:57:31.000Z
-      txHash: '0x8fbde53470f09e08cc7720ab6d3f4ae7f8fec9ae68bcf51fab82f4e3b4cf037d'
-      ipfsHash: QmasYuYozUKpEAuvkUteKYqJjLWTHYUz3qqYpG1JyhgS6X
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
-    2.1.1:
-      date: 2019-09-19T17:17:46.000Z
-      txHash: '0xd620ff4890731eb1252749d62227b77bc4136e030cd3e9ed74460a0d25b0c425'
-      ipfsHash: QmTfpwLWdgQQMmuDDmFc5MGu1kjL6H4mKqSYPyFCkMHxkC
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
-    2.1.2:
-      date: 2019-10-11T05:52:56.000Z
-      txHash: '0x8aa3144c43b7a3da5d949bdd6e77da878425146fadececa4e06fcfbca2a7e61e'
-      ipfsHash: QmVyZYszGx7aCDk3n5fbn1P6Kz5k3vimAmEnTkXc8h4um5
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: 4d9d13873647b87058e4d8b949df4cb3b49ef275
-    2.1.3:
-      date: 2019-10-24T10:23:50.000Z
-      txHash: '0xd883251dbb224ef06b4d7e3bc73320e09fcb8335c8155ea98a09fc039d453558'
-      ipfsHash: QmWVH59ds3gT7nry9DFrVuV79MdZQwbCgGKM7pGikyLyG1
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: 52243a90a9226ef3b40bd7ee28fb852f69155df1
-    2.1.4:
-      date: 2019-11-12T17:59:38.000Z
-      txHash: '0x6c07faac45512ba639d3096460435b1a5753bed99095575133d3350ebd7665b9'
-      ipfsHash: QmPF3eemDH2bSq9dV3VpcDSTvhk2TRvNVJF2aLBZ5BaLJ7
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
-    2.1.5:
-      date: 2019-12-04T19:40:24.000Z
-      txHash: '0x2f4fee297bab4b7e35240232d8b6f4a683a3fd2860bdd6818c78ed291a8b9370'
-      ipfsHash: QmZfMLh3xQndA65FS1trdXYVcHtCQZe4XrH8RMY1gzYRSQ
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
-    2.1.6:
-      date: 2019-12-21T20:26:50.000Z
-      txHash: '0xd37ee0ea002da463035aeb872a6a8699a2749d5ccbe0c52445d29fbf865bc3e2'
-      ipfsHash: QmarMXfyM5qUU8vpJedBKVB4Bne2zfgfXuzDQPP2ZdmgNR
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: b56258a76a3aa0a711ee6ae415d119f55780283a
-    2.1.7:
-      date: 2020-01-24T15:42:18.000Z
-      txHash: '0xd83aad3ee713e11f3b2770563982c4254b0f46ebf25cb809d6d86d9bf6705523'
-      ipfsHash: Qmev9Q7g4DEDHjqWt4QSdFy3dpzZmeF5AnPozhtjdboZG3
-      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
-      commitHash: f44ee48106bc15039d8b716e0162abc4c867dec2
-democracy-kit.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
-  versions:
-    1.0.0:
-      date: 2018-10-27T13:09:29.000Z
-      txHash: '0xac20e17363edf40a172e2c26f171da79c75b5c17a44bc40014766fcc648d4651'
-      ipfsHash: QmNo3xP8VZTiFYzZ7CoeAZHjf8gcATRA6b15azaeh5waQ3
-      contractAddress: '0x705Cd9a00b87Bb019a87beEB9a50334219aC4444'
-      commitHash: a03fba51687f099e265368c615332c762893108c
-    2.0.0:
-      date: 2019-04-17T00:16:43.000Z
-      txHash: '0x5a25a633babcf9f326e4dec05621464b8548b5d46eaaec53d7f5be7d3ad917d6'
-      ipfsHash: QmeL57npfsQMts3PnEm9TL8JpmxHN8nFCNbzWRRNB4CwxK
-      contractAddress: '0x7f3ed10366826a1227025445D4f4e3e14BBfc91d'
-      commitHash: 9886bba4c0a201bf056f44d751373e5d804e1b90
-multisig-kit.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/multisig'
-  versions:
-    1.0.0:
-      date: 2018-10-27T13:29:26.000Z
-      txHash: '0xf160729706ea27996b691e648c6e3dcee13c0e73bd3ff4b540c97ae9e903b034'
-      ipfsHash: QmPx8D1u9362CU28FZfbmJ8NMYKEBkmgVKt6JFoTEkdVJU
-      contractAddress: '0x41bbaf498226b68415f1C78ED541c45A18fd7696'
-      commitHash: a03fba51687f099e265368c615332c762893108c
-    2.0.0:
-      date: 2019-04-17T00:29:30.000Z
-      txHash: '0x0f4e4f53ab7bf3b6533d5467ba11543fe5eae6da38521e40c273a3a3863ee44f'
-      ipfsHash: QmXJDXUuR2cmwb7C2SfTFH6euuesmbkcqyQ7HgT7r9aSqP
-      contractAddress: '0x87aa2980dde7d2D4e57191f16BB57cF80bf6E5A6'
-      commitHash: 9886bba4c0a201bf056f44d751373e5d804e1b90
-aragon.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon/tree/[ref]'
-  versions:
-    1.0.0:
-      date: 2018-10-27T13:44:43.000Z
-      txHash: '0x829797ed7afbb508b9cbd6c2f46b2058f184c9102ebf1af01b90a976689a8aa6'
-      ipfsHash: QmedqmC8yU52SVhHBVmguaAhq6Yfdts3doyBFLcLjN6Ari
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 1207e2f69975ae83b03c586fc96e792dc2121da5
-    1.1.0:
-      date: 2018-10-30T10:11:08.000Z
-      txHash: '0xca8706f9356514f3675c30ea5fba3ea1920a86093d3b8d3af2d896fbf133c2e6'
-      ipfsHash: QmYPeNb4TMAicwLhqBLzfW1eeXVSLHvT43BtJ2PReTHqvt
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 0b74952a105c16e4abf8fdfc6f43dac8e5061c35
-    1.1.1:
-      date: 2018-10-30T10:32:12.000Z
-      txHash: '0x16860bce52ac00a7add97baceb9d7da1e707cea43db6b710adc4346df42a2508'
-      ipfsHash: QmbdqsZ68Pt85qGNEb3MaKwwzJAhQbvboaqVXXR81YrsJa
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 0b74952a105c16e4abf8fdfc6f43dac8e5061c35
-    1.1.2:
-      date: 2018-10-30T14:17:00.000Z
-      txHash: '0xa89cd3e5fdabcb84174f6d51099e043764629bcc0b7503ccdea0bf129424dfc5'
-      ipfsHash: QmaZVJesxw1S4xPKq2Jcb1miDgLDpTcMNRgbgZvexeYPr9
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
-    1.1.3:
-      date: 2018-10-30T14:20:28.000Z
-      txHash: '0x0ac180b7cd23255d7ff122fc9ffc2e026b04170a2f93f2134babc089ce3a702c'
-      ipfsHash: QmWPTuocfL5aorc7RbdRWshfH8uTVBSSMfZTFMme8xgA9M
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
-    1.1.4:
-      date: 2018-10-30T14:46:06.000Z
-      txHash: '0xa60fd7669b444d542ad1bfd612fdfc8158b8213d49aecae51661bb824b0fe3e5'
-      ipfsHash: QmaDMzzA1N2cWtYEx7XRmJCigzkTL8urxSkCixsjsGapeg
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: f613f0d0acfb67037ace461f3b71dd85256d3654
-    1.1.5:
-      date: 2018-11-05T20:32:14.000Z
-      txHash: '0x2262c84e0c71355f385403d0ef95ebb931575e21a07d54b163dfd77744f9355c'
-      ipfsHash: QmfWLYTDn2X3p2zEtbGKjW8UJ6NpfuAwkhL7u1Zyrte2Pq
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: f896c00d40c02542ffe1418064dc868022ebbc36
-    1.1.6:
-      date: 2018-11-15T00:01:59.000Z
-      txHash: '0x1fb412ff15f9cecda6b25f7054ce9e3ece97c0e22630df2951ed3080d7afd889'
-      ipfsHash: QmZtjkEN1prsLHC3sHXPaVqGXtspbbbdxgBAhLp54rSPND
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 19e6696dd7afb094c68e548962c4d04f54d2f775
-    1.1.7:
-      date: 2018-11-15T00:23:14.000Z
-      txHash: '0xd3d795b4fd96c6b5652fc87db2fabc35bee304dfee6e8fa2ae1aa0723daae0f4'
-      ipfsHash: QmSY6GTVw2Qp12TgDSDXLM67zg72FEgjjdbUZwt4963fdj
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 03492875714a97b9b419e5f3767a698494261bca
-    1.2.0:
-      date: 2018-12-21T08:39:53.000Z
-      txHash: '0x86d3ab74ec53b6cd5af0d9957c0f97fa8ded8e150a7a2ff78f29fe76ba1849eb'
-      ipfsHash: QmNaUAFJrJnSqzyTEYKXuEo3uXgGEBUfYLzunJx41KMm9P
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 59808f4c79bc6da4f6ce0bca5954aa2c82984edd
-    1.3.0:
-      date: 2019-01-29T03:53:59.000Z
-      txHash: '0x76587814f33cd7f8ec23fdd89adf8d092234b07fc169b372d417b16b09dde62e'
-      ipfsHash: QmYocMzhPc7wPwQPyGTNStcqsukaqTGs2b7D6PiKWY7J31
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: cc625f84d47ff77e7c699e6a55a3bfdbdd0c9a9e
-    1.3.1:
-      date: 2019-02-27T16:16:53.000Z
-      txHash: '0x3e280fef2dab52fa3294eded7045c7ef2b3ce8e7a9087c151b3b5eb1741f15d8'
-      ipfsHash: QmXL95J4mQP9VisV5BSPcBjmJMi6HobZxyzdx6DxRgndh1
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: b64f184910de7c5bcc19f87b32de4b6768c448fd
-    2.0.0:
-      date: 2019-04-17T17:53:12.000Z
-      txHash: '0x3098847e24b8c73b1c73b467376e0ce1bbe1e82dbdda8199905417f23b5c8d8b'
-      ipfsHash: QmT4DFPviXTjxkWLafati3TiQ4PxXH6UF3yrprawdbWQdw
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 28ba2720eb63b60e0e076d044650ed4e862cd159
-    2.0.1:
-      date: 2019-05-02T14:29:24.000Z
-      txHash: '0x8be792cd9ccf2f160b71c652f085f3c3a98ef7e8d5c49f49473616906d31d4b0'
-      ipfsHash: QmZbwSH36BZeyoB9QQZ63sHtdvx8cV9iY5QLSmqzDJ8PQ9
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: f59ea647de355cb051d0913b9ae8f36fbd301246
-    2.0.2:
-      date: 2019-05-16T11:21:55.000Z
-      txHash: '0x48f0da7cd4ae9abff4677408b49d1cb56626e02167b88022434f64e96a687ad3'
-      ipfsHash: QmWgja8zVhrfgXa3DPHc4apmDFwupajQfmK7DHkmkddy1d
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: e08deb62080e17fe652fa83f60dc81a02c455c41
-    2.0.3:
-      date: 2019-05-30T17:01:49.000Z
-      txHash: '0x60424b40e2308d5f64d0bc4d1c43f5371bdecdfd5fe5819935ea82fec26029a4'
-      ipfsHash: QmTVbyffoN5SwjVqD2p3iZtCHxPHkEaNtUikKh5ZBcvSkj
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 470047e803b02e8568162ac4376fa2dbe2fe52f9
-    2.0.4:
-      date: 2019-06-14T18:23:55.000Z
-      txHash: '0xa06fcf9625342d303fe8ea3d82355177d55638cea90bdb111f41ec58bc703780'
-      ipfsHash: QmbD4RL9b28WKSyVHLMHYyF4SMa8PPEtnzb4zpeQUwpbrm
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: c49ed53337c0bd254897d3e2b7c52275ef3e822d
-    2.0.5:
-      date: 2019-06-28T14:32:10.000Z
-      txHash: '0xd16faa635897918a78b1b63a9fb5ba34399ca1fce3bddf295541394b453d0a6a'
-      ipfsHash: QmXPc7VY4wuGRrZ7QPyPRs4CuJGE4F3wpcMVc3q6EBZbDN
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: b9c7d2f64e401c9cbd1b72647800a20ce2e79e7b
-    2.0.6:
-      date: 2019-07-25T14:26:24.000Z
-      txHash: '0x9f2dae84b4290642b6f2bd5d028ef5d0f2f9c84fd8894811c5edb774a67cf7ef'
-      ipfsHash: QmQf7cqHsVcUo1ieKKaBy8esinP6syPXEUCBWwUx4pZhTX
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 4d766c906f5e113cf27212186768b2a72f186d9c
-    3.0.0:
-      date: 2019-09-10T21:27:14.000Z
-      txHash: '0x5664da27634b5c757b88ba95cd3e08e642c437a47a36328b1fad1a3e2416033a'
-      ipfsHash: Qmf2VZeEVA9L7F2f8PZfWp35p9s8n2KqDSZnaAdsodgnFj
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 2df792d83313a2d590366c3c27a61cdcf4a2b82a
-    3.0.1:
-      date: 2019-09-10T22:50:56.000Z
-      txHash: '0xdf8850d65d964dcc0203e7bc48a6a604df0a72b0e885f6365fa4fac8c5dbcb5e'
-      ipfsHash: QmXm9bwDqwerw87JNF5yoDHCoNfr7WJAdQfj1qNeQcm2zp
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: ddebd7b741f505c3bc3b51624e75e5267db84109
-    3.0.2:
-      date: 2019-09-19T17:21:52.000Z
-      txHash: '0xf81d113c0362635120c63c841fbcd88a119968142c787b60a6818720b9fee6ae'
-      ipfsHash: QmR2LUkutxP6sNiFNpaU5f1fdwHJ43gw12GrSjvdyrKRq9
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 805f507dc1d729c9fd1a3823465a0d458f39bba7
-    3.0.3:
-      date: 2019-10-11T05:59:03.000Z
-      txHash: '0xff7098936b1eade3895ff25103979ba21e185351f2394a2ed81f9a5b7df6c84a'
-      ipfsHash: QmPvaWdYYc9jjyioF187McqCeSJu6eY5fp27ja2rsZYTUV
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 8cf20f6acd637ec55899818816d03a653abbd61d
-    3.0.4:
-      date: 2019-10-24T10:41:26.000Z
-      txHash: '0x6f56743a68273bc215f089bbab5545e6320b9473af6315de5ac8167b3af039cf'
-      ipfsHash: QmWZ21Dms36cTFRMagbqNKhKR9LWfs92HkxbduKrmcdWWo
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 775edd606333a111eb2693df53900039722a95dc
-    3.0.5:
-      date: 2019-10-24T01:32:25.000Z
-      txHash: '0x27461b05145f432ace476f370b80f3481e0816859bec27be6c6ba2f4be82fbca'
-      ipfsHash: QmWPhZL1g6nAoXLc2JfrTudi5KnFBV1cQUA8tsZrnQWEbG
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 4617a6f2d9398489b7de5cd03934d7cb47d87c9a
-    3.0.6:
-      date: 2019-11-12T18:14:38.000Z
-      txHash: '0x0e3248a867ac7471e5e6bcf1da185770b464f01ee6efd1f03ce88644a0640cd7'
-      ipfsHash: QmR5x29wx6cLodBQhhk9YWup1q48PBJcyaXim89bHHNwZU
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 6fa27f45fe2ca563fc2ad1325a194cd9df0afa9e
-    3.0.7:
-      date: 2019-12-04T19:46:14.000Z
-      txHash: '0x77266579138bf9ced802e26cf5e72e290fad9b35bc79dcc9b70aec2b1b801d03'
-      ipfsHash: QmREjsCc3iR15cJKbBof169DphyfEWJbhi1TQrq89MPvKR
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: a102fbdb3767657096ba3a0a43c9cb922c6701ed
-    3.0.8:
-      date: 2019-12-14T18:22:47.000Z
-      txHash: '0xaf125604078772deeb5739c342650bb616b79bba229c04a16ca7d7a63badf993'
-      ipfsHash: QmZFYSErJfivsejcarTdFTdxVAEMHU87MDvKfNRCdBjkEu
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: af3d38b6e581b0bc2310731f726cd9a0f6195aa0
-    3.0.9:
-      date: 2019-12-21T20:27:01.000Z
-      txHash: '0x7f179104fb4504e501106b2ebe8c4c85abcc6b93f513c88b7a23f9fce2c17bab'
-      ipfsHash: QmQozMYghy9Z3Xk12CJ1o6WxXWjQTApiDh2CQfJqwF13v4
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: c5382349bc201dbcb217c6ac00611035ad02b257
-    3.0.10:
-      date: 2020-01-24T15:47:57.000Z
-      txHash: '0x02db483fe4043253f775d6b8e557bf919555aa6b49dc016b776ce82175a0855c'
-      ipfsHash: QmU2vxYJtpbP2zgmnsBMdm5Ko6PxmbmTWveVGfAkB6cBES
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: b7eca68fd0c05b03949f5c0024ab029c6d283764
-    3.0.11:
-      date: 2020-01-30T22:47:09.000Z
-      txHash: '0xb8f463fe3ee8d28c52279c36052d5a43fe8d4a9bad78af3dc6c0ea604c255078'
-      ipfsHash: QmcKYYCHqHwj4gvoSbKdKVXgQ6ZfzVfPJhZ8h3xLNtAxgy
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 7143bbb8de768a6dc90ba51de6125bce70a2c7a1
-    3.0.12:
-      date: 2020-02-19T23:53:24.000Z
-      txHash: '0x76239840fa996f60466502afc596536fddb5221c6a8c7a01d7e23f837c112b57'
-      ipfsHash: QmRYuuHrMDaof3qg3ia9gAmi1fUjiA6GdEQaBiHrYivjVw
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: fba89d9d60749c2d2a360db08a03a732119e624e
-    3.0.13:
-      date: 2020-03-12T00:39:24.000Z
-      txHash: '0xf0f98bb823251ec0632238fdc76144698aaf6db4fbed59afc8db7fb47636c288'
-      ipfsHash: Qmbgb8UhnUSCCjmkaeHxhn93hmnbRRctMDxNMiumQgwrJD
-      contractAddress: '0x0000000000000000000000000000000000000000'
-      commitHash: 9435be3df33e5c04f1c08250664d266ca99c46f5
-bare-kit.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
-  versions:
-    1.0.0:
-      date: 2019-01-07T14:33:24.000Z
-      txHash: '0xe8b6559d901508d1dcd321427b0d89601d9725643395eeda84cd952cc05306a7'
-      ipfsHash: QmeRj9vsDYAkdH2DH9DFMRkgWYucrP1h98t52ZZGH2hu56
-      contractAddress: '0xCd9D2a2c74E49CfAFB024006Be614B04c82D5273'
-      commitHash: 09943aca3b58c941f7e03e35d9dd8e96e194a481
 agent.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/agent'
   versions:
     1.0.0:
-      date: 2019-02-15T20:18:47.000Z
-      txHash: '0x3fe7b522db13fa2cef562209fd218a6d2466b6ea6cc221305ac41919cf3ac6f8'
-      ipfsHash: QmT2c6ffZ5e9vbQiQdWyRjZAxY9cMmZYNBEDW4Ne4dm2RG
-      contractAddress: '0x3D27B837602971F5BFE4Bb7C907982378DAab333'
       commitHash: a2a7ac5ceef534f33547bf7fd5645a026ac84382
+      contractAddress: '0x3D27B837602971F5BFE4Bb7C907982378DAab333'
+      date: 2019-02-15T20:18:47.000Z
+      ipfsHash: QmT2c6ffZ5e9vbQiQdWyRjZAxY9cMmZYNBEDW4Ne4dm2RG
+      txHash: '0x3fe7b522db13fa2cef562209fd218a6d2466b6ea6cc221305ac41919cf3ac6f8'
     2.0.0:
-      date: 2019-02-22T18:20:51.000Z
-      txHash: '0x5f47713e429fae665e12f451727c16370763d4e274989abb541dd28b91ba1e1f'
-      ipfsHash: QmPXUNWXR3Zr91cffNewfG1uhP89FBQMzJWVM8myRXEZnN
-      contractAddress: '0x83EEad1C141605400513d49d268b2FC9C67C1c58'
       commitHash: 870d82f58857676608d1a465c315d26cfe2b5d64
+      contractAddress: '0x83EEad1C141605400513d49d268b2FC9C67C1c58'
+      date: 2019-02-22T18:20:51.000Z
+      ipfsHash: QmPXUNWXR3Zr91cffNewfG1uhP89FBQMzJWVM8myRXEZnN
+      txHash: '0x5f47713e429fae665e12f451727c16370763d4e274989abb541dd28b91ba1e1f'
     3.0.0:
-      date: 2019-04-17T15:52:59.000Z
-      txHash: '0xc6c3e7a73db069da35a980780562768c0e6402f76199ae3ae6e5b60404db20d1'
-      ipfsHash: QmT1A9891fpRj1Eex12BWCM7kWiFtbGAFXoSnMKVbFd3Zd
+      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
       contractAddress: '0x6aF6965775A2a2B0F2784C4B66d0657C90994330'
-      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
+      date: 2019-04-17T15:52:59.000Z
+      ipfsHash: QmT1A9891fpRj1Eex12BWCM7kWiFtbGAFXoSnMKVbFd3Zd
+      txHash: '0xc6c3e7a73db069da35a980780562768c0e6402f76199ae3ae6e5b60404db20d1'
     4.0.0:
-      date: 2019-09-10T20:48:49.000Z
-      txHash: '0x5f97f467b880d26870e663a0a4b5e309a23b81398cd4955c2b0028f76b082813'
-      ipfsHash: QmfZgr3xKgGrfr1sncbc95v7n43roeayz9N7B1mV6E3xib
-      contractAddress: '0x88aFC2Fbb10504865598Ac67Ef5A17A1C5EeBA4b'
       commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
+      contractAddress: '0x88aFC2Fbb10504865598Ac67Ef5A17A1C5EeBA4b'
+      date: 2019-09-10T20:48:49.000Z
+      ipfsHash: QmfZgr3xKgGrfr1sncbc95v7n43roeayz9N7B1mV6E3xib
+      txHash: '0x5f97f467b880d26870e663a0a4b5e309a23b81398cd4955c2b0028f76b082813'
     4.0.1:
-      date: 2019-09-19T17:16:31.000Z
-      txHash: '0xd0e1d8067cccf24a5381c4387bc4f0d9037091483ace27bb94de0401321ef2c9'
-      ipfsHash: QmZB8z6hTJWM6Z6zpYoUVt76KoFLpoXfkh4Sar5CW3eAiW
-      contractAddress: '0x88aFC2Fbb10504865598Ac67Ef5A17A1C5EeBA4b'
       commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
-    4.1.0:
-      date: 2020-03-12T00:12:20.000Z
-      txHash: '0x59c08e51108ec49d2ca1e37b1f53ca77b1807ce59b24a6c366db888893c99ce0'
-      ipfsHash: QmUm4xMwgqGcFdRDjPzNAeTyxhesd9AREC1rMmNUC3cspY
       contractAddress: '0x88aFC2Fbb10504865598Ac67Ef5A17A1C5EeBA4b'
+      date: 2019-09-19T17:16:31.000Z
+      ipfsHash: QmZB8z6hTJWM6Z6zpYoUVt76KoFLpoXfkh4Sar5CW3eAiW
+      txHash: '0xd0e1d8067cccf24a5381c4387bc4f0d9037091483ace27bb94de0401321ef2c9'
+    4.1.0:
       commitHash: 10c6fa195bc05216dd42e2863216dbda806f967a
+      contractAddress: '0x88aFC2Fbb10504865598Ac67Ef5A17A1C5EeBA4b'
+      date: 2020-03-12T00:12:20.000Z
+      ipfsHash: QmUm4xMwgqGcFdRDjPzNAeTyxhesd9AREC1rMmNUC3cspY
+      txHash: '0x59c08e51108ec49d2ca1e37b1f53ca77b1807ce59b24a6c366db888893c99ce0'
     5.0.0:
-      date: 2020-03-12T00:36:28.000Z
-      txHash: '0x74f18fb9dc5298e434b4f61cb6e61fd93905a2bdcfdc99b5bf46430a1f28ea0c'
-      ipfsHash: QmbxRT5KXXP37ce3ixBRUxjXxaMjk2ff7fj923c48XkDBr
-      contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
       commitHash: b1e46b0390cffada00b3976027eb996dabdc7eba
-    5.0.1:
-      date: 2020-03-12T01:28:39.000Z
-      txHash: '0xbd566be5d976e886e0e282e277ba0d1763e3b7c44ea87abfae36b959056e29fd'
-      ipfsHash: QmZNRpitma8WNmR7aESAdLGXkRCp2EppkPTdNd2Ccw8teh
       contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
+      date: 2020-03-12T00:36:28.000Z
+      ipfsHash: QmbxRT5KXXP37ce3ixBRUxjXxaMjk2ff7fj923c48XkDBr
+      txHash: '0x74f18fb9dc5298e434b4f61cb6e61fd93905a2bdcfdc99b5bf46430a1f28ea0c'
+    5.0.1:
       commitHash: 36050900463f4db2bf48f5e80c6cb34c9c0d795d
-survey.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey'
-  versions:
-    1.0.0:
-      date: 2019-04-17T15:44:05.000Z
-      txHash: '0x2a621366d4567eb39a3b07fa2862dbb2fc878ada9d78ec2c3f23fd4b5ee50202'
-      ipfsHash: Qmdxz6fv8sCBKnsc9s6ji4DMQyEuRncS5DFSXGY3qTeszM
-      contractAddress: '0x5Ac00b7f06E959cb5cC700e41A6026915A8472aA'
-      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
-ppf-factory.aragonpm.eth:
-  github: 'https://github.com/aragon/ppf/tree/[ref]/packages/ppf-contracts'
-  versions:
-    1.0.0:
-      date: 2019-04-25T19:35:07.000Z
-      txHash: '0x1b7ddf9035207bc75df5f6658287793830f547977c621676d808b1005b570537'
-      ipfsHash: QmV3S9jdWrte7JvYVoX64P8VJ4AecMwyzbYXGGReJZAuw5
-      contractAddress: '0xCbcaf05388ac89CF34EBACdFfaFe9E42539e6c02'
-      commitHash: 68ab78db525bee218fd62e155cd76c68136abe3f
-bare-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/bare'
-  versions:
-    1.0.0:
-      date: 2019-09-06T09:44:54.000Z
-      txHash: '0x9b8457654276d0f4e5a1e607f08be2c41ecec883001671c97b0cb1569f3e8c08'
-      ipfsHash: QmevkppE6Z8BXVP4NsyTWTjQGfjyE8ucZTGHppwHLgSgAK
-      contractAddress: '0x772e046Dc341bc197c6Ef1EE083e1a1368d65646'
-      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
-company-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/company'
-  versions:
-    1.0.0:
-      date: 2019-09-06T09:49:55.000Z
-      txHash: '0xc4f1a4e66b09cb27d06da7e1ba77574a56abb152a390fc65c71445a260ed8ab6'
-      ipfsHash: QmPcQYEx666a5SQciecUUd5j57Exzs3stFrEzU2zrp6h8t
-      contractAddress: '0xd737632caC4d039C9B0EEcc94C12267407a271b5'
-      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
-company-board-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/company-board'
-  versions:
-    1.0.0:
-      date: 2019-09-06T09:36:18.000Z
-      txHash: '0x5b82e9d99df317e3aec6c63c7db361d17dec1186a5023666b799aa6a4dfbead0'
-      ipfsHash: QmcKHmK9NoTHF9ccfTypSxiErYbe9PNuKsGJKuD72tHxoR
-      contractAddress: '0x4d1A892f42c947fa952b57bc6939b27A96215CfA'
-      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
-membership-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/membership'
-  versions:
-    1.0.0:
-      date: 2019-09-06T11:43:08.000Z
-      txHash: '0x2f311021e6b3487869ee8a827c9e3db3b0a4719d1ef1210e6b16c9f344a24b31'
-      ipfsHash: QmUJfAUyRoj1qfe2ZYPGLfw4jVYyNY4xh1ZdsjCTJa9tJx
-      contractAddress: '0x67430642C0c3B5E6538049B9E9eE719f2a4BeE7c'
-      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
-    2.0.0:
-      date: 2019-09-06T11:44:05.000Z
-      txHash: '0x258ff598f8474ef7f5929eb2400824acdbe83b2db10b557c54598091bff978d0'
-      ipfsHash: QmV363g3R9ecSLJU18DZxDPUNZoWPXaNAc8vkB4oR8iydn
-      contractAddress: '0x67430642C0c3B5E6538049B9E9eE719f2a4BeE7c'
-      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
-reputation-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/reputation'
-  versions:
-    1.0.0:
-      date: 2019-09-06T11:04:17.000Z
-      txHash: '0x9b219b0c19473787ada6ef846ece268a515f95a743c07430865ca1ab25ca4b8b'
-      ipfsHash: QmQGmsHp4A5y3kWc8hrYKyKTaGfjH6RcioVrqgGSbaG8JT
-      contractAddress: '0x3a06A6544e48708142508D9042f94DDdA769d04F'
-      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
-bancor-formula.aragonpm.eth:
-  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula'
-  versions:
-    1.0.0:
-      date: 2019-12-14T17:29:34.000Z
-      txHash: '0x0f30626e006ce858e1a552d936394e1e7325acdd0e4172d5ac26b122798322f6'
-      ipfsHash: Qmc8gmbF1Pdrkgf5vqA7GLHC6U9VxcbaymkNHEV8wFh5r6
-      contractAddress: '0x274Aac49b63F07Bf6998964aD20020b18383a09D'
-      commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
-tap.aragonpm.eth:
-  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/tap'
-  versions:
-    1.0.0:
-      date: 2019-12-14T17:48:53.000Z
-      txHash: '0x0d5bcc687d27bdb7dea178291721201411fd990ef35079ab92cc019eb1e5e74d'
-      ipfsHash: QmPUQw7FqDLNNQCDQdDRhahFv69LdJJGap3mBNsPveAaV8
-      contractAddress: '0xfa64Bc35F6f5151315AB14b6aa9a8627D1baBEb4'
-      commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
-presale.aragonpm.eth:
-  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/presale'
-  versions:
-    1.0.0:
-      date: 2019-12-14T18:04:05.000Z
-      txHash: '0x49d30d77708483dfe5e54f3cf0899d99632b9272af484c6f8bbad206a664b24f'
-      ipfsHash: QmcdZ6iRqtLf4z1KBNpwo7JZeZVizZffr7cQJ5NbFn1Mb9
-      contractAddress: '0xa111Dc023481DC8f751c1e875A6920168a541d25'
-      commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
-batched-bancor-market-maker.aragonpm.eth:
-  github: >-
-    https://github.com/aragonblack/fundraising/tree/[ref]/apps/batched-bancor-market-maker
-  versions:
-    1.0.0:
-      date: 2019-12-15T11:12:01.000Z
-      txHash: '0x9f0c02113f9a83476268e92ad67c47375315015ff6c1b2cb682c67532678b791'
-      ipfsHash: QmZPcumiv2yL8HHwKHenDYXSJ1poWB35wRimUqaopBykhR
-      contractAddress: '0x7beD314446f3BFFBC27775DF2c6B439F3A376055'
-      commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
+      contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
+      date: 2020-03-12T01:28:39.000Z
+      ipfsHash: QmZNRpitma8WNmR7aESAdLGXkRCp2EppkPTdNd2Ccw8teh
+      txHash: '0xbd566be5d976e886e0e282e277ba0d1763e3b7c44ea87abfae36b959056e29fd'
 aragon-fundraising.aragonpm.eth:
   github: >-
     https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
   versions:
     1.0.0:
-      date: 2019-12-15T11:27:13.000Z
-      txHash: '0xb3050c68f32ef23d3bda91c11a15825d3ddccd758cda43b407e849da951cb62a'
-      ipfsHash: QmRkVpgpj1tUGL4akLao5upCWy7X77c5nu2kyFQGjUQK2K
-      contractAddress: '0x93383E74ee566a0110673628E14CCaa5eA840729'
       commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
-    1.0.1:
-      date: 2020-01-09T18:15:01.000Z
-      txHash: '0x898079411b277c20f9f0b8a8c7112f9592417d7d965cea92d846bec12fe5b39f'
-      ipfsHash: QmauDAkBiAir7kYVYiH1Spur8pEArX88a2atDKHG7Yy9yt
       contractAddress: '0x93383E74ee566a0110673628E14CCaa5eA840729'
+      date: 2019-12-15T11:27:13.000Z
+      ipfsHash: QmRkVpgpj1tUGL4akLao5upCWy7X77c5nu2kyFQGjUQK2K
+      txHash: '0xb3050c68f32ef23d3bda91c11a15825d3ddccd758cda43b407e849da951cb62a'
+    1.0.1:
       commitHash: 78dc8daf33a2d6fe903d3332f23d9174fba4bb34
+      contractAddress: '0x93383E74ee566a0110673628E14CCaa5eA840729'
+      date: 2020-01-09T18:15:01.000Z
+      ipfsHash: QmauDAkBiAir7kYVYiH1Spur8pEArX88a2atDKHG7Yy9yt
+      txHash: '0x898079411b277c20f9f0b8a8c7112f9592417d7d965cea92d846bec12fe5b39f'
+aragon.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon/tree/[ref]'
+  versions:
+    1.0.0:
+      commitHash: 1207e2f69975ae83b03c586fc96e792dc2121da5
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-10-27T13:44:43.000Z
+      ipfsHash: QmedqmC8yU52SVhHBVmguaAhq6Yfdts3doyBFLcLjN6Ari
+      txHash: '0x829797ed7afbb508b9cbd6c2f46b2058f184c9102ebf1af01b90a976689a8aa6'
+    1.1.0:
+      commitHash: 0b74952a105c16e4abf8fdfc6f43dac8e5061c35
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-10-30T10:11:08.000Z
+      ipfsHash: QmYPeNb4TMAicwLhqBLzfW1eeXVSLHvT43BtJ2PReTHqvt
+      txHash: '0xca8706f9356514f3675c30ea5fba3ea1920a86093d3b8d3af2d896fbf133c2e6'
+    1.1.1:
+      commitHash: 0b74952a105c16e4abf8fdfc6f43dac8e5061c35
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-10-30T10:32:12.000Z
+      ipfsHash: QmbdqsZ68Pt85qGNEb3MaKwwzJAhQbvboaqVXXR81YrsJa
+      txHash: '0x16860bce52ac00a7add97baceb9d7da1e707cea43db6b710adc4346df42a2508'
+    1.1.2:
+      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-10-30T14:17:00.000Z
+      ipfsHash: QmaZVJesxw1S4xPKq2Jcb1miDgLDpTcMNRgbgZvexeYPr9
+      txHash: '0xa89cd3e5fdabcb84174f6d51099e043764629bcc0b7503ccdea0bf129424dfc5'
+    1.1.3:
+      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-10-30T14:20:28.000Z
+      ipfsHash: QmWPTuocfL5aorc7RbdRWshfH8uTVBSSMfZTFMme8xgA9M
+      txHash: '0x0ac180b7cd23255d7ff122fc9ffc2e026b04170a2f93f2134babc089ce3a702c'
+    1.1.4:
+      commitHash: f613f0d0acfb67037ace461f3b71dd85256d3654
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-10-30T14:46:06.000Z
+      ipfsHash: QmaDMzzA1N2cWtYEx7XRmJCigzkTL8urxSkCixsjsGapeg
+      txHash: '0xa60fd7669b444d542ad1bfd612fdfc8158b8213d49aecae51661bb824b0fe3e5'
+    1.1.5:
+      commitHash: f896c00d40c02542ffe1418064dc868022ebbc36
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-11-05T20:32:14.000Z
+      ipfsHash: QmfWLYTDn2X3p2zEtbGKjW8UJ6NpfuAwkhL7u1Zyrte2Pq
+      txHash: '0x2262c84e0c71355f385403d0ef95ebb931575e21a07d54b163dfd77744f9355c'
+    1.1.6:
+      commitHash: 19e6696dd7afb094c68e548962c4d04f54d2f775
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-11-15T00:01:59.000Z
+      ipfsHash: QmZtjkEN1prsLHC3sHXPaVqGXtspbbbdxgBAhLp54rSPND
+      txHash: '0x1fb412ff15f9cecda6b25f7054ce9e3ece97c0e22630df2951ed3080d7afd889'
+    1.1.7:
+      commitHash: 03492875714a97b9b419e5f3767a698494261bca
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-11-15T00:23:14.000Z
+      ipfsHash: QmSY6GTVw2Qp12TgDSDXLM67zg72FEgjjdbUZwt4963fdj
+      txHash: '0xd3d795b4fd96c6b5652fc87db2fabc35bee304dfee6e8fa2ae1aa0723daae0f4'
+    1.2.0:
+      commitHash: 59808f4c79bc6da4f6ce0bca5954aa2c82984edd
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2018-12-21T08:39:53.000Z
+      ipfsHash: QmNaUAFJrJnSqzyTEYKXuEo3uXgGEBUfYLzunJx41KMm9P
+      txHash: '0x86d3ab74ec53b6cd5af0d9957c0f97fa8ded8e150a7a2ff78f29fe76ba1849eb'
+    1.3.0:
+      commitHash: cc625f84d47ff77e7c699e6a55a3bfdbdd0c9a9e
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-01-29T03:53:59.000Z
+      ipfsHash: QmYocMzhPc7wPwQPyGTNStcqsukaqTGs2b7D6PiKWY7J31
+      txHash: '0x76587814f33cd7f8ec23fdd89adf8d092234b07fc169b372d417b16b09dde62e'
+    1.3.1:
+      commitHash: b64f184910de7c5bcc19f87b32de4b6768c448fd
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-02-27T16:16:53.000Z
+      ipfsHash: QmXL95J4mQP9VisV5BSPcBjmJMi6HobZxyzdx6DxRgndh1
+      txHash: '0x3e280fef2dab52fa3294eded7045c7ef2b3ce8e7a9087c151b3b5eb1741f15d8'
+    2.0.0:
+      commitHash: 28ba2720eb63b60e0e076d044650ed4e862cd159
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-04-17T17:53:12.000Z
+      ipfsHash: QmT4DFPviXTjxkWLafati3TiQ4PxXH6UF3yrprawdbWQdw
+      txHash: '0x3098847e24b8c73b1c73b467376e0ce1bbe1e82dbdda8199905417f23b5c8d8b'
+    2.0.1:
+      commitHash: f59ea647de355cb051d0913b9ae8f36fbd301246
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-05-02T14:29:24.000Z
+      ipfsHash: QmZbwSH36BZeyoB9QQZ63sHtdvx8cV9iY5QLSmqzDJ8PQ9
+      txHash: '0x8be792cd9ccf2f160b71c652f085f3c3a98ef7e8d5c49f49473616906d31d4b0'
+    2.0.2:
+      commitHash: e08deb62080e17fe652fa83f60dc81a02c455c41
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-05-16T11:21:55.000Z
+      ipfsHash: QmWgja8zVhrfgXa3DPHc4apmDFwupajQfmK7DHkmkddy1d
+      txHash: '0x48f0da7cd4ae9abff4677408b49d1cb56626e02167b88022434f64e96a687ad3'
+    2.0.3:
+      commitHash: 470047e803b02e8568162ac4376fa2dbe2fe52f9
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-05-30T17:01:49.000Z
+      ipfsHash: QmTVbyffoN5SwjVqD2p3iZtCHxPHkEaNtUikKh5ZBcvSkj
+      txHash: '0x60424b40e2308d5f64d0bc4d1c43f5371bdecdfd5fe5819935ea82fec26029a4'
+    2.0.4:
+      commitHash: c49ed53337c0bd254897d3e2b7c52275ef3e822d
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-06-14T18:23:55.000Z
+      ipfsHash: QmbD4RL9b28WKSyVHLMHYyF4SMa8PPEtnzb4zpeQUwpbrm
+      txHash: '0xa06fcf9625342d303fe8ea3d82355177d55638cea90bdb111f41ec58bc703780'
+    2.0.5:
+      commitHash: b9c7d2f64e401c9cbd1b72647800a20ce2e79e7b
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-06-28T14:32:10.000Z
+      ipfsHash: QmXPc7VY4wuGRrZ7QPyPRs4CuJGE4F3wpcMVc3q6EBZbDN
+      txHash: '0xd16faa635897918a78b1b63a9fb5ba34399ca1fce3bddf295541394b453d0a6a'
+    2.0.6:
+      commitHash: 4d766c906f5e113cf27212186768b2a72f186d9c
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-07-25T14:26:24.000Z
+      ipfsHash: QmQf7cqHsVcUo1ieKKaBy8esinP6syPXEUCBWwUx4pZhTX
+      txHash: '0x9f2dae84b4290642b6f2bd5d028ef5d0f2f9c84fd8894811c5edb774a67cf7ef'
+    3.0.0:
+      commitHash: 2df792d83313a2d590366c3c27a61cdcf4a2b82a
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-09-10T21:27:14.000Z
+      ipfsHash: Qmf2VZeEVA9L7F2f8PZfWp35p9s8n2KqDSZnaAdsodgnFj
+      txHash: '0x5664da27634b5c757b88ba95cd3e08e642c437a47a36328b1fad1a3e2416033a'
+    3.0.1:
+      commitHash: ddebd7b741f505c3bc3b51624e75e5267db84109
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-09-10T22:50:56.000Z
+      ipfsHash: QmXm9bwDqwerw87JNF5yoDHCoNfr7WJAdQfj1qNeQcm2zp
+      txHash: '0xdf8850d65d964dcc0203e7bc48a6a604df0a72b0e885f6365fa4fac8c5dbcb5e'
+    3.0.2:
+      commitHash: 805f507dc1d729c9fd1a3823465a0d458f39bba7
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-09-19T17:21:52.000Z
+      ipfsHash: QmR2LUkutxP6sNiFNpaU5f1fdwHJ43gw12GrSjvdyrKRq9
+      txHash: '0xf81d113c0362635120c63c841fbcd88a119968142c787b60a6818720b9fee6ae'
+    3.0.3:
+      commitHash: 8cf20f6acd637ec55899818816d03a653abbd61d
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-10-11T05:59:03.000Z
+      ipfsHash: QmPvaWdYYc9jjyioF187McqCeSJu6eY5fp27ja2rsZYTUV
+      txHash: '0xff7098936b1eade3895ff25103979ba21e185351f2394a2ed81f9a5b7df6c84a'
+    3.0.4:
+      commitHash: 775edd606333a111eb2693df53900039722a95dc
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-10-24T10:41:26.000Z
+      ipfsHash: QmWZ21Dms36cTFRMagbqNKhKR9LWfs92HkxbduKrmcdWWo
+      txHash: '0x6f56743a68273bc215f089bbab5545e6320b9473af6315de5ac8167b3af039cf'
+    3.0.5:
+      commitHash: 4617a6f2d9398489b7de5cd03934d7cb47d87c9a
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-10-24T01:32:25.000Z
+      ipfsHash: QmWPhZL1g6nAoXLc2JfrTudi5KnFBV1cQUA8tsZrnQWEbG
+      txHash: '0x27461b05145f432ace476f370b80f3481e0816859bec27be6c6ba2f4be82fbca'
+    3.0.6:
+      commitHash: 6fa27f45fe2ca563fc2ad1325a194cd9df0afa9e
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-11-12T18:14:38.000Z
+      ipfsHash: QmR5x29wx6cLodBQhhk9YWup1q48PBJcyaXim89bHHNwZU
+      txHash: '0x0e3248a867ac7471e5e6bcf1da185770b464f01ee6efd1f03ce88644a0640cd7'
+    3.0.7:
+      commitHash: a102fbdb3767657096ba3a0a43c9cb922c6701ed
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-12-04T19:46:14.000Z
+      ipfsHash: QmREjsCc3iR15cJKbBof169DphyfEWJbhi1TQrq89MPvKR
+      txHash: '0x77266579138bf9ced802e26cf5e72e290fad9b35bc79dcc9b70aec2b1b801d03'
+    3.0.8:
+      commitHash: af3d38b6e581b0bc2310731f726cd9a0f6195aa0
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-12-14T18:22:47.000Z
+      ipfsHash: QmZFYSErJfivsejcarTdFTdxVAEMHU87MDvKfNRCdBjkEu
+      txHash: '0xaf125604078772deeb5739c342650bb616b79bba229c04a16ca7d7a63badf993'
+    3.0.9:
+      commitHash: c5382349bc201dbcb217c6ac00611035ad02b257
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2019-12-21T20:27:01.000Z
+      ipfsHash: QmQozMYghy9Z3Xk12CJ1o6WxXWjQTApiDh2CQfJqwF13v4
+      txHash: '0x7f179104fb4504e501106b2ebe8c4c85abcc6b93f513c88b7a23f9fce2c17bab'
+    3.0.10:
+      commitHash: b7eca68fd0c05b03949f5c0024ab029c6d283764
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2020-01-24T15:47:57.000Z
+      ipfsHash: QmU2vxYJtpbP2zgmnsBMdm5Ko6PxmbmTWveVGfAkB6cBES
+      txHash: '0x02db483fe4043253f775d6b8e557bf919555aa6b49dc016b776ce82175a0855c'
+    3.0.11:
+      commitHash: 7143bbb8de768a6dc90ba51de6125bce70a2c7a1
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2020-01-30T22:47:09.000Z
+      ipfsHash: QmcKYYCHqHwj4gvoSbKdKVXgQ6ZfzVfPJhZ8h3xLNtAxgy
+      txHash: '0xb8f463fe3ee8d28c52279c36052d5a43fe8d4a9bad78af3dc6c0ea604c255078'
+    3.0.12:
+      commitHash: fba89d9d60749c2d2a360db08a03a732119e624e
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2020-02-19T23:53:24.000Z
+      ipfsHash: QmRYuuHrMDaof3qg3ia9gAmi1fUjiA6GdEQaBiHrYivjVw
+      txHash: '0x76239840fa996f60466502afc596536fddb5221c6a8c7a01d7e23f837c112b57'
+    3.0.13:
+      commitHash: 9435be3df33e5c04f1c08250664d266ca99c46f5
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      date: 2020-03-12T00:39:24.000Z
+      ipfsHash: Qmbgb8UhnUSCCjmkaeHxhn93hmnbRRctMDxNMiumQgwrJD
+      txHash: '0xf0f98bb823251ec0632238fdc76144698aaf6db4fbed59afc8db7fb47636c288'
+balance-redirect-presale.aragonpm.eth:
+  versions:
+    1.0.0:
+      commitHash: 44163a62bab42424dd047a4d047e53e8ea97a62e
+      contractAddress: '0x280c50ad7e6650bC6142e60bE17157fEd01C65e3'
+      date: 2019-12-17T17:24:12.000Z
+      ipfsHash: QmRgx3dbFAsWUhyjMWW8VsXUX2yuByeNeYrnpp8YCXcx6C
+      txHash: '0x0fe13a85d27f26d81e4589f54b7e799928173eb67a46b765a94939848c113cb1'
+bancor-formula.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula'
+  versions:
+    1.0.0:
+      commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
+      contractAddress: '0x274Aac49b63F07Bf6998964aD20020b18383a09D'
+      date: 2019-12-14T17:29:34.000Z
+      ipfsHash: Qmc8gmbF1Pdrkgf5vqA7GLHC6U9VxcbaymkNHEV8wFh5r6
+      txHash: '0x0f30626e006ce858e1a552d936394e1e7325acdd0e4172d5ac26b122798322f6'
+bare-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
+  versions:
+    1.0.0:
+      commitHash: 09943aca3b58c941f7e03e35d9dd8e96e194a481
+      contractAddress: '0xCd9D2a2c74E49CfAFB024006Be614B04c82D5273'
+      date: 2019-01-07T14:33:24.000Z
+      ipfsHash: QmeRj9vsDYAkdH2DH9DFMRkgWYucrP1h98t52ZZGH2hu56
+      txHash: '0xe8b6559d901508d1dcd321427b0d89601d9725643395eeda84cd952cc05306a7'
+bare-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/bare'
+  versions:
+    1.0.0:
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+      contractAddress: '0x772e046Dc341bc197c6Ef1EE083e1a1368d65646'
+      date: 2019-09-06T09:44:54.000Z
+      ipfsHash: QmevkppE6Z8BXVP4NsyTWTjQGfjyE8ucZTGHppwHLgSgAK
+      txHash: '0x9b8457654276d0f4e5a1e607f08be2c41ecec883001671c97b0cb1569f3e8c08'
+batched-bancor-market-maker.aragonpm.eth:
+  github: >-
+    https://github.com/aragonblack/fundraising/tree/[ref]/apps/batched-bancor-market-maker
+  versions:
+    1.0.0:
+      commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
+      contractAddress: '0x7beD314446f3BFFBC27775DF2c6B439F3A376055'
+      date: 2019-12-15T11:12:01.000Z
+      ipfsHash: QmZPcumiv2yL8HHwKHenDYXSJ1poWB35wRimUqaopBykhR
+      txHash: '0x9f0c02113f9a83476268e92ad67c47375315015ff6c1b2cb682c67532678b791'
+company-board-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/company-board'
+  versions:
+    1.0.0:
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+      contractAddress: '0x4d1A892f42c947fa952b57bc6939b27A96215CfA'
+      date: 2019-09-06T09:36:18.000Z
+      ipfsHash: QmcKHmK9NoTHF9ccfTypSxiErYbe9PNuKsGJKuD72tHxoR
+      txHash: '0x5b82e9d99df317e3aec6c63c7db361d17dec1186a5023666b799aa6a4dfbead0'
+company-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/company'
+  versions:
+    1.0.0:
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+      contractAddress: '0xd737632caC4d039C9B0EEcc94C12267407a271b5'
+      date: 2019-09-06T09:49:55.000Z
+      ipfsHash: QmPcQYEx666a5SQciecUUd5j57Exzs3stFrEzU2zrp6h8t
+      txHash: '0xc4f1a4e66b09cb27d06da7e1ba77574a56abb152a390fc65c71445a260ed8ab6'
+dandelion-org-template.aragonpm.eth:
+  versions:
+    1.0.0:
+      commitHash: 393be58887c54286ae7fae7c60fe005a24bfae4e
+      contractAddress: '0xbc2A863ef2B96d454aC7790D5A9E8cFfd8EccBa8'
+      date: 2020-02-07T23:22:27.000Z
+      ipfsHash: QmcfeX1eoEZNzhQ5d1i7awKMzG367KxQw6UzgBxT9DiXuJ
+      txHash: '0x8445fed06629e59fefa55c65914402b00ffd2e1d41126172d45bb4a3268656bd'
+dandelion-voting.aragonpm.eth:
+  versions:
+    1.0.0:
+      commitHash: 23ff0b5d80cf69039549574deee4b60cfde93c6c
+      contractAddress: '0x417c5ec1E30D37f1d3D54A974E2F384e640046E5'
+      date: 2020-02-07T21:41:35.000Z
+      ipfsHash: QmdNmz3jHmjnhpmEFncWr59GVq86TwAvo4sCksGkoGeghk
+      txHash: '0x186c01e124d87464291e5f245b1db3509a8d73650c80669c325b13b80ce8ec64'
+    1.1.0:
+      commitHash: be831c5bf41a2a71a97a74708c15fedfd2b74969
+      contractAddress: '0x417c5ec1E30D37f1d3D54A974E2F384e640046E5'
+      date: 2020-02-15T22:57:36.000Z
+      ipfsHash: QmWRU4hGynmE9aRVFZPYmMwGccvYJpSp2eRycT42UHGgMi
+      txHash: '0x021d15d871a1c820dab0726ddf711384a1e3642b5c13b5f0aa518a43bed6a876'
+delay.aragonpm.eth:
+  versions:
+    1.0.0:
+      commitHash: 6b7fdb14e9efc0a1fe3a1e80e74a39c8f59de4d8
+      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
+      date: 2020-02-07T22:20:02.000Z
+      ipfsHash: QmPJGitiEgZg2T6jxzZtEE3xo4dZfPYea89aN8zSTTtC4T
+      txHash: '0x6ef37c76f3305cf158e97a2ef9ec1f01a75cc6c42e45e3d04ce46b46f7a569ac'
+    1.1.0:
+      commitHash: c686d0b6676eb664c000f064d8789bd376d8206f
+      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
+      date: 2020-03-03T13:30:30.000Z
+      ipfsHash: Qmb2DU1EsACPNeQRpR2svQm3mqvvvaXEmiM1DuEyNfaWVc
+      txHash: '0xf4daeb47ed3cd7213da0ce1450508c52fa5e41af6362aae4f7dd7c3cd405bb48'
+    1.1.1:
+      commitHash: c686d0b6676eb664c000f064d8789bd376d8206f
+      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
+      date: 2020-03-03T13:55:30.000Z
+      ipfsHash: QmSE1VZT1Q2yB43SLRqeJ7hvxYYKzCwtrCv7uTCnikvfdb
+      txHash: '0x96a1acc3b09e2464ef399906f97a9db79040400597d55980cdf2ca34603e93da'
+democracy-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
+  versions:
+    1.0.0:
+      commitHash: a03fba51687f099e265368c615332c762893108c
+      contractAddress: '0x705Cd9a00b87Bb019a87beEB9a50334219aC4444'
+      date: 2018-10-27T13:09:29.000Z
+      ipfsHash: QmNo3xP8VZTiFYzZ7CoeAZHjf8gcATRA6b15azaeh5waQ3
+      txHash: '0xac20e17363edf40a172e2c26f171da79c75b5c17a44bc40014766fcc648d4651'
+    2.0.0:
+      commitHash: 9886bba4c0a201bf056f44d751373e5d804e1b90
+      contractAddress: '0x7f3ed10366826a1227025445D4f4e3e14BBfc91d'
+      date: 2019-04-17T00:16:43.000Z
+      ipfsHash: QmeL57npfsQMts3PnEm9TL8JpmxHN8nFCNbzWRRNB4CwxK
+      txHash: '0x5a25a633babcf9f326e4dec05621464b8548b5d46eaaec53d7f5be7d3ad917d6'
+finance.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
+  versions:
+    1.0.0:
+      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
+      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
+      date: 2018-10-27T12:35:00.000Z
+      ipfsHash: QmWWNkXdGDnTaxAxw6vtCM21SDJeWLyaoUzDb3skYXynmo
+      txHash: '0x5043036267f88e872ab77983604b32e6c7534f5f35b9d34460923fb578d8dcc2'
+    1.1.0:
+      commitHash: 9bc4caba3a10497eb2e416460e9f209a5a59e7a3
+      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
+      date: 2018-10-30T10:12:19.000Z
+      ipfsHash: QmVP2vSfZLuMt5xHEDVznYL3tmHHjXjMedj8DJWp3mB4ob
+      txHash: '0x47cd9bf4e8185b2b3107c804648dd26943547deaa5a0f7ec6822519aee5dab8f'
+    1.1.1:
+      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
+      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
+      date: 2018-10-30T14:12:34.000Z
+      ipfsHash: QmbGnLop5YM9L86jUPjK1SYghnacvtVw7hQp867ZvgGafb
+      txHash: '0x130afd1a7b47b6b365ed3d041ac47d6849872d9ed43f16e2956c46f0726ed852'
+    1.1.2:
+      commitHash: b9ee11b10f59957575cfb9de173107b0bd6c8bb2
+      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
+      date: 2018-11-05T20:20:58.000Z
+      ipfsHash: QmdVUmS5ZWp9hoRXYKEES6LeS7JBAnPVqczBKCNEq2exEq
+      txHash: '0xf0bb440876f62423a3b12c432adb4481066a188cfc2f995cb48172b0076dedab'
+    1.1.3:
+      commitHash: d99b6e9d62d3de47601077adb6b3b14fbe92f8a9
+      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
+      date: 2018-12-21T08:32:41.000Z
+      ipfsHash: QmV6tztPfFiGrQNF1yJ27jLbQzAuDtycCPGtkmq6yMHkSG
+      txHash: '0x7d68a57279723792d367c6e7ffd4bb91c71dc2abd061ff3a4259c1284a27da21'
+    1.1.4:
+      commitHash: c2820ce9ffd696e490283596761c7588f0718a9a
+      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
+      date: 2019-01-29T03:59:05.000Z
+      ipfsHash: QmWLTMDMXWq98fcrySgSA2JRyjd5iVboSkizo7FzkcBk5d
+      txHash: '0xaf4328b7604bcc94fa8b63aa7b97360f962f0b85cd68464246cc7108ebe6a2b0'
+    1.1.5:
+      commitHash: 819de2da7a37edbc401cb1e983ccf75f75c4eff3
+      contractAddress: '0xe583D4d74A50F3394AD92597F86277289B159934'
+      date: 2019-02-27T15:58:09.000Z
+      ipfsHash: QmegL7LXHrNsuBv2YQMRyCRGhvjGofjYg5EZtSvKg3d6fG
+      txHash: '0x8726d71a0d2bbe80684cef5ae30c19cf87668e3ecd66180f60f4e6658a008018'
+    2.0.0:
+      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-04-17T15:42:57.000Z
+      ipfsHash: QmNSJXKcp5UaGZcwtzJAqQtAFfYA9vNEJczGvUD89aJLfc
+      txHash: '0x4cf6023b6c80bb3d429ba910ba1f461f3abeb2393b066b3c417f3285ab5f7eaa'
+    2.0.1:
+      commitHash: 0bf6ff42015e74279500632bf920aae00e68aa86
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-04-17T17:29:02.000Z
+      ipfsHash: QmZzVN9x3NhkXVo87JU2h8n8bAMQgZaDttz2Gp6Rb6qAJN
+      txHash: '0x365dd49e0765a3834efa7ff3fae6aa612a3ee6f9be0424186b28a5a960201799'
+    2.0.2:
+      commitHash: 0183acd9cb3a226c240f9b17c810bd18b9adc6ee
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-04-18T10:01:12.000Z
+      ipfsHash: QmdvxAWVjcZaKFDCPqLRgzUTYjTdmycgWkRj8uVwikwxPu
+      txHash: '0x3b072317f799a71d550144146c987455fd34f3f215bb4f3bacad3800cb545574'
+    2.0.3:
+      commitHash: 4b5094a63ee668368c52a7b37dccb0969c397a8f
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-05-02T14:20:35.000Z
+      ipfsHash: QmfRaZ8ysioHejiqPyQmm5N5QjE9Bm8EeiW33KP7hr9z8F
+      txHash: '0x4f83f996479fca49a71ab29f8085934402b8cb70f2a6c606aebca9f6c87d6d81'
+    2.0.4:
+      commitHash: f8230bffb1f1a69b72bd536944512516f8d188ce
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-05-16T11:16:18.000Z
+      ipfsHash: QmTwyHRQnAEf4wpR1SKMGpAizgu5LJoaocfV2HHm269uFE
+      txHash: '0x276ad7e4180ac9d4d3dd7ad83c0a681c39cf76970645925530bcbf11daf6733b'
+    2.0.5:
+      commitHash: d13e85c2aaa8d0166242a14193691d0a9ea5b5db
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-05-30T16:57:22.000Z
+      ipfsHash: QmdLQsHaMsrqZiCWGZNvAGi8v4mQWHfYK4ygEAzXbbJbqy
+      txHash: '0xc4d432e271690368a08a169bf64dfd93dd9d4b2e7643a57870af424177584846'
+    2.0.6:
+      commitHash: 8c81ed9b0eb03f692724de01f59b368fa2d64511
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-06-14T18:20:00.000Z
+      ipfsHash: QmUigVxDYp4qcNZUwBe3Q1mG7Mq7rQrdctMreke1Cg32oZ
+      txHash: '0x672c82fecfee00b7d19b0f8af69b627dd8f95950999e442072d7fd992a249a88'
+    2.0.7:
+      commitHash: 5e40f0ab36ba09711e6f979bcae9321534b67044
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-07-25T17:44:54.000Z
+      ipfsHash: Qmcx4Gqc8HaET4s7ee4eErqwkV8fgmQWkr9si1ujPbDFqa
+      txHash: '0x3dc8b8af0299a2fac4fb619707faa1f5816e7ae0716d89ded7f3f30343ceacea'
+    2.1.0:
+      commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-09-10T20:56:44.000Z
+      ipfsHash: QmQmv6Sx2XGDKtncqZPYz3skQjJtxCbcfuPyyDh8iHx2P3
+      txHash: '0xc043f26a51bc6667fe14e72d0a811fd24abd201d8d585f975aae1f8ff2ff3a54'
+    2.1.1:
+      commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-09-19T17:17:42.000Z
+      ipfsHash: QmaQX7XoMTEeptehbVHuhpNYcWcbQZs1gVjzfKes3WruXc
+      txHash: '0xe27f838a892efa07139198eb913c38720577926e7ab5b67acca23384a7a6359f'
+    2.1.2:
+      commitHash: 52243a90a9226ef3b40bd7ee28fb852f69155df1
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-10-24T10:21:25.000Z
+      ipfsHash: QmWyueP8dtXwuojHX4ThZJpggxxpyQYaGvDoHJa7dcPUrh
+      txHash: '0x37c2039c658f3faf3889b7a59bfca52be86c16bc30c0987472f01c5ae9eeb693'
+    2.1.3:
+      commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-11-12T17:57:37.000Z
+      ipfsHash: QmXurTga59J4kLjgYUhdtKyYQk7qM7WQch5gN9ASu1eDhm
+      txHash: '0x942f14454b5536c9229b606e8f7183dcf9e47a47f4821241de610d04158a7b0f'
+    2.1.4:
+      commitHash: bed2a02e8a4f0bff4e6a50a25d4f4611b523f1ec
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-11-23T12:04:50.000Z
+      ipfsHash: QmZg3DD3mf2FHsjUkns2k1Tems4PRBoiuJpmfyd9zdYNT1
+      txHash: '0x5d60fda4bb5fdc1cd6aab3a353de51d32385b18da8b7bbd5e024ac60c175fc5c'
+    2.1.5:
+      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-12-04T19:37:23.000Z
+      ipfsHash: QmW8V1XwnTJih1ELGLggceJdKrc1MXKBEpVVVALxiHpuYb
+      txHash: '0xb26f294893b564a196132bad7cb518d02c312944d4ecbd13a1d7cae02370d0f7'
+    2.1.6:
+      commitHash: b56258a76a3aa0a711ee6ae415d119f55780283a
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2019-12-21T20:26:22.000Z
+      ipfsHash: QmQVzkszYzXUpXBcPvyhQtY2Bs82MFY4NjV6aarAEo3WWB
+      txHash: '0xde74980fededf5b0993d14564d2c3ccb24f6a293a134239de6a0ec2108fa5f27'
+    2.1.7:
+      commitHash: f44ee48106bc15039d8b716e0162abc4c867dec2
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2020-01-24T15:42:03.000Z
+      ipfsHash: QmPi4HY56jntedaNtta5fgxf5wao2mMDmdmWk1N95PpzFs
+      txHash: '0x5b478ec9d30c6f9eeef9d8ce27e4ef18113a8097348b6d89383bb4287e9072cc'
+    2.1.8:
+      commitHash: 41d546b3e870ce67facf661e62cb1db36301e4e0
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      date: 2020-02-19T23:51:56.000Z
+      ipfsHash: QmeVsMqxYfnSShsC5KKob43KxfE95vtDzc4WRMx1DqBnm3
+      txHash: '0xed678c3f933c341680c854f0bed9a250a34de151e2eea7b2fae9290ef993f09c'
 fundraising-multisig-template.aragonpm.eth:
   github: 'https://github.com/aragonblack/fundraising/tree/[ref]/templates/multisig'
   versions:
     1.0.0:
-      date: 2019-12-15T11:48:40.000Z
-      txHash: '0x04dd76a1cff1ee93f06c634695237defde0e82e5df17d5d1e091a3308f440aac'
-      ipfsHash: QmaL79nRZPkWJULHx1gk9oKzqsujzPjfLBKDYpLJFn2Qk9
-      contractAddress: '0xd4bc1aFD46e744F1834cad01B2262d095DCB6C9B'
       commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
-balance-redirect-presale.aragonpm.eth:
+      contractAddress: '0xd4bc1aFD46e744F1834cad01B2262d095DCB6C9B'
+      date: 2019-12-15T11:48:40.000Z
+      ipfsHash: QmaL79nRZPkWJULHx1gk9oKzqsujzPjfLBKDYpLJFn2Qk9
+      txHash: '0x04dd76a1cff1ee93f06c634695237defde0e82e5df17d5d1e091a3308f440aac'
+membership-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/membership'
   versions:
     1.0.0:
-      date: 2019-12-17T17:24:12.000Z
-      txHash: '0x0fe13a85d27f26d81e4589f54b7e799928173eb67a46b765a94939848c113cb1'
-      ipfsHash: QmRgx3dbFAsWUhyjMWW8VsXUX2yuByeNeYrnpp8YCXcx6C
-      contractAddress: '0x280c50ad7e6650bC6142e60bE17157fEd01C65e3'
-      commitHash: 44163a62bab42424dd047a4d047e53e8ea97a62e
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+      contractAddress: '0x67430642C0c3B5E6538049B9E9eE719f2a4BeE7c'
+      date: 2019-09-06T11:43:08.000Z
+      ipfsHash: QmUJfAUyRoj1qfe2ZYPGLfw4jVYyNY4xh1ZdsjCTJa9tJx
+      txHash: '0x2f311021e6b3487869ee8a827c9e3db3b0a4719d1ef1210e6b16c9f344a24b31'
+    2.0.0:
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+      contractAddress: '0x67430642C0c3B5E6538049B9E9eE719f2a4BeE7c'
+      date: 2019-09-06T11:44:05.000Z
+      ipfsHash: QmV363g3R9ecSLJU18DZxDPUNZoWPXaNAc8vkB4oR8iydn
+      txHash: '0x258ff598f8474ef7f5929eb2400824acdbe83b2db10b557c54598091bff978d0'
+multisig-kit.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/multisig'
+  versions:
+    1.0.0:
+      commitHash: a03fba51687f099e265368c615332c762893108c
+      contractAddress: '0x41bbaf498226b68415f1C78ED541c45A18fd7696'
+      date: 2018-10-27T13:29:26.000Z
+      ipfsHash: QmPx8D1u9362CU28FZfbmJ8NMYKEBkmgVKt6JFoTEkdVJU
+      txHash: '0xf160729706ea27996b691e648c6e3dcee13c0e73bd3ff4b540c97ae9e903b034'
+    2.0.0:
+      commitHash: 9886bba4c0a201bf056f44d751373e5d804e1b90
+      contractAddress: '0x87aa2980dde7d2D4e57191f16BB57cF80bf6E5A6'
+      date: 2019-04-17T00:29:30.000Z
+      ipfsHash: QmXJDXUuR2cmwb7C2SfTFH6euuesmbkcqyQ7HgT7r9aSqP
+      txHash: '0x0f4e4f53ab7bf3b6533d5467ba11543fe5eae6da38521e40c273a3a3863ee44f'
+ppf-factory.aragonpm.eth:
+  github: 'https://github.com/aragon/ppf/tree/[ref]/packages/ppf-contracts'
+  versions:
+    1.0.0:
+      commitHash: 68ab78db525bee218fd62e155cd76c68136abe3f
+      contractAddress: '0xCbcaf05388ac89CF34EBACdFfaFe9E42539e6c02'
+      date: 2019-04-25T19:35:07.000Z
+      ipfsHash: QmV3S9jdWrte7JvYVoX64P8VJ4AecMwyzbYXGGReJZAuw5
+      txHash: '0x1b7ddf9035207bc75df5f6658287793830f547977c621676d808b1005b570537'
+presale.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/presale'
+  versions:
+    1.0.0:
+      commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
+      contractAddress: '0xa111Dc023481DC8f751c1e875A6920168a541d25'
+      date: 2019-12-14T18:04:05.000Z
+      ipfsHash: QmcdZ6iRqtLf4z1KBNpwo7JZeZVizZffr7cQJ5NbFn1Mb9
+      txHash: '0x49d30d77708483dfe5e54f3cf0899d99632b9272af484c6f8bbad206a664b24f'
 redemptions.aragonpm.eth:
   versions:
     1.0.0:
-      date: 2020-02-07T18:18:53.000Z
-      txHash: '0xe14079bf1c7ef6985c88781d0651de0ca1364d530b3221a11f9f0fe86114bcf6'
-      ipfsHash: QmXdEGNVwweyjKC2S7f6RVQSZp8gZNF1zjGQMqvJUiqMeE
-      contractAddress: '0x5B1f69304651b3e7a9789D27e84f1F7336c356e8'
       commitHash: 533acc281239501b424ef8fc1c4e86e5fb574306
-    1.1.0:
-      date: 2020-02-15T19:13:53.000Z
-      txHash: '0xd6ed241fe7a5c15b6d2e59d43387f035c3fcb1718f13c0cfe516e680fc1026cf'
-      ipfsHash: QmTmH2Ev15k1sYERVQigGPaaBhVLtuqDafNot4JRH6HRoD
       contractAddress: '0x5B1f69304651b3e7a9789D27e84f1F7336c356e8'
+      date: 2020-02-07T18:18:53.000Z
+      ipfsHash: QmXdEGNVwweyjKC2S7f6RVQSZp8gZNF1zjGQMqvJUiqMeE
+      txHash: '0xe14079bf1c7ef6985c88781d0651de0ca1364d530b3221a11f9f0fe86114bcf6'
+    1.1.0:
       commitHash: 98b6b78dec2a3ca36ebe4fa56f22625479451370
-token-request.aragonpm.eth:
+      contractAddress: '0x5B1f69304651b3e7a9789D27e84f1F7336c356e8'
+      date: 2020-02-15T19:13:53.000Z
+      ipfsHash: QmTmH2Ev15k1sYERVQigGPaaBhVLtuqDafNot4JRH6HRoD
+      txHash: '0xd6ed241fe7a5c15b6d2e59d43387f035c3fcb1718f13c0cfe516e680fc1026cf'
+reputation-template.aragonpm.eth:
+  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/reputation'
   versions:
     1.0.0:
-      date: 2020-02-07T21:29:34.000Z
-      txHash: '0xc6764767cdcda45a6a3ae7687aa0f8e0c4f7ce3b1cfe4f5cf3fd66fec21a96a8'
-      ipfsHash: QmZuMvYt75YD81jnrcGTQRGKoppEm17ErSQEdbxLXyiFEr
-      contractAddress: '0x61dAC0359fAeCFE0b39a52F892B40fD8b23F4266'
-      commitHash: b58ef2b0c815e70624427c29bb362a730a99e4a7
-    1.1.0:
-      date: 2020-02-15T22:29:28.000Z
-      txHash: '0xf290e3b8978e3f69734b990be4e797a8dc87612dc2cb7287a5a182a6ca22767a'
-      ipfsHash: QmYQ1KuuRjK9wVn3pPxzPZ4vC9SpP2QZNGKKtyzSMp4RPQ
-      contractAddress: '0x61dAC0359fAeCFE0b39a52F892B40fD8b23F4266'
-      commitHash: 315dd20c6eb6f1b49bf452b29b221dd676a7f473
+      commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
+      contractAddress: '0x3a06A6544e48708142508D9042f94DDdA769d04F'
+      date: 2019-09-06T11:04:17.000Z
+      ipfsHash: QmQGmsHp4A5y3kWc8hrYKyKTaGfjH6RcioVrqgGSbaG8JT
+      txHash: '0x9b219b0c19473787ada6ef846ece268a515f95a743c07430865ca1ab25ca4b8b'
+survey.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey'
+  versions:
+    1.0.0:
+      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
+      contractAddress: '0x5Ac00b7f06E959cb5cC700e41A6026915A8472aA'
+      date: 2019-04-17T15:44:05.000Z
+      ipfsHash: Qmdxz6fv8sCBKnsc9s6ji4DMQyEuRncS5DFSXGY3qTeszM
+      txHash: '0x2a621366d4567eb39a3b07fa2862dbb2fc878ada9d78ec2c3f23fd4b5ee50202'
+tap.aragonpm.eth:
+  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/tap'
+  versions:
+    1.0.0:
+      commitHash: 902799b6f0965eac9169cb0fa471ba0a95e71f45
+      contractAddress: '0xfa64Bc35F6f5151315AB14b6aa9a8627D1baBEb4'
+      date: 2019-12-14T17:48:53.000Z
+      ipfsHash: QmPUQw7FqDLNNQCDQdDRhahFv69LdJJGap3mBNsPveAaV8
+      txHash: '0x0d5bcc687d27bdb7dea178291721201411fd990ef35079ab92cc019eb1e5e74d'
 time-lock.aragonpm.eth:
   versions:
     1.0.0:
-      date: 2020-02-07T22:07:03.000Z
-      txHash: '0xcd1be1bee80135abd11665ee1d21e71ef10fc861ab82b6412e1ce2252806f0de'
-      ipfsHash: QmbA48JgDCL54vp6pAdDtff8bXmXakRg1DLrwgqsYXhtPB
-      contractAddress: '0x8DEcc97558329A4653b3Feca8c77E77E621AAFD5'
       commitHash: 55640065b81f8f02c7355da6b8005900f4c79ff9
-    1.1.0:
-      date: 2020-02-15T22:43:45.000Z
-      txHash: '0x436beb6dcc2babb2ee9c85f8e5a21404f4ca5c9c3d4f7291503b0f2e1be1875c'
-      ipfsHash: QmVhQk3ivXcpnDMc4NSGtKGf11c4vhBLdTTpwS7YNH14JY
       contractAddress: '0x8DEcc97558329A4653b3Feca8c77E77E621AAFD5'
+      date: 2020-02-07T22:07:03.000Z
+      ipfsHash: QmbA48JgDCL54vp6pAdDtff8bXmXakRg1DLrwgqsYXhtPB
+      txHash: '0xcd1be1bee80135abd11665ee1d21e71ef10fc861ab82b6412e1ce2252806f0de'
+    1.1.0:
       commitHash: 28791d7a5c637cb571463d3fecf34b77d361eab0
-dandelion-voting.aragonpm.eth:
-  versions:
-    1.0.0:
-      date: 2020-02-07T21:41:35.000Z
-      txHash: '0x186c01e124d87464291e5f245b1db3509a8d73650c80669c325b13b80ce8ec64'
-      ipfsHash: QmdNmz3jHmjnhpmEFncWr59GVq86TwAvo4sCksGkoGeghk
-      contractAddress: '0x417c5ec1E30D37f1d3D54A974E2F384e640046E5'
-      commitHash: 23ff0b5d80cf69039549574deee4b60cfde93c6c
-    1.1.0:
-      date: 2020-02-15T22:57:36.000Z
-      txHash: '0x021d15d871a1c820dab0726ddf711384a1e3642b5c13b5f0aa518a43bed6a876'
-      ipfsHash: QmWRU4hGynmE9aRVFZPYmMwGccvYJpSp2eRycT42UHGgMi
-      contractAddress: '0x417c5ec1E30D37f1d3D54A974E2F384e640046E5'
-      commitHash: be831c5bf41a2a71a97a74708c15fedfd2b74969
-delay.aragonpm.eth:
-  versions:
-    1.0.0:
-      date: 2020-02-07T22:20:02.000Z
-      txHash: '0x6ef37c76f3305cf158e97a2ef9ec1f01a75cc6c42e45e3d04ce46b46f7a569ac'
-      ipfsHash: QmPJGitiEgZg2T6jxzZtEE3xo4dZfPYea89aN8zSTTtC4T
-      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
-      commitHash: 6b7fdb14e9efc0a1fe3a1e80e74a39c8f59de4d8
-    1.1.0:
-      date: 2020-03-03T13:30:30.000Z
-      txHash: '0xf4daeb47ed3cd7213da0ce1450508c52fa5e41af6362aae4f7dd7c3cd405bb48'
-      ipfsHash: Qmb2DU1EsACPNeQRpR2svQm3mqvvvaXEmiM1DuEyNfaWVc
-      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
-      commitHash: c686d0b6676eb664c000f064d8789bd376d8206f
-    1.1.1:
-      date: 2020-03-03T13:55:30.000Z
-      txHash: '0x96a1acc3b09e2464ef399906f97a9db79040400597d55980cdf2ca34603e93da'
-      ipfsHash: QmSE1VZT1Q2yB43SLRqeJ7hvxYYKzCwtrCv7uTCnikvfdb
-      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
-      commitHash: c686d0b6676eb664c000f064d8789bd376d8206f
+      contractAddress: '0x8DEcc97558329A4653b3Feca8c77E77E621AAFD5'
+      date: 2020-02-15T22:43:45.000Z
+      ipfsHash: QmVhQk3ivXcpnDMc4NSGtKGf11c4vhBLdTTpwS7YNH14JY
+      txHash: '0x436beb6dcc2babb2ee9c85f8e5a21404f4ca5c9c3d4f7291503b0f2e1be1875c'
 token-balance-oracle.aragonpm.eth:
   versions:
     1.0.0:
-      date: 2020-02-07T22:20:02.000Z
-      txHash: '0x6ef37c76f3305cf158e97a2ef9ec1f01a75cc6c42e45e3d04ce46b46f7a569ac'
-      ipfsHash: QmSCbnmBoe6iAfCjcwrVbtfmYuJY71LURSbn7tfcjXsrs5
-      contractAddress: '0x17e6bd94778A6a509D62507DF37D60d1B23E225d'
       commitHash: 9a77e10c0dcfa5e41292d0bae5ece5f7e33796f7
-dandelion-org-template.aragonpm.eth:
+      contractAddress: '0x17e6bd94778A6a509D62507DF37D60d1B23E225d'
+      date: 2020-02-07T22:20:02.000Z
+      ipfsHash: QmSCbnmBoe6iAfCjcwrVbtfmYuJY71LURSbn7tfcjXsrs5
+      txHash: '0x6ef37c76f3305cf158e97a2ef9ec1f01a75cc6c42e45e3d04ce46b46f7a569ac'
+token-manager.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
   versions:
     1.0.0:
-      date: 2020-02-07T23:22:27.000Z
-      txHash: '0x8445fed06629e59fefa55c65914402b00ffd2e1d41126172d45bb4a3268656bd'
-      ipfsHash: QmcfeX1eoEZNzhQ5d1i7awKMzG367KxQw6UzgBxT9DiXuJ
-      contractAddress: '0xbc2A863ef2B96d454aC7790D5A9E8cFfd8EccBa8'
-      commitHash: 393be58887c54286ae7fae7c60fe005a24bfae4e
+      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
+      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
+      date: 2018-10-27T12:44:29.000Z
+      ipfsHash: QmTwm6Jvg6GsFshtp69fq8Nz887cu1oPvW3K7iPgNjNW7V
+      txHash: '0xdca6b8e880808aed82c58944cf6ce611077a45c682adc63ad01626abf08ef606'
+    1.0.1:
+      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
+      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
+      date: 2018-10-28T13:19:34.000Z
+      ipfsHash: Qmeh6QKsecvaUfvVyMLiWoP5Mw1yAjzDU8NeUptGrBpJ9e
+      txHash: '0x702224e323128d9f23d8fafae201d29e050856b3392b206e8403a7f161dbd493'
+    1.0.2:
+      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
+      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
+      date: 2018-10-30T14:09:02.000Z
+      ipfsHash: QmaoVT6dysydb1FcYni3WLCcfjEgg82agLdwpNugTDiarL
+      txHash: '0x384cba421a23fc0b4eb5b74261dea49228c8540846574fb7aa57014154bb759c'
+    1.0.3:
+      commitHash: b9ee11b10f59957575cfb9de173107b0bd6c8bb2
+      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
+      date: 2018-11-05T20:23:25.000Z
+      ipfsHash: QmbVm3WpSHA7fkzafUfV1EvwC7tNLqw4FQZshPVto3NNGP
+      txHash: '0xbf7189741badccfd25903acd402e414c202136e14703ea596a1328050ed7982d'
+    1.0.4:
+      commitHash: d99b6e9d62d3de47601077adb6b3b14fbe92f8a9
+      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
+      date: 2018-12-21T08:36:01.000Z
+      ipfsHash: QmVg8jxSZfSbUUikiSmf1MXFf1fQs8y2XoSf3vFwpihnL5
+      txHash: '0x4c45e83f98956ac1f353f943c7eed96a777fa92e03473bb8c7da6a372d520501'
+    1.0.5:
+      commitHash: c2820ce9ffd696e490283596761c7588f0718a9a
+      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
+      date: 2019-01-29T03:58:02.000Z
+      ipfsHash: QmQg7Lqf2TqYPfztWwvmntcE5DGYXMevCsWG2vUd41VUj3
+      txHash: '0x1bb4e919f6e65cac2bd81818050faeed987fc71349fcf4664e871543d0182f74'
+    1.0.6:
+      commitHash: 819de2da7a37edbc401cb1e983ccf75f75c4eff3
+      contractAddress: '0x8957D7a10Ee2E6f1CfEA4D12dE4cC91a52e24770'
+      date: 2019-02-27T16:04:59.000Z
+      ipfsHash: QmPK9tECDPsrWhDNrK9wAAnZwV3kpJgmu5RdPHWHHAAxpn
+      txHash: '0x9edacfae80f3d19eba8995f21d34391f554cca6970a81880c6d9b5b5ceffb146'
+    2.0.0:
+      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-04-17T15:46:23.000Z
+      ipfsHash: QmPeMdoxFQ9WRfk1i6XyJkXjuGMT5LshoK7DxD1B6Joe5i
+      txHash: '0xf780de1955803fe124f449894b124073f25d1ca9bc8a40fcf4e9dfa036527ab7'
+    2.0.1:
+      commitHash: 4b5094a63ee668368c52a7b37dccb0969c397a8f
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-05-02T14:24:33.000Z
+      ipfsHash: QmUC5v2LN5ygvaMi57ytP523rKaHWmWFRdSPHY9nzZhnXu
+      txHash: '0x2a0c425b3ae002aa6536522ddd22dc2123c90d00d099106d861f147a8a7f6dec'
+    2.0.2:
+      commitHash: f8230bffb1f1a69b72bd536944512516f8d188ce
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-05-16T11:14:12.000Z
+      ipfsHash: QmUMYkwTUPF53uvbCfMPXDytVRhbw29EYxGNtHxkikcWnh
+      txHash: '0x9520ba6a158c49fb741cd77ab60e2b90c63ab6c4ea87dd46a0b84310061206ee'
+    2.0.3:
+      commitHash: d13e85c2aaa8d0166242a14193691d0a9ea5b5db
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-05-30T16:58:26.000Z
+      ipfsHash: QmbVFj4jkDpchJnBHK52WTdZWugM6sFvU7QPopnecKmAak
+      txHash: '0x4493acae98c78c7c4fcf89691afbb16f9f806aeee8732328f729bcba99878a15'
+    2.0.4:
+      commitHash: 8c81ed9b0eb03f692724de01f59b368fa2d64511
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-06-14T18:21:43.000Z
+      ipfsHash: QmcKAS1ReroTLQZA1AzDCURbqyiYzVt9GnMX8H893WXivM
+      txHash: '0x40b008e926e5206218b58febe6bcf8b97e4478c24b18c511ef9314095bc7fe59'
+    2.1.0:
+      commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-09-10T20:57:31.000Z
+      ipfsHash: QmasYuYozUKpEAuvkUteKYqJjLWTHYUz3qqYpG1JyhgS6X
+      txHash: '0x8fbde53470f09e08cc7720ab6d3f4ae7f8fec9ae68bcf51fab82f4e3b4cf037d'
+    2.1.1:
+      commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-09-19T17:17:46.000Z
+      ipfsHash: QmTfpwLWdgQQMmuDDmFc5MGu1kjL6H4mKqSYPyFCkMHxkC
+      txHash: '0xd620ff4890731eb1252749d62227b77bc4136e030cd3e9ed74460a0d25b0c425'
+    2.1.2:
+      commitHash: 4d9d13873647b87058e4d8b949df4cb3b49ef275
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-10-11T05:52:56.000Z
+      ipfsHash: QmVyZYszGx7aCDk3n5fbn1P6Kz5k3vimAmEnTkXc8h4um5
+      txHash: '0x8aa3144c43b7a3da5d949bdd6e77da878425146fadececa4e06fcfbca2a7e61e'
+    2.1.3:
+      commitHash: 52243a90a9226ef3b40bd7ee28fb852f69155df1
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-10-24T10:23:50.000Z
+      ipfsHash: QmWVH59ds3gT7nry9DFrVuV79MdZQwbCgGKM7pGikyLyG1
+      txHash: '0xd883251dbb224ef06b4d7e3bc73320e09fcb8335c8155ea98a09fc039d453558'
+    2.1.4:
+      commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-11-12T17:59:38.000Z
+      ipfsHash: QmPF3eemDH2bSq9dV3VpcDSTvhk2TRvNVJF2aLBZ5BaLJ7
+      txHash: '0x6c07faac45512ba639d3096460435b1a5753bed99095575133d3350ebd7665b9'
+    2.1.5:
+      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-12-04T19:40:24.000Z
+      ipfsHash: QmZfMLh3xQndA65FS1trdXYVcHtCQZe4XrH8RMY1gzYRSQ
+      txHash: '0x2f4fee297bab4b7e35240232d8b6f4a683a3fd2860bdd6818c78ed291a8b9370'
+    2.1.6:
+      commitHash: b56258a76a3aa0a711ee6ae415d119f55780283a
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2019-12-21T20:26:50.000Z
+      ipfsHash: QmarMXfyM5qUU8vpJedBKVB4Bne2zfgfXuzDQPP2ZdmgNR
+      txHash: '0xd37ee0ea002da463035aeb872a6a8699a2749d5ccbe0c52445d29fbf865bc3e2'
+    2.1.7:
+      commitHash: f44ee48106bc15039d8b716e0162abc4c867dec2
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      date: 2020-01-24T15:42:18.000Z
+      ipfsHash: Qmev9Q7g4DEDHjqWt4QSdFy3dpzZmeF5AnPozhtjdboZG3
+      txHash: '0xd83aad3ee713e11f3b2770563982c4254b0f46ebf25cb809d6d86d9bf6705523'
+token-request.aragonpm.eth:
+  versions:
+    1.0.0:
+      commitHash: b58ef2b0c815e70624427c29bb362a730a99e4a7
+      contractAddress: '0x61dAC0359fAeCFE0b39a52F892B40fD8b23F4266'
+      date: 2020-02-07T21:29:34.000Z
+      ipfsHash: QmZuMvYt75YD81jnrcGTQRGKoppEm17ErSQEdbxLXyiFEr
+      txHash: '0xc6764767cdcda45a6a3ae7687aa0f8e0c4f7ce3b1cfe4f5cf3fd66fec21a96a8'
+    1.1.0:
+      commitHash: 315dd20c6eb6f1b49bf452b29b221dd676a7f473
+      contractAddress: '0x61dAC0359fAeCFE0b39a52F892B40fD8b23F4266'
+      date: 2020-02-15T22:29:28.000Z
+      ipfsHash: QmYQ1KuuRjK9wVn3pPxzPZ4vC9SpP2QZNGKKtyzSMp4RPQ
+      txHash: '0xf290e3b8978e3f69734b990be4e797a8dc87612dc2cb7287a5a182a6ca22767a'
+vault.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
+  versions:
+    1.0.0:
+      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
+      contractAddress: '0xD7FC611Be047A6F65Aea7cC146bDAb9451763d99'
+      date: 2018-10-27T12:38:39.000Z
+      ipfsHash: QmaSKh2HmGhtuGUBZ7CgroWSDUYaQh3a1s2UsWkM13XHMF
+      txHash: '0x328a570d1eb56f35b73e099d8cd670d60a9a4e4d408cbe795dc2de843149ad4c'
+    2.0.0:
+      commitHash: 335ad37c45c5cb462c9a64b88055d4f6769b6142
+      contractAddress: '0xf4CF4DdcFAb03D724F75C877343ee836c37cF454'
+      date: 2018-10-29T22:23:06.000Z
+      ipfsHash: QmWQwpwsr4xRkCiVmEV6jjpakBG3MJZsmKFT6DDwaY4JN1
+      txHash: '0x773afb7108183fa4fd4f6db38a5bc07f65b3d2ae4890d5d36e51fdf718380ce8'
+    2.0.1:
+      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
+      contractAddress: '0xf4CF4DdcFAb03D724F75C877343ee836c37cF454'
+      date: 2018-10-30T14:14:04.000Z
+      ipfsHash: QmVHmagJ4VEqHAsgcjfcRTcK3Y3cY1Ct6qCcPWNhB11zBY
+      txHash: '0x4ef8365faa6ece84b0812a9ad78765dff739097679ed30f2f0b5210ecdaf156e'
+    3.0.0:
+      commitHash: eaf09e7dcb377a11a2f74ded42861d68a187eda3
+      contractAddress: '0x03AD07802BBA1b6FA293E593a42845E6569A7470'
+      date: 2019-04-17T15:56:51.000Z
+      ipfsHash: QmRVjwn72ULZ6AHV8fZy4YXUxy5WQXTEajBmEgFxqrWdTt
+      txHash: '0x2aa55440d7ea355fce66c325b03525686a6674a2f6247ed75450993568a61231'
+    3.0.1:
+      commitHash: 4b5094a63ee668368c52a7b37dccb0969c397a8f
+      contractAddress: '0x03AD07802BBA1b6FA293E593a42845E6569A7470'
+      date: 2019-05-02T14:23:27.000Z
+      ipfsHash: QmYRcQBcHsietDuUmt7bbFG7BqetoYF85CxDn7pAa2wdnA
+      txHash: '0xf746cdf966e59e71279a39bc48a727bdc2a2b2b48b8c6fff416546acc2367680'
+    3.1.0:
+      commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
+      contractAddress: '0x03AD07802BBA1b6FA293E593a42845E6569A7470'
+      date: 2019-09-10T20:50:15.000Z
+      ipfsHash: QmNhG1DctzrzDWrcAsbhHp184Tt3iCG33LJDfZPbj6WG3k
+      txHash: '0x3dacc869632d35a3ce179491918ad5383cec1710f10af9c70446984d759dc343'
+voting.aragonpm.eth:
+  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/voting'
+  versions:
+    1.0.0:
+      commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
+      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
+      date: 2018-10-27T12:31:29.000Z
+      ipfsHash: Qmer59t99nhZMk69TZTtXFn3im8uFLjpsLdub7zb75r1vq
+      txHash: '0xf08a1f4b8eaab62b276ee381b33a4e3cf97720519de03ba7968aa1c0d831d682'
+    1.0.1:
+      commitHash: ea44d560578348ee62c0b7ffd230e3077a9723ca
+      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
+      date: 2018-10-30T14:11:09.000Z
+      ipfsHash: QmPQjG4PSPXvhRYzxFBuU7HWSBTjyHL9HfRXapgjQUigkP
+      txHash: '0xb23b18e7c12a3b563ed88c1914cca627f5cab34e67fb3627603d54178b67c56b'
+    1.0.2:
+      commitHash: b9ee11b10f59957575cfb9de173107b0bd6c8bb2
+      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
+      date: 2018-11-05T20:24:20.000Z
+      ipfsHash: QmXkC9JfpR2xUEUYrGdcepjaBGPopd2cNJg2UKDpi8Hmye
+      txHash: '0x6a628c09125e16d599ed97d0da09e7543842fa794445c5771248b4b23a6bd435'
+    1.0.3:
+      commitHash: abc49e75e596e35db28f25c9a2779771ec399a72
+      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
+      date: 2018-11-14T23:16:18.000Z
+      ipfsHash: QmctB78EiDW5LtSNA2FY8VUDwDWijv54UFDWKBs4a5nvyj
+      txHash: '0x557ba2f6dc97bb3f0fd826c967e03570cc0aea583c2d0588febdf8537f25e015'
+    1.0.4:
+      commitHash: d99b6e9d62d3de47601077adb6b3b14fbe92f8a9
+      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
+      date: 2018-12-21T08:27:59.000Z
+      ipfsHash: QmcwXZXdbxF5qgKFh66zfZHTXYoUeHT9gtVqn27WMCvxTr
+      txHash: '0x5b7c0bd09a6e50a19a1f8ce74a654de07950b3d556ac200c712a182a14fcdada'
+    1.0.5:
+      commitHash: c2820ce9ffd696e490283596761c7588f0718a9a
+      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
+      date: 2019-01-29T03:56:45.000Z
+      ipfsHash: QmTJ9ipNBoS91HZVmDU2yVoRJQqZ17DBXG82zdUETRvWc3
+      txHash: '0x6142ae3590c1d559a69205163808fdfaa29061238b59a68beb85bcfd67268962'
+    1.0.6:
+      commitHash: 819de2da7a37edbc401cb1e983ccf75f75c4eff3
+      contractAddress: '0xEae3502771635e6270e01f5B859DDB7ed780aebf'
+      date: 2019-02-27T16:08:24.000Z
+      ipfsHash: QmNsgidYJUMnuofwn4J5ug7mrfj5BxHywmwuWj46tU9KP8
+      txHash: '0x8a409bd47157cf2b10717b4cc41b26f32d497a4e19f59a1372d59ef0e2a02952'
+    2.0.0:
+      commitHash: 0bf6ff42015e74279500632bf920aae00e68aa86
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-04-17T17:26:18.000Z
+      ipfsHash: QmXLn9D7PdgLv74syBFghbwdcsvExZF1e6Ri62Ss9G3K9i
+      txHash: '0xa4c706a4575f476d23bbeb1790bc72a127cf95b43053a29799d85e11a65e99fb'
+    2.0.1:
+      commitHash: 4b5094a63ee668368c52a7b37dccb0969c397a8f
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-05-02T14:21:31.000Z
+      ipfsHash: QmdhSZf1NJt4hU9JsYTS5qkUowziYypsx4aAV1z1qTsiKV
+      txHash: '0xf33bc2a06dcada1594e56650c57cb7eae33e0cfa1c93bb52988481ad21e1689f'
+    2.0.2:
+      commitHash: f8230bffb1f1a69b72bd536944512516f8d188ce
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-05-16T11:03:42.000Z
+      ipfsHash: QmYPXk7cqEefQ3TdGCmvbzMppS3tLjH1WT7Qv7uY228bHa
+      txHash: '0xfb3e0e13238f52a080bcee56702f00cb16e149ecf6292fbf2db8f669d42d0bf6'
+    2.0.3:
+      commitHash: d13e85c2aaa8d0166242a14193691d0a9ea5b5db
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-05-30T17:00:15.000Z
+      ipfsHash: QmQ5FKENnbYyXawNPzHfVG8EPe3iyqxbCujEwH1iioR86T
+      txHash: '0xbcf19f3828cf48c561e0d0f2bd4df51ee8fa1f4d25e00d925f48d35491c88b7d'
+    2.0.4:
+      commitHash: e90e69b124c89af93be831ded056c9e72dd85772
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-06-06T18:04:52.000Z
+      ipfsHash: QmZaUjYWqXeVWDpQLJdFUrewxhnWTiCSzv8RPCcL2FEXED
+      txHash: '0x446e32a9eb4d099e3c486f275f7e0d438ff62c319535eb45288d162b5cd95c97'
+    2.0.5:
+      commitHash: 5e40f0ab36ba09711e6f979bcae9321534b67044
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-07-25T15:42:47.000Z
+      ipfsHash: QmaJtJ47D8Xobn9Vyncd8VBun4HTzRhNMw4Q2sQWT9HBak
+      txHash: '0x56fdc6f3b7276aa13ff97bb7f213255513c8cb863e3ab0146921a75200fecb63'
+    2.1.0:
+      commitHash: e92f3d4445c8304230dbc36730441c860b622ba5
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-09-10T20:58:15.000Z
+      ipfsHash: QmUAmafoJQXY9htQmiJh4k6p7Kf2oqiQMKcijtoyyF9EHL
+      txHash: '0x7135bb2b47ec822b92e2e89e41ce3959128628092812c021e428944c97fc4860'
+    2.1.1:
+      commitHash: e90e917693c7c1b65772e02755b69f7dc79e01b7
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-09-19T17:18:42.000Z
+      ipfsHash: QmSha7xsHauUDQNBmYimMageRkGMNEdXHS8A6SsM8RSMMs
+      txHash: '0x8ed2b42eb0f6710773ff185d526b0be741adcf9c942952c4afb96734a48b9304'
+    2.1.2:
+      commitHash: 4d9d13873647b87058e4d8b949df4cb3b49ef275
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-10-11T05:53:56.000Z
+      ipfsHash: QmcA7rzsW2KL2F6HAxTHwTGftMKSscbQCw3BhF2E9jyHR4
+      txHash: '0x4858e3663adde01323228f3689ab32d591b037397adadef5f47cb54d6ee8f1a1'
+    2.1.3:
+      commitHash: 52243a90a9226ef3b40bd7ee28fb852f69155df1
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-10-24T10:30:27.000Z
+      ipfsHash: Qma2wjuANGyTroEiqQQSq8R3X6MajvgbcuDTehyEZ9Qd4H
+      txHash: '0xe0e2060b5650f8ca38b0ac00a636c3f83e19bb9f930d3cd84858798aa10d0ba1'
+    2.1.4:
+      commitHash: e3105a8b2abdda31db0bcace478a0c484a168149
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-11-12T18:08:26.000Z
+      ipfsHash: QmR34nZedLNHhd91jceUtWSBXugAWtRQP8bEQ3pPRimrpa
+      txHash: '0x7a24b9dc6ce60d45f70bb8cc2ce81dd2d0a088e5d2ae6f8e55e9194ce0ea8948'
+    2.1.5:
+      commitHash: 90ad353325fe653afe1a9fa82130dd11154229f5
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-12-04T19:44:03.000Z
+      ipfsHash: QmcgFogXwcHwHZFHJ2JUsVauFPXDWfGQ3aeYTjfayBKAYW
+      txHash: '0xf829e292b8218b38258ee3eeae7b2997e726fb5c241a00f36f17e7d4943685d0'
+    2.1.6:
+      commitHash: b56258a76a3aa0a711ee6ae415d119f55780283a
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2019-12-21T20:27:01.000Z
+      ipfsHash: Qmf4hN3GeCkemS8QgkiqYQCZj7cuYi8pmnvRFjZEWWnWwc
+      txHash: '0x930219bc1222c83b871a0fc97ac08c7c36d866c5b5e795cc580025b4577b07a8'
+    2.1.7:
+      commitHash: f44ee48106bc15039d8b716e0162abc4c867dec2
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      date: 2020-01-24T15:42:43.000Z
+      ipfsHash: QmWjc1HgaZ9PvE1W52DvHTyqwYf3GEAZmnV7ABptwToEhE
+      txHash: '0x53a0afa2e052e053dd8aef29974b036dc264d0259307a862f838d133ba58533f'
 token-wrapper.hatch.aragonpm.eth:
   versions:
     1.0.0:
-      date: 2020-01-24T21:11:42.000Z
-      txHash: '0x04155282d257c1c4fcfafab8126c68fb4e9dcfe6de849330f7ea47d075d28da6'
-      ipfsHash: QmYS9VpcH1x2NLFBxyUf26vkn3xwhnJuGv1ESAkcyXJ95M
-      contractAddress: '0x96E672A399b0E78F1B05631857F3D25c78Fabaf3'
       commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
+      contractAddress: '0x96E672A399b0E78F1B05631857F3D25c78Fabaf3'
+      date: 2020-01-24T21:11:42.000Z
+      ipfsHash: QmYS9VpcH1x2NLFBxyUf26vkn3xwhnJuGv1ESAkcyXJ95M
+      txHash: '0x04155282d257c1c4fcfafab8126c68fb4e9dcfe6de849330f7ea47d075d28da6'
 voting-aggregator.hatch.aragonpm.eth:
   versions:
     1.0.0:
-      date: 2020-01-24T21:15:50.000Z
-      txHash: '0xcc2f8ac02331213593e6f628794bc108af15f26be2a63d577ca995474d602856'
-      ipfsHash: QmYpF5Ft3Ca1exnN5rGuw1nd5PjaHXgh6CbBPmTFKmA1SR
-      contractAddress: '0x21535EE4467F8ABC3A2Be4AE5FA80B1891805665'
       commitHash: 3157b1acf6bd8d48c2329d5759f0b45aa105240f
-futarchy.open.aragonpm.eth:
-  versions:
-    1.0.0:
-      date: 2019-11-20T20:15:07.000Z
-      txHash: '0x5d7a15b908d91fa3c18bf7fbc7769a6d6ddc0d1d22d18159f296f9c4d655818a'
-      ipfsHash: Qmbrh9r6jBt2DYr38G3TtkXxQLBtNuhE92W7rBJpUxiuAC
-      contractAddress: '0x421bE6D6889bb44eddcaD00F48Bfbe6bE3C8b6f6'
-      commitHash: 7c46dee1a96acb181ff8ddb43d1e5c44ad83112a
-oracle-manager.open.aragonpm.eth:
-  versions:
-    1.0.0:
-      date: 2019-11-20T23:25:43.000Z
-      txHash: '0x41f86b0ef7d1e40f25f3b93a5a9afda4cbf98cd9633b3c8bcf5398efaff33f87'
-      ipfsHash: QmZ65hiwvD9wgon9Ebqy96iggLjczA9VSk75f8uPGKCdMr
-      contractAddress: '0x096f3103a7573608c750F12De0eA37DE75235cD9'
-      commitHash: b6231de075cf8199de36f3254927c3c5a8bd0e42
+      contractAddress: '0x21535EE4467F8ABC3A2Be4AE5FA80B1891805665'
+      date: 2020-01-24T21:15:50.000Z
+      ipfsHash: QmYpF5Ft3Ca1exnN5rGuw1nd5PjaHXgh6CbBPmTFKmA1SR
+      txHash: '0xcc2f8ac02331213593e6f628794bc108af15f26be2a63d577ca995474d602856'
 catalyst.open.aragonpm.eth:
   versions:
     1.0.0:
-      date: 2020-01-28T18:10:44.000Z
-      txHash: '0x2238fd92878fd3065227e5500f22b5f14be008c96fc2aa8a500aaa4e5094c34d'
-      ipfsHash: QmUGVqktAtNhnojjydphfCmCPd1Y9CU6FKpcrwgT4to9cb
-      contractAddress: '0xCC054fAB08127C19f621aB83AdE5962Cd10584ec'
       commitHash: ab7c64405db0e25114209b3e6bb63df8d250ced7
-    1.0.2:
-      date: 2020-01-30T21:10:55.000Z
-      txHash: '0x4090577cc3d0a7646bcd2cd29c85152dbe2e7e5025f5b903377c20f672220a13'
-      ipfsHash: QmSSFf5EUs3iLhjEJmHL4mkfZ9vSaGkL9Kz5BKe3C7acYb
       contractAddress: '0xCC054fAB08127C19f621aB83AdE5962Cd10584ec'
+      date: 2020-01-28T18:10:44.000Z
+      ipfsHash: QmUGVqktAtNhnojjydphfCmCPd1Y9CU6FKpcrwgT4to9cb
+      txHash: '0x2238fd92878fd3065227e5500f22b5f14be008c96fc2aa8a500aaa4e5094c34d'
+    1.0.2:
       commitHash: 25822632fa67bfbe3256f036fb2b04046379a874
+      contractAddress: '0xCC054fAB08127C19f621aB83AdE5962Cd10584ec'
+      date: 2020-01-30T21:10:55.000Z
+      ipfsHash: QmSSFf5EUs3iLhjEJmHL4mkfZ9vSaGkL9Kz5BKe3C7acYb
+      txHash: '0x4090577cc3d0a7646bcd2cd29c85152dbe2e7e5025f5b903377c20f672220a13'
+futarchy.open.aragonpm.eth:
+  versions:
+    1.0.0:
+      commitHash: 7c46dee1a96acb181ff8ddb43d1e5c44ad83112a
+      contractAddress: '0x421bE6D6889bb44eddcaD00F48Bfbe6bE3C8b6f6'
+      date: 2019-11-20T20:15:07.000Z
+      ipfsHash: Qmbrh9r6jBt2DYr38G3TtkXxQLBtNuhE92W7rBJpUxiuAC
+      txHash: '0x5d7a15b908d91fa3c18bf7fbc7769a6d6ddc0d1d22d18159f296f9c4d655818a'
+oracle-manager.open.aragonpm.eth:
+  versions:
+    1.0.0:
+      commitHash: b6231de075cf8199de36f3254927c3c5a8bd0e42
+      contractAddress: '0x096f3103a7573608c750F12De0eA37DE75235cD9'
+      date: 2019-11-20T23:25:43.000Z
+      ipfsHash: QmZ65hiwvD9wgon9Ebqy96iggLjczA9VSk75f8uPGKCdMr
+      txHash: '0x41f86b0ef7d1e40f25f3b93a5a9afda4cbf98cd9633b3c8bcf5398efaff33f87'

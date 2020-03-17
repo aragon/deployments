@@ -38,11 +38,14 @@
     "docker:start": "docker run -p 2345:8080 -ti aragon/deployments"
   },
   "devDependencies": {
-    "husky": "^1.1.2"
+    "husky": "^1.1.2",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run decompress:strict"
+      "pre-push": "npm run decompress:strict",
+      "pre-commit": "pretty-quick --staged --pattern \"environments/**/*.yml\""
     }
   }
 }
