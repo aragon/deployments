@@ -49,6 +49,12 @@ agent.aragonpm.eth:
       date: 2020-03-12T01:28:39.000Z
       ipfsHash: QmZNRpitma8WNmR7aESAdLGXkRCp2EppkPTdNd2Ccw8teh
       txHash: '0xbd566be5d976e886e0e282e277ba0d1763e3b7c44ea87abfae36b959056e29fd'
+    5.0.2:
+      date: 2020-04-02T16:56:55.000Z
+      txHash: '0x07e9b4d608ef1027bbcb1b510c65eae299fb08894a69a973b074b1d7c707aee9'
+      ipfsHash: QmX3wpYcYF7W8YDJgUBfvDu95mxRAYoaG4cZVir9yTuq4C
+      contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
+      commitHash: b228ce9855a587558f9bf54605a2c92c9e242b05
 aragon-fundraising.aragonpm.eth:
   github: >-
     https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
@@ -266,6 +272,12 @@ aragon.aragonpm.eth:
       date: 2020-03-12T00:39:24.000Z
       ipfsHash: Qmbgb8UhnUSCCjmkaeHxhn93hmnbRRctMDxNMiumQgwrJD
       txHash: '0xf0f98bb823251ec0632238fdc76144698aaf6db4fbed59afc8db7fb47636c288'
+    3.0.14:
+      date: 2020-04-02T16:58:01.000Z
+      txHash: '0x7a06ce9d36594d299578aa984544bf8d6c410cedb74de26e6b06f90b08c2e6b0'
+      ipfsHash: QmbkmD5hgBmwvWwp3Pa26Wq3seSNuWWpsMqAKSXTNibRpz
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: c31c31f7df5b4ad32297e9ab8b466d24fc4cd59b
 balance-redirect-presale.aragonpm.eth:
   versions:
     1.0.0:
