@@ -32,8 +32,8 @@
 -----------
 
 - Version: Aragon client 0.8.10-hotfix
-- Start date: May 29, 2020, 12.25am CEST
-- Finish date: May 29, 2020, 12.25am CEST
+- Start date: May 29, 2020, 1.00am CEST
+- Finish date: May 29, 2020, 1.00am CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -45,9 +45,11 @@ npm run publish:rinkeby:patch
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
 
+- `aragon.aragonpm.eth` was redeployed twice due to missing environment variables in the first publish
+
 Final versions:
 
-- `aragon.aragonpm.eth`: `3.0.14`
+- `aragon.aragonpm.eth`: `3.0.15`
 
 -----------
 
