@@ -278,6 +278,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmbkmD5hgBmwvWwp3Pa26Wq3seSNuWWpsMqAKSXTNibRpz
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: c31c31f7df5b4ad32297e9ab8b466d24fc4cd59b
+    3.0.15:
+      date: 2020-05-28T22:43:33.000Z
+      txHash: '0x9fcf41f5740de9a56b103aefcc14302ac381601ac1fe2b85a0738324cb09f5dd'
+      ipfsHash: QmRJjpMoG5hsa3SCJ8BUfurzq9QoQ1d7BZ4VqG2Mywynyc
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: 70523cab339957f34fe4b202dd93578e8cf975f4
 balance-redirect-presale.aragonpm.eth:
   versions:
     1.0.0:

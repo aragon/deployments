@@ -31,6 +31,26 @@
 
 -----------
 
+- Version: Aragon client 0.8.10-hotfix
+- Start date: May 29th 2020, 12:45am CEST
+- Finish date: May 29th 2020, 12:45am CEST
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Client
+
+Command:
+```
+npm run publish:rinkeby:patch
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.0.15`
+
+-----------
+
 - Version: Aragon client 0.8.10
 - Start date: April 2nd 2020, 6:55pm CEST
 - Finish date: April 2nd 2020, 7.00am CEST
