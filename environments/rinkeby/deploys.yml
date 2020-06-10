@@ -61,6 +61,12 @@ agent.aragonpm.eth:
       ipfsHash: QmX3wpYcYF7W8YDJgUBfvDu95mxRAYoaG4cZVir9yTuq4C
       contractAddress: '0xd3bbC93Dbc98128fAC514Be911e285102B931b5e'
       commitHash: b228ce9855a587558f9bf54605a2c92c9e242b05
+    5.0.3:
+      date: 2020-06-10T16:52:06.000Z
+      txHash: '0xdc2b0d63adbc2222c4e45b67feeb0883cb775307ce34eb7bdae0b54ccf545ac5'
+      ipfsHash: QmQ5L7dutxQ8jrhuLLzd1vr67qZE589yv3hCiZ2yV5jmSE
+      contractAddress: '0xd3bbC93Dbc98128fAC514Be911e285102B931b5e'
+      commitHash: 1753751d68e65b77b6232b6aafc19880e22470aa
 aragon-fundraising.aragonpm.eth:
   github: >-
     https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
@@ -320,6 +326,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmPo6tC1Rn843CpPcozmSd1v5jE8ECa6HZnuAZbsqBpb9y
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 70523cab339957f34fe4b202dd93578e8cf975f4
+    3.1.0:
+      date: 2020-06-10T17:11:06.000Z
+      txHash: '0xc5fa6375dbc02377abd59987c31df58ffcd3f1277cfa90ec62a243937f1cdd2f'
+      ipfsHash: QmZZP4nC91B4pXLsQ1ttvxXgnTLpxy8qCwuLCv2SGGriHx
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: 1afa3f36590a3002ce2ce1ad6b1131a3d2db8fee
 bancor-formula.aragonpm.eth:
   github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula'
   versions:
@@ -585,6 +597,12 @@ finance.aragonpm.eth:
       date: 2020-02-19T04:44:05.000Z
       ipfsHash: QmbnhuLvvvcqEpRXd6VtnqZYAFZJdvAnhUrBAwqE1rfeRP
       txHash: '0x79a99e318a2e49fd69840d3921778f39e319e4dc1e03f55ae88610823a2031d8'
+    2.1.10:
+      date: 2020-06-10T16:55:06.000Z
+      txHash: '0xc2b403f38c2b0a43d65eae3538fe5bddc96432d32e6eb1920daab540e406a09a'
+      ipfsHash: QmQ4nc8Z25NEHQgj2hafgW17FLCGTCXTYc5XXNZr3Cd3H8
+      contractAddress: '0x94D3013A8700E8B168f66529aD143590CC6b259d'
+      commitHash: 1753751d68e65b77b6232b6aafc19880e22470aa
 fundraising-multisig-template.aragonpm.eth:
   github: 'https://github.com/aragonblack/fundraising/tree/[ref]/templates/multisig'
   versions:
@@ -876,6 +894,12 @@ token-manager.aragonpm.eth:
       date: 2020-01-24T14:34:40.000Z
       ipfsHash: QmdLEDDfiH3RGjbgU5hqJwwALbNreMWupqTQCRGfNrMPiP
       txHash: '0x5e3eec54ae0778b9433d6e80f9e708a0f94be675377fdc57ebe1928f854a8a97'
+    2.1.8:
+      date: 2020-06-10T16:55:21.000Z
+      txHash: '0x037bba3a811156a0225a2aee76f3d45a870faa1902d2c27de95b75f14b3fb37b'
+      ipfsHash: QmVcbnLZvsRnuFvaa5SQP4t45VjoMF376B7aaYTjjJj62t
+      contractAddress: '0xE775468F3Ee275f740A22EB9DD7aDBa9b7933Aa0'
+      commitHash: 1753751d68e65b77b6232b6aafc19880e22470aa
 token-request.aragonpm.eth:
   versions:
     1.0.0:
@@ -1082,6 +1106,12 @@ voting.aragonpm.eth:
       date: 2020-01-24T14:34:55.000Z
       ipfsHash: QmUvWBZqpKepDwS5WUsTTURwiBRvhoGRTjwJG7Em5TU2UJ
       txHash: '0x8adf0573fcc128b8902d1885dbe073f285db8970d738e5113679e753009109b4'
+    2.1.8:
+      date: 2020-06-10T16:56:51.000Z
+      txHash: '0x4fdd9e818f338d473432674f274574b36b118cb6cbbd081de60454893eb7d88e'
+      ipfsHash: QmTvtQGG5RmDzCdAch48iFYFWjkZwXZcGZFRNaBeruEJYD
+      contractAddress: '0xb4fa71b3352D48AA93D34d085f87bb4aF0cE6Ab5'
+      commitHash: 1753751d68e65b77b6232b6aafc19880e22470aa
 approvals.hatch.aragonpm.eth:
   github: 'https://github.com/aragonone/approvals/tree/[ref]'
   versions:
