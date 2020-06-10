@@ -40,7 +40,7 @@
 
 Command:
 ```
-npm run publish:rinkeby:patch
+npm run publish:mainnet:patch
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -64,13 +64,10 @@ Deployed: `agent`
 
 Command:
 ```
-aragon apm publish minor --environment rinkeby --files app/build
+aragon apm publish minor --environment mainnet --files app/build
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
-
-- `agent.aragonpm.eth` was first published with `4.1.0` to update the existing app's UI before publishing `5.0.0`
-- `agent.aragonpm.eth` was redeployed with a patch release to `5.0.1` due to metadata being incorrect in `5.0.0`
 
 Final versions:
 
@@ -80,7 +77,7 @@ Final versions:
 
 Command:
 ```
-npm run publish:rinkeby:patch
+npm run publish:mainnet:patch
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -102,7 +99,7 @@ Deployed: `agent`
 
 Command:
 ```
-aragon apm publish minor --environment rinkeby --files app/build
+aragon apm publish minor --environment mainnet --files app/build
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -118,7 +115,7 @@ Final versions:
 
 Command:
 ```
-npm run publish:rinkeby:patch
+npm run publish:mainnet:patch
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
@@ -167,7 +164,7 @@ Final versions:
 - Version: DAOFactory 0.8.1
 - Start date: February 6 2020, 10:30am CET
 - Finish date: February 6 2020, 11:30am CET
-- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 - aragonOS commit hash: [`https://github.com/aragon/aragonOS/tree/f3ae59b00f73984e562df00129c925339cd069ff`](https://github.com/aragon/aragonOS/tree/)
 
 ### aragonOS
@@ -179,7 +176,7 @@ To minimize changes from the original ACL deployed at `0x3ae935e863984ecffc980bf
 Command:
 ```
 npx truffle compile --all
-npx truffle console --network rinkeby
+npx truffle console --network mainnet
 
 > const logDeploy = require('./helpers/deploy-logger')
 > logDeploy(await ACL.new())
