@@ -332,6 +332,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmZZP4nC91B4pXLsQ1ttvxXgnTLpxy8qCwuLCv2SGGriHx
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 1afa3f36590a3002ce2ce1ad6b1131a3d2db8fee
+    3.1.1:
+      date: 2020-06-11T10:05:07.000Z
+      txHash: '0xa520d33d107b47cc87719927d1b5f2e094f444c0699809e953225603a0d03967'
+      ipfsHash: QmSSo7UZ62PHTy3VVGJAGYK4xVAuXHJW8j9bfrEyYjeQeN
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: 011eb82b9e1f66dda6853668720063d9098b2135
 bancor-formula.aragonpm.eth:
   github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula'
   versions:
@@ -900,6 +906,12 @@ token-manager.aragonpm.eth:
       ipfsHash: QmVcbnLZvsRnuFvaa5SQP4t45VjoMF376B7aaYTjjJj62t
       contractAddress: '0xE775468F3Ee275f740A22EB9DD7aDBa9b7933Aa0'
       commitHash: 1753751d68e65b77b6232b6aafc19880e22470aa
+    2.1.9:
+      date: 2020-06-11T10:01:22.000Z
+      txHash: '0xd23f2472d2a832703fd5f83d628748b581970051bb8ef4caf342ba98ca96651c'
+      ipfsHash: QmUDtq9fNi4wxyaL7QutokpGed7U3WpgKUjGKpRxGyWaqd
+      contractAddress: '0xE775468F3Ee275f740A22EB9DD7aDBa9b7933Aa0'
+      commitHash: bad33b138dbaac25b7c8846d91dc63bf00fd61bf
 token-request.aragonpm.eth:
   versions:
     1.0.0:
