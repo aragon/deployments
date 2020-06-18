@@ -407,6 +407,18 @@ delay.aragonpm.eth:
       date: 2020-03-03T13:55:30.000Z
       ipfsHash: QmSE1VZT1Q2yB43SLRqeJ7hvxYYKzCwtrCv7uTCnikvfdb
       txHash: '0x96a1acc3b09e2464ef399906f97a9db79040400597d55980cdf2ca34603e93da'
+    1.2.0:
+      date: 2020-03-20T20:00:00.000Z
+      txHash: "0x5cf78b7ba4f75ef22bc10711cb358581fd2744e5e822757c9d80e2b4f832f263"
+      ipfsHash: QmU7jgK7paqkFAbbfqFvBE4ceKWyZKSoAB1v1s468AGrB8
+      contractAddress: "0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89"
+      commitHash: e095eec3b46b0357e74f6b50d32662b8c2956d7b
+    1.3.0:
+      date: 2020-06-18T18:57:30.000Z
+      txHash: "0xb277e1992898f01fa426ca647892db97c2aa0cf9e3d5aa7c195adc816090d92f"
+      ipfsHash: QmSJev6vYxUWX3yYy11p5BFyQpHLQN8ZyEdRbSdxnnumPu
+      contractAddress: "0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89"
+      commitHash: 368b18bce50e238fe07a8b79f0b2c7ad8ae9bf33
 democracy-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
   versions:
@@ -687,6 +699,12 @@ time-lock.aragonpm.eth:
       date: 2020-02-15T22:43:45.000Z
       ipfsHash: QmVhQk3ivXcpnDMc4NSGtKGf11c4vhBLdTTpwS7YNH14JY
       txHash: '0x436beb6dcc2babb2ee9c85f8e5a21404f4ca5c9c3d4f7291503b0f2e1be1875c'
+    2.0.0:
+      date: 2020-05-29T23:00:30.000Z
+      txHash: "0x3cf4ed4eb327d6200e10e4f22273dd29cdb0dc5eaf331825e4aaf7c281bbee54"
+      ipfsHash: QmQ2oVrVngBxfB816D7uT6ksayPLHZLfCb2zYQp4XQ6s1t
+      contractAddress: "0x06a8cf8f54f04094a266a49f4886c578dc42b548"
+      commitHash: f88ca7c2a5b90cea4c55d9b2e83b204cc40ca29a
 token-balance-oracle.aragonpm.eth:
   versions:
     1.0.0:
@@ -838,6 +856,12 @@ token-request.aragonpm.eth:
       date: 2020-02-15T22:29:28.000Z
       ipfsHash: QmYQ1KuuRjK9wVn3pPxzPZ4vC9SpP2QZNGKKtyzSMp4RPQ
       txHash: '0xf290e3b8978e3f69734b990be4e797a8dc87612dc2cb7287a5a182a6ca22767a'
+    2.0.0:
+      date: 2020-05-29T22:50:30.000Z
+      txHash: "0x80b56e1b82dcded5c4642ef50acc56a6145001ed6bbab9710ea6a3741840580d"
+      ipfsHash: QmUvRhHYScMT3Qydw4c9RwrP6xYJwnZYtmUjPbozssTRSa
+      contractAddress: "0x60aad13723bf122254707612455c10ae9df517b2"
+      commitHash: a706d66a25486a79ba40bc799235faeb95a7b224
 vault.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
   versions:
