@@ -33,7 +33,7 @@
 
 - Version: Aragon client 0.8.11
 - Start date: June 10 2020, 6:50pm CET
-- Finish date: June 11 2020, 12.05pm CET
+- Finish date: June 11 2020, 12:05pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -74,8 +74,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.10-hotfix
-- Start date: May 29, 2020, 1.00am CEST
-- Finish date: May 29, 2020, 1.00am CEST
+- Start date: May 29, 2020, 1:00am CEST
+- Finish date: May 29, 2020, 1:00am CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -97,7 +97,7 @@ Final versions:
 
 - Version: Aragon client 0.8.10
 - Start date: April 2nd 2020, 6:35pm CEST
-- Finish date: April 2nd 2020, 6.45am CEST
+- Finish date: April 2nd 2020, 6:45am CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -133,7 +133,7 @@ Final versions:
 
 - Version: Aragon client 0.8.9
 - Start date: March 12th 2020, 12:45am CET
-- Finish date: March 12th 2020, 2.30am CET
+- Finish date: March 12th 2020, 2:30am CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -171,7 +171,7 @@ Final versions:
 
 - Version: Aragon client 0.8.8
 - Start date: February 19th 2020, 5:15am CET
-- Finish date: February 19th 2020, 5.15am CET
+- Finish date: February 19th 2020, 5:15am CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -282,8 +282,8 @@ Final versions:
 -----------
 
 - Version: Voting connectors
-- Start date: January 24th, 5.00pm CET
-- Finish date: January 24th, 7.00pm CET
+- Start date: January 24th, 5:00pm CET
+- Finish date: January 24th, 7:00pm CET
 - Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
 
 ### Voting Connectors
@@ -306,7 +306,7 @@ Final versions:
 
 - Version: Aragon client 0.8.7
 - Start date: January 24 2020, 3:00pm CET
-- Finish date: January 24 2020, 3.20pm CET
+- Finish date: January 24 2020, 3:20pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -342,8 +342,8 @@ Final versions:
 -----------
 
 - Version: Aragon Fundraising 2.0.0
-- Start date: January 9th 2020, 18.58pm CET
-- Finish date: January 9th 2020, 18.58pm CET
+- Start date: January 9th 2020, 18:58pm CET
+- Finish date: January 9th 2020, 18:58pm CET
 - Deployer: Aragon Black testnet cold wallet [`0x9b1B224E0445243eF5fD102114d15136967FfB15`](https://rinkeby.etherscan.io/address/0x9b1B224E0445243eF5fD102114d15136967FfB15)
 
 ### Aragon Fundraising
@@ -379,8 +379,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.6
-- Start date: December 21st 2019, 8.50pm CET
-- Finish date: December 21st 2019, 9.10pm CET
+- Start date: December 21st 2019, 8:50pm CET
+- Finish date: December 21st 2019, 9:10pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -436,8 +436,8 @@ Final versions:
 -----------
 
 - Version: Token Wrapper (hatch)
-- Start date: December 3rd, 6.10pm CET
-- Finish date: December 3rd, 8.20pm CET
+- Start date: December 3rd, 6:10pm CET
+- Finish date: December 3rd, 8:20pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Token Wrapper app
@@ -458,8 +458,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.5
-- Start date: November 27th 2019, 6.10pm CET
-- Finish date: November 27th 2019, 6.40pm CET
+- Start date: November 27th 2019, 6:10pm CET
+- Finish date: November 27th 2019, 6:40pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -495,8 +495,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.5 (only MCD DAI)
-- Start date: November 23th 2019, 1.00pm CET
-- Finish date: November 12th 2019, 1.10pm CET
+- Start date: November 23th 2019, 1:00pm CET
+- Finish date: November 12th 2019, 1:10pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -561,8 +561,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.4
-- Start date: November 12th 2019, 6.00pm CET
-- Finish date: November 12th 2019, 6.40pm CET
+- Start date: November 12th 2019, 6:00pm CET
+- Finish date: November 12th 2019, 6:40pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -662,8 +662,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.3
-- Start date: October 24th 2019, 7.40pm JST
-- Finish date: October 24th 2019, 8.30pm JST
+- Start date: October 24th 2019, 7:40pm JST
+- Finish date: October 24th 2019, 8:30pm JST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -699,8 +699,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.2
-- Start date: October 11th 2019, 2.30pm JST
-- Finish date: October 11th 2019, 2.47pm JST
+- Start date: October 11th 2019, 2:30pm JST
+- Finish date: October 11th 2019, 2:47pm JST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 
@@ -736,8 +736,8 @@ Final versions:
 -----------
 
 - Version: Aragon Fundraising 1.0.0-rc.1
-- Start date: October 9th 2019, 2.00pm CEST
-- Finish date: October 10th 2019, 1.19pm CEST
+- Start date: October 9th 2019, 2:00pm CEST
+- Finish date: October 10th 2019, 1:19pm CEST
 - Deployer: Aragon Black testnet cold wallet [`0x9b1B224E0445243eF5fD102114d15136967FfB15`](https://rinkeby.etherscan.io/address/0x9b1B224E0445243eF5fD102114d15136967FfB15)
 
 ### Aragon Fundraising
@@ -773,8 +773,8 @@ Final versions:
 -----------
 
 - Version: Oracle Manager 6.0.0
-- Start date: October 1st 2019, 8.48am CEST
-- Finish date: October 1st 2019, 8.48am CEST
+- Start date: October 1st 2019, 8:48am CEST
+- Finish date: October 1st 2019, 8:48am CEST
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://rinkeby.etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
 ### Oracle Manager
@@ -795,8 +795,8 @@ Final versions:
 -----------
 
 - Version: Futarchy 8.3.0
-- Start date: September 30th 2019, 9.49pm CEST
-- Finish date: September 30th 2019, 9.49pm CEST
+- Start date: September 30th 2019, 9:49pm CEST
+- Finish date: September 30th 2019, 9:49pm CEST
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x051401D1824ba49B0370736fC9d87f78Ee6F27C7`](https://rinkeby.etherscan.io/address/0x051401D1824ba49B0370736fC9d87f78Ee6F27C7)
 
 ### Futarchy
@@ -817,8 +817,8 @@ Final versions:
 -----------
 
 - Version: Oracle Manager 5.1.0
-- Start date: September 27th 2019, 4.07pm CEST
-- Finish date: September 27th 2019, 4.07pm CEST
+- Start date: September 27th 2019, 4:07pm CEST
+- Finish date: September 27th 2019, 4:07pm CEST
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://rinkeby.etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
 ### Oracle Manager
@@ -839,8 +839,8 @@ Final versions:
 -----------
 
 - Version: Futarchy 8.1.0
-- Start date: September 26th 2019, 10.56pm CEST
-- Finish date: September 2th 2019, 10.56pm CEST
+- Start date: September 26th 2019, 10:56pm CEST
+- Finish date: September 2th 2019, 10:56pm CEST
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x051401D1824ba49B0370736fC9d87f78Ee6F27C7`](https://rinkeby.etherscan.io/address/0x051401D1824ba49B0370736fC9d87f78Ee6F27C7)
 
 ### Futarchy
@@ -860,8 +860,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8.1
-- Start date: September 19th 2019, 6.45pm CEST
-- Finish date: September 19th 2019, 7.00pm CEST
+- Start date: September 19th 2019, 6:45pm CEST
+- Finish date: September 19th 2019, 7:00pm CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 
@@ -899,8 +899,8 @@ Final versions:
 -----------
 
 - Version: Oracle Manager 4.3
-- Start date: September 17th 2019, 7.14pm CEST
-- Finish date: September 17th 2019, 7.14pm CEST
+- Start date: September 17th 2019, 7:14pm CEST
+- Finish date: September 17th 2019, 7:14pm CEST
 - Deployer: ([@mikec](https://github.com/mikec)) [`0x33329f5a360649eb1c473b998cf3b975feb109f6`](https://rinkeby.etherscan.io/address/0x33329f5a360649eb1c473b998cf3b975feb109f6)
 
 ### Oracle Manager
@@ -921,8 +921,8 @@ Final versions:
 -----------
 
 - Version: Approvals (hatch)
-- Start date: September 13th 2019, 8.55pm CEST
-- Finish date: September 13th 2019, 8.55pm CEST
+- Start date: September 13th 2019, 8:55pm CEST
+- Finish date: September 13th 2019, 8:55pm CEST
 - Deployer: ([@ajsantander](https://github.com/ajsantander)) [`0x8c786893c22cd2de7b770247f928d7b74b5bd550`](https://rinkeby.etherscan.io/address/0x8c786893c22cd2de7b770247f928d7b74b5bd550)
 
 ### Approvals app
@@ -943,8 +943,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.8
-- Start date: September 3rd 2019, 6.30pm CEST
-- Finish date: September 10th 2019, 9.14pm CEST
+- Start date: September 3rd 2019, 6:30pm CEST
+- Finish date: September 10th 2019, 9:14pm CEST
 - Deployer: ([@facuspagnuolo](https://github.com/facuspagnuolo)) [`0x03acbcb547d03c8e7746ef5988012b59604aa083`](https://rinkeby.etherscan.io/address/0x03acbcb547d03c8e7746ef5988012b59604aa083), ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 - aragonOS commit hash: [`0fd1ff673e160597b0cbabc1956a2a547b1c41f0`](https://github.com/aragon/aragonOS/tree/0fd1ff673e160597b0cbabc1956a2a547b1c41f0)
 
@@ -1041,8 +1041,8 @@ Final versions:
 -----------
 
 - Version: Aragon Agent upgrade
-- Start date: Aug 22nd 2019, 6.30pm CEST
-- Finish date: Aug 22nd 2019, 6.30pm CEST
+- Start date: Aug 22nd 2019, 6:30pm CEST
+- Finish date: Aug 22nd 2019, 6:30pm CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 Rinkeby deployment for `agent`
@@ -1065,8 +1065,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7.5-hotfix
-- Start date: July 25th 2019, 4.05pm CEST
-- Finish date: July 25th 2019, 7.50pm CEST
+- Start date: July 25th 2019, 4:05pm CEST
+- Finish date: July 25th 2019, 7:50pm CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -1107,8 +1107,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7.5
-- Start date: June 28th 2019, 4.10pm CEST
-- Finish date: June 28th 2019, 4.21pm CEST
+- Start date: June 28th 2019, 4:10pm CEST
+- Finish date: June 28th 2019, 4:21pm CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -1127,8 +1127,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7.4
-- Start date: June 14th 2019, 6.30pm CEST
-- Finish date: June 14th 2019, 8.05pm CEST
+- Start date: June 14th 2019, 6:30pm CEST
+- Finish date: June 14th 2019, 8:05pm CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -1169,8 +1169,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7.3-hotfix
-- Start date: June 6th 2019, 8.00pm CEST
-- Finish date: June 6th 2019, 8.05pm CEST
+- Start date: June 6th 2019, 8:00pm CEST
+- Finish date: June 6th 2019, 8:05pm CEST
 - Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
 
 ### Aragon Apps
@@ -1191,8 +1191,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7.3
-- Start date: May 30th 2019, 6.15pm CEST
-- Finish date: May 30th 2019, 6.45pm CEST
+- Start date: May 30th 2019, 6:15pm CEST
+- Finish date: May 30th 2019, 6:45pm CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -1234,8 +1234,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7.2
-- Start date: May 16th 2019, 11.55am CEST
-- Finish date: May 16th 2019, 12.50pm CEST
+- Start date: May 16th 2019, 11:55am CEST
+- Finish date: May 16th 2019, 12:50pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -1277,8 +1277,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7.1
-- Start date: May 2nd 2019, 2.20pm CEST
-- Finish date: May 2nd 2019, 4.10pm CEST
+- Start date: May 2nd 2019, 2:20pm CEST
+- Finish date: May 2nd 2019, 4:10pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -1364,8 +1364,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7.0-hotfix
-- Start date: Apr 18th 2019, 11.55am CEST
-- Finish date: Apr 18th 2019, 11.55am CEST
+- Start date: Apr 18th 2019, 11:55am CEST
+- Finish date: Apr 18th 2019, 11:55am CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -1386,8 +1386,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.7
-- Start date: Apr 17th 2019, 12.15am CEST
-- Finish date: Apr 17th 2019, 7.38pm CEST
+- Start date: Apr 17th 2019, 12:15am CEST
+- Finish date: Apr 17th 2019, 7:38pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 - aragonOS commit hash: [`1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2`](https://github.com/aragon/aragonOS/tree/1b67d105c8dfb81c0f27f4cb68b1505d6d55b2b2)
 
@@ -1485,8 +1485,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.6.4
-- Start date: Feb 27th, 4.30pm CET
-- Finish date: Feb 27th, 4.45pm CET
+- Start date: Feb 27th, 4:30pm CET
+- Finish date: Feb 27th, 4:45pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 Deployment done with `@aragon/cli@5.4.0-beta.2`.
@@ -1522,8 +1522,8 @@ Final versions:
 -----------
 
 - Version: Aragon Agent beta v2
-- Start date: Feb 22nd, 6.17pm CET
-- Finish date: Feb 22nd, 6.18pm CET
+- Start date: Feb 22nd, 6:17pm CET
+- Finish date: Feb 22nd, 6:18pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -1544,8 +1544,8 @@ Final versions:
 -----------
 
 - Version: Survey resurrect
-- Start date: Feb 16th, 9.56pm CET
-- Finish date: Feb 16th, 9.56pm CET
+- Start date: Feb 16th, 9:56pm CET
+- Finish date: Feb 16th, 9:56pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -1566,8 +1566,8 @@ Final versions:
 -----------
 
 - Version: Aragon Agent beta
-- Start date: Feb 15th, 8.12pm CET
-- Finish date: Feb 15th, 8.12pm CET
+- Start date: Feb 15th, 8:12pm CET
+- Finish date: Feb 15th, 8:12pm CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Apps
@@ -1588,8 +1588,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.6.3
-- Start date: Jan 29th, 2.50am CET
-- Finish date: Jan 29th, 4.00am CET
+- Start date: Jan 29th, 2:50am CET
+- Finish date: Jan 29th, 4:00am CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 Deployment done with `@aragon/cli@5.2.3`.
@@ -1634,8 +1634,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.6.2
-- Start date: Dec 21st, 8.10am CET
-- Finish date: Dec 21st, 9.06am CET
+- Start date: Dec 21st, 8:10am CET
+- Finish date: Dec 21st, 9:06am CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -1676,8 +1676,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.6.1 (AGP-1 support)
-- Start date: Nov 12th 2018, 4.55pm CET
-- Finish date: Nov 15th 2018, 1.24am CET
+- Start date: Nov 12th 2018, 4:55pm CET
+- Finish date: Nov 15th 2018, 1:24am CET
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff) + [@bingen](https://github.com/bingen)
 
 ### Aragon Client
@@ -1739,8 +1739,8 @@ Meta Track Voting:  0x469741ced03d2bb94bc6e744cb56a72e767054b3
 -----------
 
 - Version: Aragon client 0.6.0-hotfix
-- Start date: Nov 5th 2018, 9.05pm CET
-- Finish date: Nov 5th 2018, 9.35pm CEST
+- Start date: Nov 5th 2018, 9:05pm CET
+- Finish date: Nov 5th 2018, 9:35pm CEST
 - Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Aragon Client
@@ -1776,7 +1776,7 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.6
-- Start date: Oct 29th 2018, 11.36pm CEST
+- Start date: Oct 29th 2018, 11:36pm CEST
 - Finish date: TODO
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
@@ -1798,8 +1798,8 @@ Final versions:
 -----------
 
 - Version: Aragon client 0.6 RC 2
-- Start date: Oct 25th 2018, 5.42pm CEST
-- Finish date: Oct 26th 2018, 7.40pm CEST
+- Start date: Oct 25th 2018, 5:42pm CEST
+- Finish date: Oct 26th 2018, 7:40pm CEST
 - Deployer: ([@izqui](https://github.com/izqui)) [`0x4cB3FD420555A09bA98845f0B816e45cFb230983`](https://rinkeby.etherscan.io/address/0x4cB3FD420555A09bA98845f0B816e45cFb230983) and Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 - aragonOS commit hash: [`b5c0a98be5e404bb252e88efc65123c2db650839`](https://github.com/aragon/aragonOS/tree/b5c0a98be5e404bb252e88efc65123c2db650839)
 - aragon-id commit hash: [`e33d18d6a78dbcb97bef02b4df52a7dff60b3ef2`](https://github.com/aragon/aragon-id/tree/e33d18d6a78dbcb97bef02b4df52a7dff60b3ef2)
