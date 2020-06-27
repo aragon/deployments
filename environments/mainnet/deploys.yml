@@ -61,6 +61,12 @@ agent.aragonpm.eth:
       ipfsHash: QmQ5L7dutxQ8jrhuLLzd1vr67qZE589yv3hCiZ2yV5jmSE
       contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
       commitHash: bad33b138dbaac25b7c8846d91dc63bf00fd61bf
+    5.0.4:
+      date: 2020-06-27T08:22:03.000Z
+      txHash: '0x31cae610f869287196afec35f56d0047df4b9801c2407b4c9da4f993551561a1'
+      ipfsHash: Qmd16Qs1GY2t1pwT2ivgbwMUfeSX7ncd4K3DchxQeeoxnq
+      contractAddress: '0x3A93C17FC82CC33420d1809dDA9Fb715cc89dd37'
+      commitHash: 41ac7062764584dba26bb006bf723b0627da2cbe
 aragon-fundraising.aragonpm.eth:
   github: >-
     https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
@@ -302,6 +308,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmQ7RZwKonffyJSZ7GaKZ4MTghPEGAW9nKSBnjsw69U26z
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 011eb82b9e1f66dda6853668720063d9098b2135
+    3.3.0:
+      date: 2020-06-27T08:24:10.000Z
+      txHash: '0x228130a87cfa5ac1b5e260c882451025b830c985d20597e73535364c7ca3abdc'
+      ipfsHash: QmNxQYzWSVvrWHRfrAZQ6AyNNerCaCbLUB5gsXcrAkFWFU
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: c59b60098f7faa23f5cd36386a686663f24c9967
 balance-redirect-presale.aragonpm.eth:
   versions:
     1.0.0:
@@ -409,15 +421,15 @@ delay.aragonpm.eth:
       txHash: '0x96a1acc3b09e2464ef399906f97a9db79040400597d55980cdf2ca34603e93da'
     1.2.0:
       date: 2020-03-20T20:00:00.000Z
-      txHash: "0x5cf78b7ba4f75ef22bc10711cb358581fd2744e5e822757c9d80e2b4f832f263"
+      txHash: '0x5cf78b7ba4f75ef22bc10711cb358581fd2744e5e822757c9d80e2b4f832f263'
       ipfsHash: QmU7jgK7paqkFAbbfqFvBE4ceKWyZKSoAB1v1s468AGrB8
-      contractAddress: "0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89"
+      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
       commitHash: e095eec3b46b0357e74f6b50d32662b8c2956d7b
     1.3.0:
       date: 2020-06-18T18:57:30.000Z
-      txHash: "0xb277e1992898f01fa426ca647892db97c2aa0cf9e3d5aa7c195adc816090d92f"
+      txHash: '0xb277e1992898f01fa426ca647892db97c2aa0cf9e3d5aa7c195adc816090d92f'
       ipfsHash: QmSJev6vYxUWX3yYy11p5BFyQpHLQN8ZyEdRbSdxnnumPu
-      contractAddress: "0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89"
+      contractAddress: '0x07759C39BbC1F88CA6b61B5EF500472Ca606DF89'
       commitHash: 368b18bce50e238fe07a8b79f0b2c7ad8ae9bf33
 democracy-kit.aragonpm.eth:
   github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
@@ -587,6 +599,12 @@ finance.aragonpm.eth:
       ipfsHash: QmRizU7j5iB5RtGdy6q5o3TEC6BYVUcWtsfqvtQFdKizXf
       contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
       commitHash: bad33b138dbaac25b7c8846d91dc63bf00fd61bf
+    2.1.10:
+      date: 2020-06-27T08:22:03.000Z
+      txHash: '0x09bf8944aa3e27f4f4960400e3a12727372bff944b6bb0a3c12cf876234bfc96'
+      ipfsHash: QmWssF9eT1z4gDF9xZkW6BNhEs2ukGsmT6tXZkB8gKryys
+      contractAddress: '0x836835289A2E81B66AE5d95b7c8dBC0480dCf9da'
+      commitHash: 41ac7062764584dba26bb006bf723b0627da2cbe
 fundraising-multisig-template.aragonpm.eth:
   github: 'https://github.com/aragonblack/fundraising/tree/[ref]/templates/multisig'
   versions:
@@ -701,9 +719,9 @@ time-lock.aragonpm.eth:
       txHash: '0x436beb6dcc2babb2ee9c85f8e5a21404f4ca5c9c3d4f7291503b0f2e1be1875c'
     2.0.0:
       date: 2020-05-29T23:00:30.000Z
-      txHash: "0x3cf4ed4eb327d6200e10e4f22273dd29cdb0dc5eaf331825e4aaf7c281bbee54"
+      txHash: '0x3cf4ed4eb327d6200e10e4f22273dd29cdb0dc5eaf331825e4aaf7c281bbee54'
       ipfsHash: QmQ2oVrVngBxfB816D7uT6ksayPLHZLfCb2zYQp4XQ6s1t
-      contractAddress: "0x06a8cf8f54f04094a266a49f4886c578dc42b548"
+      contractAddress: '0x06a8cf8f54f04094a266a49f4886c578dc42b548'
       commitHash: f88ca7c2a5b90cea4c55d9b2e83b204cc40ca29a
 token-balance-oracle.aragonpm.eth:
   versions:
@@ -842,6 +860,12 @@ token-manager.aragonpm.eth:
       ipfsHash: QmZxx2dZb1rUUgXUEvnqQ3NmEPv264tHJA726eWBMC8p4m
       contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
       commitHash: bad33b138dbaac25b7c8846d91dc63bf00fd61bf
+    2.1.9:
+      date: 2020-06-27T08:22:03.000Z
+      txHash: '0xee4b12a881c62ae9da2892c71f4a49923c0aabfb616d09fea7fe17ca87ee68a6'
+      ipfsHash: QmVTZuEn61Txfmjyp8UgKMibGbweJG315A8HBRCzaH2qsL
+      contractAddress: '0xde3A93028F2283cc28756B3674BD657eaFB992f4'
+      commitHash: 41ac7062764584dba26bb006bf723b0627da2cbe
 token-request.aragonpm.eth:
   versions:
     1.0.0:
@@ -858,9 +882,9 @@ token-request.aragonpm.eth:
       txHash: '0xf290e3b8978e3f69734b990be4e797a8dc87612dc2cb7287a5a182a6ca22767a'
     2.0.0:
       date: 2020-05-29T22:50:30.000Z
-      txHash: "0x80b56e1b82dcded5c4642ef50acc56a6145001ed6bbab9710ea6a3741840580d"
+      txHash: '0x80b56e1b82dcded5c4642ef50acc56a6145001ed6bbab9710ea6a3741840580d'
       ipfsHash: QmUvRhHYScMT3Qydw4c9RwrP6xYJwnZYtmUjPbozssTRSa
-      contractAddress: "0x60aad13723bf122254707612455c10ae9df517b2"
+      contractAddress: '0x60aad13723bf122254707612455c10ae9df517b2'
       commitHash: a706d66a25486a79ba40bc799235faeb95a7b224
 vault.aragonpm.eth:
   github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
@@ -1036,6 +1060,12 @@ voting.aragonpm.eth:
       ipfsHash: QmWc7kufySKfmXCbuDUzs5b3e9ZVE7anKcVqqsxAPmqvPU
       contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
       commitHash: bad33b138dbaac25b7c8846d91dc63bf00fd61bf
+    2.1.9:
+      date: 2020-06-27T08:22:19.000Z
+      txHash: '0x1b33c5364ea2a51bbe2d5d4073478f4baa9216a132dd523b8bbfe34fea4633d6'
+      ipfsHash: QmZurkAwfTPGtiDCQr2mEv3fQ8171Yn4QNcA2FC7JUk22U
+      contractAddress: '0xb935C3D80229d5D92f3761b17Cd81dC2610e3a45'
+      commitHash: 41ac7062764584dba26bb006bf723b0627da2cbe
 token-wrapper.hatch.aragonpm.eth:
   versions:
     1.0.0:
