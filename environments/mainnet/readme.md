@@ -31,6 +31,43 @@
 
 -----------
 
+- Version: Aragon client 0.8.14
+- Start date: August 10 2020, 11:28pm CET
+- Finish date: August 10 2020, 11:30pm CET
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Aragon Apps
+
+Deployed: `agent`, `token-manager`, `voting`
+
+Command (`agent`, `token-manager`, `voting`):
+```
+aragon apm publish patch --environment mainnet --files app/build
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `agent.aragonpm.eth`: `5.0.5`
+- `token-manager.aragonpm.eth`: `2.1.10`
+- `voting.aragonpm.eth`: `2.1.10`
+
+### Aragon Client
+
+Command:
+```
+npm run publish:mainnet:minor
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `aragon.aragonpm.eth`: `3.4.0`
+
+-----------
+
 - Version: Voting aggregator v1.0.1
 - Start date: August 10, 10:45pm CET
 - Finish date: January 24th, 10:45pm CET
