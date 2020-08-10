@@ -31,6 +31,28 @@
 
 -----------
 
+- Version: Voting aggregator v1.0.1
+- Start date: August 10, 10:35pm CET
+- Finish date: January 24th, 10:35pm CET
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
+
+### Voting Connectors
+
+Deployed: `voting-aggregator`
+
+Command:
+```
+npm run apm:publish -- major --environment rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting-aggregator.hatch.aragonpm.eth`: `1.0.1`
+
+-----------
+
 - Version: Aragon client 0.8.13
 - Start date: July 7 2020, 11:45pm CET
 - Finish date: July 7 2020, 11:45pm CET
@@ -342,7 +364,7 @@ Final versions:
 - Version: Voting connectors
 - Start date: January 24th, 5:00pm CET
 - Finish date: January 24th, 7:00pm CET
-- Deployer: ([@sohkai](https://github.com/sohkai)) [`0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051`](https://rinkeby.etherscan.io/address/0x15bdCb6651f5a5e9Cef07b2a981dd270BA505051)
+- Deployer: Aragon One testnet cold wallet [`0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff`](https://rinkeby.etherscan.io/address/0xbA2bAdbbB8224e1966f33bf08d667Ddc09b720ff)
 
 ### Voting Connectors
 
@@ -350,7 +372,7 @@ Deployed: `token-wrapper`, `voting-aggregator`
 
 Command (`token-wrapper`, `voting-aggregator`):
 ```
-npm run apm:publish -- major --environment staging
+npm run apm:publish -- major --environment rinkeby
 ```
 
 Details of the deployment can be found in [`deploys.yml`](./deploys.yml)

@@ -1233,6 +1233,12 @@ voting-aggregator.hatch.aragonpm.eth:
       date: 2020-01-24T18:04:42.000Z
       ipfsHash: QmV81AwSDb5Q1sPgGvQH5HuW9T3RVsfFc2QmbRFZCaiQyv
       txHash: '0x0266e0edd79c534ac04c72a7227c13c993d03efb126ca172e691c8c808aeb89a'
+    1.0.1:
+      date: 2020-08-10T20:35:50.000Z
+      txHash: '0x1f70519dce8851c135be7bf219c5575ba63feccd0257414d17dd493658fee715'
+      ipfsHash: QmZQdumj8muyqvUJDqnSw8S2x24DfqCWDjYvexSqUSYn7V
+      contractAddress: '0x33A981eD0B2Af893d756035DB7768d291F07460F'
+      commitHash: 9c67dac8e69c5f45c3ce26b62326135c6d63a236
 approvals.open.aragonpm.eth:
   github: 'https://github.com/aragonone/approvals/tree/[ref]'
   versions:
