@@ -73,6 +73,12 @@ agent.aragonpm.eth:
       ipfsHash: Qmb8isxv4rp7shJVwywLortf7pT1d6LZusTNqXqZZhMhyD
       contractAddress: '0xd3bbC93Dbc98128fAC514Be911e285102B931b5e'
       commitHash: 41ac7062764584dba26bb006bf723b0627da2cbe
+    5.0.5:
+      date: 2020-08-10T21:14:05.000Z
+      txHash: '0xa5f596154722a77fd217609ef487b401b428a9f67f9d774171c34eb58365d032'
+      ipfsHash: QmPQ9bQFi7CZWff7LLBqm5sydFQ9CoXsn9ufFPQFWR1JpN
+      contractAddress: '0xd3bbC93Dbc98128fAC514Be911e285102B931b5e'
+      commitHash: 7a2ae95fbdd41f3f862684ac423aef58951aa2a6
 aragon-fundraising.aragonpm.eth:
   github: >-
     https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
@@ -356,6 +362,12 @@ aragon.aragonpm.eth:
       ipfsHash: QmcYXAHB4WQzUtjHJQXDBSE9iF6293Wap2pz2B5jFAEWQt
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: 6f770419bb5a2cb6af4b32b7f43e2e11653ece57
+    3.1.4:
+      date: 2020-08-10T21:23:05.000Z
+      txHash: '0x048a307f522143e51ee5ff1bb899e958191afe3356e55309970d2db3d3288dc6'
+      ipfsHash: QmeHZSFeXdtgtqVKzPDAFdiZFcic3Upi9RxdTLoNgrSkT1
+      contractAddress: '0x0000000000000000000000000000000000000000'
+      commitHash: bced1daed271e15337d2c62012ab546317292f65
 bancor-formula.aragonpm.eth:
   github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula'
   versions:
@@ -978,6 +990,12 @@ token-manager.aragonpm.eth:
       ipfsHash: QmSKgLLJd66PFjEBmqeRVyPLYVv1onq4wMJVkkeNT6Fd4y
       contractAddress: '0xE775468F3Ee275f740A22EB9DD7aDBa9b7933Aa0'
       commitHash: 41ac7062764584dba26bb006bf723b0627da2cbe
+    2.1.11:
+      date: 2020-08-10T21:18:05.000Z
+      txHash: '0x2ad7b2e560c9677eb2f12ec585540b805df50bc8bc1d8a58b88debfdc4e9dbfa'
+      ipfsHash: QmXCZCh1SzGLPHtJPJfQkR4u9fENhw6qGEUPR4RUTVGwxR
+      contractAddress: '0xE775468F3Ee275f740A22EB9DD7aDBa9b7933Aa0'
+      commitHash: 7a2ae95fbdd41f3f862684ac423aef58951aa2a6
 token-request.aragonpm.eth:
   versions:
     1.0.0:
@@ -1202,6 +1220,12 @@ voting.aragonpm.eth:
       ipfsHash: QmWSXgmxAjePPV6hG42cJRi4u6GrEQBsSJZxmzZ2JtrA94
       contractAddress: '0xb4fa71b3352D48AA93D34d085f87bb4aF0cE6Ab5'
       commitHash: 41ac7062764584dba26bb006bf723b0627da2cbe
+    2.1.10:
+      date: 2020-08-10T21:18:05.000Z
+      txHash: '0x022959cc49ae9b91881203579ef25d33f08d7ad3ad98c03000ccb5b2a15c5bbc'
+      ipfsHash: Qmccgx6B4GyBv1RmaY2r9Tymj32ZVerKDAw6thbT3rsK1y
+      contractAddress: '0xb4fa71b3352D48AA93D34d085f87bb4aF0cE6Ab5'
+      commitHash: 7a2ae95fbdd41f3f862684ac423aef58951aa2a6
 approvals.hatch.aragonpm.eth:
   github: 'https://github.com/aragonone/approvals/tree/[ref]'
   versions:
