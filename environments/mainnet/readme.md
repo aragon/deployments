@@ -31,6 +31,28 @@
 
 -----------
 
+- Version: Voting aggregator v1.0.1
+- Start date: August 10, 10:45pm CET
+- Finish date: January 24th, 10:45pm CET
+- Deployer: Aragon One cold wallet [`0xE04cAbcB24e11620Dd62bB99c396E76cEB578914`](https://etherscan.io/address/0xE04cAbcB24e11620Dd62bB99c396E76cEB578914)
+
+### Voting Connectors
+
+Deployed: `voting-aggregator`
+
+Command:
+```
+npm run apm:publish -- major --environment rinkeby
+```
+
+Details of the deployment can be found in [`deploys.yml`](./deploys.yml)
+
+Final versions:
+
+- `voting-aggregator.hatch.aragonpm.eth`: `1.0.1`
+
+-----------
+
 - Version: Aragon client 0.8.13
 - Start date: July 7 2020, 11:50pm CET
 - Finish date: July 7 2020, 11:50pm CET
