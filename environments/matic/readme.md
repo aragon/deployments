@@ -5,6 +5,7 @@
 
 ## Artifacts
 
+```
 Deploying ENSFactory...
 =========
 # ENSFactory:
@@ -178,3 +179,5 @@ main     |   Initial version:   1.0.0
 main     |   Manager address:   0xa974A0436b5D2842f47312832618900b1B633617
 main     |   Contract address:  0x5d2d6A91c8b5fB62f2A6725eb791f412A5d39C4d
 main     |   ContentURI:        QmejJacnCM1q3H6aAjBxk7GnWWGpq8wopPvNhdibZxBcEj
+
+```
