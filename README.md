@@ -8,10 +8,10 @@
 
 | Environment | Network | Info | URL |
 |-------------------|------------------|---------------------------------------------|-------------------------------------|
-| Mainnet | Mainnet | [Mainnet](./environments/mainnet) | https://client.aragon.org |
-| Rinkeby (testnet) | Rinkeby | [Rinkeby (testnet)](./environments/rinkeby) | https://client.aragon.org |
+| Ethereum Mainnet | Mainnet | [Mainnet](./environments/mainnet) | https://client.aragon.org |
+| Ethereum Testnet | Rinkeby | [Rinkeby (testnet)](./environments/rinkeby) | https://client.aragon.org |
 | Polygon Mainnet | Matic | [Polygon mainnet](./environments/matic) | https://client.aragon.org |
-| Polygon Testnet | Mumbai | [Polygon testnet](./environments/matic) | https://client.aragon.org |
+| Polygon Testnet | Mumbai | [Polygon testnet](./environments/mumbai) | https://client.aragon.org |
 
 ## Scripts
 
