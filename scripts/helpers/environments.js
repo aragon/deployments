@@ -25,10 +25,10 @@ module.exports = {
   },
   'mumbai': {
     ens: '0x431f0eed904590b176f9ff8c36a1c4ff0ee9b982',
-    node: 'https://polygon-mumbai.g.alchemy.com/v2/z3go4SKtSuiegUwtfkfd5tBCLDTcwYP_',
+    node: 'https://matic-testnet-archive-rpc.bwarelabs.com',
   },
   'matic': {
     ens: '0x3c70a0190d09f34519e6e218364451add21b7d4b',
-    node: 'https://polygon-mainnet.g.alchemy.com/v2/VUyk2zak-hvcH902FZoSrxBHB7CEN52w',
+    node: 'https://dry-old-leaf.matic.quiknode.pro',
   }
 }
