@@ -23,4 +23,12 @@ module.exports = {
     ens: '0x6afe2cacee211ea9179992f89dc61ff25c61e923',
     node: 'https://ropsten.eth.aragon.network',
   },
+  'mumbai': {
+    ens: '0x431f0eed904590b176f9ff8c36a1c4ff0ee9b982',
+    node: 'https://polygon-mumbai.g.alchemy.com/v2/z3go4SKtSuiegUwtfkfd5tBCLDTcwYP_',
+  },
+  'matic': {
+    ens: '0x3c70a0190d09f34519e6e218364451add21b7d4b',
+    node: 'https://polygon-mainnet.g.alchemy.com/v2/VUyk2zak-hvcH902FZoSrxBHB7CEN52w',
+  }
 }
