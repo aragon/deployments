@@ -6,11 +6,12 @@
 
 ## Environments
 
-| Environment | Ethereum Network | Info | URL |
+| Environment | Network | Info | URL |
 |-------------------|------------------|---------------------------------------------|-------------------------------------|
-| Mainnet | Mainnet | [Mainnet](./environments/mainnet) | https://mainnet.aragon.org |
-| Rinkeby (testnet) | Rinkeby | [Rinkeby (testnet)](./environments/rinkeby) | https://rinkeby.aragon.org |
-| Staging (testnet) | Rinkeby | [Staging (rinkeby)](./environments/staging) | https://aragon.staging.aragonpm.com |
+| Ethereum Mainnet | Mainnet | [Mainnet](./environments/mainnet) | https://client.aragon.org |
+| Ethereum Testnet | Rinkeby | [Rinkeby (testnet)](./environments/rinkeby) | https://client.aragon.org |
+| Polygon Mainnet | Matic | [Polygon mainnet](./environments/matic) | https://client.aragon.org |
+| Polygon Testnet | Mumbai | [Polygon testnet](./environments/mumbai) | https://client.aragon.org |
 
 ## Scripts
 
