@@ -5,6 +5,7 @@
 
 ## Artifacts
 
+```
 Deploying ENSFactory...
 =========
 # ENSFactory:
@@ -140,3 +141,5 @@ Transaction hash: 0xbf3c9132714779711ac5529f56f1024c26bf89468413992a8c6596a336b4
 Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
 Compiled at: 2021-08-31T15:22:18.521Z
 =========
+
+```
