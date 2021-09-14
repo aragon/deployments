@@ -143,11 +143,11 @@ Compiled at: 2021-08-31T15:22:18.521Z
 =========
 
 # Finance
-new version 5.0.0 (major)
+version 5.1.0
 Contract address:  0x3eF55E2B7D8978239d57af35b576ec61E88Df75B
-ContentURI:        QmQGwjqpaawytognM1AQo8jRDezHfs9tpeoPjDREPdEwUZ
+ContentURI:        QmXWStuu7ZV6SXjkbWCr9CGKQQCyPQwELbueKdivgSPPVj
 github commit hash: 83f34f86e0e9913079098d4885ba36d2365f9ef6
 Tx hash:
-0xfce1a4d647532139bda6bce8a3246dbf1fedfac5ee292d5fa785a35056af8b0c
+0x03bd5618d76fdc2286236c861434196b27221fbee29d08fe4c9208d26d2b7802
 
 ```
