@@ -107,12 +107,12 @@ Compiled at: 2021-08-19T11:15:01.530Z
 
 Deployed MiniMeTokenFactory: 0xf9986e96366b2023a354372f8c50bc440393132e
 
-
+=========
 # CompanyTemplate:
-Address: 0x282d6bf70d08bc02781631678111e772994a3d79
-Transaction hash: 0x8a8c57ef3e46e08fbc6b36c0d690f863904dddc6ec0df5f7e7e86f4eae503193
+Address: 0xbc0bacc84f956cd66399eec8d974737fbb03755d
+Transaction hash: 0x5a10f02c6ac1b4d982ba08cebc7291778d2a01a13e1c8b309abea3651fb597ba
 Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
-Compiled at: 2021-08-19T16:26:59.766Z
+Compiled at: 2021-09-09T19:40:03.527Z
 =========
 
 # MembershipTemplate:
@@ -141,5 +141,13 @@ Transaction hash: 0xbf3c9132714779711ac5529f56f1024c26bf89468413992a8c6596a336b4
 Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
 Compiled at: 2021-08-31T15:22:18.521Z
 =========
+
+# Finance
+new version 5.0.0 (major)
+Contract address:  0x3eF55E2B7D8978239d57af35b576ec61E88Df75B
+ContentURI:        QmQGwjqpaawytognM1AQo8jRDezHfs9tpeoPjDREPdEwUZ
+github commit hash: 83f34f86e0e9913079098d4885ba36d2365f9ef6
+Tx hash:
+0xfce1a4d647532139bda6bce8a3246dbf1fedfac5ee292d5fa785a35056af8b0c
 
 ```
