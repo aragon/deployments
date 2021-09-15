@@ -136,18 +136,54 @@ Compiled at: 2021-08-26T18:27:45.563Z
 
 
 # DandelionOrg:
-Address: 0x76cc9e387e12bc19fcd2f8426c5f1853997bdcd9
-Transaction hash: 0xbf3c9132714779711ac5529f56f1024c26bf89468413992a8c6596a336b44c93
+Address: 0x917d4b39d2c0bc03dc74a864260525ec661b8230
+Transaction hash: 0xe7db419b009cdc7fd1442c4945a42f2c7e4e08538e471c3fa536eca1ceb0e60c
 Compiler: solc@0.4.24+commit.e67f0147.Emscripten.clang (Optimizer: 10000 runs)
-Compiled at: 2021-08-31T15:22:18.521Z
+Compiled at: 2021-09-15T22:31:04.618Z
+version 3.0.0
+ContentURI: Qmcnq4crh9zcyer6szBTRnC6xh4C46XE1pSeai5FcSKMtM
+Tx hash:  0x02f6204bf83c4e584182e6fad9c959adc3caec8af9e1aa6d783f57936367d94c
+git commit: d23d907726d36a7b2ccc4552bff073f7125fd103 
 =========
 
-# Finance
-version 5.1.0
+# Finance App
+Version 5.1.0
 Contract address:  0x3eF55E2B7D8978239d57af35b576ec61E88Df75B
 ContentURI:        QmXWStuu7ZV6SXjkbWCr9CGKQQCyPQwELbueKdivgSPPVj
 github commit hash: 83f34f86e0e9913079098d4885ba36d2365f9ef6
 Tx hash:
 0x03bd5618d76fdc2286236c861434196b27221fbee29d08fe4c9208d26d2b7802
+
+# Redemptions App
+Version           1.0.0
+Contract address: 0xB1fb45660B2b09Ba805EFf71c77C75085d00aE8f
+ContentURI:       QmWCjncpqozdWqXzkGnzKXA2EsA1b7UFaf4A9JuZYENkLk
+Tx hash:  0x5f1fd2cd54b2d211d0c7c93d46f9d73b0e9d6b01a1c12ac8a200a732f9a061f0
+
+# Token Request App
+Version:   1.0.0
+Contract address: 0x65E13842Cb60b695fBc79C8b1BAc81c22C5370E4
+ContentURI:        QmSWGLT1g8BEGMpWiSMKBcCgUDFLpzk1zvFD1czh1ruKgL
+Tx hash: 0x0f12ba989a958297ba9929415933d9dfd26c22465b995792b480c44db647d9ff
+git commit: 4dfbcef57ad15e7c23a49a0e785799f4542f0472
+
+# Time Lock App
+App name:          time-lock.aragonpm.eth
+Initial version:   1.0.0
+Manager address:   0x94C34FB5025e054B24398220CBDaBE901bd8eE5e
+Contract address:  0x2116a2878fde28Fa6a279Bbc43E31343E3F674A8
+ContentURI:        QmSbUyQthh2aFWWdM8wxUYwBvJHoBq9soJhHzw4cxRE5vF
+Tx hash:  0x1595f61ffd47ed23cbfc00addab2f9fbd697d3069dd5f2dcb60d367690331978
+git commit: 33f8acf270802ff24695c141bccb51b8b470c566
+
+# Dandelion Voting App
+App name:          dandelion-voting.aragonpm.eth
+Initial version:   1.0.0
+Manager address:   0x94C34FB5025e054B24398220CBDaBE901bd8eE5e
+Contract address:  0xDA5a8489088B329FB387dB3821f1B2A3b9224A6d
+ContentURI:        QmWTBrKacHhCSFC4zb8uEPTxi1P19EZCfmE8BXoKPoKPxn
+Tx hash:  0x034207a5d710d072cbbb4ab73ad24094e5741661415dd4ba4b1e589deee4c83c
+git commit: 6760f49cf8b8e24d6bb22f682d50ace5bd1fdf24
+
 
 ```
