@@ -185,5 +185,12 @@ ContentURI:        QmWTBrKacHhCSFC4zb8uEPTxi1P19EZCfmE8BXoKPoKPxn
 Tx hash:  0x034207a5d710d072cbbb4ab73ad24094e5741661415dd4ba4b1e589deee4c83c
 git commit: 6760f49cf8b8e24d6bb22f682d50ace5bd1fdf24
 
+# token-balance-oracle.aragonpm.eth app
+Initial version:   1.0.0
+Manager address:   0x94C34FB5025e054B24398220CBDaBE901bd8eE5e
+Contract address:  0xdB8dd366e38962C3BFAb21523a5C0B7Cc3599C0F
+ContentURI:        Qmbf4awpWpX7iPdkHNZvpWcxnQcj8UpXeU5LyybEFtahUS
+Tx hash:  0x2d35c39d3fc6c9e7d45face991abd697869b6eb083d9877dc99bf5f5a7b6a850
+git commit:  74337498b57d0639cddc862cb52303586859c426
 
 ```
