@@ -154,6 +154,13 @@ github commit hash: 83f34f86e0e9913079098d4885ba36d2365f9ef6
 Tx hash:
 0x03bd5618d76fdc2286236c861434196b27221fbee29d08fe4c9208d26d2b7802
 
+# Agent App
+Version 1.2.3
+Contract address:  0xdE7BF8b3d32ef18819E09dDC35D6E9221E2f9781
+ContentURI:        QmapzF6vExNFEpciie2JuVYHQEfP63sckiBQJ3cDaxBMJG
+Tx hash:  0x7e329712c8c31d06b42b3066304cd6845eb1d75e7b83c68945ab9481f4d49bf5
+github commit:  c2811e0e76d0be4315e6b21420d86ef4f9371082
+
 # Redemptions App
 Version           1.0.0
 Contract address: 0xB1fb45660B2b09Ba805EFf71c77C75085d00aE8f
