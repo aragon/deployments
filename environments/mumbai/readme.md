@@ -162,10 +162,11 @@ Tx hash:  0x7e329712c8c31d06b42b3066304cd6845eb1d75e7b83c68945ab9481f4d49bf5
 github commit:  c2811e0e76d0be4315e6b21420d86ef4f9371082
 
 # Redemptions App
-Version           1.0.1
+Version           1.0.3
 Contract address:  0xB1fb45660B2b09Ba805EFf71c77C75085d00aE8f
-ContentURI:        QmUBey5EbsBsxDa9qtWfMaaMHrcFyvn3YEiHZLZx8j7zLW
-Tx hash:  0x5c22f8772cb90ed7b3b252aa9ee6a7383b431b2af000055d1926ab6da99469ac
+ContentURI:        QmXCVstq2heL9zN6LoUSsFBUBSWUUXt4X7zuKR1YkwHa7w
+Tx hash:  0xf04fd8f57aec29523228ed6e9e5f5e3cffef5ce1102efd02363bc5cf800eb243
+github commit: 2be8c12d4e07a7e33e2b336f01bc27b376368722 
 
 # Token Request App
 Version:   1.0.0
