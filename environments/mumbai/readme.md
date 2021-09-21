@@ -169,11 +169,11 @@ Tx hash:  0xf04fd8f57aec29523228ed6e9e5f5e3cffef5ce1102efd02363bc5cf800eb243
 github commit: 2be8c12d4e07a7e33e2b336f01bc27b376368722 
 
 # Token Request App
-Version:   1.0.0
-Contract address: 0x65E13842Cb60b695fBc79C8b1BAc81c22C5370E4
-ContentURI:        QmSWGLT1g8BEGMpWiSMKBcCgUDFLpzk1zvFD1czh1ruKgL
-Tx hash: 0x0f12ba989a958297ba9929415933d9dfd26c22465b995792b480c44db647d9ff
-git commit: 4dfbcef57ad15e7c23a49a0e785799f4542f0472
+Version: 1.0.1
+Contract address:  0x65E13842Cb60b695fBc79C8b1BAc81c22C5370E4
+ContentURI:        QmR7Kqaa2b855Saahctf7HipXanrQByFbWqE3rafQeHSSr
+Tx hash:  0x73ae023e173dc7eaf0fafa21c228a66ab16972f5a9dbcba9b20eb9d3882aaa00
+git commit: 1ca31d7a10b51f601aeaff8eab0254062b660786
 
 # Time Lock App
 App name:          time-lock.aragonpm.eth
@@ -186,12 +186,12 @@ git commit: 33f8acf270802ff24695c141bccb51b8b470c566
 
 # Dandelion Voting App
 App name:          dandelion-voting.aragonpm.eth
-Initial version:   1.0.0
+Version: 1.0.1
 Manager address:   0x94C34FB5025e054B24398220CBDaBE901bd8eE5e
 Contract address:  0xDA5a8489088B329FB387dB3821f1B2A3b9224A6d
-ContentURI:        QmWTBrKacHhCSFC4zb8uEPTxi1P19EZCfmE8BXoKPoKPxn
-Tx hash:  0x034207a5d710d072cbbb4ab73ad24094e5741661415dd4ba4b1e589deee4c83c
-git commit: 6760f49cf8b8e24d6bb22f682d50ace5bd1fdf24
+ContentURI:        Qmemp94zTZQFc3KMJj2G4WneaGBDTySyniCctzhKH7wVt1
+Tx hash:  0x4ffbc12b8f71dcf71191b033b804502b8628cede366d39d407397e733f15872c
+git commit: 189c907c898893a0f44950cb56780468520f6443
 
 # token-balance-oracle.aragonpm.eth app
 Initial version:   1.0.0
