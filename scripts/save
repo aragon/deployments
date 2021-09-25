@@ -2,37 +2,73 @@
 
 const fs = require('fs')
 const path = require('path')
-const Web3 = require('web3')
-const APM = require('@aragon/apm')
+const ethers = require('ethers')
 const execa = require('execa')
 const yaml = require('js-yaml')
 const { promisify } = require('util')
 const mkdirp = promisify(require('mkdirp'))
 const dotprop = require('dot-prop')
+const { create: IpfsCreate } = require('ipfs-http-client')
 
+const ipfsApiUrl = process.env.IPFS_URL || 'https://ipfs.infura.io:5001'
 const defaultAPM = require('./helpers/default-apm')
 const ENVIRONMENTS = require('./helpers/environments')
 
-const NEW_VERSION_LOG_ABI = [{ type: 'uint256', name: 'versionId' }, { type: 'uint16[3]', name: 'semanticVersion'}]
+const NEW_VERSION_ABI = ["event NewVersion(uint256 versionId, uint16[3] semanticVersion)"]
+const REPO_ABI = [`function getBySemanticVersion(uint16[3] _semanticVersion) public
+  view returns (uint16[3] version, address contractAddress, bytes contentURI)`]
 
 const ENVIRONMENTS_PATH = path.resolve(__dirname, '../environments')
 
 const getArchiveSavePath = (env, repo, version) =>
-  path.join(ENVIRONMENTS_PATH, env, repo, `${repo}@${version}`)
-
-const ipfsGetCommand = (hash, output) =>
-  `get -a -C -o ${output} ${hash}`
+  path.join(ENVIRONMENTS_PATH, env, repo, `${repo}@${version}.tar.gz`)
 
 const getAndSaveIPFSFile = async (hash, output) => {
-  const { stdout } = await execa('ipfs', ipfsGetCommand(hash, output).split(' '))
+  const ipfs = IpfsCreate({ url: ipfsApiUrl })
+  const writer = fs.createWriteStream(output)
+  const options = { archive: true, compress: true }
+  let error = null
+  const callback = (err) => { error = err }
 
-  console.log(stdout)
+  for await (const buf of ipfs.get(hash, options))
+  {
+    const needDrain = !writer.write(buf, callback)
+    if (error) break
+
+    if (needDrain) {
+      await new Promise((resolve) => {
+        // wait for writer to drain before reading next chunk from ipfs
+        writer.once('drain', () => {
+          resolve()
+        })
+      })
+    }
+  }
+  writer.end()
+
+  if (error) {
+     throw error
+  }
 }
 
-const getPublishedVersion = async (web3, apm, txHash, repoName) => {
-  const receipt = await web3.eth.getTransactionReceipt(txHash)
+const getVersion = async (provider, repoName, version) => {
+  const address = await provider.resolveName(repoName)
+  const contract = new ethers.Contract(address, REPO_ABI, provider)
+  return contract.getBySemanticVersion(version)
+}
 
-  const repoAddress = await apm.ensResolve(repoName)
+const getProvider = async (node, ens) => {
+  const tempProvider = new ethers.providers.JsonRpcProvider(node)
+  const network = await tempProvider.getNetwork()
+  network.ensAddress = ens
+
+  return new ethers.providers.JsonRpcProvider(node, network)
+}
+
+const getPublishedVersion = async (provider, txHash, repoName) => {
+  const receipt = await provider.getTransactionReceipt(txHash)
+
+  const repoAddress = await provider.resolveName(repoName)
 
   // Only supports one log per transaction
   const log = receipt.logs.find(
@@ -43,13 +79,31 @@ const getPublishedVersion = async (web3, apm, txHash, repoName) => {
     throw new Error(`Couldn't find a publish log for ${repoName} in transaction ${txHash}`)
   }
 
-  const { semanticVersion } = web3.eth.abi.decodeLog(NEW_VERSION_LOG_ABI, log.data, log.topics)
+  try {
+    const iface = new ethers.utils.Interface(NEW_VERSION_ABI)
+    const parsed = iface.parseLog(log)
+    const { semanticVersion } = parsed.args
+    const { version, contractAddress, contentURI } = await getVersion(provider, repoName, semanticVersion)
 
-  return apm.getVersion(repoName, semanticVersion, 30000)
+    const parsedContent = ethers.utils.toUtf8String(contentURI)
+    const contentLocator = parsedContent.split(':')
+
+    return {
+      version: version.join('.'),
+      contractAddress,
+      content: {
+        provider: contentLocator[0],
+        location: contentLocator[1]
+      }
+    }
+  } catch (err) {
+    console.log('Unable to parse new version event log:', err.message)
+    throw err
+  }
 }
 
-const getTransactionTimestamp = async (web3, txHash) => {
-  const transaction = await web3.eth.getTransaction(txHash)
+const getTransactionTimestamp = async (provider, txHash) => {
+  const transaction = await provider.getTransaction(txHash)
 
   if (!transaction) {
     throw new Error(`Couldn't find transaction ${txHash} in connected node`)
@@ -61,7 +115,7 @@ const getTransactionTimestamp = async (web3, txHash) => {
     throw new Error(`Transaction ${txHash} hasn't been included in a block yet`)
   }
 
-  const { timestamp } = await web3.eth.getBlock(blockNumber)
+  const { timestamp } = await provider.getBlock(blockNumber)
 
   return timestamp
 }
@@ -97,14 +151,13 @@ const run = async (environmentName, repoName, txHash, commitHash) => {
 
   const { node, ens } = ENVIRONMENTS[environmentName]
 
-  const web3 = new Web3(node)
-  const apm = APM(web3, { ensRegistryAddress: ens })
+  const provider = await getProvider(node, ens)
 
   console.log(`Fetching info for '${repoName}' on ${environmentName}...`)
-  const timestamp = await getTransactionTimestamp(web3, txHash)
+  const timestamp = await getTransactionTimestamp(provider, txHash)
   const date = new Date(timestamp * 1000)
 
-  const { version, content, contractAddress } = await getPublishedVersion(web3, apm, txHash, repoName)
+  const { version, content, contractAddress } = await getPublishedVersion(provider, txHash, repoName)
   console.log(`Creating deployment record for ${repoName}@${version} on ${environmentName}`)
 
   if (content.provider !== 'ipfs') {
@@ -142,4 +195,4 @@ const argv = require('yargs')
   .demandCommand(3, "You must provide the commit hash of the repo")
   .argv
 
-run(argv.environment, ...argv._)
+run(argv.environment, ...argv._).catch(console.error)
