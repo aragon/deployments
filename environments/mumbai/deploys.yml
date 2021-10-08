@@ -1,0 +1,24 @@
+projects.aragonpm.eth:
+  versions:
+    0.0.1:
+      date: 2021-10-07T18:24:13.000Z
+      txHash: '0x2c141d0e2a57973c4ef98cc12f13d758905648071dbb1e29dbf8366c1bf24c2c'
+      ipfsHash: QmSCjhEuqomxnwsRdR3GdouuH3xBNihYekJ4mH8f5TWAbx
+      contractAddress: '0x1e2d8C82025b4a5b511c1e1EE5A504C5237e0CCF'
+      commitHash: a47d2aa4afc8a2a9e2c9cccff591fed865b8603b
+rewards.aragonpm.eth:
+  versions:
+    0.0.1:
+      date: 2021-10-07T18:28:51.000Z
+      txHash: '0xf269906c81f7c33b2e1a7db4063fff6910ba9f93472b2559fe7e35582d640210'
+      ipfsHash: QmTso9imMnjDVf3FSWVQSTjFn2eYu4QmZvMtw5AW2gHt2Q
+      contractAddress: '0x289Ceb07B8Aa0ABCc2634D1CC4b0866Cc5616f90'
+      commitHash: a47d2aa4afc8a2a9e2c9cccff591fed865b8603b
+open-enterprise-template.aragonpm.eth:
+  versions:
+    0.0.1:
+      date: 2021-10-08T02:20:19.000Z
+      txHash: '0x29e5c12268484134cc16073ad9afc38147b18ad6d9d43da37be23c8f31098738'
+      ipfsHash: QmaxwFQV3Vx2WkWJb2sPcSTAz92BEPs1SQp9zSmEiC4PAx
+      contractAddress: '0xAACC65BE40c78C3E9b9ABf4C92BE14BA05672B2E'
+      commitHash: b9320b9cf17f2935e60021f18f0ebafd66553704
