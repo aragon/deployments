@@ -107,6 +107,9 @@ Compiled at: 2021-08-19T11:15:01.530Z
 
 Deployed MiniMeTokenFactory: 0xf9986e96366b2023a354372f8c50bc440393132e
 
+Deployed StandardBounties: 0x31D9ad20a078499272987cc87f8e50B7E1dcDCcE
+Deployed BountiesMetaTxRelayer: 0xb29bdaC668d49A15D5DBF685EA80ded8267BAbdf
+
 =========
 # CompanyTemplate:
 Address: 0xbc0bacc84f956cd66399eec8d974737fbb03755d
