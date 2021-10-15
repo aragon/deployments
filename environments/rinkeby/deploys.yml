@@ -1,5 +1,5 @@
 agent.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/agent'
+  github: https://github.com/aragon/aragon-apps/tree/[ref]/apps/agent
   versions:
     1.0.0:
       commitHash: a2a7ac5ceef534f33547bf7fd5645a026ac84382
@@ -86,8 +86,7 @@ agent.aragonpm.eth:
       contractAddress: '0xe10c2dE02F1c64485B680FC561E8E9c680691FAA'
       commitHash: c27dc2a9c34fbe87959bd2657d8bbf666ae3d369
 aragon-fundraising.aragonpm.eth:
-  github: >-
-    https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
+  github: https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
   versions:
     1.0.0:
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
@@ -120,7 +119,7 @@ aragon-fundraising.aragonpm.eth:
       ipfsHash: QmZQyPJw2q1aQvig97Wpm4VzdvF9JYtHMiNeBjQmtMu5Hv
       txHash: '0x512b4abbce58061c38f3c9145a62409317ef8fa7460cb8c76a703029d37e1d04'
 aragon.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon/tree/[ref]'
+  github: https://github.com/aragon/aragon/tree/[ref]
   versions:
     1.0.0:
       commitHash: 1207e2f69975ae83b03c586fc96e792dc2121da5
@@ -375,7 +374,7 @@ aragon.aragonpm.eth:
       contractAddress: '0x0000000000000000000000000000000000000000'
       commitHash: bced1daed271e15337d2c62012ab546317292f65
 bancor-formula.aragonpm.eth:
-  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula'
+  github: https://github.com/aragonblack/fundraising/tree/[ref]/apps/bancor-formula
   versions:
     1.0.0:
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
@@ -384,7 +383,7 @@ bancor-formula.aragonpm.eth:
       ipfsHash: QmP5UWBpHBNzyh3rmHfnhWrXiMZ8DfCA4c9ZYfX1sfNCXA
       txHash: '0xf3793124409e06b85d6907ea6464e8da8e5d0232336bd3acd6c57aa3906de5d6'
 bare-kit.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/bare'
+  github: https://github.com/aragon/dao-kits/tree/[ref]/kits/bare
   versions:
     1.0.0:
       commitHash: 09943aca3b58c941f7e03e35d9dd8e96e194a481
@@ -393,7 +392,7 @@ bare-kit.aragonpm.eth:
       ipfsHash: QmYryvAPsAW5JWYM6KYzD4PwtcrfC7nS6jiCb4io95vo5n
       txHash: '0xf8ff77679453b5f4ed344d66ed157fda2b666b6e8ed8a9145cdf6f003c7d0c13'
 bare-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/bare'
+  github: https://github.com/aragon/dao-templates/tree/[ref]/templates/bare
   versions:
     1.0.0:
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
@@ -402,8 +401,7 @@ bare-template.aragonpm.eth:
       ipfsHash: Qmf7X8HZG7WVR96tqkAMaFEBs3okd9TAv23QKnKPM6nHsc
       txHash: '0x01f096e6fc19a9721088663cd8df3b8e068272d99492f0e1939ca7a0c330288d'
 batched-bancor-market-maker.aragonpm.eth:
-  github: >-
-    https://github.com/aragonblack/fundraising/tree/[ref]/apps/batched-bancor-market-maker
+  github: https://github.com/aragonblack/fundraising/tree/[ref]/apps/batched-bancor-market-maker
   versions:
     1.0.0:
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
@@ -418,7 +416,7 @@ batched-bancor-market-maker.aragonpm.eth:
       ipfsHash: QmZyKEdcqnMgbTTqUv7dZJxqDe3PXq95vn1Mnu9W6J8Eor
       txHash: '0x4810439307123a8874e8c8a85d32c5ca3905cc70cc4079d19d6dd00700bd42b3'
 company-board-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/company-board'
+  github: https://github.com/aragon/dao-templates/tree/[ref]/templates/company-board
   versions:
     1.0.0:
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
@@ -427,7 +425,7 @@ company-board-template.aragonpm.eth:
       ipfsHash: QmTiSuhApKeYUZ4M4uazirqXmC6qrduqpKa3x3ThLyvqAU
       txHash: '0x7e756b52842ddd793d53d29d9f070007b3edf249df29af5cf610ab5eec9841fe'
 company-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/company'
+  github: https://github.com/aragon/dao-templates/tree/[ref]/templates/company
   versions:
     1.0.0:
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
@@ -502,7 +500,7 @@ delay.aragonpm.eth:
       contractAddress: '0x214044cc3fa7a3ECEF0bC9052Fe9B296585E3275'
       commitHash: 368b18bce50e238fe07a8b79f0b2c7ad8ae9bf33
 democracy-kit.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy'
+  github: https://github.com/aragon/dao-kits/tree/[ref]/kits/democracy
   versions:
     1.0.0:
       commitHash: 36c1db1e63b3c1c8aa3a2790a0b876559d8605de
@@ -517,7 +515,7 @@ democracy-kit.aragonpm.eth:
       ipfsHash: Qma2UGemakoLbBvcMErDYrpeEjmcMYypZHQ4AZh7fpHhhu
       txHash: '0x77bb1f9f1038e135b01a700dce40d0bd74c7ee8455c21d5583357999c794c337'
 finance.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance'
+  github: https://github.com/aragon/aragon-apps/tree/[ref]/apps/finance
   versions:
     1.0.0:
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
@@ -688,7 +686,7 @@ finance.aragonpm.eth:
       contractAddress: '0xf785c859667Ae6A8e9278aae4346fEF3c9990a44'
       commitHash: c27dc2a9c34fbe87959bd2657d8bbf666ae3d369
 fundraising-multisig-template.aragonpm.eth:
-  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/templates/multisig'
+  github: https://github.com/aragonblack/fundraising/tree/[ref]/templates/multisig
   versions:
     1.0.0:
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
@@ -703,7 +701,7 @@ fundraising-multisig-template.aragonpm.eth:
       ipfsHash: QmTSfo2o5CwSuvh9xGH26Gw6S24NT43wfx7Y3Gv1qiXDvN
       txHash: '0x9776b24e23b8df4fb4f845057ebe4022d965bf224cdf811040857c4175ef8a72'
 membership-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/membership'
+  github: https://github.com/aragon/dao-templates/tree/[ref]/templates/membership
   versions:
     1.0.0:
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
@@ -712,7 +710,7 @@ membership-template.aragonpm.eth:
       ipfsHash: QmVc6bmT1XZmJPRZbEJEofw9HCfHRzr7GaE96Fuzpn9jgK
       txHash: '0xde877e78f3365473dc04fbed83ceb5c7f578ce36ae6c208021915b88e65ffc2c'
 multisig-kit.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-kits/tree/[ref]/kits/multisig'
+  github: https://github.com/aragon/dao-kits/tree/[ref]/kits/multisig
   versions:
     1.0.0:
       commitHash: 36c1db1e63b3c1c8aa3a2790a0b876559d8605de
@@ -727,7 +725,7 @@ multisig-kit.aragonpm.eth:
       ipfsHash: Qmb2X1uZMKtgAqPXeuQMmUUA9thPRB5yhTcb1RuZWXp4c8
       txHash: '0x75312d6f0bb8732357c750621f79f35ec41cb066c70336c0c33bd0b3b3be8cc2'
 ppf-factory.aragonpm.eth:
-  github: 'https://github.com/aragon/ppf/tree/[ref]/packages/ppf-contracts'
+  github: https://github.com/aragon/ppf/tree/[ref]/packages/ppf-contracts
   versions:
     1.0.0:
       commitHash: 68ab78db525bee218fd62e155cd76c68136abe3f
@@ -736,7 +734,7 @@ ppf-factory.aragonpm.eth:
       ipfsHash: QmW5kwtSC8sN3Yr3pRbJGfZC671hKhicSZ4p4eEyqbHdyZ
       txHash: '0xb2a2c9da0b555d5eeca0da4d9ee95046bd5994d16258f8976aa0037710ee310d'
 presale.aragonpm.eth:
-  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/presale'
+  github: https://github.com/aragonblack/fundraising/tree/[ref]/apps/presale
   versions:
     1.0.0:
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
@@ -771,7 +769,7 @@ redemptions.aragonpm.eth:
       ipfsHash: QmQFQVjy6V4aMz1dYqvPXEMUS2VEVN2EcdpGQorQu3g2oZ
       txHash: '0xe34d69ee2555abb91b1611dcb97afd3cdd79835d3e7a930dbf1c5d55739464f3'
 reputation-template.aragonpm.eth:
-  github: 'https://github.com/aragon/dao-templates/tree/[ref]/templates/reputation'
+  github: https://github.com/aragon/dao-templates/tree/[ref]/templates/reputation
   versions:
     1.0.0:
       commitHash: 72d9d0ccfd2c0a88eb2c4c664150471887d07b37
@@ -780,7 +778,7 @@ reputation-template.aragonpm.eth:
       ipfsHash: QmPL4vSG1B1ySemK3QNrW9rDSq1bGyGRwqq1nhMCYrT4Kr
       txHash: '0x3fba71b57cb68cdb69f17f8ba1658f6f5ab5a1e1de9dc5873e00c34f298fe8ef'
 survey.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey'
+  github: https://github.com/aragon/aragon-apps/tree/[ref]/apps/survey
   versions:
     1.0.0:
       commitHash: 25d458508d80c633c7c44e54e85dd5b8b4ab5f66
@@ -795,7 +793,7 @@ survey.aragonpm.eth:
       ipfsHash: QmRoZxaEjSVCc8rVy7ipPVuLLbfaoGnhgu8f9DYDT7e6RY
       txHash: '0xcf15570ffab69139d34b40f88599cbf9de45b89ead02eb64d9f1114ad256abe2'
 tap.aragonpm.eth:
-  github: 'https://github.com/aragonblack/fundraising/tree/[ref]/apps/tap'
+  github: https://github.com/aragonblack/fundraising/tree/[ref]/apps/tap
   versions:
     1.0.0:
       commitHash: 491a4357c51959bc1cc341a612be4fcbcbbe682d
@@ -844,7 +842,7 @@ token-balance-oracle.aragonpm.eth:
       ipfsHash: QmP89dpyLXbySNttB7uedYFy1kgdLMocYhNzmfXYyRri6A
       txHash: '0x85cee49c892f7d6439dba047ef1f2be98d0d9c4fab0668af179d2cd9bda45aee'
 token-manager.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager'
+  github: https://github.com/aragon/aragon-apps/tree/[ref]/apps/token-manager
   versions:
     1.0.0:
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
@@ -1041,7 +1039,7 @@ token-request.aragonpm.eth:
       contractAddress: '0x9bb880490625E1a0222d47f6b6409110E634691b'
       commitHash: a706d66a25486a79ba40bc799235faeb95a7b224
 vault.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault'
+  github: https://github.com/aragon/aragon-apps/tree/[ref]/apps/vault
   versions:
     1.0.0:
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
@@ -1080,7 +1078,7 @@ vault.aragonpm.eth:
       ipfsHash: QmYZpZ7tNzHmcqZbALcMxp53Tzub3P7NNgitoMa92D6gbD
       txHash: '0x9e1cf2e80804c9d5cb100074297336f2a545003c10629d858f14e2f72aafb406'
 voting.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/voting'
+  github: https://github.com/aragon/aragon-apps/tree/[ref]/apps/voting
   versions:
     1.0.0:
       commitHash: 96855bfe96a3539e919d7469f6d60b8271ddba75
@@ -1250,8 +1248,14 @@ voting.aragonpm.eth:
       ipfsHash: QmQENeebGJYfuT9ufCfWsRKbTQocD2SesLmobQpWfBuzp8
       contractAddress: '0x47bcF45e545AcC80fF06f05291f995D4C3e15159'
       commitHash: c27dc2a9c34fbe87959bd2657d8bbf666ae3d369
+    3.0.4:
+      date: 2021-10-15T14:02:43.225
+      txHash: '0x511b60fb49fe6eb901857a667cc60929896765e23263975e8c1f465b59f958c3'
+      ipfsHash: QmWjZoKWUbxo3GkB9GuGqC4Ch4kyyVWRZYYB6T5GpfBvcW
+      contractAddress: '0x47bcF45e545AcC80fF06f05291f995D4C3e15159'
+      commitHash: 9a5ef4e7b092a9036818d37c785b0854d36f20f1
 approvals.hatch.aragonpm.eth:
-  github: 'https://github.com/aragonone/approvals/tree/[ref]'
+  github: https://github.com/aragonone/approvals/tree/[ref]
   versions:
     1.0.0:
       commitHash: 404cef9b8054a8b8282fec1a98489a767a1928c5
@@ -1288,7 +1292,7 @@ voting-aggregator.hatch.aragonpm.eth:
       contractAddress: '0x33A981eD0B2Af893d756035DB7768d291F07460F'
       commitHash: 9c67dac8e69c5f45c3ce26b62326135c6d63a236
 approvals.open.aragonpm.eth:
-  github: 'https://github.com/aragonone/approvals/tree/[ref]'
+  github: https://github.com/aragonone/approvals/tree/[ref]
   versions:
     1.0.1:
       commitHash: efc22f1fa506e75bce678ad53dd6b939aefce47a
@@ -1311,7 +1315,7 @@ catalyst.open.aragonpm.eth:
       ipfsHash: QmSSFf5EUs3iLhjEJmHL4mkfZ9vSaGkL9Kz5BKe3C7acYb
       txHash: '0x231fa4bfdd9e9255ba619e46a87643206708120a5dcf6d01a4287c01e2b3ffa2'
 futarchy.open.aragonpm.eth:
-  github: 'https://github.com/levelkdev/futarchy-app/tree/[ref]'
+  github: https://github.com/levelkdev/futarchy-app/tree/[ref]
   versions:
     8.1.0:
       commitHash: 0ecfef23dbee1f8eb9104223804b6b781328283f
@@ -1338,7 +1342,7 @@ futarchy.open.aragonpm.eth:
       ipfsHash: QmWj4v37bQWFDZNgyAZon4ErEaX9NufzqtHtDdjdaggshB
       txHash: '0x75d2193024fbb7cd43e1a3692a1ecfc464acfb7facc4e2fe6697b3e4fa056c65'
 oracle-manager.open.aragonpm.eth:
-  github: 'https://github.com/levelkdev/oracle-manager-app/tree/[ref]'
+  github: https://github.com/levelkdev/oracle-manager-app/tree/[ref]
   versions:
     4.3.0:
       commitHash: 0fe56c3964bde63e6af8503eb5624f554ee9d854
@@ -1371,7 +1375,7 @@ oracle-manager.open.aragonpm.eth:
       ipfsHash: Qmer3EoLgDRwgq6EKrei6VmaUCWPPgN4og7eRAUYh3gtCK
       txHash: '0x358b097c2af0e292a8cef4110562a23b40c4b4f7705a155202bbbc50c11c7d31'
 tollgate.open.aragonpm.eth:
-  github: 'https://github.com/aragonone/tollgate/tree/[ref]'
+  github: https://github.com/aragonone/tollgate/tree/[ref]
   versions:
     1.0.1:
       commitHash: a39e3cf02ff67b7b716bc19b41b843d210bf2e76
