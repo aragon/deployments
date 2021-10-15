@@ -1,0 +1,21 @@
+name: IPFS Pin
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  addPin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@2
+      - name: Install ipfs-cluster-ctal
+        run: |
+          wget https://dist.ipfs.io/ipfs-cluster-ctl/v0.14.1/ipfs-cluster-ctl_v0.14.1_linux-amd64.tar.gz
+          tar xvfz ipfs-cluster-ctl_v0.14.1_linux-amd64.tar.gz
+      - name: Add pins
+        env:
+          IPFS_CLUSTER_BASIC_AUTH: ${{ secrets.IPFS_CLUSTER_BASIC_AUTH }}
+          IPFS_CLUSTER_HOST: ${{ secrets.IPFS_CLUSTER_HOST }}
+        run: python .github/scripts/add_pins.py '$IPFS_CLUSTER_HOST' '$IPFS_CLUSTER_BASIC_AUTH'
