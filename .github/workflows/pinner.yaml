@@ -14,6 +14,9 @@ jobs:
         with:
           python-version: '3.x'
           architecture: 'x64'
+      - name: install pyyaml
+        run: |
+          pip install --user pyyaml
       - name: Install ipfs-cluster-ctl
         run: |
           wget https://dist.ipfs.io/ipfs-cluster-ctl/v0.14.1/ipfs-cluster-ctl_v0.14.1_linux-amd64.tar.gz
