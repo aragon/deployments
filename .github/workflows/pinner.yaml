@@ -25,4 +25,4 @@ jobs:
         env:
           IPFS_CLUSTER_BASIC_AUTH: ${{ secrets.IPFS_CLUSTER_BASIC_AUTH }}
           IPFS_CLUSTER_HOST: ${{ secrets.IPFS_CLUSTER_HOST }}
-        run: python .github/scripts/add_pins.py '$IPFS_CLUSTER_HOST' '$IPFS_CLUSTER_BASIC_AUTH'
+        run: PATH=$PATH:$GITHUB_WORKSPACE/ipfs-cluster-ctl python .github/scripts/add_pins.py '$IPFS_CLUSTER_HOST' '$IPFS_CLUSTER_BASIC_AUTH'
