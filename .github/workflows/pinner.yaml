@@ -10,7 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install ipfs-cluster-ctal
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          architecture: 'x64'
+      - name: Install ipfs-cluster-ctl
         run: |
           wget https://dist.ipfs.io/ipfs-cluster-ctl/v0.14.1/ipfs-cluster-ctl_v0.14.1_linux-amd64.tar.gz
           tar xvfz ipfs-cluster-ctl_v0.14.1_linux-amd64.tar.gz
@@ -18,5 +22,4 @@ jobs:
         env:
           IPFS_CLUSTER_BASIC_AUTH: ${{ secrets.IPFS_CLUSTER_BASIC_AUTH }}
           IPFS_CLUSTER_HOST: ${{ secrets.IPFS_CLUSTER_HOST }}
-          PATH: $PATH:$GITHUB_WORKSPACE/ipfs-cluster-ctl
         run: python .github/scripts/add_pins.py '$IPFS_CLUSTER_HOST' '$IPFS_CLUSTER_BASIC_AUTH'
