@@ -30,6 +30,12 @@ vault.aragonpm.eth:
       ipfsHash: QmPpLxhZYgB8tEyVH8SV8JkZqFB3E64TXS1oHJuYu262Vn
       contractAddress: '0x215263CfFB56a7b8D4b7D48abA409C10d96a5D06'
       commitHash: e0c3e575215e0dc010b3a0ea390a88f5e010638e
+    1.0.2:
+      date: 2021-10-16T14:10:41.993
+      txHash: '0x3f32fdc6f26d8b2a4d6ae1e29ee996eba82ae92384866fc1f37a654f3a27b95f'
+      ipfsHash: QmPpLxhZYgB8tEyVH8SV8JkZqFB3E64TXS1oHJuYu262Vn
+      contractAddress: '0x215263CfFB56a7b8D4b7D48abA409C10d96a5D06'
+      commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
 voting.aragonpm.eth:
   versions:
     1.4.2:
@@ -38,6 +44,12 @@ voting.aragonpm.eth:
       ipfsHash: QmbDzdr8AqVPQUiGVwULR3szyo4n1fcTLTvv4JUhfn3kSE
       contractAddress: '0xBbe7F97ed4F154244857631d682Fd191313eB87f'
       commitHash: e0c3e575215e0dc010b3a0ea390a88f5e010638e
+    1.4.3:
+      date: 2021-10-16T14:12:26.922
+      txHash: '0x7edbe4d4bfa0b64995e4432db827bb20832cbd18a5a1cba526249b0986d9ebf5'
+      ipfsHash: QmaoNbqUUw3QYgcCSnXm1H9qZ712vzLyQUt71EAeGJZWwg
+      contractAddress: '0xBbe7F97ed4F154244857631d682Fd191313eB87f'
+      commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
 finance.aragonpm.eth:
   versions:
     5.1.2:
@@ -46,6 +58,12 @@ finance.aragonpm.eth:
       ipfsHash: QmNrAtN1xzeEDmVgnrPzWvY6jKAh8EHscRcvVgkb3qruAa
       contractAddress: '0x3eF55E2B7D8978239d57af35b576ec61E88Df75B'
       commitHash: e0c3e575215e0dc010b3a0ea390a88f5e010638e
+    5.1.3:
+      date: 2021-10-16T14:13:47.996
+      txHash: '0x53d188095eb7d55b56551b474e2119592f56549b58a53a1a1f5eb381053b1414'
+      ipfsHash: Qmcrs488dyaV92j8KHhdpnhaSUHe9XmtDE8ELhPYrVPuZK
+      contractAddress: '0x3eF55E2B7D8978239d57af35b576ec61E88Df75B'
+      commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
 agent.aragonpm.eth:
   versions:
     1.2.6:
@@ -53,4 +71,3 @@ agent.aragonpm.eth:
       txHash: '0xd04ae7a07d296c4155d50ba72a07d017dc4524162bbfece77c4160aa214dd0a1'
       ipfsHash: QmbYBwyDt8VWvvK9Z2U3basyaPbnSpEunqzs2UGkMqZk7R
       contractAddress: '0xdE7BF8b3d32ef18819E09dDC35D6E9221E2f9781'
-      commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
