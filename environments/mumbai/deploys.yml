@@ -46,3 +46,9 @@ finance.aragonpm.eth:
       ipfsHash: QmNrAtN1xzeEDmVgnrPzWvY6jKAh8EHscRcvVgkb3qruAa
       contractAddress: '0x3eF55E2B7D8978239d57af35b576ec61E88Df75B'
       commitHash: e0c3e575215e0dc010b3a0ea390a88f5e010638e
+    5.1.3:
+      date: 2021-10-16T14:13:47.996
+      txHash: '0x53d188095eb7d55b56551b474e2119592f56549b58a53a1a1f5eb381053b1414'
+      ipfsHash: Qmcrs488dyaV92j8KHhdpnhaSUHe9XmtDE8ELhPYrVPuZK
+      contractAddress: '0x3eF55E2B7D8978239d57af35b576ec61E88Df75B'
+      commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
