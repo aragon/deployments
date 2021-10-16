@@ -36,6 +36,12 @@ vault.aragonpm.eth:
       ipfsHash: QmPpLxhZYgB8tEyVH8SV8JkZqFB3E64TXS1oHJuYu262Vn
       contractAddress: '0x215263CfFB56a7b8D4b7D48abA409C10d96a5D06'
       commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
+    1.0.3:
+      date: 2021-10-16T14:25:35.521
+      txHash: '0xa85f018a2c54f88b6dec459486283cb49537ef2a14751bffc89e0ff8e33900a7'
+      ipfsHash: QmPpLxhZYgB8tEyVH8SV8JkZqFB3E64TXS1oHJuYu262Vn
+      contractAddress: '0x215263CfFB56a7b8D4b7D48abA409C10d96a5D06'
+      commitHash: c2fcb4819e59bb5bfbd2d4425e700e41fcef9b20
 voting.aragonpm.eth:
   versions:
     1.4.2:
@@ -50,6 +56,12 @@ voting.aragonpm.eth:
       ipfsHash: QmaoNbqUUw3QYgcCSnXm1H9qZ712vzLyQUt71EAeGJZWwg
       contractAddress: '0xBbe7F97ed4F154244857631d682Fd191313eB87f'
       commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
+    1.4.4:
+      date: 2021-10-16T14:28:40.562
+      txHash: '0x0db17ea65b781f5bd5c3aa3c515ee4b8b3657f4201f9f06fc1fd7a56e74c0414'
+      ipfsHash: QmUqtoiGTyEv7QuKMhEX38kqsHjqLwMZ26obJ84zfFneWG
+      contractAddress: '0xBbe7F97ed4F154244857631d682Fd191313eB87f'
+      commitHash: c2fcb4819e59bb5bfbd2d4425e700e41fcef9b20
 finance.aragonpm.eth:
   versions:
     5.1.2:
@@ -64,6 +76,12 @@ finance.aragonpm.eth:
       ipfsHash: Qmcrs488dyaV92j8KHhdpnhaSUHe9XmtDE8ELhPYrVPuZK
       contractAddress: '0x3eF55E2B7D8978239d57af35b576ec61E88Df75B'
       commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
+    5.1.4:
+      date: 2021-10-16T14:28:35.283
+      txHash: '0xd222ed561e5c71b039ee66e744fef5cbd4ff3bf9a239ef53e00a1b2454da4c1d'
+      ipfsHash: QmZRo5bu8gR8Aw7XKSeP9VojrMFbZu7cKereSfu6H5TcL5
+      contractAddress: '0x3eF55E2B7D8978239d57af35b576ec61E88Df75B'
+      commitHash: c2fcb4819e59bb5bfbd2d4425e700e41fcef9b20
 agent.aragonpm.eth:
   versions:
     1.2.6:
@@ -76,4 +94,11 @@ agent.aragonpm.eth:
       txHash: '0x6a668a8d6e578f6e97ef4d21d07b4d36fb5f7aa8402593051ed795b6e235d2a5'
       ipfsHash: QmbYBwyDt8VWvvK9Z2U3basyaPbnSpEunqzs2UGkMqZk7R
       contractAddress: '0xdE7BF8b3d32ef18819E09dDC35D6E9221E2f9781'
+token-manager.aragonpm.eth:
+  versions:
+    1.1.1:
+      date: 2021-10-16T14:28:24.247
+      txHash: '0xf798752d69242d94dbeaecba6e54b7da84c0b46d51047b587863c15f2a1e5a0b'
+      ipfsHash: Qmak3b1sC7Forr9vMM2DoNhEt5DFwdZNjrcS9K2kBxbCEN
+      contractAddress: '0x2b156CF6C40c4fF9A260fF2fC2F361eF2128D294'
       commitHash: c2fcb4819e59bb5bfbd2d4425e700e41fcef9b20
