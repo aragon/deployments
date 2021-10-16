@@ -22,3 +22,11 @@ open-enterprise-template.aragonpm.eth:
       ipfsHash: QmaxwFQV3Vx2WkWJb2sPcSTAz92BEPs1SQp9zSmEiC4PAx
       contractAddress: '0xAACC65BE40c78C3E9b9ABf4C92BE14BA05672B2E'
       commitHash: b9320b9cf17f2935e60021f18f0ebafd66553704
+vault.aragonpm.eth:
+  versions:
+    1.0.1:
+      date: 2021-10-16T10:59:07.361
+      txHash: '0x1c33e4a2115010fec186000a0a98af3d1978f2a801d2fe8aa0e7b63239a79652'
+      ipfsHash: QmPpLxhZYgB8tEyVH8SV8JkZqFB3E64TXS1oHJuYu262Vn
+      contractAddress: '0x215263CfFB56a7b8D4b7D48abA409C10d96a5D06'
+      commitHash: e0c3e575215e0dc010b3a0ea390a88f5e010638e
