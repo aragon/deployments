@@ -1101,6 +1101,12 @@ vault.aragonpm.eth:
       ipfsHash: QmPpLxhZYgB8tEyVH8SV8JkZqFB3E64TXS1oHJuYu262Vn
       contractAddress: '0x1B999DD2D3E85Fa3Ce9599fF98e90328378A98c7'
       commitHash: e0c3e575215e0dc010b3a0ea390a88f5e010638e
+    4.0.2:
+      date: 2021-10-16T14:10:28.502
+      txHash: '0x478cf2b2c69f5217d3344bc3a328458eafc03570497eae25e366f72eaf29c5af'
+      ipfsHash: QmPpLxhZYgB8tEyVH8SV8JkZqFB3E64TXS1oHJuYu262Vn
+      contractAddress: '0x1B999DD2D3E85Fa3Ce9599fF98e90328378A98c7'
+      commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
 voting.aragonpm.eth:
   github: https://github.com/aragon/aragon-apps/tree/[ref]/apps/voting
   versions:
