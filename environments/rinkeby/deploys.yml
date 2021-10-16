@@ -1332,6 +1332,12 @@ voting.aragonpm.eth:
       ipfsHash: QmZDyCTAygRPZnuH1n9Nr4YhVN4AcyTxKa7M34Stv61NtR
       contractAddress: '0x47bcF45e545AcC80fF06f05291f995D4C3e15159'
       commitHash: c2fcb4819e59bb5bfbd2d4425e700e41fcef9b20
+    3.0.10:
+      date: 2021-10-16T14:40:14.703
+      txHash: '0x4d91367b302510331f9dd6d0bbcaf3e62e3c47dd29dcc3b98c261eb7ca57b882'
+      ipfsHash: QmSsu5GRNhNSEwBecWXfrYQ7GZrqxKRC6NbpL5U2No7Exb
+      contractAddress: '0x47bcF45e545AcC80fF06f05291f995D4C3e15159'
+      commitHash: b5b98dd1f52309a0de5f6649e26a2f1bd9791f84
 approvals.hatch.aragonpm.eth:
   github: https://github.com/aragonone/approvals/tree/[ref]
   versions:
