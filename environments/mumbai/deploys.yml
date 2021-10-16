@@ -50,6 +50,12 @@ voting.aragonpm.eth:
       ipfsHash: QmaoNbqUUw3QYgcCSnXm1H9qZ712vzLyQUt71EAeGJZWwg
       contractAddress: '0xBbe7F97ed4F154244857631d682Fd191313eB87f'
       commitHash: 50e7771c2b7fc4fdcbd7996aa2ede73a29424f60
+    1.4.4:
+      date: 2021-10-16T14:28:40.562
+      txHash: '0x0db17ea65b781f5bd5c3aa3c515ee4b8b3657f4201f9f06fc1fd7a56e74c0414'
+      ipfsHash: QmUqtoiGTyEv7QuKMhEX38kqsHjqLwMZ26obJ84zfFneWG
+      contractAddress: '0xBbe7F97ed4F154244857631d682Fd191313eB87f'
+      commitHash: c2fcb4819e59bb5bfbd2d4425e700e41fcef9b20
 finance.aragonpm.eth:
   versions:
     5.1.2:
