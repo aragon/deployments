@@ -85,6 +85,12 @@ agent.aragonpm.eth:
       ipfsHash: QmV3Twsh71SmYo6869VUFxh8GJYxTDRNrN59DBRuiTKZ3f
       contractAddress: '0xe10c2dE02F1c64485B680FC561E8E9c680691FAA'
       commitHash: c27dc2a9c34fbe87959bd2657d8bbf666ae3d369
+    6.0.2:
+      date: 2021-10-16T10:49:23.176
+      txHash: '0x80f8e03ae3151b7862e185b96ba30e605e746664d1e9fb6346fec7a8a6b84ada'
+      ipfsHash: QmbYBwyDt8VWvvK9Z2U3basyaPbnSpEunqzs2UGkMqZk7R
+      contractAddress: '0xe10c2dE02F1c64485B680FC561E8E9c680691FAA'
+      commitHash: 5fc5c230ae79f1b42bcc5cf804aee433370f3f36
 aragon-fundraising.aragonpm.eth:
   github: https://github.com/aragonblack/fundraising/tree/[ref]/apps/aragon-fundraising
   versions:
