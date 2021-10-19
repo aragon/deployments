@@ -1060,6 +1060,12 @@ token-manager.aragonpm.eth:
       ipfsHash: Qmak3b1sC7Forr9vMM2DoNhEt5DFwdZNjrcS9K2kBxbCEN
       contractAddress: '0x64C007ba4Ab6184753Dc1e8E7263E8D06831C5f6'
       commitHash: c2fcb4819e59bb5bfbd2d4425e700e41fcef9b20
+    3.0.4:
+      date: 2021-10-19T10:29:01.491
+      txHash: '0xaaeb0c8ad14e3f4d11b4860cad29a484c33067c128f4cb1f14d2b3f08892b55c'
+      ipfsHash: QmYX4sKWmss3r4BiZUcLc4LGsNWb2nU34bjmf1VaJsyyhs
+      contractAddress: '0x64C007ba4Ab6184753Dc1e8E7263E8D06831C5f6'
+      commitHash: 47fb3516afab25720f8b83b54a239d2a93384e6d
 token-request.aragonpm.eth:
   versions:
     1.0.0:
