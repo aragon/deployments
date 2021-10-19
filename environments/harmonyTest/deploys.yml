@@ -1,9 +1,15 @@
 agent.aragonpm.eth:
-  github: 'https://github.com/aragon/aragon-apps/tree/[ref]/apps/agent'
+  github: https://github.com/aragon/aragon-apps/tree/[ref]/apps/agent
   versions:
     1.0.1:
       commitHash: 211f67527d9d07cbb1a159a7e3d04174c020c69d
-      contractAddress: 0xB2A2b32b9d885C85d5b229C0509341c37CaE7483
+      contractAddress: 1019828685869525783243089443217987023725931689091
       date: 2021-10-19T14:00:00.000Z
       ipfsHash: QmRBGUbqaqBBTJmYqxNtGfVxX3VRySfmCDMAytCzsPUHnq
-      txHash: 0x47ea1bd378987a0cd59e6d03aeebfb5f65c2359be427a811e2973be137ac76e0
+      txHash: 32527846510970365922045372040493251995755767335749523729897887851319927797472
+    1.0.3:
+      date: 2021-10-19T12:08:46.416
+      txHash: '0xfc7e72799b75619c0e5408909f2dd65b4cbf6abdf44c96ed9e8ad7cbc70f9180'
+      ipfsHash: QmRBGUbqaqBBTJmYqxNtGfVxX3VRySfmCDMAytCzsPUHnq
+      contractAddress: '0xB2A2b32b9d885C85d5b229C0509341c37CaE7483'
+      commitHash: 211f67527d9d07cbb1a159a7e3d04174c020c69d
