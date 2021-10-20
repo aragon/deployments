@@ -29,3 +29,9 @@ vault.aragonpm.eth:
       ipfsHash: QmZRfbdScJTPesnxkrbtMAis61BS1WXic5DbQmkyZ99hZU
       contractAddress: '0xc1da86f2f4E8D381b009B29AF067bF41aC0FaAF8'
       commitHash: 211f67527d9d07cbb1a159a7e3d04174c020c69d
+    0.0.1:
+      date: 2021-10-20T16:18:44.490
+      txHash: '0x00d76ce9c8f6a0b1e3c78df4e429ae0b114283555580845ca0b79b5e3a421cb4'
+      ipfsHash: QmYm4aE3yBQstVJayA91wEYVe3uQgwseuj3nVymfczA7jf
+      contractAddress: '0x228A972f9e074bC887D19e97fd5C449856eB37a7'
+      commitHash: 0da0f8d6931ae5ce7ded3d32e858e22c309590e4
