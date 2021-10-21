@@ -73,3 +73,11 @@ redemptions.aragonpm.eth:
       ipfsHash: QmXLTw7hgRLCB4Spfj1sXZonMFuKi939mL6sBdbpR9ujQJ
       contractAddress: '0x3fBed35a94860e6fCC57caFa49C42b234e92b8fe'
       commitHash: 23a96dc13f3e647d757e5e61da34e66431d6c2a4
+token-request.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-10-21T19:33:47.581
+      txHash: '0xd676c6a287901cdee5ade7eb51dbdcb12c0245081caadfaad8fb943c15ec79dc'
+      ipfsHash: QmUm924cVCZvVVKdErTj7yGmGY7ob5WpdGSVhUWPvKrPUC
+      contractAddress: '0x9DE8341f7369DcEC25Fd085dC55F5BbD8e279891'
+      commitHash: 1f4160a5295918a4b9306a492eb42c6b50e142fc
