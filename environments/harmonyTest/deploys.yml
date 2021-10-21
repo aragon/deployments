@@ -65,3 +65,11 @@ allocations.aragonpm.eth:
       ipfsHash: QmTNVADkvoeCp5tZAE9A5gGisF66ybkmLNQPywgPYbZU9s
       contractAddress: '0xc066454c6Bea3Fce5bC2b9354A52211B00682B8a'
       commitHash: 4318eb22242d90fe0875b2e7cee69e7aa1fc31ae
+redemptions.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-10-21T18:44:47.066
+      txHash: '0x94595a100ac3fd585162b350f8441ee9f106fe954af7e840a9ec025ee51a0212'
+      ipfsHash: QmXLTw7hgRLCB4Spfj1sXZonMFuKi939mL6sBdbpR9ujQJ
+      contractAddress: '0x3fBed35a94860e6fCC57caFa49C42b234e92b8fe'
+      commitHash: 23a96dc13f3e647d757e5e61da34e66431d6c2a4
