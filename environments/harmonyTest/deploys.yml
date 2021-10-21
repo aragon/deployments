@@ -57,3 +57,11 @@ address-book.aragonpm.eth:
       ipfsHash: QmYJ931Fq2S4Wc21phyMwAVdHzi78N23zjzcYpbnVh16ma
       contractAddress: '0x6637B7390c5f108514a22a0AaF22Ec74f1E26c16'
       commitHash: a3ee689021235fa1827fa74b0ad281e909816021
+allocations.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-10-21T17:16:11.542
+      txHash: '0xaf80c64a169313822da2a272c9d83b8e4f933eef37349fb8d599049940abefc4'
+      ipfsHash: QmTNVADkvoeCp5tZAE9A5gGisF66ybkmLNQPywgPYbZU9s
+      contractAddress: '0xc066454c6Bea3Fce5bC2b9354A52211B00682B8a'
+      commitHash: 4318eb22242d90fe0875b2e7cee69e7aa1fc31ae
