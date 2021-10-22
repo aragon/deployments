@@ -103,3 +103,11 @@ token-oracle.aragonpm.eth:
       ipfsHash: QmPuFDQhMpmPGDcy9FSL1KSpusnPG9jLicxwQ1UmwpkGTK
       contractAddress: '0x5B0e0320530D3f3a56D30f99C7cE4A256b9608Ab'
       commitHash: 258ce4c3b6c4a2034b44df52e34e166564632bf2
+standard-bounties.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-10-22T22:10:27.359
+      txHash: '0x4f35de1c7b945ac4d00a3640a6e5a1692bedeff2e33a828ac25f7a1b8a546a70'
+      ipfsHash: Qmcb7NPW44Yh6mdkSKtCNNDAk1zjJrTgug3hqPSrGdogPo
+      contractAddress: '0x502e0C486B235ae7A6297EF76B4D3640084A5f44'
+      commitHash: 785fae41dc5f6f3731ce93a42fbfe04b366e8b2d
