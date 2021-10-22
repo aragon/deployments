@@ -119,3 +119,11 @@ minime-factory.aragonpm.eth:
       ipfsHash: QmPkmgkiSL33wMxCwaP1yuBEJWe7mAFsL2ra5k4jtyqwAG
       contractAddress: '0x678F0C99C616d21d1898C9926cEea2955d9bc08B'
       commitHash: 3a50c7d0cac987a3da1daa99735b4163b42159f8
+discussions.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-10-22T22:43:07.568
+      txHash: '0x2066dc15f2be05c56a271da8abaff1bf3dcc642de9086f93569c20c77b639a8e'
+      ipfsHash: QmRii7vnXkoguYEUU1QcQojJee1KcnaHtLekMadUoBkV8P
+      contractAddress: '0xabF0792869D4dEEaEeCD14238c41578eB112183c'
+      commitHash: 3a50c7d0cac987a3da1daa99735b4163b42159f8
