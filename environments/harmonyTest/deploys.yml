@@ -89,3 +89,11 @@ dandelion-voting.aragonpm.eth:
       ipfsHash: QmdUXq8fDRLVn4n7xTcvKsXVf8uCS7fZopusY5c18Wj3yQ
       contractAddress: '0xd53Cf1821622B8aF2320E8a0d36525ceACB85d2b'
       commitHash: 1f4160a5295918a4b9306a492eb42c6b50e142fc
+token-oracle.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-10-22T01:28:12.709
+      txHash: '0x9352144b46092e3f84074228986c53de78b68504a6774853193db371b485508f'
+      ipfsHash: QmPuFDQhMpmPGDcy9FSL1KSpusnPG9jLicxwQ1UmwpkGTK
+      contractAddress: '0x5B0e0320530D3f3a56D30f99C7cE4A256b9608Ab'
+      commitHash: 258ce4c3b6c4a2034b44df52e34e166564632bf2
