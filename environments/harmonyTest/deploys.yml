@@ -127,3 +127,11 @@ discussions.aragonpm.eth:
       ipfsHash: QmRii7vnXkoguYEUU1QcQojJee1KcnaHtLekMadUoBkV8P
       contractAddress: '0xabF0792869D4dEEaEeCD14238c41578eB112183c'
       commitHash: 3a50c7d0cac987a3da1daa99735b4163b42159f8
+projects.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-10-22T22:45:19.468
+      txHash: '0x27e9962c2e139e5403020e0cfa997f8c3443e0955776800477dd59e8391a4e42'
+      ipfsHash: QmcL2ghiRMbibZL4m4FWY5wYKbbmXJVf9f1DVqG7nGL2Ez
+      contractAddress: '0x545C70ebfa31B31228ba3D0C2480a197a2475F5A'
+      commitHash: 3a50c7d0cac987a3da1daa99735b4163b42159f8
