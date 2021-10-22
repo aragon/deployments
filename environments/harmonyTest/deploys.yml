@@ -111,3 +111,11 @@ standard-bounties.aragonpm.eth:
       ipfsHash: Qmcb7NPW44Yh6mdkSKtCNNDAk1zjJrTgug3hqPSrGdogPo
       contractAddress: '0x502e0C486B235ae7A6297EF76B4D3640084A5f44'
       commitHash: 785fae41dc5f6f3731ce93a42fbfe04b366e8b2d
+minime-factory.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-10-22T22:39:45.268
+      txHash: '0xcc9f586be99398cad3504fe2f9d7e7a38e53030a01e218e0c85c7ff12c6d18aa'
+      ipfsHash: QmPkmgkiSL33wMxCwaP1yuBEJWe7mAFsL2ra5k4jtyqwAG
+      contractAddress: '0x678F0C99C616d21d1898C9926cEea2955d9bc08B'
+      commitHash: 3a50c7d0cac987a3da1daa99735b4163b42159f8
