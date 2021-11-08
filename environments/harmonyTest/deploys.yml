@@ -135,3 +135,11 @@ projects.aragonpm.eth:
       ipfsHash: QmcL2ghiRMbibZL4m4FWY5wYKbbmXJVf9f1DVqG7nGL2Ez
       contractAddress: '0x545C70ebfa31B31228ba3D0C2480a197a2475F5A'
       commitHash: 3a50c7d0cac987a3da1daa99735b4163b42159f8
+token-balance-oracle.aragonpm.eth:
+  versions:
+    1.0.1:
+      date: 2021-11-08T19:22:05.333
+      txHash: '0x9c4ed7d76496b2de80c848d30e5e2f560810fdf567e5a26b5f710e5b29bd1e5d'
+      ipfsHash: QmPuFDQhMpmPGDcy9FSL1KSpusnPG9jLicxwQ1UmwpkGTK
+      contractAddress: '0x5B0e0320530D3f3a56D30f99C7cE4A256b9608Ab'
+      commitHash: 690fc096ddccf93675aa2ad6169cacccd99b693a
