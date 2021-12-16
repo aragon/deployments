@@ -108,6 +108,12 @@ token-manager.aragonpm.eth:
       ipfsHash: QmPZ9axGvZAqzzU7fT4WTSRBmyoTLx54aSm3MPHzYEjph6
       contractAddress: '0x2b156CF6C40c4fF9A260fF2fC2F361eF2128D294'
       commitHash: 2b3988fdea17bb8ef460932e0c09d7860b631089
+    1.1.3:
+      date: 2021-12-16T20:19:43.835
+      txHash: '0x32aba5d0c7c573f7c19da0430deae685cb09086c83231e3bfbcf5756ebbc8272'
+      ipfsHash: QmYaEf9Gb6S21igkXzqoLohGsfHsyepc6VXVj3tPUB4bis
+      contractAddress: '0x2b156CF6C40c4fF9A260fF2fC2F361eF2128D294'
+      commitHash: c2f6a370c803dcb29ab5f3fdf25247e05ed2ab43
 dandelion.aragonpm.eth:
   versions:
     3.1.0:
