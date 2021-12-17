@@ -1,0 +1,8 @@
+vault.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-12-17T16:09:15.100
+      txHash: '0x0464cce1d125d297b6074b1baca0896cf5d694beb5e73583f55f9f83638e82c9'
+      ipfsHash: QmYm4aE3yBQstVJayA91wEYVe3uQgwseuj3nVymfczA7jf
+      contractAddress: '0x74b3B3504B5d6D1c6247009c9b1e3D8cFF7bd445'
+      commitHash: b5bb835964800d616dbef7f4fb1c2f4fb392cf40
