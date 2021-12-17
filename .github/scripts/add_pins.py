@@ -14,14 +14,15 @@ for root, dirs, files in os.walk("./environments"):
         if file == "deploys.yml":
             with open(os.path.join(root, file)) as f:
                 y=yaml.safe_load(f)
-                for key, app in y.items():
-                    for version, version_params in y[key]['versions'].items():
-                        app_versions.append({
-                            "environment": root.split("/")[2],
-                            "app": key,
-                            "version": version,
-                            "params": version_params
-                        })
+                if not y == None:
+                    for key, app in y.items():
+                        for version, version_params in y[key]['versions'].items():
+                            app_versions.append({
+                                "environment": root.split("/")[2],
+                                "app": key,
+                                "version": version,
+                                "params": version_params
+                            })
 
 
 pins_output=subprocess.check_output(["ipfs-cluster-ctl --basic-auth '" + ipfs_cluster_basic_auth + "' --host " + ipfs_cluster_host + " pin ls"], shell=True)
