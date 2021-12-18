@@ -30,6 +30,12 @@ membership.aragonpm.eth:
       ipfsHash: QmeDwpN58Ese4r6tm62p6uTrV3V4MrBzd6abytuMnH78r5
       contractAddress: '0xC24188a73dc09aA7C721f96Ad8857B469C01dC9f'
       commitHash: f1233bd8aed8d448df65282219ba7287e05aca4a
+    2.0.0:
+      date: 2021-12-18T17:36:51.367
+      txHash: '0x749b626c3e2367309970c1c6fe1f395dfccd0287f036ea0759cfb3cbdd48d54f'
+      ipfsHash: QmeDwpN58Ese4r6tm62p6uTrV3V4MrBzd6abytuMnH78r5
+      contractAddress: '0xA03C2182af8eC460D498108C92E8638a580b94d4'
+      commitHash: 9ef1591ad5fcf7273c3f53a77d1498265b4e9aad
 reputation.aragonpm.eth:
   versions:
     1.0.0:
