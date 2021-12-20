@@ -30,3 +30,11 @@ allocations.aragonpm.eth:
       ipfsHash: QmY4pb7PWpcPz3HpmBqCLRpV5CRQNaEQsfzpk7q5gaJbsd
       contractAddress: '0x264308C03feAfA071C97b73b09E911530CCCd216'
       commitHash: 231383a50a72b0cbb9cb3142c04c2d2593b7ea3d
+dandelion-voting.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-12-20T16:24:12.011
+      txHash: '0xaa9c262f4598a7680f3062f7d46590a092730253a68c68788603cbf2dd48cb99'
+      ipfsHash: QmV6hUhtpi5yFjvXV2cEpxkmgXCjQtWcD48DahSEiXYvhN
+      contractAddress: '0xC9d0AaA13DECA0486016E3DD9aEe02bf2FdD76dC'
+      commitHash: 231383a50a72b0cbb9cb3142c04c2d2593b7ea3d
