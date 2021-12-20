@@ -22,3 +22,11 @@ agent.aragonpm.eth:
       ipfsHash: QmQBi722sRJDF25KdWTBHwJpobWxd6zB8JPGsDPJ7F4fcX
       contractAddress: '0xE978942c691e43f65c1B7c7F8f1dc8cDF061B13f'
       commitHash: c4907ce7609ae59717d6a010f86e0444e424700c
+reputation.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-12-20T14:16:56.275
+      txHash: '0x894f54ee87d48d980ad998dd771e94fe50aa860dc3a9fd1d0acf776b3c565020'
+      ipfsHash: QmTHrQpcMphafSjzZ3pjPETMJKCB3FqMhTnMpNs9bMqtNx
+      contractAddress: '0x6E924eA5864044D8642385683fFA5AD42FB687f2'
+      commitHash: ebd5df136907ad6be7fc4f925355a07c0982eeb5
