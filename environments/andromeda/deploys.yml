@@ -6,3 +6,11 @@ vault.aragonpm.eth:
       ipfsHash: QmYm4aE3yBQstVJayA91wEYVe3uQgwseuj3nVymfczA7jf
       contractAddress: '0xE640Da5AD169630555A86D9b6b9C145B4961b1EB'
       commitHash: c4907ce7609ae59717d6a010f86e0444e424700c
+token-manager.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-12-20T11:12:04.698
+      txHash: '0xd4470befb37fbc272434d0fd7b7043f276a558929a5a14af200246718d2d4eea'
+      ipfsHash: QmYaEf9Gb6S21igkXzqoLohGsfHsyepc6VXVj3tPUB4bis
+      contractAddress: '0x35B62715459cB60bf6dC17fF8cfe138EA305E7Ee'
+      commitHash: c4907ce7609ae59717d6a010f86e0444e424700c
