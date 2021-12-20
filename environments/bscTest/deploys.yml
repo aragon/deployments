@@ -14,3 +14,11 @@ rewards.aragonpm.eth:
       ipfsHash: QmapzJvgSMKfbr7ctncvvUHJHS3bhdwJnfa2gmw5C58g6o
       contractAddress: '0xc1da86f2f4E8D381b009B29AF067bF41aC0FaAF8'
       commitHash: 231383a50a72b0cbb9cb3142c04c2d2593b7ea3d
+projects.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-12-20T16:08:10.904
+      txHash: '0xd83196033ff134965a6da4d1a335c9e7f06e2b92ac8633f280f9f0c75fa75d6a'
+      ipfsHash: QmcL2ghiRMbibZL4m4FWY5wYKbbmXJVf9f1DVqG7nGL2Ez
+      contractAddress: '0x5240505a28F18BCd9466d30938fa7BDE075b823E'
+      commitHash: 231383a50a72b0cbb9cb3142c04c2d2593b7ea3d
