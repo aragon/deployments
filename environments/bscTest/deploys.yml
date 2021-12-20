@@ -1,0 +1,8 @@
+token-balance-oracle.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-12-20T16:03:06.405
+      txHash: '0x542000bd5b68bfeb241dd6fc4943ffd182142acd18d4d247b5a7fd4234893168'
+      ipfsHash: QmPuFDQhMpmPGDcy9FSL1KSpusnPG9jLicxwQ1UmwpkGTK
+      contractAddress: '0x8d6726Fe85Caa585d88FD8342ebEEE88d703E754'
+      commitHash: 231383a50a72b0cbb9cb3142c04c2d2593b7ea3d
