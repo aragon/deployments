@@ -22,3 +22,11 @@ projects.aragonpm.eth:
       ipfsHash: QmcL2ghiRMbibZL4m4FWY5wYKbbmXJVf9f1DVqG7nGL2Ez
       contractAddress: '0x5240505a28F18BCd9466d30938fa7BDE075b823E'
       commitHash: 231383a50a72b0cbb9cb3142c04c2d2593b7ea3d
+allocations.aragonpm.eth:
+  versions:
+    1.0.0:
+      date: 2021-12-20T16:16:08.672
+      txHash: '0xe4ad575fc207278e4fbf11cca54cb0d1fad509058de2c4f886f95f11fc9778a3'
+      ipfsHash: QmY4pb7PWpcPz3HpmBqCLRpV5CRQNaEQsfzpk7q5gaJbsd
+      contractAddress: '0x264308C03feAfA071C97b73b09E911530CCCd216'
+      commitHash: 231383a50a72b0cbb9cb3142c04c2d2593b7ea3d
