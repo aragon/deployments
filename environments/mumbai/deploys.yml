@@ -122,3 +122,11 @@ dandelion.aragonpm.eth:
       ipfsHash: QmXw5o14vHHUhqagR9K6dspBQvyZcir7dy6p25Kd5hszaR
       contractAddress: '0x917D4b39d2C0BC03Dc74A864260525Ec661b8230'
       commitHash: cbe564836ef63a3d760093d6e4d29b42e46e156a
+open-enterprise.aragonpm.eth:
+  versions:
+    0.0.3:
+      date: 2021-12-23T16:24:07.309
+      txHash: '0x2f097d0b33d2ce8b11d8932c9288b6fbd936e8d18b5bc1025ff536d1cc1a5181'
+      ipfsHash: QmPM6cGbm4uZfE2toVLaMVNhJ56MdNmWJgumSm4xViMrQP
+      contractAddress: '0xAACC65BE40c78C3E9b9ABf4C92BE14BA05672B2E'
+      commitHash: d15a02a8313c4239a1a320fc2eb6259b6aa9cd05
